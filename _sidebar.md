@@ -1,10 +1,9 @@
 - Release Notes 
-
+  - [Overview](pages/overview/product-overview.md)
   - [Release 1](pages/release19997/release19997.md)
   - [Writing more pages](pages/gcp/gcp-guide.md)
   - [Custom navbar](custom-navbar.md)
   - [Cover page](cover.md)
-
 - Customization
 
   - [Configuration](configuration.md)
@@ -13,7 +12,6 @@
   - [Write a Plugin](write-a-plugin.md)
   - [Markdown configuration](markdown.md)
   - [Language highlighting](language-highlight.md)
-
 - Guide
 
   - [Deploy](deploy.md)
@@ -23,6 +21,5 @@
   - [Offline Mode(PWA)](pwa.md)
   - [Server-Side Rendering(SSR)](ssr.md)
   - [Embed Files](embed-files.md)
-
 - [Awesome docsify](awesome.md)
 - [Changelog](changelog.md)

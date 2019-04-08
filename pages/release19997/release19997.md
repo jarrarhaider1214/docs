@@ -2,15 +2,15 @@
 this is getting started 
 
 
-| Asad Faizi <asad@platalytics.com>             | Sun Sep 09 2018 | 20:31:53 | Fwd: CV for fresh software engineer (PUCIT) \|\| CGPA 3.14 |
-| --------------------------------------------- | --------------- | -------- | ---------------------------------------------------------- |
-| Asad Faizi <asad@platalytics.com>             | Wed Sep 12 2018 | 22:28:17 | Fwd: Applying As A Software Engineer                       |
-| Muhammad Fakhar <muhammadfakhar004@gmail.com> | Thu Sep 13 2018 | 14:36:51 | Fresh Software Engineer Post                               |
-| Asad Faizi <asad@platalytics.com>             | Tue Sep 18 2018 | 13:09:43 | Fwd: CV \| Fresh Graduate \| PUCIT                         |
-| Fatima Akram <fatimauet2014@gmail.com>        | Fri Sep 28 2018 | 21:28:03 | SQA                                                        |
-| Sadia Amin <sadiaamin24@gmail.com>            | Mon Oct 01 2018 | 20:31:12 | SQA recruitment                                            |
-| Asad Faizi <asad@platalytics.com>             | Mon Oct 08 2018 | 1:07:13  | Fwd: Applying As A Software Engineer                       |
-| Osama naeem <osamanaeem1995@gmail.com>        | Mon Oct 15 2018 | 23:43:56 | SQA Engineer                                               |
+|                                        |                 |          |                                      |
+| -------------------------------------- | --------------- | -------- | ------------------------------------ |
+|                                        |                 |          |                                      |
+|                                        |                 |          |                                      |
+|                                        |                 |          |                                      |
+| Fatima Akram <fatimauet2014@gmail.com> | Fri Sep 28 2018 | 21:28:03 | SQA                                  |
+| Sadia Amin <sadiaamin24@gmail.com>     | Mon Oct 01 2018 | 20:31:12 | SQA recruitment                      |
+|                                        | Mon Oct 08 2018 | 1:07:13  | Fwd: Applying As A Software Engineer |
+| Osama naeem <osamanaeem1995@gmail.com> | Mon Oct 15 2018 | 23:43:56 | SQA Engineer                         |
 
 
 
