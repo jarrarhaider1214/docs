@@ -1,25 +1,25 @@
-- Release Notes 
-  - [Overview](pages/overview/product-overview.md)
-  - [Release 1](pages/release19997/release19997.md)
-  - [Writing more pages](pages/gcp/gcp-guide.md)
-  - [Custom navbar](custom-navbar.md)
-  - [Cover page](cover.md)
-- Customization
-
-  - [Configuration](configuration.md)
-  - [Themes](themes.md)
-  - [List of Plugins](plugins.md)
-  - [Write a Plugin](write-a-plugin.md)
-  - [Markdown configuration](markdown.md)
-  - [Language highlighting](language-highlight.md)
-- Guide
-
-  - [Deploy](deploy.md)
-  - [Helpers](helpers.md)
-  - [Vue compatibility](vue.md)
-  - [CDN](cdn.md)
-  - [Offline Mode(PWA)](pwa.md)
-  - [Server-Side Rendering(SSR)](ssr.md)
-  - [Embed Files](embed-files.md)
-- [Awesome docsify](awesome.md)
-- [Changelog](changelog.md)
+- [Overview]
+  - [What is Cloudplex?](pages/overview/product-overview.md)
+  - [Cloudplex Components](pages/release19997/release19997.md)
+  - [Mega Mesh](pages/gcp/gcp-guide.md)
+- [Setup]
+  - [Requirment](requirement.md)
+  - [Prepare](configuration.md)
+  - [Download](download.md)
+  - [Installation](installation.md)
+  - [Upgrade](upgrade.md)
+- [Architecture]
+- [Examples]
+  - [Project](deploy.md)
+  - [Templates](helpers.md)
+    - [Cluster](cluster.md)
+    - [Network](network.md)
+    - [Solution](solution.md)
+- [Tasks]
+  - [Create New Project]
+  - [Create Solution Template]
+  - [Deploy Project]
+  - [Visualize & Trace Traffic of MegaMesh]
+  - [Deploy Canary Release with Cloudplex]
+  - [Deploy Blue/Green Deployment with Cloudplex]
+- [Tutorials]
