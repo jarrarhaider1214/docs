@@ -1,12 +1,30 @@
 # Product Overview
 
-CloudPlex have developed a platform specially for the cloud native applications. It will be CloudPlex as well but it will deal with the cloud native applications and deployments. 
+CloudPlex have developed a platform specially for the cloud native applications called **Mega Mesh**. Mega Mesh as the name suggests is a platform using which mesh can be created of different types of applications and deployment can be performed. 
 
-Cloud native will specifically deal with docker or containerized infrastructures. Its not just that, CloudPlex Cloud Native platform also supports service mesh to effectively connect, manage and secure microservices. In addition to this it also supports function as a service or serverless. 
+It will specifically deal with docker or containerized infrastructures. Mega Mesh also supports service mesh to effectively connect, manage and secure microservices. In addition to this, it also supports function as a service or serverless. 
 
-On Cloud Native you can basically deploy a project (deployment step where clusters, networks and applications deployment is configured) and manage complex use cases related mesh, container or serverless. 
+## Platform Features
 
-On Cloud Native, deployment takes place at Project level and it is divided in to these steps:
+Mega Mesh is full of advanced features, some of the major ones are listed below.
+
+### Tools Integration
+
+Mega Mesh has integrated multiple cloud native tools with the platform. Instead of manually downloading and configuring each tool separately, user can setup up the whole thing in Mega Mesh in one go and get everything up and running in under **30 minutes**. Some of the major cloud native tools integrated with Mega Mesh are - Docker, Kubernetes, Istio, Knative, Grafana, Prometheus, Kiali.
+
+### Unified User Interface
+
+Mega Mesh is basically a deployment platform using which you can manage, develop and deploy cloud native applications. It usually takes weeks or even months to understand and use different cloud native tools. 
+
+Using Mega Mesh Unified UI, you can not only manage and configure different cloud native technologies like Istio, Knative etc at one place but also develop and deploy applications as well. Instead of learning all the complex cloud native tools user can just setup an account on Mega Mesh and leave the rest to us. 
+
+Keeping in mind automation and future support as well, Mega Mesh also provides API support as well for all the features available in platform.
+
+### Service Mesh
+
+In Mega Mesh, you can deploy a project (deployment step where clusters, networks and applications deployment is configured) and manage complex use cases related to mesh, container or serverless using an easy to use drag and drop UI. 
+
+In Mega Mesh, deployment takes place at Project level and it is divided in to these steps:
 
 1. Configure Basic Info
 2. Configure Cluster
