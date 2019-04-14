@@ -1,5 +1,5 @@
 - [Overview](pages/overview/product-overview.md)
-  - [What is Cloudplex?](pages/overview/product-overview.md)
+  - [What is Cloudplex?](pages/user_guide/overview/product-overview.md)
   - [Cloudplex Components](pages/release19997/release19997.md)
   - [Mega Mesh](pages/gcp/gcp-guide.md)
 - [Setup]()
