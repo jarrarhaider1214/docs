@@ -1,21 +1,3 @@
-Mega Mesh is full of advanced features, some of the major ones are listed below.
-
-### Tools Integration
-
-Mega Mesh has integrated multiple cloud native tools with the platform. Instead of manually downloading and configuring each tool separately, user can setup up the whole thing in Mega Mesh in one go and get everything up and running in under **30 minutes**. Some of the major cloud native tools integrated with Mega Mesh are - Docker, Kubernetes, Istio, Knative, Grafana, Prometheus, Kiali.
-
-### Unified User Interface
-
-Mega Mesh is basically a deployment platform using which you can manage, develop and deploy cloud native applications. It usually takes weeks or even months to understand and use different cloud native tools. 
-
-Using Mega Mesh Unified UI, you can not only manage and configure different cloud native technologies like Istio, Knative etc at one place but also develop and deploy applications as well. Instead of learning all the complex cloud native tools user can just setup an account on Mega Mesh and leave the rest to us. 
-
-Keeping in mind automation and future support as well, Mega Mesh also provides API support as well for all the features available in platform.
-
-### Service Mesh
-
-**Working on it and below...........**
-
 In Mega Mesh, you can deploy a project (deployment step where clusters, networks and applications deployment is configured) and manage complex use cases related to mesh, container or serverless using an easy to use drag and drop UI. 
 
 In Mega Mesh, deployment takes place at Project level and it is divided in to these steps:
@@ -34,7 +16,7 @@ Project is level where everything will be configured and the deployment will tak
 
 1. Login to the platform, go to the **Projects** menu from top bar and click "**+**" button to create a new project.
 
-   ![1](F:/CloudPlex/user-documentation/pages/user-guide/overview/imgs/1.png)
+   ![1](imgs/1.png)
 
 2. Configure **Basic Info** of **Project**.
 
@@ -43,7 +25,7 @@ Project is level where everything will be configured and the deployment will tak
    - Select the **Cloud Provider** and specify necessary account details for the account.
    - Select **Region** as per requirements.
 
-   ![2](F:/CloudPlex/user-documentation/pages/user-guide/overview/imgs/2.png)
+   ![2](imgs/2.png)
 
 3. Click **Next**.
 
@@ -71,7 +53,7 @@ Project is level where everything will be configured and the deployment will tak
          - Specify **Source**. e.g. 0.0.0.0/0. 
            The Source can be an IPv4 addresses or range of IPv4 addresses in CIDR notation.
 
-   ![3](F:/CloudPlex/user-documentation/pages/user-guide/overview/imgs/3.png)
+   ![3](imgs/3.png)
 
    ​	For **Existing Virtual Private Cloud**:
 
@@ -85,7 +67,7 @@ Project is level where everything will be configured and the deployment will tak
 
    - Enter **Cluster Name** and click **Add Node Pools** button.
 
-   ![4](F:/CloudPlex/user-documentation/pages/user-guide/overview/imgs/4.png)
+   ![4](imgs/4.png)
 
    - Enter **Node Pool Name**.
    - Specify **Node Count** and **Machine Type** from the dropdown.
@@ -95,4 +77,3 @@ Project is level where everything will be configured and the deployment will tak
    - Specify the **AMI ID** and **AMI Username**. (you can get these from cloud admin portal)
 
 7. Click **Next**. (Click the green floppy icon to save the Cluster template)
-
