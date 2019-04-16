@@ -1,6 +1,6 @@
 - [Overview](pages/user-guide/overview/product-overview.md)
   - [What is Cloudplex?](pages/user-guide/what-is-cloudplex/what-is-cloudplex)
-  - [Cloudplex Components](pages/user-guide/cloudplex-components-cloudplex-components)
+  - [Cloudplex Components](pages/user-guide/cloudplex-components/cloudplex-components)
   - [Mega Mesh]()
 - [Setup]()
   - [Requirment](requirement.md)

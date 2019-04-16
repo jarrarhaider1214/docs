@@ -1,5 +1,3 @@
-## Components/Features
-
 Mega Mesh is full of advanced features, some of the major ones are listed below.
 
 ### Tools Integration
