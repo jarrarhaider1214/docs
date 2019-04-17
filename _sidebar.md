@@ -16,7 +16,7 @@
     - [Network](network.md)
     - [Solution](solution.md)
 - [Tutorials]()
-  - [Create New Project](pages/user-guide/tutorial/create-new-project)
+  - [Create New Project](pages/user-guide/tutorial/create-new-project/create-new-project)
   - [Create Solution Template]()
   - [Deploy Project]()
   - [Visualize & Trace Traffic of MegaMesh]()
