@@ -41,6 +41,10 @@ Similarly, platform provides dashboard for other modules as well.
 
 One of the dashboard that will be provided in platform is health dashboard. Health dashboard will provide detailed information like latency, error rate for a service. In this way you will be able to pinpoint the issue and focus on the health of specific service in a mesh. 
 
+#### Debugging Dashboard
+
+There is also a debugging dashboard in Mega Mesh, which will help in debugging of the mesh. Dashboard will provide detailed and fine grained information about each mesh component and how they are interacting with each other.  It will also provide information like success rate, latency for each component of the mesh.
+
 ### Assessment & Evaluation
 
 Users can also run tests on the new services or the new version of services before taking those services live into production. This can even be done without affecting the existing users. Using this feature, you can check the health and telemetry of services before going live. 
@@ -57,8 +61,42 @@ Using monitoring and alerts, you can keep a timely check on the behavior and act
 
 Keeping in mind the organization's need for privacy and proper access control, Mega Mesh also provides RBAC as well. 
 
-Using RBAC, appropriate roles and permissions can be provided to the users based on their requirements and role inside the company. You can also share resources between Users and Group.  
+Using RBAC, appropriate roles and permissions can be provided to the users based on their requirements and role inside the company. You can also share resources between Users and Group.  Groups can be created for teams to give same level of access to multiple users. 
 
 There is also a feature of manual or role based request for a new role/group requirements
 
-RBAC will also be integrated with AD. 
+RBAC will also be integrated with AD.  
+
+### Dynamic Variables
+
+Mega Mesh provides the feature of dynamic variables for parameter passing. You dont need to hard code anything in the applications. Dynamic variables can be stored in the platform and passed to the services and applications on deployment or execution. All types of variables can be stored e.g. IDs, passwords, endpoints, namespace etc. 
+
+### Reusable Templates
+
+Mega Mesh architecture supports reusable templates. Users can benefit from the templates optimized and configured by the security and network experts by using it for their mesh or applications. 
+
+Developers can focus on their other core tasks and let experts take care of their security and networks settings by providing reusable templates. 
+
+### Integration with Legacy Applications
+
+Mega Mesh intuitive UI also provides fully automated integration of legacy applications. Using simple steps you can fully automate and integrate your legacy applications with the platform and make them part of your mesh. 
+
+You can deploy agents remotely on legacy application VM and establish remote connectivity by using minimal user intervention. 
+
+### CI/CD Integration
+
+Mega Mesh also provides easy integration with all the major CI/CD tools. You can integrate that without even disrupting your existing development, testing and deployment processes. 
+
+### Other Tools
+
+Some of the other features that mega mesh provides are:
+
+**License Management:** Single management system using which licenses for all the applications can be managed. Alerts and notifications can also be set based on license usage etc. 
+
+**Admin Dashboard:** Admin dashboard provide single point of control to the superuser using which all the clients and their activities can be managed. 
+
+**Financial Reporting:** A completely developed system of financial reporting which will provide fine grained reporting of financial charges down to very basic level like microservices, containers, projects etc. This will help the user in keeping a check on their cloud expenses and using them efficiently. 
+
+**Auditing:** There is also a system of Audit that will keep a track and audit trails of all the activities of a user performed using UI and even APIs.
+
+**Deployment Strategies:** Mega Mesh also supports different deployment strategies like canary, blue/green etc. 
