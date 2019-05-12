@@ -1,3 +1,5 @@
+# Create New Project
+
 In Mega Mesh, you can deploy a project (deployment step where clusters, networks and applications deployment is configured) and manage complex use cases related to mesh, container or serverless using an easy to use drag and drop UI. 
 
 In Mega Mesh, deployment takes place at Project level and it is divided in to these steps:
