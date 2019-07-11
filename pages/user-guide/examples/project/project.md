@@ -1,4 +1,4 @@
-# Project
+# Lab 1
 
 1. Login to Mega Mesh and click the green **+** icon to start the project creation wizard. 
 

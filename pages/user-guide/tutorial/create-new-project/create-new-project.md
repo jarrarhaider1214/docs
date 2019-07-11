@@ -73,6 +73,7 @@ Project is level where everything will be configured and the deployment will tak
 
    - Enter **Node Pool Name**.
    - Specify **Node Count** and **Machine Type** from the dropdown.
+     **Note**: Note count for first node pool will always be **1** as it will be for master node.  
    - Select **Subnet** and **Security Groups** from dropdown. (You can select upto 5 subnets for AWS and 1 for Azure.)
    - Select **Key Type** from dropdown i.e. **New** or **Existing**.
      Whether you want to create a new Key or use any existing one.
