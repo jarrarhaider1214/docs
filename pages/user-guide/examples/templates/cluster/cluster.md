@@ -18,7 +18,7 @@ To configure a **Cluster**
 
 3. Specify **Node Count** and **Machine Type** from the dropdown.
 
-   > **Note**: Note count for first node pool will always be **1** as it will be used for master node.  
+   > **Note**: Node count for first node pool will always be **1** as it will be used for master node.  
 
 4. Select **Subnet** and **Security Groups** from dropdown. (You can select upto 5 subnets)
 
@@ -59,7 +59,7 @@ To configure a **Cluster**
 
     3. Specify **Node Count** and **Machine Type** from the dropdown.
 
-       > **Note**: Note count for first node pool will always be **1** as it will be used for master node.  
+       > **Note**: Node count for first node pool will always be **1** as it will be used for master node.  
 
     4. Select **Subnet** and **Security Groups** from dropdown. (You can select only 1 subnet)
 
@@ -80,7 +80,7 @@ To configure a **Cluster**
 
     10. (Optional) Use to toggle button to use **Docker Data Volume** and specify the **Disk Type**, and **Disk Size**.
 
-        ![7](F:\CloudPlex\user-documentation\pages\user-guide\examples\templates\cluster\imgs\7.jpg)
+        ![7](imgs\7.jpg)
 
     11. Click the **Templates** button on top and click **Save as Template** to save the configurations.
 

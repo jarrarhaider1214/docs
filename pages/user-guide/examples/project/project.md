@@ -84,7 +84,7 @@
 
     1. Login to Mega Mesh and click the green **+** icon to start the project creation wizard. 
 
-       ![1](F:/CloudPlex/user-documentation/pages/user-guide/examples/project/imgs/1.jpg)
+       ![1](imgs\1.jpg)
 
     2. Configure the **Basic Info** tab.
 
