@@ -1,4 +1,4 @@
-# Lab 3 (Deployment of Serverless Solution )
+# Lab 4 (Deployment of Serverless Solution )
 
 1. Login to Mega Mesh and click the green **+** icon to start the project creation wizard. 
 
