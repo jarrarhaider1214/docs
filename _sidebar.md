@@ -13,7 +13,7 @@
   - [Project](pages/user-guide/examples/project/project)
     - [Lab 1 (Basic)](pages/user-guide/examples/project/lab-1/lab-1)
     - [Lab 2 (Advanced)](pages/user-guide/examples/project/lab-2/lab-2)
-    - [Lab 3 (Expert)]()
+    - [Lab 3 (Expert)](pages/user-guide/examples/project/lab-3/lab-3)
     - [Lab 4 (Serverless)](pages/user-guide/examples/project/lab-4/lab-4)
   - [Templates](pages/user-guide/examples/templates/templates)
     - [Cluster](pages/user-guide/examples/templates/cluster/cluster)
