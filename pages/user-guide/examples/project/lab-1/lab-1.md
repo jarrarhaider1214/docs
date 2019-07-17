@@ -79,5 +79,3 @@
 11. Once the solution is deployed, go to the **Monitoring** tab to see detailed graphs related to Mesh performance.
 
     ![17](imgs/17.jpg)
-
-    # 
