@@ -1,11 +1,11 @@
-# Cloudplex Documentation
+### Cloudplex Documentation
 
 This documentation is built using [Docsify](https://docsify.js.org/#/quickstart)
 
-# File Structure
-### TODO
+### File Structure
+#### TODO
 
-# Contribution
+### Contribution
 
 Clone this repo to your local machine.
 Go to cloned directory and start any web server there.
