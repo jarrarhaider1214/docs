@@ -1,9 +1,16 @@
-# Cloudplex
+# Cloudplex Documentation
 
-*CloudPlex* helps developers easily build, deploy and manage cloud-native applications with microservices and serverless
+This documentation is built using [Docsify](https://docsify.js.org/#/quickstart)
 
-A Unified Mesh for Everything
+# File Structure
+### TODO
 
-> A single service mesh for microservices, serverless functions, legacy applications, cloud provider-managed services, APIs and third-party services.
+# Contribution
 
-![](https://cloudplex.io/images/solution.svg)
+Clone this repo to your local machine.
+Go to cloned directory and start any web server there.
+For example you can run 
+`python -m SimpleHTTPServer 3000`
+This will start a server at `localhost:3000`. You can now go to your browser open `localhost:3000` to see the site.
+
+For other ways to serve this documention, consult [Docsify](https://docsify.js.org/#/quickstart).
