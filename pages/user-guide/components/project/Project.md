@@ -1,0 +1,3 @@
+# Project
+
+Project is where all the previous modules cluster, network, solution will be configured together and the services will be deployed on the nodes. The purpose of the environment is to use the cluster, solution, network and deploy the microservices after detailed configuration. The other features of the CloudPlex platform like financial charges, costing etc. also use data based on projects.
