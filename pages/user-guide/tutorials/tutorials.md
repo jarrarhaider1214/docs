@@ -1,4 +1,4 @@
-# Examples
+# Tutorials
 
 On Mega Mesh, either you can create and configure new cluster, network and solutions to deploy the project or use some of the pre built template for clusters, network to deploy the project.
 
