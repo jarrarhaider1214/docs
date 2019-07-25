@@ -1,7 +1,7 @@
 - [Overview](pages/user-guide/overview/product-overview.md)
   - [What is Cloudplex?](pages/user-guide/overview/what-is-cloudplex/what-is-cloudplex)
   - [Cloudplex Components](pages/user-guide/overview/cloudplex-components/cloudplex-components)
-- [Components]()
+- [Components](pages/user-guide/components/components)
   - [Project](pages/user-guide/components/project/project)
   - [Cluster](pages/user-guide/components/cluster/cluster)
   - [Network](pages/user-guide/components/network/network)
