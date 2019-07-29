@@ -1,4 +1,4 @@
-# Lab 3 (Deployment Using Dynamic Variables)
+# Deployment Using Dynamic Variables
 
 1. Login to Mega Mesh and click the green **+** icon to start the project creation wizard. 
 

@@ -1,4 +1,4 @@
-# Lab 1 (Deployment Using Saved Templates)
+# Deployment Using Saved Templates
 
 1. Login to Mega Mesh and click the green **+** icon to start the project creation wizard. 
 
