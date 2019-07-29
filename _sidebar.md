@@ -11,6 +11,7 @@
   - [Legacy Applications]()
   - [Credentials Profile](pages/user-guide/components/credentials-profile/credentials-profile)
   - [RBAC]()
+  - [Scaling](pages/user-guide/components/scaling/scaling)
 - [Tutorials](pages/user-guide/tutorials/tutorials)
   - [Project](pages/user-guide/tutorials/project/project)
     - [Use Predefined Templates](pages/user-guide/tutorials/project/use-predefined-templates/lab-1)
