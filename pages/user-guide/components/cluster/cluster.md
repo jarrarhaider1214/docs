@@ -19,11 +19,11 @@ Details of the configurations that can be done at Cluster level are explained be
 9. **AMI ID**: Image ID that will be used on nodes.
 10. **AMI Username**: Username for the image.
 11. **Volume Type**: Storage disk type i.e. SSD etc. 
+
+    > **Note:** EBS (Elastic Block Store) is a block level storage which can be mounted to the machines or instances and can then be used as any raw block device.
 12. **Volume Size**: Size of the disk in GB.
 13. **IOPS**: IOPS for the disk.
 14. **Delete on Termination**: Whether to delete the disk on Project termination or not.
 
-### EBS Storage
 
-EBS (Elastic Block Store) is a block level storage which can be mounted to the machines or instances and can then be used as any raw block device.
 
