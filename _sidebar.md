@@ -10,7 +10,7 @@
   - [Container Services]()
   - [Legacy Applications]()
   - [Credentials Profile](pages/user-guide/components/credentials-profile/credentials-profile)
-  - [RBAC]()
+  - [RBAC](pages/user-guide/components/rbac/rbac)
   - [Scaling](pages/user-guide/components/scaling/scaling)
 - [Tutorials](pages/user-guide/tutorials/tutorials)
   - [Project](pages/user-guide/tutorials/project/project)
