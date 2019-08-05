@@ -5,7 +5,7 @@
   - [Project](pages/user-guide/components/project/project)
   - [Cluster](pages/user-guide/components/cluster/cluster)
   - [Network](pages/user-guide/components/network/network)
-  - [Managed Service]()
+  - [Managed Service](pages/user-guide/components/managed-service/managed-service)
   - [Serverless]()
   - [Container Services]()
   - [Legacy Applications]()
