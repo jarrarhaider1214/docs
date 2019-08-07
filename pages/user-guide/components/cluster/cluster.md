@@ -30,6 +30,3 @@ Details of the configurations that can be done at Cluster level are explained be
 2. **Volume Size**: Size of the disk in GB.
 
 3. **IOPS**: IOPS for the disk.
-
-
-
