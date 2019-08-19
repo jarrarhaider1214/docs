@@ -1,7 +1,12 @@
-- [Overview](pages/user-guide/overview/product-overview.md)
+- Cloudplex
+
+  - [Overview](pages/user-guide/overview/product-overview.md)
   - [What is Cloudplex?](pages/user-guide/overview/what-is-cloudplex/what-is-cloudplex)
   - [Cloudplex Features](pages/user-guide/overview/cloudplex-features/cloudplex-features)
-- [Components](pages/user-guide/components/components)
+
+- Components
+
+  - [Overview](pages/user-guide/components/components)
   - [Project](pages/user-guide/components/project/project)
   - [Cluster](pages/user-guide/components/cluster/cluster)
   - [Network](pages/user-guide/components/network/network)
@@ -13,7 +18,9 @@
   - [Access Management](pages/user-guide/components/access-management/access-management)
   - [Scaling](pages/user-guide/components/scaling/scaling)
   - [Dashboard](pages/user-guide/components/dashboard/dashboard)
-- [Tutorials](pages/user-guide/tutorials/tutorials)
+
+ - Tutorials
+  - [Overview](pages/user-guide/tutorials/tutorials)
   - [Project](pages/user-guide/tutorials/project/project)
     - [Use Predefined Templates](pages/user-guide/tutorials/project/use-predefined-templates/lab-1)
     - [Create Templates](pages/user-guide/tutorials/project/create-templates/lab-2)
