@@ -1,4 +1,6 @@
-# RBAC 
+# Access Management
+
+Keeping in mind the organization's need for privacy and proper access control, Mega Mesh also provides Access Management (RBAC) as well. 
 
 Access Management deals with the MegaMesh Role Based Access Control (RBAC) feature. The function of RBAC is to give appropriate level of permissions to the users of a company to maintain the effectiveness of operations and efficiency of employees.
 
@@ -12,7 +14,11 @@ MegaMesh RBAC consists of **Roles**, **Teams**, and **Users.**
 
 **Users:** On MegaMesh, access is provided to the users based on the Teams they are part of. Users can be assigned Teams depending upon their responsibilities. Users that have been given any kind of access and are part of a team will appear here. 
 
-**Note:** Access Management menu will only be available to the Team Lead user of the platform. 
+There is also a feature of manual or role based request for a new role/group requirements
+
+> **Note:** Access Management menu will only be available to the Team Lead user of the platform. 
+
+> **Note:** RBAC will also be integrated with AD.  
 
 Now, let’s move to the step by step guide on how to use Access Management.
 

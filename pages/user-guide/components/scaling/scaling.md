@@ -34,6 +34,29 @@ User can also define the MIN and MAX value for number of replicas of running con
 
 User can define only one container policy for each container service in the Project.
 
+Now let’s move to step by step process on how to setup Container scaling.
+
+**Container Scaling**
+
+1. Go to the **Solution** tab, configure **Container**, click **Advance Settings** and **Enable Scaling**.
+
+   ![3](imgs/3.jpg)
+
+2. Specify MIN and MAX number for container replicas. 
+
+   ![4](imgs/4.jpg)
+
+3. Click **Add Metrics** and configure the threshold for scaling
+
+   - Select **Target Value Kind** from drop-down i.e. **Utilization** % of resource, Value, Average. 
+   - Specify the **Target Value** for the **Kind** selected above.
+   - Select the **Target Value Unit** e.g. Mega, Giga etc. 
+   - Select **Resource Kind** e.g. CPU, Memory etc. If the threshold is reached for this resource scaling will be initiated. 
+
+   ![5](imgs/5.jpg)
+
+4. Click **Save** to save container configurations.
+
 ## Node Scaling
 
 If any pod gets into pending state due to insufficient capacity in the cluster or if the nodes in the clusters are underutilized due to low number of running containers, In these cases, MegaMesh will automatically scale up (launch a new node) and scale down (terminate the idle node) respectively on Cloud provider selected by the user in the Project.
@@ -48,7 +71,7 @@ Node scaling can only be defined on Project level
 
 User can’t define scaling on Master pool.
 
-Now let’s move to step by step process on how to setup scaling.
+Now let’s move to step by step process on how to setup Node scaling.
 
 **Node Scaling**
 
@@ -57,31 +80,10 @@ Now let’s move to step by step process on how to setup scaling.
 2. Add a 2nd node pool.
    **Note**: 1st node pool is always Master Pool and user can’t define a scaling on it.
 
-   ![1](imgs\1.jpg)
+   ![1](imgs/1.jpg)
 
 3. Scroll down and use the radio button to enable scaling.
 
 4. Specify the **Max Scaling Group Size** i.e. the number that node can be scaled to in case of resource requirement. (Conditions will be set at container level scaling)
 
-   ![2](imgs\2.jpg)
-
-**Container Scaling**
-
-1. Go to the **Solution** tab, configure **Container**, click **Advance Settings** and **Enable Scaling**.
-
-   ![3](imgs\3.jpg)
-
-2. Specify MIN and MAX number for container replicas. 
-
-   ![4](imgs\4.jpg)
-
-3. Click **Add Metrics** and configure the threshold for scaling
-
-   - Select **Target Value Kind** from drop-down i.e. **Utilization** % of resource, Value, Average. 
-   - Specify the **Target Value** for the **Kind** selected above.
-   - Select the **Target Value Unit** e.g. Mega, Giga etc. 
-   - Select **Resource Kind** e.g. CPU, Memory etc. If the threshold is reached for this resource scaling will be initiated. 
-
-   ![5](imgs\5.jpg)
-
-4. Click **Save** to save container configurations.
+   ![2](imgs/2.jpg)
