@@ -19,7 +19,7 @@
   - [Scaling](pages/user-guide/components/scaling/scaling)
   - [Dashboard](pages/user-guide/components/dashboard/dashboard)
 
- - Tutorials
+- Tutorials
   - [Overview](pages/user-guide/tutorials/tutorials)
   - [Project](pages/user-guide/tutorials/project/project)
     - [Use Predefined Templates](pages/user-guide/tutorials/project/use-predefined-templates/lab-1)
