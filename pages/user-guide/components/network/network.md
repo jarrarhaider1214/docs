@@ -30,7 +30,6 @@ Details of the configurations that can be done at Network level are explained be
 ![4](imgs\4.jpg)
 
 1. **InboundRule_1**: Configurations of traffic rules.
-
 2. **Rule Type**: Traffic rule type i.e. Inbound/Outbound.
 3. **Protocol**: rule protocol i.e. TCP, UDP etc. 
 4. **Source**: An IPv4 addresses or range of IPv4 addresses in CIDR notation.
