@@ -118,6 +118,87 @@ Details of the configurations that can be done for Kubernetes Containers are exp
 4. **Type**: Type of option. 
 5. **Level**: SE Linux security levels.
 
+![14](imgs\14.jpg)
+
+1. **RBAC**: To configure Role Based Access Control for the service.
+2. **Enable RBAC**: To enable RBAC.
+3. **Add Resource Based Roles**: To add resource based roles for the container.
+4. **Add Service Based Roles**: To add service based roles for the container. 
+
+![15](imgs\15.jpg)
+
+1. **Add Resource Based Roles**: To add resource based roles. You can add more than one as well.
+2. **Resource:** Select resource from drop-down e.g. Endpoints, Nodes etc. 
+3. **Action**: Action or role for the resource selected e.g. Create, Update etc.  
+4. **AddAPI Groups**: To add API group. You can add more than one API group.
+
+![16](imgs\16.jpg)
+
+1. **Add Service Based Roles**: To add service based roles for the container. You can add more than one as well.
+2. **Method**: Method of the role e.g. Get, Post etc. You can select more than one from the drop-down
+3. **ADDPaths**: To add paths.
+
+![17](imgs\17.jpg)
+
+1. **Enable Ingress Traffic:** To enable ingress traffic for an Istio service mesh.
+2. **Weight:** N/A
+3. **AddURLs:** To add URLs. You can add more than one URL.
+4. **Timeout:** Timeout for http requests. 
+
+![18](imgs\18.jpg)
+
+1. **Port**: Select the port from the drop-down.
+
+2. **Circuit Breaker:** To configure circuit breaker. 
+
+   > **Circuit breaking** is an important pattern for creating resilient microservice applications. It allows to write applications that limit the impact of failures, latency spikes, and other undesirable effects of network peculiarities.
+
+3. **Max Request:** Maximum number of requests to a backend. 
+
+4. **Max Pending Requests:** Maximum number of pending HTTP requests to a destination. 
+
+5. **Max Requests Per Connection:** Maximum number of requests per connection to a backend. Setting this parameter to 1 disables keep alive.
+
+6. **Max Retries:** Maximum number of retries that can be outstanding to all hosts in a cluster at a given time.
+
+![19](imgs\19.jpg)
+
+1. **Fault Injection:** To configure fault injection.
+
+   > To inject faults to test the resiliency of application.
+
+2. **Fault Injection Abort**: Aborts are crash failures. They mimic failures in upstream services. Aborts usually manifest in the form of HTTP error codes or TCP connection failures.
+
+3. **Percentage**: Percent of requests to stimulate a failure for.
+
+4. **HTTP Status:** HTTP status code e.g. 400
+
+5. **Fault Injection Delay:** Delays are timing failures. They mimic increased network latency or an overloaded upstream service.
+
+6. **Percentage:** Percent of requests to introduce a delay for. 
+
+7. **Delay:** Delay in seconds.
+
+![20](imgs\20.jpg)
+
+1. **AddNode Selectors:** To add node selectors i.e. Key, Value.
+
+2. **Label Selector:** To configure label selector and to add match expressions or labels.
+
+   > Using a label selector, the client/user can identify a set of objects. The label selector is the core grouping primitive in Kubernetes.
+
+3. **AddMatch Expression:** To add match expressions. 
+
+4. **Key:** Key for match expression.
+
+5. **Operator:** Operator for match expression e.g. Exists, In etc. 
+
+6. **AddValues:** To add other values if needed.
+
+![21](imgs\21.jpg)
+
+1. **AddMatch Labels**: To add match labels.
+
 ## Kubernetes Secret
 
 Objects that let user store and manage sensitive information e.g. passwords, OAuth, ssh keys etc. Storing all this private information in a secret is a much more secure and flexible way than putting it verbatim in Pod definition or in a container image. It also reduces the risk of accidental exposure. To use secret, pod must reference the secret. 
