@@ -108,7 +108,11 @@ Details of the configurations that can be done for Kubernetes Containers are exp
 
 ![12](imgs\12.jpg)
 
-1. **Proc Mount:** N/A
+1. **Proc Mount:** Allowed ProcMount types e.g. Unmasked. 
+2. **Run as NonRoot:** Require the container to run without root privileges.
+3. **Read Only FileSystem:** Requires that containers must run with a read-only root filesystem (i.e. no writable layer)
+4. **Privileged**: It determines if any container in a pod can enable privileged mode. By default a container is not allowed to access any devices on the host, but a privileged container is given access to all devices on the host.
+5. **Allow Privilege Escalation:** Gates whether or not a user is allowed to set the security context of a container to allowPrivilegeEscalation=true. Setting it to false, i.e. unchecked radio button, ensures that no child process of a container can gain more privileges than its parent.
 
 ![13](imgs\13.jpg)
 
