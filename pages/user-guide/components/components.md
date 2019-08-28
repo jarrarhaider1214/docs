@@ -4,25 +4,25 @@ Before using Ultramesh, it is advisable to go through this section to learn abou
 
 Now let’s move to the brief explanation of components.
 
-[Project](/pages/user-guide/components/project/project?id=project)
+[Access Management](/pages/user-guide/components/access-management/access-management?id=access-management)
 
 [Cluster](/pages/user-guide/components/cluster/cluster?id=cluster)
 
-[Network](http://localhost:3000/#/pages/user-guide/components/network/network?id=networking)
-
-[Managed Services](/pages/user-guide/components/managed-service/managed-service?id=managed-services)
-
-[Serverless](/pages/user-guide/components/serverless/serverless?id=serverless)
-
 [Container Services](/pages/user-guide/components/container-services/container-services?id=container-services)
-
-[Legacy Application](/pages/user-guide/components/legacy-applications/legacy-applications?id=legacy-application)
 
 [Credentials Profile](/pages/user-guide/components/credentials-profile/credentials-profile?id=credentials-profile)
 
-[Access Management](/pages/user-guide/components/access-management/access-management?id=access-management)
+[Dasboards](/pages/user-guide/components/dashboard/dashboard?id=dashboard)
+
+[Legacy Application](/pages/user-guide/components/legacy-applications/legacy-applications?id=legacy-application)
+
+[Managed Services](/pages/user-guide/components/managed-service/managed-service?id=managed-services)
+
+[Network](http://localhost:3000/#/pages/user-guide/components/network/network?id=networking)
+
+[Project](/pages/user-guide/components/project/project?id=project)
 
 [Scaling](/pages/user-guide/components/scaling/scaling?id=scaling)
 
-[Dasboards](/pages/user-guide/components/dashboard/dashboard?id=dashboard)
+[Serverless](/pages/user-guide/components/serverless/serverless?id=serverless)
 

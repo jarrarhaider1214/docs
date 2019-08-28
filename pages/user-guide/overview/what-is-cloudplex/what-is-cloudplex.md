@@ -12,27 +12,27 @@ CloudPlex also provides Dynamic configurations for the mesh as well. Instead of 
 
 CloudPlex also offers numerous other features like Application Provisioning and Orchestration, Security & Identity Management, Automation, Team and Role Based Access Control, Policy Based Security, Financial Controls, Multi Tenancy, Support for Slack Based Team Collaboration, Multicluster Federation, Support for Hybrid Cloud and many more.  
 
-[Tool Integration](/pages/user-guide/overview/cloudplex-features/cloudplex-features?id=tools-integration)
-
-[Unified User Interface](/pages/user-guide/overview/cloudplex-features/cloudplex-features?id=unified-user-interface)
-
-[Service Mesh](/pages/user-guide/overview/cloudplex-features/cloudplex-features?id=service-mesh)
-
-[Multiple Cloud Support](/pages/user-guide/overview/cloudplex-features/cloudplex-features?id=multiple-cloud-support)
-
-[Service Flow Diagram](/pages/user-guide/overview/cloudplex-features/cloudplex-features?id=service-flow-diagram)
-
 [Assessment & Evaluation](/pages/user-guide/overview/cloudplex-features/cloudplex-features?id=assessment-amp-evaluation)
 
-[Monitoring & Alerts](/pages/user-guide/overview/cloudplex-features/cloudplex-features?id=monitoring-amp-alerts)
+[CI/CD Integration](/pages/user-guide/overview/cloudplex-features/cloudplex-features?id=cicd-integration)
 
 [Dynamic Variables](/pages/user-guide/overview/cloudplex-features/cloudplex-features?id=dynamic-variables)
 
-[Resuable Templates](/pages/user-guide/overview/cloudplex-features/cloudplex-features?id=reusable-templates)
-
 [Integration with Legacy Applications](/pages/user-guide/overview/cloudplex-features/cloudplex-features?id=integration-with-legacy-applications)
 
-[CI/CD Integration](/pages/user-guide/overview/cloudplex-features/cloudplex-features?id=cicd-integration)
+[Monitoring & Alerts](/pages/user-guide/overview/cloudplex-features/cloudplex-features?id=monitoring-amp-alerts)
+
+[Multiple Cloud Support](/pages/user-guide/overview/cloudplex-features/cloudplex-features?id=multiple-cloud-support)
+
+[Resuable Templates](/pages/user-guide/overview/cloudplex-features/cloudplex-features?id=reusable-templates)
+
+[Service Flow Diagram](/pages/user-guide/overview/cloudplex-features/cloudplex-features?id=service-flow-diagram)
+
+[Service Mesh](/pages/user-guide/overview/cloudplex-features/cloudplex-features?id=service-mesh)
+
+[Tool Integration](/pages/user-guide/overview/cloudplex-features/cloudplex-features?id=tools-integration)
+
+[Unified User Interface](/pages/user-guide/overview/cloudplex-features/cloudplex-features?id=unified-user-interface)
 
 [Other Tools](/pages/user-guide/overview/cloudplex-features/cloudplex-features?id=other-tools)
 

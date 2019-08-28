@@ -126,21 +126,21 @@ Details of the configurations that can be done for Kubernetes Containers are exp
 
 1. **RBAC**: To configure Role Based Access Control for the service.
 2. **Enable RBAC**: To enable RBAC.
-3. **Add Resource Based Roles**: To add resource based roles for the container.
-4. **Add Service Based Roles**: To add service based roles for the container. 
+3. **Add Resource Based Roles**: To add resource based roles for the container. Resources includes Nodes etc. 
+4. **Add Service Based Roles**: To add service based roles for the container e.g. mysql related tasks.
 
 ![15](imgs\15.jpg)
 
 1. **Add Resource Based Roles**: To add resource based roles. You can add more than one as well.
-2. **Resource:** Select resource from drop-down e.g. Endpoints, Nodes etc. 
-3. **Action**: Action or role for the resource selected e.g. Create, Update etc.  
-4. **AddAPI Groups**: To add API group. You can add more than one API group.
+2. **Resource:** Select resource from drop-down e.g. Endpoints, Nodes etc. Resources are on which we want to give access to this role. 
+3. **Action**: Actions allowed for the resource selected e.g. Create, Update etc. You can can select more than one action as well.
+4. **AddAPI Groups**: To add API group. You can add more than one API group. It is that specific API which will have access. 
 
 ![16](imgs\16.jpg)
 
 1. **Add Service Based Roles**: To add service based roles for the container. You can add more than one as well.
 2. **Method**: Method of the role e.g. Get, Post etc. You can select more than one from the drop-down
-3. **ADDPaths**: To add paths.
+3. **ADDPaths**: To add paths. It is the path of http request e.g. /raccon, /api/solutions/create etc. 
 
 ![17](imgs\17.jpg)
 
