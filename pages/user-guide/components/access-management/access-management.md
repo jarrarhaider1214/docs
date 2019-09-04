@@ -6,7 +6,7 @@ Access Management deals with the MegaMesh Role Based Access Control (RBAC) featu
 
 Companies that value security try to give only the optimum level of permissions or access to different users to maintain the efficiency by giving only the required level of access. This features is also beneficial as by giving appropriate level of access to the users, the company can only expose limited part of the platform to different users which will secure their account or system from unauthorized access. This can also help in segregation of duties within the team by granting access to only those features needed for the job. 
 
-MegaMesh RBAC consists of **Roles**, **Teams**, and **Users.**
+MegaMesh RBAC consists of **Roles**, **Teams**, and **User**
 
 **Roles:** A Role can be defined as a set of permissions for different modules or resources on the platform e.g. View, Create, Delete permission of Clusters. 
 
@@ -18,7 +18,7 @@ There is also a feature of manual or role based request for a new role/group req
 
 > **Note:** Access Management menu will only be available to the Team Lead user of the platform. 
 
-> **Note:** RBAC will also be integrated with AD.  
+> **Note:** RBAC will also be integrated with Active Directory (AD). Users can be assigned relevant roles and fetched from AD.
 
 Now, let’s move to the step by step guide on how to use Access Management.
 
@@ -61,7 +61,7 @@ To create a new Role:
 
 Last step is to create Teams and assign Users relevant roles.
 
-1.  Go to the **Teams** tab and click **Add Team**.
+1. Go to the **Teams** tab and click **Add Team**.
 
    ![6](imgs\6.jpg)
 
@@ -71,3 +71,15 @@ Last step is to create Teams and assign Users relevant roles.
    ![7](imgs\7.jpg)
 
 3. Click **Save**.
+
+## Active Directory
+
+Active Directory menu can be used to fetch the users from AD and make them a part of team in platform.
+
+1. Specify **Host Name** of AD.
+2. Specify **Port**.
+3. (Optional) Enter **Search Base** to filter the search.
+4. Specify **Username** and **Password** of AD.
+5. Click **Test AD** button to test the connection.
+
+![8](imgs\8.jpg)
