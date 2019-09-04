@@ -30,7 +30,7 @@
   - [Templates](pages/user-guide/tutorials/templates/templates)
     - [Cluster](pages/user-guide/tutorials/templates/cluster/cluster)
     - [Network](pages/user-guide/tutorials/templates/network/network)
-    - [Solution](solution.md)
+    - [Mesh](pages/user-guide/tutorials/templates/mesh/mesh)
   - [Telemetry](pages/user-guide/tutorials/telemetry/telemetry)
     - [Visualize & Trace Traffic](pages/user-guide/tutorials/telemetry/visualize-trace-traffic/visualize-trace-traffic)
     - [Monitoring](pages/user-guide/tutorials/telemetry/monitoring/monitoring)

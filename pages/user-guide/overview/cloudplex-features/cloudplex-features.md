@@ -64,17 +64,3 @@ Ultramesh is basically a deployment platform using which you can manage, develop
 Using Ultramesh Unified UI, you can not only manage and configure different cloud native technologies like Istio, Knative etc at one place but also develop and deploy applications as well. Mege Mesh also provides interactive visual drag and drop experience to make things easy for the users. Also instead of learning all the complex cloud native tools user can just setup an account on Ultramesh and leave the rest to us. 
 
 Keeping in mind automation and future support as well, Ultramesh also provides API support as well for all the features available in platform.
-
-### Other Tools
-
-Some of the other features that Ultramesh provides are:
-
-**License Management:** Single management system using which licenses for all the applications can be managed. Alerts and notifications can also be set based on license usage etc. 
-
-**Admin Dashboard:** Admin dashboard provide single point of control to the superuser using which all the clients and their activities can be managed. 
-
-**Financial Reporting:** A completely developed system of financial reporting which will provide fine grained reporting of financial charges down to very basic level like microservices, containers, projects etc. This will help the user in keeping a check on their cloud expenses and using them efficiently. 
-
-**Auditing:** There is also a system of Audit that will keep a track and audit trails of all the activities of a user performed using UI and even APIs.
-
-**Deployment Strategies:** Ultramesh also supports different deployment strategies like canary, blue/green etc. 

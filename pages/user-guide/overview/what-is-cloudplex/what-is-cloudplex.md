@@ -33,6 +33,3 @@ CloudPlex also offers numerous other features like Application Provisioning and 
 [Tool Integration](/pages/user-guide/overview/cloudplex-features/cloudplex-features?id=tools-integration)
 
 [Unified User Interface](/pages/user-guide/overview/cloudplex-features/cloudplex-features?id=unified-user-interface)
-
-[Other Tools](/pages/user-guide/overview/cloudplex-features/cloudplex-features?id=other-tools)
-
