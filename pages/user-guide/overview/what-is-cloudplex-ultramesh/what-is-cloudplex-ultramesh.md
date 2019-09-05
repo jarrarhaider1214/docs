@@ -1,4 +1,4 @@
-# What is CloudPlex
+# What is CloudPlex Ultramesh
 
 CloudPlex Ultramesh (Service Mesh Enablement Platform) helps developers easily build, deploy and manage a unified service mesh for all things - from microservices to legacy. It helps in deployment and management of cloud-native applications with microservices and serverless and that too using a single unified view. 
 

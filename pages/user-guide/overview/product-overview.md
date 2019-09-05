@@ -1,4 +1,4 @@
-# Product Overview
+# Overview
 
 Building, deploying and managing an application with disparate technologies places an enormous burden on developers to learn and maintain complex systems. 
 
@@ -6,9 +6,9 @@ CloudPlex have developed a platform specially for the cloud native applications 
 
 Ultramesh will specifically deal with docker or containerized infrastructures. Ultramesh supports service mesh to effectively connect, manage and secure microservices. In addition to this, it also supports function as a service or serverless. 
 
-Ultramesh is a complete cloud management platform which not only provides configured cloud tools and technologies at one place but also provides monitoring, dashboards, audits and financial as well. It provides complete and detailed solutions for everything related to cloud. 
+Ultramesh is a complete cloud management platform which not only provides configured cloud tools and technologies at one place but also provides monitoring, dashboards, audits and financial as well. It provides complete and detailed solutions for everything related to cloud.
 
-![1](pages/user-guide/overview/imgs\1.jpg)
+![1](imgs\1.jpg)
 
 
 

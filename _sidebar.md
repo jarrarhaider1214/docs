@@ -1,7 +1,7 @@
 - Cloudplex
 
   - [Overview](pages/user-guide/overview/product-overview.md)
-  - [What is Cloudplex?](pages/user-guide/overview/what-is-cloudplex/what-is-cloudplex)
+  - [What is Cloudplex Ultramesh?](pages/user-guide/overview/what-is-cloudplex-ultramesh/what-is-cloudplex-ultramesh)
   - [Cloudplex Features](pages/user-guide/overview/cloudplex-features/cloudplex-features)
 
 - Components
