@@ -34,7 +34,7 @@
   - [Telemetry](pages/user-guide/tutorials/telemetry/telemetry)
     - [Visualize & Trace Traffic](pages/user-guide/tutorials/telemetry/visualize-trace-traffic/visualize-trace-traffic)
     - [Monitoring](pages/user-guide/tutorials/telemetry/monitoring/monitoring)
-    - [Container Logging](pages/user-guide/examples/telemetry/network/network)
+    - [Container Logging](pages/user-guide/tutorials/telemetry/container-logging/container-logging)
   - [Continuous Deliery](pages/user-guide/examples/cd/telemetry)
     - [Deploy Canary Release](pages/user-guide/examples/cd/cluster/cluster)
     - [Deploy Blue/Green Release](pages/user-guide/examples/cd/network/network)
