@@ -8,7 +8,7 @@ Ultramesh will specifically deal with docker or containerized infrastructures. U
 
 Ultramesh is a complete cloud management platform which not only provides configured cloud tools and technologies at one place but also provides monitoring, dashboards, audits and financial as well. It provides complete and detailed solutions for everything related to cloud.
 
-![1](_media\imgs\1.jpg)
+![3](_media\imgs\3.gif)
 
 
 
