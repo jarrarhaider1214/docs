@@ -28,7 +28,9 @@ Now, let's move to the brief overview of visualization options available in Clou
 
 4. **Distributed Tracing**: Dashboard to track a request through mesh that is distributed across multiple services. You can set the parameters or use a JSON file to find the traces for a service.
 
-5. **Graph View**: Dashboard providing graphical representation for all the services in the mesh. 
+   ![5](imgs\5.gif)
+
+5. **Graph View**: Dashboard providing graphical representation for all the services/workloads in the mesh. You can get Service Graph, App Graph, Workload Graph and Versioned App Graph. Display of the graph can also be set based on Node Names, Traffic Animation, Unused Nodes or Badges like Circuit Breakers, Virtual Services etc. 
 
    ![6](imgs\6.jpg)
 
