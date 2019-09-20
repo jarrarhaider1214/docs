@@ -2,22 +2,67 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Document</title>
+  <title>Documentation</title>
+  <link rel="icon" href="images/cloud_plex_favicon.png">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <meta name="description" content="Description">
   <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-  <link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/vue.css">
+
+ 
+  <link rel="stylesheet" href="vendor/themes/vue.css">
+  <link rel="stylesheet" href="vendor/themes/custom.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+ <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script> 
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script> 
+<link href="https://fonts.googleapis.com/css?family=Lato|Muli&display=swap" rel="stylesheet">
+<script src="vendor/themes/custom.js"></script> 
 </head>
 <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="https://beta.cloudplex.io/"> <img src="images/cloud_logo.png" alt="cloudplex logo"> </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#cloud_plex_doucmentation" aria-controls="cloud_plex_doucmentation" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="cloud_plex_doucmentation">
+          <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+            <li class="nav-item active">
+                <a href="https://beta.cloudplex.io/" target="_blank">PRODUCT</a>
+            </li>
+
+            <li class="nav-item">
+                <a href="https://beta.cloudplex.io/features/" target="_blank">FEATURES</a>
+            </li>
+            <li class="nav-item">
+                <a href="https://beta.cloudplex.io/pricing/" target="_blank">PRICING</a>
+            </li>
+                    <li class="nav-item">
+                <a href="https://beta.cloudplex.io/about/" target="_blank">ABOUT</a>
+            </li>
+            <li class="nav-item">
+                <a href="https://community.cloudplex.io/" target="_blank">COMMUNITY</a>
+            </li>
+            <li class="resourses_menu"><a>Resources</a>
+              <ul class="sub-menu">
+                <li><a href="https://beta.cloudplex.io/video-documentation/">Video Documentation</a></li>
+                <li><a href="https://beta.cloudplex.io/blog/">Blogs</a></li>
+                <li><a href="https://beta.cloudplex.io/faqs/">FAQs</a></li>
+              </ul>
+              </li>
+                  </ul>    
+        </div>
+      </nav>
   <div id="app"></div>
   <script>
     window.$docsify = {
-      name: 'NextGen',
+    
+      // name: 'CloudPlex',
       repo: '',
       loadSidebar: true,
-      loadNavbar: true,
+      loadNavbar: false,
       subMaxLevel: 4,
-      homepage: 'overview.md',
+      homepage: 'pages/user-guide/overview/product-overview.md',
 
       search: {
         noData: {
@@ -26,13 +71,101 @@
         paths: 'auto',
         placeholder: {
           '/': 'Search'
-        }
+        } 
       },
+    
+      plugins: [
+    function(hook) {
+      var footer = [
+        '<br>',
+        '<br>',
+        '<br>',
+        '<br>',
+        '<br>',
+        '<br>',
+        '<br>',
+  
+        '<footer class="footer">',
+        `<div class="footer-block-3">
+              <div class="row no-gutters">
+                <div class="col-12 col-lg-10 col-md-12  footer-block-3-left">
+          
+                  <div class="row">
+                    <div class="col-3">
+                      <h4>Product</h4>
+                      <ul>
+                                                               <li><a style="color:#D1DCEA;" href="http://beta.cloudplex.io/">Product</a></li> 
+                        <li><a style="color:#D1DCEA;" href="http://beta.cloudplex.io/features/">Features</a></li>
+                                             
+                                                                        <li><a style="color:#D1DCEA;" href="http://beta.cloudplex.io/pricing/">Pricing</a></li>
+                      </ul>
+                    </div>
+          
+                    <div class="col-3">
+                      <h4>Resources</h4>
+                      <ul>
+                        <li><a style="color:#D1DCEA;" href="https://beta.cloudplex.io/video-documentation/">Videos Documentation</a></li>
+                          <li><a style="color:#D1DCEA;" href="http://beta.cloudplex.io/blog/">Blogs</a></li>
+                          <li><a style="color:#D1DCEA;" href="https://beta.cloudplex.io/faqs/">FAQs</a></li>
+                                     
+                                            
+                                              
+                                                 
+                      </ul>
+                    </div>
+          
+                    <div class="col-3">
+                      <h4>Company</h4>
+                      <ul>
+                                                <li><a  style="color:#D1DCEA;" href="http://beta.cloudplex.io/about/"> About</a></li>
+                
+                        <li>Terms of Service</li>
+                      <li>Privacy Policy</li>
+                      </ul>
+                    </div>
+                    <div class="col-3">
+                            <h4 class="text-center">Get your service mesh up and running in minutes
+</h4>
+                     <div class="footer-block-3-icons">
+                         
+                                                        <span data-toggle="tooltip" title="Facebook"> <a href="#"><img src="https://cloudplex.io/wp-content/uploads/icons/footer-icon-facebook.svg" alt="Facebook" /> </a></span>
+                                                        <span data-toggle="tooltip" title="Linkedin"> <a href="#"><img src="https://cloudplex.io/wp-content/uploads/icons/footer-icon-linkedin.svg" alt="Linkedin" /> </a></span>
+                                                        <span data-toggle="tooltip" title="Twitter"><a href="#"><img src="https://cloudplex.io/wp-content/uploads/icons/footer-icon-twitter.svg" alt="Twitter" /> </a></span>
+                                                        <span data-toggle="tooltip" title="Github"> <a href="#"><img src="https://cloudplex.io/wp-content/uploads/icons/footer-icon-github.svg" alt="github" /></a> </span>
+                                                        <span data-toggle="tooltip" title="Youtube"><a href="#"><img src="https://cloudplex.io/wp-content/uploads/icons/footer-icon-youtube.svg" alt="Youtube" /> </a></span>
+                            </div>
+                  </div>
+                </div>
+                </div>
+          
+             
+          
+              </div>
+              <div class="textwidget custom-html-widget"><div class="footer-bottom">
+                <img src="https://cloudplex.io/wp-content/uploads/logo.png" alt="Cloudplex">
+                <p>One mesh for everything
+                </p>
+            </div>
+            </div>
+            </div>
+  `,
+        '</footer>'
+      ].join('');
+
+      hook.afterEach(function(html) {
+        return html + footer;
+      });
+    }
+  ]
 
     }
   </script>
   <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
   <script src="//unpkg.com/docsify/lib/plugins/search.min.js"></script>
-  <script src="//unpkg.com/docsify/lib/plugins/zoom-image.min.js"></script> 
+  <script src="//unpkg.com/docsify/lib/plugins/zoom-image.min.js"></script>
+
+
+ 
 </body>
 </html>
+

@@ -1,5 +1,6 @@
 - Cloudplex
 
+  - [Overview](pages/user-guide/overview/product-overview.md)
   - [What is Cloudplex Ultramesh?](pages/user-guide/overview/what-is-cloudplex-ultramesh/what-is-cloudplex-ultramesh)
   - [Cloudplex Features](pages/user-guide/overview/cloudplex-features/cloudplex-features)
 
@@ -33,7 +34,7 @@
   - [Telemetry](pages/user-guide/tutorials/telemetry/telemetry)
     - [Visualize & Trace Traffic](pages/user-guide/tutorials/telemetry/visualize-trace-traffic/visualize-trace-traffic)
     - [Monitoring](pages/user-guide/tutorials/telemetry/monitoring/monitoring)
-    - [Container Logging](pages/user-guide/tutorials/telemetry/container-logging/container-logging)
-  - [Continuous Delivery](pages/user-guide/tutorials/continuous-delivery/continuous-delivery)
+    - [Container Logging](pages/user-guide/examples/telemetry/network/network)
+  - [Continuous Deliery](pages/user-guide/examples/cd/telemetry)
     - [Deploy Canary Release](pages/user-guide/examples/cd/cluster/cluster)
     - [Deploy Blue/Green Release](pages/user-guide/examples/cd/network/network)
