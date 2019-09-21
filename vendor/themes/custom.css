@@ -53,11 +53,47 @@ img.logo_img {
    padding:0rem 4px !important;
 }
 
+.markdown-section{
+    padding: 0px;
+    max-width: initial !important;
+}
+.markdown-section>:first-child {
+    padding: 0px 15px;
+    margin: 16px auto;
+    /* margin-top: 0!important; */
+    width: 800px !important;
+}
+
 .markdown-section p {
+    max-width: 800px !important;
+    margin: 1.2em auto;
     color: #34495e;
     line-height: 25.6px;
-    font-size: 14px !important;
+    padding: 0px 15px;
+        font-size: 14px !important;
 }
+article#main h3, article#main h2 {
+    margin: 40px auto;
+    padding: 0px 15px;
+    max-width: 800px;
+}
+article#main ol {
+    padding: 0px 15px;
+    margin: 40px auto;
+    max-width: 800px;
+}
+article#main blockquote {
+    padding: 0px 15px;
+    margin: 40px auto;
+    max-width: 800px;
+}
+article#main ul {
+    margin: 40px auto;
+    padding: 0px 15px;
+    max-width: 800px;
+}
+
+
 .sidebar li > p {
     font-weight: 500 !important;
     padding-bottom: 0px !important;
@@ -80,7 +116,7 @@ img.logo_img {
     color: #fff;
    }
    .footer-block-3 ul {
-       margin-bottom: 0;
+       margin: 0 !important;
        padding: 0 !important;
        margin-left:0;
    }
@@ -314,6 +350,7 @@ li.nav-item a:hover {
 .footer-block-3-icons img{
     width: 20px;  
 }
+   }
   @media screen and (max-width: 992px) {
     /* .col-3 {
       width: 25%;
@@ -363,8 +400,30 @@ li.nav-item a:hover {
         border-radius: 4px;
 
     }
+    .markdown-section p {
+        margin:1.2em 13px 1.2em 8px;
+    }
+
+    article#main ol {
+        margin:0px 13px 0px 15px;
+    }
+    article#main blockquote {
+        margin:0px 0px 0px 14px;
+    }
+    article#main ul {
+        margin:1.2em 13px 1.2em 13px;
+    }
+    .markdown-section h1{
+        font-size: 26px;
+        margin: 15px -6px !important
+       
+      }
   }
   @media screen and (max-width: 630px) {
+    article#main blockquote {
+        margin:0px 0px 0px 5px;
+    }
+
     .app-nav li {
         text-align: center;
         display: block;
@@ -409,10 +468,6 @@ li.nav-item a:hover {
     }
     .footer-block-3{
         padding: 40px 15px;
-
-      } 
-      article#main h1 span{
-        font-size: 20px;
-        margin: 0px 23px !important; 
-      }
-       }
+} 
+  
+    }

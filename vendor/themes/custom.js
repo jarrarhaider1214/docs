@@ -15,11 +15,13 @@ $(document).ready(function(){
         }
     });
 
-var footer = $(".footer");
-var article = $("#main");
-// alert($(".footer").length);
- $('.footer').remove();
- $(footer).insertAfter('#main');
-//  $("#main").insertAfter("footer");
+    // $("#main > p, h1, h2, h3, h4, h5, h6").not(".footer").css("max-width", "800px");
+
+// var footer = $(".footer");
+// var article = $("#main");
+// // alert($(".footer").length);
+//  $('.footer').remove();
+//  $(footer).insertAfter('#main');
+// //  $("#main").insertAfter("footer");
 }
 );
