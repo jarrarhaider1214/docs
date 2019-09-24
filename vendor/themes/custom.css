@@ -313,8 +313,8 @@ li.nav-item.active a:after {
     display: block;
     position: absolute;
     bottom: -5px;
-    width: 50%;
-    left: 25%;
+    width: 100%;
+    left: 2%;
     border-top: 3px solid #ffffff;
 }
 li.nav-item.resourses_menu.active ul.sub-menu li:first-child a:before {
