@@ -135,8 +135,8 @@ article#main ul {
     line-height: 19px;
     font-family: Lato;
     color: #D1DCEA;
+    text-decoration: none;
     line-height: 27px;
-   font-family: Lato;
    }
    .footer-block-3-left {
     padding: 35px 30px !important;
@@ -315,7 +315,7 @@ li.nav-item.active a:after {
     bottom: -5px;
     width: 100%;
     left: 2%;
-    border-top: 3px solid #ffffff;
+    border-top: 2px solid #ffffff;
 }
 li.nav-item.resourses_menu.active ul.sub-menu li:first-child a:before {
     content: '';
@@ -327,7 +327,7 @@ li.nav-item.resourses_menu.active ul.sub-menu li:first-child a:before {
     margin-left: -10px !important;
     top: 0px;
     left: 0px;
-    border-left: 3px solid #ffffff;
+    border-left: 2px solid #ffffff;
 }
 
 li.nav-item.resourses_menu.active ul.sub-menu li a:after {
