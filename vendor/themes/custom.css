@@ -441,9 +441,12 @@ li.nav-item a:hover {
     article#main blockquote {
         margin:0px 0px 0px 5px;
     }
+    .app-nav a{
+        font-size: 13px !important;
+    }
     li.nav-item.resourses_menu.active ul.sub-menu li {
         width: 28%;
-        margin: 5px auto;
+        margin: 10px auto;
     }
     .app-nav li {
         text-align: center;
