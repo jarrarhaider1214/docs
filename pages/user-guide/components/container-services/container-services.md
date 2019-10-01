@@ -6,7 +6,9 @@ UltreMesh provides full support for container services. 4 types of container ser
 
 Standard unit of software that packages all its dependencies and code so that application runs reliably from one computing environment to another. Docker container is a lightweight and standalone executable package that contains all the things needed to run an applications i.e. code, system tools, libraries, runtime etc. Container images become containers on runtime and in case of docker containers, images becomes containers when they run on Docker engine. 
 
-Details of the configurations that can be done for Kubernetes Containers are explained below and also highlighted in the image.
+Details of the configurations that can be done for Kubernetes Containers are explained below and also highlighted in the image. 
+
+> **Note:** For every section in the guide below, images are followed by description of the fields highlighted in the image.
 
 ![4](imgs\4.jpg)
 
@@ -32,13 +34,21 @@ Details of the configurations that can be done for Kubernetes Containers are exp
    >
    > **CronJob:** A Cron Job creates Jobs on a time-based schedule. It runs a job periodically on a given schedule, written in Cron format.
 
+
+
 ![5](imgs\5.jpg)
 
 1. **Enable Deployment Pipeline**: Check to enable deployment pipeline e.g. Canary. 
+
 2. **Configure Pipeline**: To configure deployment pipeline. 
+
 3. **Registry**: Select any saved docker registry from drop-down or create a new one. 
+
 4. **Username** of docker registry.
+
 5. **Password** of docker registry. 
+
+   
 
 ![6](imgs\6.jpg)
 
@@ -56,10 +66,15 @@ Details of the configurations that can be done for Kubernetes Containers are exp
 
 4. **Ports**: To add Ports. You can also add multiple ports. Name, Host and Container will be needed.
 
+   
+
 ![7](imgs\7.jpg)
 
 1. **Command And Arguments**: To add command and arguments in the fields provided below. 
+
 2. **Advance Settings**: To open a panel of advanced settings. 
+
+   
 
 ![8](imgs\8.jpg)
 
@@ -77,6 +92,8 @@ Details of the configurations that can be done for Kubernetes Containers are exp
    >
    > **Limit:** If the quota has a value specified for limits.cpu or limits.memory, then it requires that every incoming container specifies an explicit limit for those resources.
 
+
+
 ![9](imgs\9.jpg)
 
 1. **Probe**: To configure Liveness and Readiness probes. 
@@ -93,61 +110,103 @@ Details of the configurations that can be done for Kubernetes Containers are exp
 
 5. **Timeout Seconds:** Number of seconds after which the probe times out.
 
+   
+
 ![10](imgs\10.jpg)
 
 1. **Period Seconds:** How often (in seconds) to perform the probe.
+
 2. **Success Threshold:**  Minimum consecutive successes for the probe to be considered successful after having failed. 
+
 3. **Failure Threshold:** When a Pod starts and the probe fails, Kubernetes will try Failure Threshold times before giving up. Giving up in case of liveness probe means restarting the Pod. In case of readiness probe the Pod will be marked Unready. Defaults to 3. Minimum value is 1.
+
+   
 
 ![11](imgs\11.jpg)
 
 1. **Security Context:** A security context defines privilege and access control settings for a Pod or Container.
+
 2. **Capabilities:** With Linux capabilities, you can grant certain privileges to a process without granting all the privileges of the root user. To add or drop Linux capabilities for a Container, select the capabilities from the drop-down
+
 3. **Run As Group:** Run As User field specifies the user ID that all processes will run with for any Containers in the Pod. 
+
 4. **Run As Group:** Run As Group field specifies the primary group ID for all processes within any containers of the Pod. If this field is omitted, the primary group ID of the containers will be root(0).
+
+   
 
 ![12](imgs\12.jpg)
 
 1. **Proc Mount:** Allowed ProcMount types e.g. Unmasked. 
+
 2. **Run as NonRoot:** Require the container to run without root privileges.
+
 3. **Read Only FileSystem:** Requires that containers must run with a read-only root filesystem (i.e. no writable layer)
+
 4. **Privileged**: It determines if any container in a pod can enable privileged mode. By default a container is not allowed to access any devices on the host, but a privileged container is given access to all devices on the host.
+
 5. **Allow Privilege Escalation:** Gates whether or not a user is allowed to set the security context of a container to allowPrivilegeEscalation=true. Setting it to false, i.e. unchecked radio button, ensures that no child process of a container can gain more privileges than its parent.
+
+   
 
 ![13](imgs\13.jpg)
 
 1. **SE Linux Options:**  Linux kernel security module that provides a mechanism for supporting access control security policies.
+
 2. **Users:**  Name of the user. 
+
 3. **Role**: Name of the role.
+
 4. **Type**: Type of option. 
+
 5. **Level**: SE Linux security levels.
+
+   
 
 ![14](imgs\14.jpg)
 
 1. **RBAC**: To configure Role Based Access Control for the service.
+
 2. **Enable RBAC**: To enable RBAC.
+
 3. **Add Resource Based Roles**: To add resource based roles for the container. Resources includes Nodes etc. 
+
 4. **Add Service Based Roles**: To add service based roles for the container e.g. mysql related tasks.
+
+   
 
 ![15](imgs\15.jpg)
 
 1. **Add Resource Based Roles**: To add resource based roles. You can add more than one as well.
+
 2. **Resource:** Select resource from drop-down e.g. Endpoints, Nodes etc. Resources are on which we want to give access to this role. 
+
 3. **Action**: Actions allowed for the resource selected e.g. Create, Update etc. You can can select more than one action as well.
+
 4. **AddAPI Groups**: To add API group. You can add more than one API group. It is that specific API which will have access. 
+
+   
 
 ![16](imgs\16.jpg)
 
 1. **Add Service Based Roles**: To add service based roles for the container. You can add more than one as well.
+
 2. **Method**: Method of the role e.g. Get, Post etc. You can select more than one from the drop-down
+
 3. **ADDPaths**: To add paths. It is the path of http request e.g. /raccon, /api/solutions/create etc. 
+
+   
 
 ![17](imgs\17.jpg)
 
 1. **Enable Ingress Traffic:** To enable ingress traffic for an Istio service mesh.
-2. **Weight:** N/A
+
+2. **Weight:** Weight of the service. 
+
 3. **AddURLs:** To add URLs. You can add more than one URL.
+
 4. **Timeout:** Timeout for http requests. 
+
+   
 
 ![18](imgs\18.jpg)
 
@@ -164,6 +223,8 @@ Details of the configurations that can be done for Kubernetes Containers are exp
 5. **Max Requests Per Connection:** Maximum number of requests per connection to a backend. Setting this parameter to 1 disables keep alive.
 
 6. **Max Retries:** Maximum number of retries that can be outstanding to all hosts in a cluster at a given time.
+
+   
 
 ![19](imgs\19.jpg)
 
@@ -183,6 +244,8 @@ Details of the configurations that can be done for Kubernetes Containers are exp
 
 7. **Delay:** Delay in seconds.
 
+   
+
 ![20](imgs\20.jpg)
 
 1. **AddNode Selectors:** To add node selectors i.e. Key, Value.
@@ -199,6 +262,8 @@ Details of the configurations that can be done for Kubernetes Containers are exp
 
 6. **AddValues:** To add other values if needed.
 
+   
+
 ![21](imgs\21.jpg)
 
 1. **AddMatch Labels**: To add match labels.
@@ -212,10 +277,16 @@ Details of the configurations that can be done for Kubernetes Secret are explain
 ![1](imgs\1.jpg)
 
 1. **K8s Resource**: Drop-down to add container services. 
+
 2. **Secret Icon**: Click the icon to configure Secret. 
+
 3. **Name**: Name for the service.
+
 4. **Version:** Version of the service.
+
 5. **Namespace**: Namespace for the service. 
+
+   
 
 ![2](imgs\2.jpg)
 
