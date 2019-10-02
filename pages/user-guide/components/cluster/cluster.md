@@ -8,9 +8,9 @@ Details of the configurations that can be done at Cluster level are explained be
 
 1. **Node Pool**: Pool of nodes and complete configurations for that node. Node Pools can be more than one. 1st node pool will always be Master node pool
 2. Name of the **Node Pool** set based on Project ID.
-3. **Node Count**: Number of Nodes in the node pool.
-4. **Node Pool Role**: Role of node pool i.e. Master or Slave.
-5. **Machine Type**: Instance type based on Cloud Provider selected. 
+3. **Machine Type**: Instance type based on Cloud Provider selected. 
+4. **Node Count**: Number of Nodes in the node pool.
+5. **Node Pool Role**: Role of node pool i.e. Master or Slave.
 6. **Subnet**: Subnet to associate with the node depending on network.
 7. **Security Group**: Security Group to associate with the node depending on network.
 
@@ -30,3 +30,7 @@ Details of the configurations that can be done at Cluster level are explained be
 2. **Volume Size**: Size of the disk in GB.
 
 3. **IOPS**: IOPS for the disk.
+
+4. **Docker Data Volume**: To add docker data volume as well.
+
+5. **Down Arrow Button**: To fetch latest AMIs

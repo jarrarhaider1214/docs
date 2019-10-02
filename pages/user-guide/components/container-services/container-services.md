@@ -10,11 +10,11 @@ Details of the configurations that can be done for Kubernetes Containers are exp
 
 > **Note:** For every section in the guide below, images are followed by description of the fields highlighted in the image.
 
-![4](imgs\4.jpg)
+![1](imgs\1.jpg)
 
 1. **K8s Resource**: Drop-down to add container services. 
 
-2. **Secret Icon**: Click the icon to configure container. 
+2. **Container Icon**: Click the icon to configure container. 
 
 3. **Name**: Name for the service.
 
@@ -34,57 +34,60 @@ Details of the configurations that can be done for Kubernetes Containers are exp
    >
    > **CronJob:** A Cron Job creates Jobs on a time-based schedule. It runs a job periodically on a given schedule, written in Cron format.
 
+![2](imgs\2.jpg)
 
+1. **Registry**: Select any saved docker registry from drop-down or create a new one. 
+2. **Registry Name**: Specify Name of the registry.
+3. **Registry Username** of docker registry.
+4. **Registry Password** of docker registry. 
+5. **Save Docker Credentials**: To save credentials for future use. 
+
+![3](imgs\3.jpg)
+
+1. **Image Name**: Name of the docker image. 
+2. **Tag**: Tag of the docker image.
+3. **Enable INIT Container**: Specialized containers that run before app containers in a Pod . Init containers can contain utilities or setup scripts not present in an app image.
+
+**To Configure Volume Container:**
+
+![4](imgs\4.jpg)
+
+1. **Add Static**: To get the options to select Volume and Mount Path.
+2. **Volume**: Select volume from drop-down.
+3. **Mount Path**: Specify mount path.
+
+**To Configure Environment Variables:**
 
 ![5](imgs\5.jpg)
 
-1. **Enable Deployment Pipeline**: Check to enable deployment pipeline e.g. Canary. 
+1. **Add Static**: Too add static environment variable. Only Key, Value pair will be needed
+2. **Add Dynamic:** To add dynamic variable. For getting the values dynamically on run time from other services in the solution. 
 
-2. **Configure Pipeline**: To configure deployment pipeline. 
-
-3. **Registry**: Select any saved docker registry from drop-down or create a new one. 
-
-4. **Username** of docker registry.
-
-5. **Password** of docker registry. 
-
-   
+**To Configure Ports:**
 
 ![6](imgs\6.jpg)
 
-1. **Image Name**: Name of the docker image. 
+1. **Ports**: To add Ports. You can also add multiple ports. Name, Host and Container will be needed.
 
-2. **Tag**: Tag of the docker image.
-
-3. **Environment Variables**: To add environment variables i.e. Static, Dynamic, Load Balancer.
-
-   > **Static:** Only Key, Value pair will be needed
-   >
-   > **Dynamic:** For getting the values dynamically on run time from other services in the solution. 
-   >
-   > **Load Balance:** Exposes the Service externally using a cloud provider’s load balancer.
-
-4. **Ports**: To add Ports. You can also add multiple ports. Name, Host and Container will be needed.
-
-   
+**To Configure Command And Arguments:**
 
 ![7](imgs\7.jpg)
 
-1. **Command And Arguments**: To add command and arguments in the fields provided below. 
+1. **Command And Arguments**: To add command and arguments in the fields provided.
 
-2. **Advance Settings**: To open a panel of advanced settings. 
-
-   
+**To Configure CI/CD:**
 
 ![8](imgs\8.jpg)
 
-1. **Enable CID**: To enable CID
+1. **Enable CI/CD**: To enable CI/CD
+2. **Enable Deployment Pipeline**: Check to enable deployment pipeline e.g. Canary. 
+3. **Configure Pipeline**: To configure deployment pipeline. 
 
-2. **Enable Init Container**: Specialized containers that run before app containers in a Pod . Init containers can contain utilities or setup scripts not present in an app image.
+**To Configure Resource Quota:**
 
-3. **Scaling**: To setup scaling. Check our scaling guide [here](/pages/user-guide/components/scaling/scaling).
+![9](imgs\9.jpg)
 
-4. **Resource Quota**: To setup resource quota limits. Currently, CPU and Memory resource quota is supported.
+1. **Resource Quota**: To setup resource quota limits. Currently, CPU and Memory resource quota is supported.
 
    > When allocating compute resources, each container may specify a request and a limit value for either CPU or memory. The quota can be configured to quota either value.
    >
@@ -92,9 +95,9 @@ Details of the configurations that can be done for Kubernetes Containers are exp
    >
    > **Limit:** If the quota has a value specified for limits.cpu or limits.memory, then it requires that every incoming container specifies an explicit limit for those resources.
 
+**To Configure Probing:**
 
-
-![9](imgs\9.jpg)
+![10](imgs\10.jpg)
 
 1. **Probe**: To configure Liveness and Readiness probes. 
 
@@ -102,131 +105,39 @@ Details of the configurations that can be done for Kubernetes Containers are exp
    >
    > **Readiness:** The kubelet uses readiness probes to know when a Container is ready to start accepting traffic. A Pod is considered ready when all of its Containers are ready. One use of this signal is to control which Pods are used as backends for Services. 
 
-2. **Handler:** Handler for probe i.e. Exec, Http Get, TCP Socket. 
-
-3. **Command**: Exec action command. 
-
-4. **Initial Delay Seconds**: Number of seconds after the container has started before liveness or readiness probes are initiated. 
-
-5. **Timeout Seconds:** Number of seconds after which the probe times out.
-
-   
-
-![10](imgs\10.jpg)
-
-1. **Period Seconds:** How often (in seconds) to perform the probe.
-
-2. **Success Threshold:**  Minimum consecutive successes for the probe to be considered successful after having failed. 
-
-3. **Failure Threshold:** When a Pod starts and the probe fails, Kubernetes will try Failure Threshold times before giving up. Giving up in case of liveness probe means restarting the Pod. In case of readiness probe the Pod will be marked Unready. Defaults to 3. Minimum value is 1.
-
-   
-
 ![11](imgs\11.jpg)
 
-1. **Security Context:** A security context defines privilege and access control settings for a Pod or Container.
+1. **Handler:** Handler for probe i.e. Exec, Http Get, TCP Socket. 
+2. **Initial Delay Seconds**: Number of seconds after the container has started before liveness or readiness probes are initiated. 
+3. **Timeout Seconds:** Number of seconds after which the probe times out.
+4. **Period Seconds:** How often (in seconds) to perform the probe.
+5. **Success Threshold:**  Minimum consecutive successes for the probe to be considered successful after having failed. 
+6. **Failure Threshold:** When a Pod starts and the probe fails, Kubernetes will try Failure Threshold times before giving up. Giving up in case of liveness probe means restarting the Pod. In case of readiness probe the Pod will be marked Unready. Defaults to 3. Minimum value is 1.
 
-2. **Capabilities:** With Linux capabilities, you can grant certain privileges to a process without granting all the privileges of the root user. To add or drop Linux capabilities for a Container, select the capabilities from the drop-down
-
-3. **Run As Group:** Run As User field specifies the user ID that all processes will run with for any Containers in the Pod. 
-
-4. **Run As Group:** Run As Group field specifies the primary group ID for all processes within any containers of the Pod. If this field is omitted, the primary group ID of the containers will be root(0).
-
-   
+**To Configure RBAC:**
 
 ![12](imgs\12.jpg)
 
-1. **Proc Mount:** Allowed ProcMount types e.g. Unmasked. 
-
-2. **Run as NonRoot:** Require the container to run without root privileges.
-
-3. **Read Only FileSystem:** Requires that containers must run with a read-only root filesystem (i.e. no writable layer)
-
-4. **Privileged**: It determines if any container in a pod can enable privileged mode. By default a container is not allowed to access any devices on the host, but a privileged container is given access to all devices on the host.
-
-5. **Allow Privilege Escalation:** Gates whether or not a user is allowed to set the security context of a container to allowPrivilegeEscalation=true. Setting it to false, i.e. unchecked radio button, ensures that no child process of a container can gain more privileges than its parent.
-
-   
+1. **Enable RBAC**: To enable and configure Role Based Access Control for the service. 
+2. **Add Resource Based Roles**: To add resource based roles for the container. Resources includes Nodes etc. 
+3. **Add Service Based Roles**: To add service based roles for the container e.g. mysql related tasks.
 
 ![13](imgs\13.jpg)
 
-1. **SE Linux Options:**  Linux kernel security module that provides a mechanism for supporting access control security policies.
-
-2. **Users:**  Name of the user. 
-
-3. **Role**: Name of the role.
-
-4. **Type**: Type of option. 
-
-5. **Level**: SE Linux security levels.
-
-   
+1. **Add Resource Based Roles**: To add resource based roles. You can add more than one as well.
+2. **Resource:** Select resource from drop-down e.g. Endpoints, Nodes etc. Resources are on which we want to give access to this role. 
+3. **Action**: Actions allowed for the resource selected e.g. Create, Update etc. You can can select more than one action as well.
+4. **AddAPI Groups**: To add API group. You can add more than one API group. It is that specific API which will have access. 
 
 ![14](imgs\14.jpg)
 
-1. **RBAC**: To configure Role Based Access Control for the service.
+1. **Add Service Based Roles**: To add service based roles for the container. You can add more than one as well.
+2. **Method**: Method of the role e.g. Get, Post etc. You can select more than one from the drop-down
+3. **ADDPaths**: To add paths. It is the path of http request e.g. /raccon, /api/solutions/create etc.
 
-2. **Enable RBAC**: To enable RBAC.
-
-3. **Add Resource Based Roles**: To add resource based roles for the container. Resources includes Nodes etc. 
-
-4. **Add Service Based Roles**: To add service based roles for the container e.g. mysql related tasks.
-
-   
+**To Configure Resiliency**:
 
 ![15](imgs\15.jpg)
-
-1. **Add Resource Based Roles**: To add resource based roles. You can add more than one as well.
-
-2. **Resource:** Select resource from drop-down e.g. Endpoints, Nodes etc. Resources are on which we want to give access to this role. 
-
-3. **Action**: Actions allowed for the resource selected e.g. Create, Update etc. You can can select more than one action as well.
-
-4. **AddAPI Groups**: To add API group. You can add more than one API group. It is that specific API which will have access. 
-
-   
-
-![16](imgs\16.jpg)
-
-1. **Add Service Based Roles**: To add service based roles for the container. You can add more than one as well.
-
-2. **Method**: Method of the role e.g. Get, Post etc. You can select more than one from the drop-down
-
-3. **ADDPaths**: To add paths. It is the path of http request e.g. /raccon, /api/solutions/create etc. 
-
-   
-
-![17](imgs\17.jpg)
-
-1. **Enable Ingress Traffic:** To enable ingress traffic for an Istio service mesh.
-
-2. **Weight:** Weight of the service. 
-
-3. **AddURLs:** To add URLs. You can add more than one URL.
-
-4. **Timeout:** Timeout for http requests. 
-
-   
-
-![18](imgs\18.jpg)
-
-1. **Port**: Select the port from the drop-down.
-
-2. **Circuit Breaker:** To configure circuit breaker. 
-
-   > **Circuit breaking** is an important pattern for creating resilient microservice applications. It allows to write applications that limit the impact of failures, latency spikes, and other undesirable effects of network peculiarities.
-
-3. **Max Request:** Maximum number of requests to a backend. 
-
-4. **Max Pending Requests:** Maximum number of pending HTTP requests to a destination. 
-
-5. **Max Requests Per Connection:** Maximum number of requests per connection to a backend. Setting this parameter to 1 disables keep alive.
-
-6. **Max Retries:** Maximum number of retries that can be outstanding to all hosts in a cluster at a given time.
-
-   
-
-![19](imgs\19.jpg)
 
 1. **Fault Injection:** To configure fault injection.
 
@@ -244,29 +155,83 @@ Details of the configurations that can be done for Kubernetes Containers are exp
 
 7. **Delay:** Delay in seconds.
 
-   
+![16](imgs\16.jpg)
+
+1. **Circuit Breaker:** To configure circuit breaker. 
+
+   > **Circuit breaking** is an important pattern for creating resilient microservice applications. It allows to write applications that limit the impact of failures, latency spikes, and other undesirable effects of network peculiarities.
+
+2. **Max Request:** Maximum number of requests to a backend. 
+
+3. **Max Pending Requests:** Maximum number of pending HTTP requests to a destination. 
+
+4. **Max Requests Per Connection:** Maximum number of requests per connection to a backend. Setting this parameter to 1 disables keep alive.
+
+5. **Max Retries:** Maximum number of retries that can be outstanding to all hosts in a cluster at a given time.
+
+**To Configure Ingress:**
+
+![17](imgs\17.jpg)
+
+1. **Enable Ingress Traffic:** To enable ingress traffic for an Istio service mesh.
+2. **Weight:** Weight of the service. 
+3. **AddURLs:** To add URLs. You can add more than one URL.
+4. **Timeout:** Timeout for http requests. 
+5. **Port**: Select the port from the drop-down.
+
+**To Configure Scaling:**
+
+![18](imgs\18.jpg)
+
+1. **Scaling**: To setup scaling. Check our scaling guide [here](/pages/user-guide/components/scaling/scaling).
+
+**To Configure Security Context:**
+
+![19](imgs\19.jpg)
+
+1. **Security Context:** A security context defines privilege and access control settings for a Pod or Container.
+2. **Capabilities Add:** With Linux capabilities, you can grant certain privileges to a process without granting all the privileges of the root user. To add Linux capabilities for a Container, select the capabilities from the drop-down
+3. **Capabilities Drop:** To drop Linux capabilities for a Container, select the capabilities from the drop-down.
+4. **Run As Group:** Run As User field specifies the user ID that all processes will run with for any Containers in the Pod. 
+5. **Run As Group:** Run As Group field specifies the primary group ID for all processes within any containers of the Pod. If this field is omitted, the primary group ID of the containers will be root(0).
+6. **Proc Mount:** Allowed ProcMount types e.g. Unmasked. 
 
 ![20](imgs\20.jpg)
 
-1. **AddNode Selectors:** To add node selectors i.e. Key, Value.
+1. **Run as NonRoot:** Require the container to run without root privileges.
+2. **Read Only FileSystem:** Requires that containers must run with a read-only root filesystem (i.e. no writable layer)
+3. **Privileged**: It determines if any container in a pod can enable privileged mode. By default a container is not allowed to access any devices on the host, but a privileged container is given access to all devices on the host.
+4. **Allow Privilege Escalation:** Gates whether or not a user is allowed to set the security context of a container to allowPrivilegeEscalation=true. Setting it to false, i.e. unchecked radio button, ensures that no child process of a container can gain more privileges than its parent.
+5. **SE Linux Options:**  Linux kernel security module that provides a mechanism for supporting access control security policies.
+6. **Users:**  Name of the user. 
+7. **Role**: Name of the role.
+8. **Type**: Type of option. 
+9. **Level**: SE Linux security levels.
 
-2. **Label Selector:** To configure label selector and to add match expressions or labels.
-
-   > Using a label selector, the client/user can identify a set of objects. The label selector is the core grouping primitive in Kubernetes.
-
-3. **AddMatch Expression:** To add match expressions. 
-
-4. **Key:** Key for match expression.
-
-5. **Operator:** Operator for match expression e.g. Exists, In etc. 
-
-6. **AddValues:** To add other values if needed.
-
-   
+**To Configure Node Selector:**
 
 ![21](imgs\21.jpg)
 
-1. **AddMatch Labels**: To add match labels.
+1. **AddNode Selectors:** To add node selectors i.e. Key, Value.
+
+**To Configure Label Selector:**
+
+![22](imgs\22.jpg)
+
+
+1. **Label Selector:** To configure label selector and to add match expressions or labels.
+
+   > Using a label selector, the client/user can identify a set of objects. The label selector is the core grouping primitive in Kubernetes.
+
+2. **Add Match Expression:** To add match expressions. 
+
+3. **Key:** Key for match expression.
+
+4. **Operator:** Operator for match expression e.g. Exists, In etc. 
+
+5. **AddValues:** To add other values if needed.
+
+6. **AddMatch Labels**: To add match labels.
 
 ## Kubernetes Secret
 
