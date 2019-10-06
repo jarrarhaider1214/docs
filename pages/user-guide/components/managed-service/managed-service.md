@@ -11,9 +11,10 @@ Details of the configurations that can be done for Managed Services are explaine
 1. **AWS Managed Services**: Drop-down to add AWS managed services in canvas. 
 2. **Azure Managed Services**: Drop-down to add Azure managed services in canvas.
 3. **GCP Managed Services**: Drop-down to add GCP managed services in canvas. 
-4. **S3 Service**: Drag and drop the service icon to add in canvas. Click on icon to configure the service.
 
 ![2](imgs\2.jpg)
+
+> **Note:** As part of this guide, S3 is being used. Process of fetching the attributes is same for all the services. 
 
 1. **Templates**: To reuse any existing service template.
 
@@ -21,19 +22,15 @@ Details of the configurations that can be done for Managed Services are explaine
 
 3. **Version**: Version of the service
 
-4. **Namespace**: Namespace for the service.
+4. **Profile**: Profile to use to fetch the service. 
 
-5. **Region**: Region from which the service details will be fetched.
-
-6. **Profile**: Profile to use to fetch the service. 
-
-7. **Fetch Buckets**: To fetch all the buckets of the selected profile. 
+5. **Fetch Buckets**: To fetch all the buckets of the selected profile. 
 
    > **Note:** For RDS and RedShift, instances will be fetched.
 
-8. **Select S3 Bucket**: Bucket to fetch the attributes from.
+6. **Select S3 Bucket**: Bucket to fetch the attributes from.
 
-9. **Select Attributes**: To select attributes of the services that will be used as dynamic parameters.
+7. **Select Attributes**: To select attributes of the services that will be used as dynamic parameters.
 
 ![3](imgs\3.jpg)
 

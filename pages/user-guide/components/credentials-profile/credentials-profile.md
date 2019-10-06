@@ -52,9 +52,9 @@ Git credentials can be saved while configuring the Serverless service.
 
 1. Select **New** from **Git** drop-down.
 
-2. Enter **Git Name**.
+2. Enter **Profile Name**.
 
-3. Specify the **Git Username** and **Password**. 
+3. Specify the **Repository Name** and **Private Key**
 
 4. Click **Save Git Credentials** button. You will now be able to select these credentials from drop-down to configure other Serverless services.
 

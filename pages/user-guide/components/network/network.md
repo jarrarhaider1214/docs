@@ -31,7 +31,8 @@ Details of the configurations that can be done at Network level are explained be
 
 1. **InboundRule_1**: Configurations of traffic rules.
 2. **Rule Type**: Traffic rule type i.e. Inbound/Outbound.
-3. **Protocol**: rule protocol i.e. TCP, UDP etc. 
-4. **Source**: An IPv4 addresses or range of IPv4 addresses in CIDR notation.
-5. **Port Range**: Ports that will be exposed to traffic.
-6. **Type**: Rule type to be selected from dropdown e.g. Custom TCP, Custom UDP etc.
+3. **IP Protocol**: rule protocol i.e. TCP, UDP etc. 
+4. **Source Port**: Specify the source port.
+5. **Destination Port:** Specify the destination port.
+6. **Port Range**: Ports that will be exposed to traffic.
+7. **IP Ranges**: To add range of IP in CIDR notation. 

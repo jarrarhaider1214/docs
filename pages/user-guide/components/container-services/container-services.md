@@ -239,26 +239,17 @@ Objects that let user store and manage sensitive information e.g. passwords, OAu
 
 Details of the configurations that can be done for Kubernetes Secret are explained below and also highlighted in the image.
 
-![1](imgs\1.jpg)
+![23](imgs\23.jpg)
 
 1. **K8s Resource**: Drop-down to add container services. 
-
 2. **Secret Icon**: Click the icon to configure Secret. 
-
 3. **Name**: Name for the service.
-
 4. **Version:** Version of the service.
-
 5. **Namespace**: Namespace for the service. 
-
-   
-
-![2](imgs\2.jpg)
-
-1. **Type**: Type of secret i.e. Opaque or TLS.
-2. **Upload**: To upload a file for Value. 
-3. **AddString Secrets**: To add string secrets. You can add more than one string secrets. 
-4. **AddBase64 Secrets**: To add Base64 secrets. You can add more than one base64 secrets.
+6. **Type**: Type of secret i.e. Opaque or TLS.
+7. **AddString Secrets**: To add string secrets. You can add more than one string secrets. 
+8. **AddBase64 Secrets**: To add Base64 secrets. You can add more than one base64 secrets.
+9. **Upload**: To upload a file for Value. 
 
 ## Config Maps
 
@@ -266,7 +257,7 @@ Allow to decouple configuration artifacts from image content to keep containeriz
 
 Details of the configurations that can be done for Config Maps are explained below and also highlighted in the image.
 
-![3](imgs\3.jpg)
+![24](imgs\24.jpg)
 
 1. **K8s Resource**: Drop-down to add container services. 
 
@@ -278,9 +269,7 @@ Details of the configurations that can be done for Config Maps are explained bel
 
 5. **Namespace**: Namespace for the service.
 
-6. **Upload**: To upload a file for Value
-
-7. **Add DataS**: Directory, file, or literal value to draw the data from.
+6. **Add DataS**: Directory, file, or literal value to draw the data from.
 
    > **Key**: File name or the key you provided on the command line.
    >
