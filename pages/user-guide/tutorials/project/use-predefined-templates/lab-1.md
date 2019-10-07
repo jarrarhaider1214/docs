@@ -22,7 +22,7 @@
 
    ![3](imgs/3.jpg)
 
-   - Select any saved template and click **Apply**.
+   - Select any saved template and click **Done**.
 
    ![4](imgs/4.jpg)
 
@@ -44,7 +44,7 @@
 
    ![8](imgs/8.jpg)
 
-6. Configure **Solutions**.
+6. Configure **Mesh**.
 
    - Click **Templates** button to get the list of saved templates.
 
