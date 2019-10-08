@@ -38,25 +38,27 @@
    - Specify the **SG Name** and **Description**.
      - Click the **+** icon on the **TEST-SG** button to add Traffic Rules. (You can add multiple rules as well)
      - Select the **Rule Type** as per requirement i.e. **Inbound** or **Outbound**.
-     - Specify the rule **Protocol** i.e. TCP, UDP etc. 
-     - Specify **Source**. e.g. 0.0.0.0/0. 
-       The Source can be an IPv4 addresses or range of IPv4 addresses in CIDR notation.
-     - Specify the **Ports** that will be exposed to traffic. 
-     - Select the rule **Type** from dropdown e.g. Custom TCP, Custom UDP etc.
+     - Specify the **IP Protocol** i.e. TCP, UDP etc. 
+     - Specify the **Source** and **Destination** **Ports**.
+     - Specify the **Port Range** that will be exposed to traffic.
+     - Add **IP Ranges** in CIDR notation. 
 
    ![5](imgs/5.jpg)
+
+   ![5.2](imgs\5.2.jpg)
 
 5. Click **Next**.
 
 6. Configure **Clusters**.
 
    - Enter **Cluster Name** and click **Add Node Pools** button. 
-   - Enter **Node Pool Name**.
-   - Specify **Node Count** and **Machine Type** from the dropdown.
+   - Enter **Node Pool** name.
+   - Select **Machine Type** from the dropdown and specify **Node Count**.
+   - Select **Subnet** from dropdown to associate with node pool.
 
    ![6](imgs/6.jpg)
 
-   - Select **Subnet** and **Security Groups** from dropdown.
+   - Select **Security Groups** from dropdown.
    - Select **Key Type** from dropdown i.e. **Existing** in this case.
    - Specify the **AMI ID** and **AMI Username**.
    - For **Root Volume** of node, select **Volume Type** from drop-down.
@@ -71,7 +73,7 @@
 
 7. Click **Next**.
 
-8. Configure **Solutions**.
+   1. Configure **Mesh**.
 
    - Drag and drop the **Container** in the package canvas from left column.
 
@@ -92,20 +94,24 @@
 
      ![11](imgs/11.jpg)
 
-     - Click **Add Port +** button and specify the port for Traffic i.e. **8080**
+     ![11.2](imgs\11.2.jpg)
+
+     - Go to the **Ports**, click **Add Port** button and specify the port for Traffic i.e. **8080**
 
      ![12](imgs/12.jpg)
 
+     ![12.2](imgs\12.2.jpg)
+
      - Click **Save.**
 
-9. Click **Save** (green floppy icon at the top right) to save the project.
+8. Click **Save** (green floppy icon at the top right) to save the project.
 
    ![13](imgs/13.jpg)
 
-10. Click the Project, you just created. 
+9. Click the Project, you just created. 
 
-    ![14](imgs/14.jpg)
+   ![14](imgs/14.jpg)
 
-11. Click **Start** to deploy the project
+10. Click **Start** to deploy the project
 
     ![15](imgs/15.jpg)

@@ -10,7 +10,7 @@ Details of the configurations that can be done at Cluster level are explained be
 2. Name of the **Node Pool** set based on Project ID.
 3. **Machine Type**: Instance type based on Cloud Provider selected. 
 4. **Node Count**: Number of Nodes in the node pool.
-5. **Node Pool Role**: Role of node pool i.e. Master or Slave.
+5. **Node Pool Role**: Role of node pool i.e. Master or Slave. (First Node Pool will always be master)
 6. **Subnet**: Subnet to associate with the node depending on network.
 7. **Security Group**: Security Group to associate with the node depending on network.
 

@@ -44,7 +44,7 @@
 
    ![8](imgs/8.jpg)
 
-6. Configure **Solutions**.
+6. Configure **Mesh**.
 
    - Drag and drop 2 **Containers** in the package canvas from left column and create dependency between the two using arrow.
 
@@ -55,15 +55,17 @@
    ![9](imgs/9.jpg)
 
    - Click on **Container** icons to configure the settings.
-   - To use dynamic variables, click on Container 2 icon and scroll down to **Add Dynamic Variables** button.
+   - To use dynamic variables, click on Container 2 icon and scroll down to **Environment Variables** menu.
 
    ![10](imgs/10.jpg)
+
+   ![10.2](imgs\10.2.jpg)
 
    - Configure Dynamic Variable.
 
      - Select **Service** from drop-down. 
 
-       > **Note:** Only those services will be listed from which values can** be fetched which in our case was container 1
+       > **Note:** Only those services will be listed from which values can be fetched which in our case was container 1
 
      - Specify **Key**.
 
