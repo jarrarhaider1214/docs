@@ -8,30 +8,30 @@ Lets move to the step by step process of how to create an AWS cluster.
 
 To configure a **Cluster**
 
-1. Enter **Cluster Name** and click **Add Node Pools** button. 
+1. Enter **Cluster Name** and click **Add Node Pools** button.
 
-   > **Note:** You can add more than one Node Pool as well. 
+   > **Note:** You can add more than one Node Pool as well.  
 
-   ![1](imgs\1.jpg)
+2. Enter **Node Pool** name.
 
-2. Enter **Node Pool Name**.
-
-3. Specify **Node Count** and **Machine Type** from the dropdown.
+3. Select **Machine Type** from the dropdown and specify **Node Count**.
 
    > **Note**: Node count for first node pool will always be **1** as it will be used for master node.  
 
-4. Select **Subnet** and **Security Groups** from dropdown. (You can select upto 5 subnets)
+4. Select **Subnet** from dropdown to associate with node pool. (You can select upto 5 subnets)
+
+   ![1](imgs\1.jpg)
 
 5. Select **Key Type** from dropdown i.e. **New** or **Existing**.
    Whether you want to create a new Key or use any existing one.
 
 6. Specify the **AMI ID** and **AMI Username**. (you can get these from cloud admin portal)
 
-   ![2](imgs\2.jpg)
-
 7. For **Root Volume** of node, select **Volume Type** from drop-down.
 
 8. Specify the **Volume Size** and **IOPS** for volume. 
+
+   ![2](imgs\2.jpg)
 
 9. (Optional) Use to toggle button to use **Docker Data Volume** and select the **Volume Type**, **Volume Size** and **IOPS**.
 
@@ -53,13 +53,13 @@ To configure a **Cluster**
 
        > **Note:** You can add more than one Node Pool as well. 
 
-       ![5](imgs\5.jpg)
-
     2. Enter **Node Pool Name**.
 
-    3. Specify **Node Count** and **Machine Type** from the dropdown.
+    3. Select **Machine Type** from the dropdown and specify **Node Count**.
 
        > **Note**: Node count for first node pool will always be **1** as it will be used for master node.  
+
+       ![5](imgs\5.jpg)
 
     4. Select **Subnet** and **Security Groups** from dropdown. (You can select only 1 subnet)
 

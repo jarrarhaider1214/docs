@@ -38,25 +38,27 @@
    - Specify the **SG Name** and **Description**.
      - Click the **+** icon on the **TEST-SG** button to add Traffic Rules. (You can add multiple rules as well)
      - Select the **Rule Type** as per requirement i.e. **Inbound** or **Outbound**.
-     - Specify the rule **Protocol** i.e. TCP, UDP etc. 
-     - Specify **Source**. e.g. 0.0.0.0/0. 
-       The Source can be an IPv4 addresses or range of IPv4 addresses in CIDR notation.
-     - Specify the **Ports** that will be exposed to traffic. 
-     - Select the rule **Type** from dropdown e.g. Custom TCP, Custom UDP etc.
+     - Specify the **IP Protocol** i.e. TCP, UDP etc.
+     - Specify the **Source** and **Destination** **Ports**.
+     - Specify the **Port Range** that will be exposed to traffic.
+     - Add **IP Ranges** in CIDR notation.
 
    ![5](imgs/5.jpg)
+
+   ![5.2](imgs\5.2.jpg)
 
 5. Click **Next**.
 
 6. Configure **Clusters**.
 
-   - Enter **Cluster Name** and click **Add Node Pools** button. 
-   - Enter **Node Pool Name**.
-   - Specify **Node Count** and **Machine Type** from the dropdown.
+   - Enter **Cluster Name** and click **Add Node Pools** button.
+   - Enter **Node Pool** name.
+   - Select **Machine Type** from the dropdown and specify **Node Count**.
+   - Select **Subnet** from dropdown to associate with node pool.
 
    ![6](imgs/6.jpg)
 
-   - Select **Subnet** and **Security Groups** from dropdown.
+   - Select **Security Groups** from dropdown.
    - Select **Key Type** from dropdown i.e. **Existing** in this case.
    - Specify the **AMI ID** and **AMI Username**.
    - For **Root Volume** of node, select **Volume Type** from drop-down.
@@ -71,11 +73,11 @@
 
 7. Click **Next**.
 
-8. Configure **Solutions**.
+8. Configure **Mesh**.
 
    - Drag and drop the **Serverless** in the package canvas from left column.
 
-   - Click on **Container** icon to configure the settings.
+   - Click on **Serverless** icon to configure the settings.
 
      - Enter the **Name** and **Version**.
      - Enter **Namespace** or select any existing from drop-down.
@@ -84,18 +86,18 @@
 
      - From **GIT** drop-down select **New**.
 
-     - Specify **Git Name**, **Username** and **Password**.
+     - Specify Git **Profile Name** and **Private Key**.
 
        > **Note:** Click **Save GIT Credentials** to store the credentials for future use.
 
      ![10](imgs/10.jpg)
 
      - Specify **Git URL** and **Git Branch**.
-     - Specify **Registry URL** and **Registry Tag**.
 
      ![11](imgs/11.jpg)
 
      - From **Registry** drop-down, click **New** and specify **Registry Name, Username** and **Password**. (Click **Save Docker Credentials** to use for future projects)
+     - Specify **Image URL** and Registry **Tag**.
 
      ![12](imgs/12.jpg)
 

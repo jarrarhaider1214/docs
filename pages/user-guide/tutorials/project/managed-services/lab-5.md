@@ -43,7 +43,7 @@
 
    ![8](imgs\8.jpg)
 
-6. Configure **Solutions**.
+6. Configure **Mesh**.
 
    - Go to Cloud **Managed Services** drop-down to get the list of services currently supported in MegaMesh.
 
@@ -53,19 +53,16 @@
 
      > **Note:** Process of configuration is the same for all the services. 
 
-   - Enter the **Name**, **Version** and **Namespace** for the service. 
+   - Enter the **Name** and **Version** for the service. 
 
-   - Select a **Region** from drop-down and specify the **Access Key** and **Secret Key** of AWS account.
-
-     >  **Note:** For Azure and GCP, you need to specify the credentials required to access those clouds.
 
    ![10](imgs\10.jpg)
 
-   - Click **Fetch Buckets** to fetch the buckets for AWS.
+   - Select **Profile** from drop-down and click **Fetch Buckets** to fetch the buckets for AWS.
 
      > **Note:** For RDS and RedShift, Instances will be fetched.
 
-   - Select **Bucket** from the drop-down.
+   - Select **S3 Bucket** from the drop-down.
 
    ![11](imgs\11.jpg)
 
