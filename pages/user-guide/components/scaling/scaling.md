@@ -38,15 +38,17 @@ Now let’s move to step by step process on how to setup Container scaling.
 
 **Container Scaling**
 
-1. Go to the **Solution** tab, configure **Container**, click **Advance Settings** and **Enable Scaling**.
+1. Go to the **Mesh** tab, configure **Container**, navigate to the **Scaling** menu and **Enable Scaling**.
 
    ![3](imgs/3.jpg)
 
-2. Specify MIN and MAX number for container replicas. 
+   ![3.2](imgs\3.2.jpg)
+
+2. Specify **MIN** and **MAX** number for container replicas. 
 
    ![4](imgs/4.jpg)
 
-3. Click **Add Metrics** and configure the threshold for scaling
+3. Click **Add Metrics** and configure the threshold for scaling. (You can add more than 1 metrics as well)
 
    - Select **Target Value Kind** from drop-down i.e. **Utilization** % of resource, Value, Average. 
    - Specify the **Target Value** for the **Kind** selected above.
@@ -55,7 +57,7 @@ Now let’s move to step by step process on how to setup Container scaling.
 
    ![5](imgs/5.jpg)
 
-4. Click **Save** to save container configurations.
+4. Click **Save** to save scaling configurations.
 
 ## Node Scaling
 
@@ -75,15 +77,16 @@ Now let’s move to step by step process on how to setup Node scaling.
 
 **Node Scaling**
 
-1. Start a Project creation wizard and go to the **Cluster** configuration.
-
-2. Add a 2nd node pool.
-   **Note**: 1st node pool is always Master Pool and user can’t define a scaling on it.
+1. Once container scaling is enabled and configured, click **Configure NodePool Auto Scaling** to configure node scaling.
 
    ![1](imgs/1.jpg)
 
-3. Scroll down and use the radio button to enable scaling.
+2. Select the Node Pool **Name** from drop-down for scaling. 
 
-4. Specify the **Max Scaling Group Size** i.e. the number that node can be scaled to in case of resource requirement. (Conditions will be set at container level scaling)
+   > **Note**: 1st node pool is always Master Pool and user can’t define a scaling on it.
+
+3. Specify the **Max Scaling Group Size** i.e. the number that node can be scaled to in case of resource requirement and click **Update**. (Conditions will be set at container level scaling)
+
+   Similarly, you can set scaling for other node pools as well. 
 
    ![2](imgs/2.jpg)
