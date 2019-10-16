@@ -2,7 +2,7 @@
 
 This section will explain the process of Mesh creation and all the relevant configurations for different types of services.
 
-Now let's move to the step by step process of how to configure a solution. 
+Now let's move to the step by step process of how to configure a Mesh. 
 
 1. Enter **Solution Name**.
 

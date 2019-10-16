@@ -33,11 +33,10 @@ To configure a **Network**
 8. Click the **+** icon on the **Security Group_1** button to add Traffic Rules. (You can add multiple rules as well)
 
    1. Select the **Rule Type** as per requirement i.e. **Inbound** or **Outbound**.
-   2. Specify the rule **Protocol** i.e. TCP, UDP etc. 
-   3. Specify **Source**. e.g. 0.0.0.0/0. 
-      The Source can be an IPv4 addresses or range of IPv4 addresses in CIDR notation.
-   4. Specify the **Ports** that will be exposed to traffic. 
-   5. Select the rule **Type** from dropdown e.g. Custom TCP, Custom UDP etc.
+   2. Specify the **IP Protocol** i.e. TCP, UDP etc.
+   3. Specify the **Source** and **Destination** **Ports**.
+   4. Specify the **Port Range** that will be exposed to traffic.
+   5. Add **IP Ranges** in CIDR notation.
 
    ![4](imgs\4.jpg)
 
@@ -73,14 +72,14 @@ To configure a **Network**
 
       ![8](imgs\8.jpg)
 
-   8. Click the **+** icon on the **SG-1** button to add Traffic Rules. (You can add multiple rules as well)
+   8. Click the **+** icon on the Security Group name button to add Traffic Rules. (You can add multiple rules as well)
 
       1. Select the **Rule Type** as per requirement i.e. **Inbound** or **Outbound**.
-      2. Specify the rule **Protocol** i.e. TCP, UDP etc. 
-      3. Specify **Source**. e.g. 0.0.0.0/0. 
-         The Source can be an IPv4 addresses or range of IPv4 addresses in CIDR notation.
-      4. Specify the **Ports** that will be exposed to traffic. 
-      5. Select the rule **Type** from dropdown e.g. Custom TCP, Custom UDP etc.
+      2. Enter the rule **Name** and set the **Priority** of rule. (Priority should be greater than 100)
+      3. Enter **Access** and any **Description** related to rule.
+      4. Specify the **IP Protocol** i.e. TCP, UDP etc.
+      5. Specify the **Source** and **Destination Ports Range**.
+      6. Add **IP Ranges** in CIDR notation.
 
       ![9](imgs\9.jpg)
 

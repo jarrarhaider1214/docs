@@ -81,12 +81,32 @@ Now let’s move to step by step process on how to setup Node scaling.
 
    ![1](imgs/1.jpg)
 
-2. Select the Node Pool **Name** from drop-down for scaling. 
+2. Select the Token from drop-down.
+
+   > **Note:** Token is required to create a connection with Kubernetes. 
+   >
+   > **Note:** Process to create a Token is explained at the end of this guide. 
+
+3. Select the Node Pool **Name** from drop-down for scaling. 
 
    > **Note**: 1st node pool is always Master Pool and user can’t define a scaling on it.
 
-3. Specify the **Max Scaling Group Size** i.e. the number that node can be scaled to in case of resource requirement and click **Update**. (Conditions will be set at container level scaling)
+4. Specify the **Max Scaling Group Size** i.e. the number that node can be scaled to in case of resource requirement and click **Update**. (Conditions will be set at container level scaling)
 
-   Similarly, you can set scaling for other node pools as well. 
+   Similarly, you can set scaling for other node pools as well by selecting the pool from drop-down and clicking update.
 
    ![2](imgs/2.jpg)
+
+# Token
+
+Token is necessary to create a connection with Kubernetes. It provides necessary access to create new nodes as part of scaling. 
+
+To generate a token.
+
+1. Click the username at top right to get the drop-down and go to **Profile** menu. 
+
+   ![6](imgs\6.jpg)
+
+2. Go to the **Token** menu and click **Add Token** button. A Token will now be generated and appear in the drop-down while configuring scaling. 
+
+   ![7](imgs\7.jpg)
