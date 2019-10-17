@@ -21,8 +21,8 @@
 - Tutorials
   - [Overview](pages/user-guide/tutorials/tutorials)
   - [Project](pages/user-guide/tutorials/project/project)
-    - [Use Predefined Templates](pages/user-guide/tutorials/project/use-predefined-templates/lab-1)
-    - [Create Templates](pages/user-guide/tutorials/project/create-templates/lab-2)
+    - [Create Templates](pages/user-guide/tutorials/project/create-templates/lab-1)
+    - [Use Predefined Templates](pages/user-guide/tutorials/project/use-predefined-templates/lab-2)
     - [Dynamic Variables](pages/user-guide/tutorials/project/dynamic-variables/lab-3)
     - [Serverless Functions](pages/user-guide/tutorials/project/serverless-functions/lab-4)
     - [Managed Services](pages/user-guide/tutorials/project/managed-services/lab-5)

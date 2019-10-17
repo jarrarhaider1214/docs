@@ -1,6 +1,6 @@
 # Cluster
 
-A cluster is a group of machines instances or nodes on which the services can be deployed. Using Mega Mesh, cluster can be formed on AWS (Amazon Web Services) and Microsoft Azure. 
+A cluster is a group of machines instances or nodes on which the services can be deployed. Using Mega Mesh, cluster can be formed on AWS (Amazon Web Services), Microsoft Azure and GCP (Google Cloud Platform). 
 
 Details of the configurations that can be done at Cluster level are explained below and also highlighted in the image.
 
