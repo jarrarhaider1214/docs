@@ -22,6 +22,8 @@ To configure Logs Archiving:
 
 3. Provide or upload **GCP Service Account JSON File** to access storage and specify the **GCP Bucket Name** in which the logs will be stored. 
 
+   > **Note:** Bucket should already be created and available on GCP. 
+
 4. **Log Limit** decides when and how much logs will be archived in the bucket. 
 
    > **Log Limit Days** specify the days after which the logs will start archiving in to the bucket. 7 days in picture below specify that at any given time only 7 days logs will be available in the project. All the logs of 8th day an above will automatically be removed from the project after getting archived in the bucket.

@@ -65,13 +65,9 @@ If any pod gets into pending state due to insufficient capacity in the cluster o
 
 **Configuration** 
 
-User can define the MIN and MAX number of nodes.
-
 Whenever a new node gets launched by autoscaling, CP will fetch its details and show it in Project. It will also clean up the details of terminated node from the Project UI.
 
-Node scaling can only be defined on Project level
-
-User can’t define scaling on Master pool.
+Node scaling can only be defined for Node Pools but can't be defined for Master Pool (First Node Pool). Other than the first Master pool scaling can be defined for all the node pools. 
 
 Now let’s move to step by step process on how to setup Node scaling.
 
@@ -83,7 +79,7 @@ Now let’s move to step by step process on how to setup Node scaling.
 
 2. Select the Token from drop-down.
 
-   > **Note:** Token is required to create a connection with Kubernetes. 
+   > **Note:** Token is required to create a connection with CP. 
    >
    > **Note:** Process to create a Token is explained at the end of this guide. 
 
