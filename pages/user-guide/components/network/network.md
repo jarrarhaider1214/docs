@@ -8,7 +8,7 @@ Details of the configurations that can be done at Network level are explained be
 
 1. **Network Name**: Name of the network.
 2. **Templates**: To get the list of existing network templates stored in platform
-3. **Virtual Network Cloud**: VPC to be used for the project. You can use any existing VPC created on cloud or create a new one. 
+3. **Virtual Private Cloud**: VPC to be used for the project. You can use any existing VPC created on cloud or create a new one. 
 4. **VPC Name**: Name of the VPC.
 5. **CIDR**: IPv4 address in the form of a CIDR block.
 6. **Subnets**: Tab to configure subnet settings.

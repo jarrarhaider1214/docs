@@ -4,7 +4,7 @@ CloudPlex Ultramesh (Service Mesh Enablement Platform) helps developers easily b
 
 Ultramesh is not just restricted to microservices. In order to meet the requirements of real-life applications developers can easily extend their mesh to seamlessly include serverless functions, legacy applications, cloud provider managed services, and third-party APIs, with microservices.
 
-CloudPlex is also a comprehensive Cloud Management and orchestration platform, which an Enterprise can use to conveniently migrate its applications and services to any public cloud including AWS, and Azure. It also supports private as well as hybrid clouds. Using CloudPlex, you can effectively manage complex cloud environments to meet your business needs.
+CloudPlex is also a comprehensive Cloud Management and orchestration platform, which an Enterprise can use to conveniently migrate its applications and services to any public cloud including AWS, Azure and GCP. It also supports private as well as hybrid clouds. Using CloudPlex, you can effectively manage complex cloud environments to meet your business needs.
 
 Ultramesh provides an easy to use, intuitive, drag and drop studio to design and configure the mesh. Complex tasks like traffic management, designing of circuit breakers and injection of faults for chaos testing can be performed visually. You can create a mesh, fully integrated with CI/CD pipeline, from scratch in a matter of minutes without installing or configuring complex technologies like Istio, KNative, Prometheus, Grafana etc. Just design your mesh through Software as a Service (SaaS) and let CloudPlex take care of configuration of cloud native tools. 
 

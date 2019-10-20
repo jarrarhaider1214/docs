@@ -85,3 +85,50 @@ To configure a **Cluster**
     11. Click the **Templates** button on top and click **Save as Template** to save the configurations.
 
         ![8](imgs\8.jpg)
+
+## GCP
+
+Lets move to the step by step process of how to create an GCP cluster.
+
+To configure a **Cluster**.
+
+1. Enter **Cluster Name** and click **Add Node Pools** button. 
+
+   > **Note:** You can add more than one Node Pool as well. 
+
+2. Enter **Node Pool Name**.
+
+3. Select **Machine Type** from the dropdown and specify **Node Count**.
+
+   > **Note**: Node count for first node pool will always be **1** as it will be used for master node.  
+
+   ![9](imgs\9.jpg)
+
+4. Select **Subnet** from dropdown. (You can select only 1 subnet)
+
+5. Enter **Username**.
+
+6. Select **Credential Type** from dropdown i.e. **Key**.
+   This will be used for node.
+
+7. Select **Key Type** from drop-down i.e. **New** or **Existing**.
+
+   - For **New**, **Enter Key Name**  and generate or for **Existing** select existing **SSH Key** from drop-down.
+
+   ![10](imgs\10.jpg)
+
+8. Select the **Image Family**, **Image Project**, and **Service Account Email** from drop-down (based on profile selected in Basic Info tab of project).
+
+   > **Note:** Make sure service account has Compute Admin and Service Account User Role of GCP.
+
+9. Delete the **Tags** if any. (Tags can be added while configuring the GCP Network)
+
+10. For **Root Volume** of node, select **Disk Type** from drop-down and specify **Disk Size**.
+
+11. (Optional) Use to toggle button to use **Docker Data Volume** and specify the **Disk Type**, and **Disk Size**.
+
+    ![11](imgs\11.jpg)
+
+12. Click the **Templates** button on top and click **Save as Template** to save the configurations.
+
+    ![12](imgs\12.jpg)
