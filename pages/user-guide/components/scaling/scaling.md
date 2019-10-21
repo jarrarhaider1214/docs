@@ -79,7 +79,7 @@ Now let’s move to step by step process on how to setup Node scaling.
 
 2. Select the Token from drop-down.
 
-   > **Note:** Token is required to create a connection with CP. 
+   > **Note:** Token is necessary for the access level required to provision the nodes.
    >
    > **Note:** Process to create a Token is explained at the end of this guide. 
 
@@ -87,7 +87,7 @@ Now let’s move to step by step process on how to setup Node scaling.
 
    > **Note**: 1st node pool is always Master Pool and user can’t define a scaling on it.
 
-4. Specify the **Max Scaling Group Size** i.e. the number that node can be scaled to in case of resource requirement and click **Update**. (Conditions will be set at container level scaling)
+4. Specify the **Max Scaling Group Size** i.e. the number that pool can be scaled to in case of resource requirement and click **Update**. (Conditions will be set at container level scaling)
 
    Similarly, you can set scaling for other node pools as well by selecting the pool from drop-down and clicking update.
 
