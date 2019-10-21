@@ -1,8 +1,8 @@
 # Legacy Application
 
-MegaMesh provide supports for the legacy applications as well. You can make legacy applications part of the solution mesh. Multiple legacy applications can be part of mesh as per the application requirements. 
+Ultramesh provide supports for legacy applications as well. You can add a legacy-style application to any existing deployed solution.
 
-Once IP and running process port is provided, on saving system will automatically generate a service entry and attach with legacy service.  On successful deployment of Mesh, system will generate bash scripts and provide downloadable certificates for the legacy nodes. 
+To get started with a legacy application, you'll need your service's IP address and port. Provide those in the Legacy Application field, and on saving system will automatically generate a service entry and attach with legacy service.  On successful deployment of Mesh, the system will generate bash scripts and provide downloadable certificates for the legacy nodes. 
 
 Each bash script will have complete mesh expansion setup process and will need to be run on the nodes by the user.
 

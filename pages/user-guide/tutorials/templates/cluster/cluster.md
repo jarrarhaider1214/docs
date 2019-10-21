@@ -8,30 +8,30 @@ Lets move to the step by step process of how to create an AWS cluster.
 
 To configure a **Cluster**
 
-1. Enter **Cluster Name** and click **Add Node Pools** button. 
+1. Enter **Cluster Name** and click **Add Node Pools** button.
 
-   > **Note:** You can add more than one Node Pool as well. 
+   > **Note:** You can add more than one Node Pool as well.  
 
-   ![1](imgs\1.jpg)
+2. Enter **Node Pool** name.
 
-2. Enter **Node Pool Name**.
-
-3. Specify **Node Count** and **Machine Type** from the dropdown.
+3. Select **Machine Type** from the dropdown and specify **Node Count**.
 
    > **Note**: Node count for first node pool will always be **1** as it will be used for master node.  
 
-4. Select **Subnet** and **Security Groups** from dropdown. (You can select upto 5 subnets)
+4. Select **Subnet** from dropdown to associate with node pool. (You can select upto 5 subnets)
+
+   ![1](imgs\1.jpg)
 
 5. Select **Key Type** from dropdown i.e. **New** or **Existing**.
    Whether you want to create a new Key or use any existing one.
 
 6. Specify the **AMI ID** and **AMI Username**. (you can get these from cloud admin portal)
 
-   ![2](imgs\2.jpg)
-
 7. For **Root Volume** of node, select **Volume Type** from drop-down.
 
 8. Specify the **Volume Size** and **IOPS** for volume. 
+
+   ![2](imgs\2.jpg)
 
 9. (Optional) Use to toggle button to use **Docker Data Volume** and select the **Volume Type**, **Volume Size** and **IOPS**.
 
@@ -53,13 +53,13 @@ To configure a **Cluster**
 
        > **Note:** You can add more than one Node Pool as well. 
 
-       ![5](imgs\5.jpg)
-
     2. Enter **Node Pool Name**.
 
-    3. Specify **Node Count** and **Machine Type** from the dropdown.
+    3. Select **Machine Type** from the dropdown and specify **Node Count**.
 
        > **Note**: Node count for first node pool will always be **1** as it will be used for master node.  
+
+       ![5](imgs\5.jpg)
 
     4. Select **Subnet** and **Security Groups** from dropdown. (You can select only 1 subnet)
 
@@ -85,3 +85,50 @@ To configure a **Cluster**
     11. Click the **Templates** button on top and click **Save as Template** to save the configurations.
 
         ![8](imgs\8.jpg)
+
+## GCP
+
+Lets move to the step by step process of how to create an GCP cluster.
+
+To configure a **Cluster**.
+
+1. Enter **Cluster Name** and click **Add Node Pools** button. 
+
+   > **Note:** You can add more than one Node Pool as well. 
+
+2. Enter **Node Pool Name**.
+
+3. Select **Machine Type** from the dropdown and specify **Node Count**.
+
+   > **Note**: Node count for first node pool will always be **1** as it will be used for master node.  
+
+   ![9](imgs\9.jpg)
+
+4. Select **Subnet** from dropdown. (You can select only 1 subnet)
+
+5. Enter **Username**.
+
+6. Select **Credential Type** from dropdown i.e. **Key**.
+   This will be used for node.
+
+7. Select **Key Type** from drop-down i.e. **New** or **Existing**.
+
+   - For **New**, **Enter Key Name**  and generate or for **Existing** select existing **SSH Key** from drop-down.
+
+   ![10](imgs\10.jpg)
+
+8. Select the **Image Family**, **Image Project**, and **Service Account Email** from drop-down (based on profile selected in Basic Info tab of project).
+
+   > **Note:** Make sure service account has Compute Admin and Service Account User Role of GCP.
+
+9. Delete the **Tags** if any. (Tags can be added while configuring the GCP Network)
+
+10. For **Root Volume** of node, select **Disk Type** from drop-down and specify **Disk Size**.
+
+11. (Optional) Use to toggle button to use **Docker Data Volume** and specify the **Disk Type**, and **Disk Size**.
+
+    ![11](imgs\11.jpg)
+
+12. Click the **Templates** button on top and click **Save as Template** to save the configurations.
+
+    ![12](imgs\12.jpg)

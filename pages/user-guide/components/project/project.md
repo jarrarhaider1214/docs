@@ -12,7 +12,7 @@ Details of the configurations that can be done at Project level (Basic Info) are
 4. **Project Name**: Name of the Project.
 5. **Project ID**: Unique ID of the project.
 6. **Description**: Any description related to the project.
-7. **Kubernetes Type: N/A**
+7. **Kubernetes Cluster:** Whether you want to create a new one or use any existing.
 
 ![2](imgs\2.jpg)
 
