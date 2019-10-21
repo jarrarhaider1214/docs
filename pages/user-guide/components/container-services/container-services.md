@@ -4,7 +4,7 @@ UltreMesh provides full support for container services. 4 types of container ser
 
 ## Container
 
-Standard unit of software that packages all its dependencies and code so that application runs reliably from one computing environment to another. Docker container is a lightweight and standalone executable package that contains all the things needed to run an applications i.e. code, system tools, libraries, runtime etc. Container images become containers on runtime and in case of docker containers, images becomes containers when they run on Docker engine. 
+A container is a standard unit of software that packages all its dependencies and code so that your application runs reliably from one computing environment to another. Docker is a lightweight and standalone executable package that contains all the things needed to run a containerized applications i.e. code, system tools, libraries, runtime etc. Container images become containers on runtime and in case of docker containers, images becomes containers when they run on Docker engine. 
 
 Details of the configurations that can be done for Kubernetes Containers are explained below and also highlighted in the image. 
 
