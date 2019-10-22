@@ -350,6 +350,27 @@ li.nav-item.resourses_menu.active ul.sub-menu li a:after {
 li.nav-item a:hover {
 	text-decoration: none;
 }
+.btn-yellow-pricing {
+	background: -webkit-gradient(linear, left top, left bottom, from(#FFCC59), to(#F8BF3E));
+	background: linear-gradient(top, #FFCC59 0%, #F8BF3E 100%);
+	background: linear-gradient(180deg, #FFCC59 0%, #F8BF3E 100%);
+	border: none;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+	border-radius: 40px;
+	cursor:pointer;
+	font-weight: 800;
+	font-size: 15px;
+	line-height: 21px;
+	text-align: center;
+	text-transform: capitalize;
+	color: #272E37;
+	padding: 10px 70px;
+}
+.btn-yellow-pricing a{
+	cursor:pointer;
+
+}
 @media screen and (max-width: 1500px) {
 	.footer-block-3 {
 		padding: 40px 16px 25px 0px !important;
@@ -380,6 +401,9 @@ li.nav-item a:hover {
 
 	.app-nav.no-badge {
 	    padding: 5px 5% 0px 0px !important;
+	}
+	.btn-yellow-pricing {
+		padding: 10px 60px;
 	}
 }
 @media screen and (max-width: 992px) {
