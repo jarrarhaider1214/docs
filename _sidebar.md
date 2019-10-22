@@ -1,8 +1,8 @@
+- Getting Started
+  - [Getting Started](/pages/user-guide/getting-started/getting-started)
 - Cloudplex
-
   - [What is Cloudplex Ultramesh?](pages/user-guide/overview/what-is-cloudplex-ultramesh/what-is-cloudplex-ultramesh)
   - [Cloudplex Features](pages/user-guide/overview/cloudplex-features/cloudplex-features)
-
 - Components
 
   - [Overview](pages/user-guide/components/components)
@@ -17,7 +17,6 @@
   - [Project](pages/user-guide/components/project/project)
   - [Scaling](pages/user-guide/components/scaling/scaling)
   - [Serverless](pages/user-guide/components/serverless/serverless)
-
 - Tutorials
   - [Overview](pages/user-guide/tutorials/tutorials)
   - [Project](pages/user-guide/tutorials/project/project)

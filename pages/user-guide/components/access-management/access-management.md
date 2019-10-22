@@ -17,15 +17,23 @@ Ultramesh RBAC consists of **Roles**, **Teams**, and **Users**
 
 **Users:** On Ultramesh, access is provided to the users based on the Teams they are part of. Users can be assigned Teams depending upon their responsibilities. Users that have been given any kind of access and are part of a team will appear here. 
 
-> **Note:** Access Management menu will only be available to the Team Lead user of the platform. 
+> **Note:** First time user signing up using a company domain will have **Super User** access of platform.  
+
+> **Note:** Access Management menu will only be available to the Super User of the platform. 
 
 > **Note:** RBAC will also be integrated with Active Directory (AD). Users can be assigned relevant roles and fetched from AD.
 
 Now, let's move to the step by step guide on how to use Access Management. We'll show you how to create a simple team with some users and roles.
 
+## New Company User
+
+As mentioned above, User who will be signing up for the first time using a company domain will have Super User access. Go to the **Access Management** menu from top bar to check the Role.
+
+![0a](imgs\0a.jpg)
+
 ## Users
 
-First setup would be to add the team players and make the platform accessible to them.
+First step would be to add the team players and make the platform accessible to them.
 
 1. Go to the **Access Management** menu from top bar, click **Users** and **Add Team Member**.
    ![1](imgs\1.jpg)
@@ -38,11 +46,13 @@ First setup would be to add the team players and make the platform accessible to
 
    ![3](imgs\3.jpg)
 
+   > **Note:** All the subsequent New Users will be assigned **Default** role. But you can also change the role assigned, process of which is explained below. 
+   >
+   > **Note:** Default user role will only have View access. For access of other modules, Super User will need to add the default user in relevant teams and assign the roles.
+
 ## Roles
 
 Next step is to create roles that will be later assigned to team members. Platform provides some prebuilt roles for Team Leads and Team Players but you can also create custom roles as well. 
-
-First time user registering from the company domain will be assigned Super User role. All the other users from that domain will be assigned default role but you can change the role assigned to the user.
 
 To create a new Role:
 

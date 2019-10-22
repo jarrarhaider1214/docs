@@ -8,7 +8,7 @@ CloudPlex is also a comprehensive Cloud Management and orchestration platform, w
 
 Ultramesh provides an easy to use, intuitive, drag and drop studio to design and configure the mesh. Complex tasks like traffic management, designing of circuit breakers and injection of faults for chaos testing can be performed visually. You can create a mesh, fully integrated with CI/CD pipeline, from scratch in a matter of minutes without installing or configuring complex technologies like Istio, KNative, Prometheus, Grafana etc. Just design your mesh through Software as a Service (SaaS) and let CloudPlex take care of configuration of cloud native tools. 
 
-CloudPlex also provides Dynamic configurations for the mesh as well. Instead of hardcoding the configuration parameters, user can configure the mesh visually using dynamic parameters. 	Dynamic Configuration generates service parameters, such as pod IP, endpoints, credentials and runtime parameters of services, which are resolved at run-time through dynamic binding.
+CloudPlex also provides Dynamic configurations for the mesh as well. Instead of hardcoding the configuration parameters, user can configure the mesh visually using dynamic parameters. Dynamic Configuration generates service parameters, such as pod IP, endpoints, credentials and runtime parameters of services, which are resolved at run-time through dynamic binding.
 
 CloudPlex also offers numerous other features like Application Provisioning and Orchestration, Security & Identity Management, Automation, Team and Role Based Access Control, Policy Based Security, Financial Controls, Multi Tenancy, Support for Slack Based Team Collaboration, Multicluster Federation, Support for Hybrid Cloud and many more.  
 

@@ -1,10 +1,26 @@
 # Getting Started
 
-1. Login to Mega Mesh and click the green **+** icon to start the project creation wizard. 
+Welcome to CloudPlex! 
+
+Purpose of this getting started guide is take user through the end to end process of signing up and deployment. We are excited to have you try our platform. Once you are done with this guide, feel free to share your feedback at info@cloudplex.io. For detailed guide on what CloudPlex has to offer click [here](/overview).
+
+Now, lets move to the process of signing up and deployment
+
+1. Go to [dev.cloudplex.cf/register](https://dev.cloudplex.cf/register) and sign up for a new account. 
+
+   ![0a](imgs\0a.jpg)
+
+2. After email verification, you will be able to login to platform.
+
+   > **Note:** First time user signing up using a company domain will have **Super User** access of platform.  For more details on how super user can invite team members, check our guide on Access Management by clicking [here](/pages/user-guide/components/access-management/access-management).
+
+   ![0b](imgs\0b.jpg)
+
+3. Once logged in, click the green **+** icon to start the project creation wizard. 
 
    ![1](imgs/1.jpg)
 
-2. Configure the **Basic Info** tab.
+4. Configure the **Basic Info** tab.
 
    - Enter **Project Name** and **Project ID**.
 
@@ -16,13 +32,13 @@
 
    - Enter the AWS credentials manually. You can also save this profile for future use. Credentials will be stored in vault i.e. Credentials Profile menu.
 
-     > **Note**: To know more about Credentials Profile menu, click here.
+     > **Note**: To know more about Credentials Profile menu, click [here](/pages/user-guide/components/credentials-profile/credentials-profile).
 
    ![2](imgs/2.jpg)
 
-3. Click **Next** at the top right of screen.
+5. Click **Next** at the top right of screen.
 
-4. Configure **Networks**.
+6. Configure **Networks**.
 
    - Enter **Network Name**.
 
@@ -53,9 +69,9 @@
 
    ![6](imgs/6.jpg)
 
-5. Click **Next** at the top right of screen.
+7. Click **Next** at the top right of screen.
 
-6. Configure **Clusters**.
+8. Configure **Clusters**.
 
    - Enter **Cluster Name** and click **Add Node Pools** button. 
 
@@ -82,11 +98,11 @@
 
    ![9](imgs/9.jpg)
 
-7. Click **Next** at the top right of screen.
+9. Click **Next** at the top right of screen.
 
    1. Configure **Mesh**.
 
-      > **Note**: As part of this guide, we will only configure the minimum settings necessary to deploy the container. For detailed configurations, please check our detailed guide by clicking here.
+      > **Note**: As part of this guide, we will only configure the minimum settings necessary to deploy the container. For detailed configurations, please check our detailed guide by clicking [here](/pages/user-guide/components/container-services/container-services).
 
    - Drag and drop the **Container** in the package canvas from left column.
 
@@ -117,24 +133,24 @@
 
      - Click **Save.**
 
-8. Click **Save** (green floppy icon at the top right) to save the project.
+10. Click **Save** (green floppy icon at the top right) to save the project.
 
    ![16](imgs/16.jpg)
 
-9. Click the Project, you just created. 
+11. Click the Project, you just created. 
 
-   ![17](imgs/17.jpg)
+    ![17](imgs/17.jpg)
 
-10. Click **Start** to deploy the project
+12. Click **Start** to deploy the project
 
     ![18](imgs\18.jpg)
 
-11. Once a project is deployed, go to the **Logs** tab to check the logs. 
+13. Once a project is deployed, go to the **Logs** tab to check the logs. 
 
     ![19](imgs\19.jpg)
 
-12. To check in-depth flow of traffic, go to the **Monitoring** tab.
+14. To check in-depth flow of traffic, go to the **Monitoring** tab.
 
     ![20](imgs\20.jpg)
 
-13. 
+15. 
