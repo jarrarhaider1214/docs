@@ -6,7 +6,7 @@ Purpose of this getting started guide is take user through the end to end proces
 
 Now, lets move to the process of signing up and deployment
 
-1. Go to [dev.cloudplex.cf/register](https://dev.cloudplex.cf/register) and sign up for a new account. 
+1. Go to [app.cloudplex.io/register](https://app.cloudplex.io/register) and sign up for a new account. 
 
    ![0a](imgs\0a.jpg)
 
