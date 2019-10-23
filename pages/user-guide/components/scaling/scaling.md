@@ -1,10 +1,10 @@
 # Scaling
 
-As MegaMesh is a cloud management platform, it provides all the necessary cloud solutions and features to its users. In the IT world it is difficult to predict the growth of applications, storage capacity with time. To maintain consistent performance of different workloads over time, it is necessary that IT managers keep the resource requirement in check. Keeping this use case in mind, CloudPlex have provided the feature of Scaling to their users. Now in order to keep up with the workload, you can easily scale up/down your resources as per requirements.
+As Ultramesh is a cloud management platform, it provides all the necessary cloud solutions and features to its users. In the IT world it is difficult to predict the growth of applications, storage capacity with time. To maintain consistent performance of different workloads over time, it is necessary that IT managers keep the resource requirement in check. Keeping this use case in mind, CloudPlex have provided the feature of Scaling to their users. Now in order to keep up with the workload, you can easily scale up/down your resources as per requirements.
 
-MegaMesh provides a comprehensive auto-scaling solution. It has the ability to scale infrastructure dynamically by continuously monitoring the applications, keeping track of resource consumption and adjusting the capacity of resources for high performance. 
+Ultramesh provides a comprehensive auto-scaling solution. It has the ability to scale infrastructure dynamically by continuously monitoring the applications, keeping track of resource consumption and adjusting the capacity of resources for high performance. 
 
-MegaMesh provides an interactive and easy to navigate UI to define scaling policy. 
+Ultramesh provides an interactive and easy to navigate UI to define scaling policy. 
 
 There are two types of scaling supported in platform:
 
@@ -61,7 +61,7 @@ Now let’s move to step by step process on how to setup Container scaling.
 
 ## Node Scaling
 
-If any pod gets into pending state due to insufficient capacity in the cluster or if the nodes in the clusters are underutilized due to low number of running containers, In these cases, MegaMesh will automatically scale up (launch a new node) and scale down (terminate the idle node) respectively on Cloud provider selected by the user in the Project.
+If any pod gets into pending state due to insufficient capacity in the cluster or if the nodes in the clusters are underutilized due to low number of running containers, In these cases, Ultramesh will automatically scale up (launch a new node) and scale down (terminate the idle node) respectively on Cloud provider selected by the user in the Project.
 
 **Configuration** 
 

@@ -1,6 +1,6 @@
 # Deployment of Serverless Solution
 
-1. Login to Mega Mesh and click the green **+** icon to start the project creation wizard. 
+1. Login to Ultramesh and click the green **+** icon to start the project creation wizard. 
 
    ![1](imgs/1.jpg)
 

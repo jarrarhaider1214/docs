@@ -4,7 +4,7 @@ Serverless framework helps developers build serverless applications with less co
 
 Serverless applications can be developed and tested on different cloud providers like AWS, Azure and GCP. These applications can then also be secured and monitored. 
 
-MegaMesh has made to it easy deploy serverless applications. Not only deployment, MegaMesh also takes care of the creation process of serverless applications. These serverless applications can also be a part of ultra mesh that can contain services of different types like containers, managed services etc. By making all these different service types a part of single project on MegaMesh, we are making it easier for the user to develop and deploy complex applications using easy to use drag-n-drop interface of platform.
+Ultramesh has made to it easy deploy serverless applications. Not only deployment, Ultramesh also takes care of the creation process of serverless applications. These serverless applications can also be a part of ultra mesh that can contain services of different types like containers, managed services etc. By making all these different service types a part of single project on Ultramesh, we are making it easier for the user to develop and deploy complex applications using easy to use drag-n-drop interface of platform.
 
 Details of the configurations that can be done for Serverless are explained below and also highlighted in the image.
 

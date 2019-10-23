@@ -1,6 +1,6 @@
 # Cluster
 
-This section will explain the process of cluster creation and all the relevant configurations for AWS and Azure. 
+This section will explain the process of cluster creation and all the relevant configurations for AWS, Azure and GCP. 
 
 ## AWS
 

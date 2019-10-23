@@ -12,8 +12,6 @@ CloudPlex also provides Dynamic configurations for the mesh as well. Instead of 
 
 CloudPlex also offers numerous other features like Application Provisioning and Orchestration, Security & Identity Management, Automation, Team and Role Based Access Control, Policy Based Security, Financial Controls, Multi Tenancy, Support for Slack Based Team Collaboration, Multicluster Federation, Support for Hybrid Cloud and many more.  
 
-[Assessment & Evaluation](/pages/user-guide/overview/cloudplex-features/cloudplex-features?id=assessment-amp-evaluation)
-
 [CI/CD Integration](/pages/user-guide/overview/cloudplex-features/cloudplex-features?id=cicd-integration)
 
 [Dynamic Variables](/pages/user-guide/overview/cloudplex-features/cloudplex-features?id=dynamic-variables)
@@ -31,5 +29,3 @@ CloudPlex also offers numerous other features like Application Provisioning and 
 [Service Mesh](/pages/user-guide/overview/cloudplex-features/cloudplex-features?id=service-mesh)
 
 [Tool Integration](/pages/user-guide/overview/cloudplex-features/cloudplex-features?id=tools-integration)
-
-[Unified User Interface](/pages/user-guide/overview/cloudplex-features/cloudplex-features?id=unified-user-interface)

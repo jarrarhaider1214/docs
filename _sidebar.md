@@ -1,5 +1,3 @@
-- Getting Started
-  - [Getting Started](/pages/user-guide/getting-started/getting-started)
 - Cloudplex
   - [What is Cloudplex Ultramesh?](pages/user-guide/overview/what-is-cloudplex-ultramesh/what-is-cloudplex-ultramesh)
   - [Cloudplex Features](pages/user-guide/overview/cloudplex-features/cloudplex-features)
@@ -8,7 +6,7 @@
   - [Overview](pages/user-guide/components/components)
   - [Access Management](pages/user-guide/components/access-management/access-management)
   - [Cluster](pages/user-guide/components/cluster/cluster)
-  - [Container Services](pages/user-guide/components/container-services/container-services)
+  - [K8s Resources](pages/user-guide/components/k8s-resources/k8s-resources)
   - [Credentials Profile](pages/user-guide/components/credentials-profile/credentials-profile)
   - [Dashboard](pages/user-guide/components/dashboard/dashboard)
   - [Legacy Applications](pages/user-guide/components/legacy-applications/legacy-applications)

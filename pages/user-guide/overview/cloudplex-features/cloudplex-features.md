@@ -2,10 +2,6 @@
 
 CloudPlex Ultramesh is full of advanced features, some of the major ones are listed below.
 
-### Assessment & Evaluation
-
-Users can also run tests on the new services or the new version of services before taking those services live into production. This can even be done without affecting the existing users. Using this feature, you can check the health and telemetry of services before going live. 
-
 ### CI/CD Integration
 
 Ultramesh also provides easy integration with all the major CI/CD tools. You can integrate that without even disrupting your existing development, testing and deployment processes. 
@@ -68,11 +64,3 @@ Platform Mesh Designer provides:
 ### Tools Integration
 
 Ultramesh has integrated multiple cloud native tools with the platform. Instead of manually downloading and configuring each tool separately, user can setup up the whole thing in Ultramesh in one go and get everything up and running in under **30 minutes**. Some of the major cloud native tools integrated with Ultramesh are - Docker, Kubernetes, Istio, Knative, Grafana, Prometheus, Kiali.
-
-### Unified User Interface
-
-Ultramesh is basically a deployment platform using which you can manage, develop and deploy cloud native applications. It usually takes weeks or even months to understand and use different cloud native tools. 
-
-Using Ultramesh Unified UI, you can not only manage and configure different cloud native technologies like Istio, Knative etc at one place but also develop and deploy applications as well. Mega Mesh also provides interactive visual drag and drop experience to make things easy for the users. Also instead of learning all the complex cloud native tools user can just setup an account on Ultramesh and leave the rest to us. 
-
-Keeping in mind automation and future support as well, Ultramesh also provides API support as well for all the features available in platform.
