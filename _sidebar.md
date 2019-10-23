@@ -1,9 +1,8 @@
+- Getting Started
+  - [Getting Started](/pages/user-guide/getting-started/getting-started)
 - Cloudplex
-
-  - [Overview](pages/user-guide/overview/product-overview.md)
   - [What is Cloudplex Ultramesh?](pages/user-guide/overview/what-is-cloudplex-ultramesh/what-is-cloudplex-ultramesh)
   - [Cloudplex Features](pages/user-guide/overview/cloudplex-features/cloudplex-features)
-
 - Components
 
   - [Overview](pages/user-guide/components/components)
@@ -18,7 +17,6 @@
   - [Project](pages/user-guide/components/project/project)
   - [Scaling](pages/user-guide/components/scaling/scaling)
   - [Serverless](pages/user-guide/components/serverless/serverless)
-
 - Tutorials
   - [Overview](pages/user-guide/tutorials/tutorials)
   - [Project](pages/user-guide/tutorials/project/project)
@@ -37,4 +35,3 @@
     - [Container Logging](pages/user-guide/tutorials/telemetry/container-logging/container-logging)
   - [Continuous Delivery](pages/user-guide/tutorials/continuous-delivery/continuous-delivery)
     - [Deploy Canary Release](pages/user-guide/tutorials/continuous-delivery/deploy-canary-release/deploy-canary-release)
-    - [Deploy Blue/Green Release](pages/user-guide/examples/cd/network/network)

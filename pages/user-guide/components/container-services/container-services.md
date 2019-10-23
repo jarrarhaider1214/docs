@@ -1,6 +1,6 @@
-# Container Services
+# K8s Resources
 
-UltreMesh provides full support for container services. 4 types of container services that Ultramesh supports are Container, Kubernetes Secret, Config Maps and Docker Hub. These can be configured in platform and can be a part of solution mesh. 
+UltreMesh provides full support for Kubernetes resources. 4 types of Kubernetes resources that Ultramesh supports are Container, Kubernetes Secret, Config Maps and Docker Hub. These can be configured in platform and can be a part of solution mesh. 
 
 ## Container
 
@@ -247,8 +247,8 @@ Details of the configurations that can be done for Kubernetes Secret are explain
 4. **Version:** Version of the service.
 5. **Namespace**: Namespace for the service. 
 6. **Type**: Type of secret i.e. Opaque or TLS.
-7. **AddString Secrets**: To add string secrets. You can add more than one string secrets. 
-8. **AddBase64 Secrets**: To add Base64 secrets. You can add more than one base64 secrets.
+7. **Add String Secrets**: To add string secrets. You can add more than one string secrets. 
+8. **Add Base64 Secrets**: To add Base64 secrets. You can add more than one base64 secrets.
 9. **Upload**: To upload a file for Value. 
 
 ## Config Maps
