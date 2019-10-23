@@ -95,7 +95,9 @@ Now let’s move to step by step process on how to setup Node scaling.
 
 # Token
 
-Token is necessary to create a connection with Kubernetes. It provides necessary access to create new nodes as part of scaling. 
+This section allows you to generate a token with no expiry to provide necessary access control for long running process i.e AutoScaling.
+In Autoscaling this allows Kubernertes cluster to communicate with the Ultramesh.
+Using this token Ultramesh authenticates and registers newly provisioned node into already deployed Kubernetes cluster.
 
 To generate a token.
 

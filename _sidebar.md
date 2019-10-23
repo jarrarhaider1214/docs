@@ -33,4 +33,3 @@
     - [Container Logging](pages/user-guide/tutorials/telemetry/container-logging/container-logging)
   - [Continuous Delivery](pages/user-guide/tutorials/continuous-delivery/continuous-delivery)
     - [Deploy Canary Release](pages/user-guide/tutorials/continuous-delivery/deploy-canary-release/deploy-canary-release)
-    - [Deploy Blue/Green Release](pages/user-guide/examples/cd/network/network)
