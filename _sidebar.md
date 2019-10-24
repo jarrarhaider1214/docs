@@ -1,3 +1,5 @@
+- Getting Started
+  - [Getting Started](/pages/user-guide/getting-started/getting-started)
 - Cloudplex
   - [What is Cloudplex Ultramesh?](pages/user-guide/overview/what-is-cloudplex-ultramesh/what-is-cloudplex-ultramesh)
   - [Cloudplex Features](pages/user-guide/overview/cloudplex-features/cloudplex-features)
