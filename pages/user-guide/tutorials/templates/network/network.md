@@ -1,6 +1,6 @@
 # Network
 
-This section will explain the process of Network creation and all the relevant configurations for AWS and Azure. 
+This section will explain the process of Network creation and all the relevant configurations for AWS, Azure and GCP. 
 
 ## AWS
 
@@ -75,7 +75,7 @@ To configure a **Network**
    8. Click the **+** icon on the Security Group name button to add Traffic Rules. (You can add multiple rules as well)
 
       1. Select the **Rule Type** as per requirement i.e. **Inbound** or **Outbound**.
-      2. Enter the rule **Name** and set the **Priority** of rule. (Priority should be greater than 100)
+      2. Enter the rule **Name** and set the **Priority** of rule. (Priority should be greater than or equal to 100)
       3. Enter **Access** and any **Description** related to rule.
       4. Specify the **IP Protocol** i.e. TCP, UDP etc.
       5. Specify the **Source** and **Destination Ports Range**.

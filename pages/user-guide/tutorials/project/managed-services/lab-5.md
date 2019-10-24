@@ -1,6 +1,6 @@
 # Managed Services Consumption
 
-1. Login to Mega Mesh and click the **green +** icon to start the project creation wizard. 
+1. Login to Ultramesh and click the **green +** icon to start the project creation wizard. 
    ![1](imgs\1.jpg)
 
 2. Configure the **Basic Info** tab.
@@ -45,7 +45,7 @@
 
 6. Configure **Mesh**.
 
-   - Go to Cloud **Managed Services** drop-down to get the list of services currently supported in MegaMesh.
+   - Go to Cloud **Managed Services** drop-down to get the list of services currently supported in Ultramesh.
 
    ![9](imgs\9.jpg)
 

@@ -1,6 +1,6 @@
 # K8s Resources
 
-UltreMesh provides full support for Kubernetes resources. 4 types of Kubernetes resources that Ultramesh supports are Container, Kubernetes Secret, Config Maps and Docker Hub. These can be configured in platform and can be a part of solution mesh. 
+UltreMesh provides full support for Kubernetes resources. 5 types of K8s resources that Ultramesh supports are Container, Kubernetes Secret, Config Maps, Docker Hub and node. These can be configured in platform and can be a part of solution mesh. 
 
 ## Container
 
@@ -12,7 +12,7 @@ Details of the configurations that can be done for Kubernetes Containers are exp
 
 ![1](imgs\1.jpg)
 
-1. **K8s Resource**: Drop-down to add container services. 
+1. **K8s Resource**: Drop-down to add K8s resources. 
 
 2. **Container Icon**: Click the icon to configure container. 
 
@@ -241,7 +241,7 @@ Details of the configurations that can be done for Kubernetes Secret are explain
 
 ![23](imgs\23.jpg)
 
-1. **K8s Resource**: Drop-down to add container services. 
+1. **K8s Resource**: Drop-down to add K8s resources. 
 2. **Secret Icon**: Click the icon to configure Secret. 
 3. **Name**: Name for the service.
 4. **Version:** Version of the service.
@@ -259,7 +259,7 @@ Details of the configurations that can be done for Config Maps are explained bel
 
 ![24](imgs\24.jpg)
 
-1. **K8s Resource**: Drop-down to add container services. 
+1. **K8s Resource**: Drop-down to add K8s resources. 
 
 2. **Configmaps Icon**: Click the icon to configure config maps. 
 
@@ -279,3 +279,15 @@ Details of the configurations that can be done for Config Maps are explained bel
 
 World’s largest repository of container images with an array of content sources including community developers, open source projects and independent software vendors building and distributing their code in containers. Users can get access to free public repositories for storing and sharing images or can choose subscription plan for private repos.
 
+## Node
+
+Details of the configurations that can be done for Kubernetes Containers are explained below and also highlighted in the image. 
+
+![25](imgs\25.jpg)
+
+1. **K8s Resource**: Drop-down to add K8s resources. 
+2. **Node Icon**: Click the icon to configure node service. 
+3. **Name**: Name for the service.
+4. **Version:** Version of the service.
+5. **Node Pool**: Select the Node Pool from drop-down. You can select multiple node pools as well
+6. **Add Labels:** To add Key Value pair as label.
