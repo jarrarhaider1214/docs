@@ -1,5 +1,7 @@
 - Getting Started
   - [Getting Started](/pages/user-guide/getting-started/getting-started)
+- CloudPlex Training Labs
+  - [CloudPlex Training Labs](/pages/user-guide/labs/labs)
 - Cloudplex
   - [What is Cloudplex Ultramesh?](pages/user-guide/overview/what-is-cloudplex-ultramesh/what-is-cloudplex-ultramesh)
   - [Cloudplex Features](pages/user-guide/overview/cloudplex-features/cloudplex-features)
