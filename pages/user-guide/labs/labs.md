@@ -98,7 +98,7 @@ Purpose of these labs is to take user through the end to end process of deployme
 
     ![15](imgs/15.jpg)
 
-## Lab 2 (GCP) (BookinInfo From Scratch)
+## Lab 2 (GCP) (BookingInfo From Scratch)
 
 1. Once logged in, click the green **+** icon to start the project creation wizard. 
 
