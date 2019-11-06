@@ -18,7 +18,9 @@ Purpose of these labs is to take user through the end to end process of deployme
 
    - Select the **Cloud Provider** and specify necessary account details for the account. (For this guide we have selected AWS)
 
-   - Select **Region** as per requirements.
+   - Select **Asia Pacific (Singapore)** as **Region**.
+
+     > **Note:** Region is selected as per AMI which will be selected while configuring the cluster.
 
    - Enter the AWS credentials manually. You can also save this profile for future use. Credentials will be stored in vault i.e. Credentials Profile menu.
 
@@ -46,17 +48,25 @@ Purpose of these labs is to take user through the end to end process of deployme
 
    - Select **Subnet** and **Security Groups** from drop-down.
 
+     > **Note**: You can use any subnet listed in drop-down
+
      ![6](imgs/6.jpg)
 
    - Select **New** from **Key Type** dropdown, enter **Key Name** and click **Generate**. A side menu will open, click **Save** and new SSH key will be generated. 
 
      ![7](imgs/7.jpg)
 
-   - Rest of the fields will be prepopulated. 
+   - Now, select 2nd node pool and select the **Subnet** and **Security Group** from drop-down.
+
+     ![7.1](imgs\7.1.jpg)
+
+   - Select **Existing** from **Key Type** drop-down and then select the key (which you generated while configuring the 1st node pool) from **Existing SSH Key** drop-down.
+
+     ![7.2](imgs\7.2.jpg)
 
 7. Click **Next** at the top right of screen.
 
-8. Click **Templates** button to get the list of existing/prebuilt app templates.
+8. Enter **App Name** and click **Templates** button to get the list of existing/prebuilt app templates.
 
    > Select **bookinfoapp** template
 
@@ -102,7 +112,9 @@ Purpose of these labs is to take user through the end to end process of deployme
 
    - Select the **Cloud Provider** and specify necessary account details for the account. (For this guide we have selected AWS)
 
-   - Select **Region** as per requirements.
+   - Select **Asia Pacific (Singapore)** as **Region**.
+
+     > **Note:** Region is selected as per AMI which will be selected while configuring the cluster.
 
    - Enter the AWS credentials manually. You can also save this profile for future use. Credentials will be stored in vault i.e. Credentials Profile menu.
 
@@ -130,17 +142,25 @@ Purpose of these labs is to take user through the end to end process of deployme
 
    - Select **Subnet** and **Security Groups** from drop-down.
 
+     > **Note**: You can use any subnet listed in drop-down
+
      ![6](imgs/6.jpg)
 
    - Select **New** from **Key Type** dropdown, enter **Key Name** and click **Generate**. A side menu will open, click **Save** and new SSH key will be generated. 
 
      ![7](imgs/7.jpg)
 
-   - Rest of the fields will be prepopulated. 
+   - Now, select 2nd node pool and select the **Subnet** and **Security Group** from drop-down.
+
+     ![7.1](imgs\7.1.jpg)
+
+   - Select **Existing** from **Key Type** drop-down and then select the key (which you generated while configuring the 1st node pool) from **Existing SSH Key** drop-down.
+
+     ![7.2](imgs\7.2.jpg)
 
 7. Click **Next** at the top right of screen.
 
-8. Click **Templates** button to get the list of existing/prebuilt app templates.
+8. Enter **App Name** and click **Templates** button to get the list of existing/prebuilt app templates.
 
    > Select **hipstershop-app-template** template
 
@@ -186,7 +206,9 @@ Purpose of these labs is to take user through the end to end process of deployme
 
    - Select the **Cloud Provider** and specify necessary account details for the account. (For this guide we have selected AWS)
 
-   - Select **Region** as per requirements.
+   - Select **Asia Pacific (Singapore)** as **Region**.
+
+     > **Note:** Region is selected as per AMI which will be selected while configuring the cluster.
 
    - Enter the AWS credentials manually. You can also save this profile for future use. Credentials will be stored in vault i.e. Credentials Profile menu.
 
@@ -214,17 +236,25 @@ Purpose of these labs is to take user through the end to end process of deployme
 
    - Select **Subnet** and **Security Groups** from drop-down.
 
+     > **Note**: You can use any subnet listed in drop-down
+
      ![6](imgs/6.jpg)
 
    - Select **New** from **Key Type** dropdown, enter **Key Name** and click **Generate**. A side menu will open, click **Save** and new SSH key will be generated. 
 
      ![7](imgs/7.jpg)
 
-   - Rest of the fields will be prepopulated. 
+   - Now, select 2nd node pool and select the **Subnet** and **Security Group** from drop-down.
+
+     ![7.1](imgs\7.1.jpg)
+
+   - Select **Existing** from **Key Type** drop-down and then select the key (which you generated while configuring the 1st node pool) from **Existing SSH Key** drop-down.
+
+     ![7.2](imgs\7.2.jpg)
 
 7. Click **Next** at the top right of screen.
 
-8. Click **Templates** button to get the list of existing/prebuilt app templates.
+8. Enter **App Name** and click **Templates** button to get the list of existing/prebuilt app templates.
 
    > Select **hipstershop-app-template** template
 
