@@ -135,7 +135,7 @@ Now, lets move to the process of signing up and deployment
 
 10. Click **Save** (green floppy icon at the top right) to save the project.
 
-   ![16](imgs/16.jpg)
+![16](imgs/16.jpg)
 
 11. Click the Project, you just created. 
 
@@ -153,4 +153,3 @@ Now, lets move to the process of signing up and deployment
 
     ![20](imgs\20.jpg)
 
-15. 

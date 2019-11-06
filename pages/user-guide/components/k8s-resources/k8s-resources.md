@@ -281,6 +281,8 @@ World’s largest repository of container images with an array of content source
 
 ## Node
 
+Using node service, you can apply multiple labels on nodes poles. These labels, applied on node poles, will then later be used as node selector while configuring the container service.
+
 Details of the configurations that can be done for Kubernetes Containers are explained below and also highlighted in the image. 
 
 ![25](imgs\25.jpg)
