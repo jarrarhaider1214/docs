@@ -105,6 +105,9 @@ article#main ul {
 	font-weight: 500 !important;
 	padding-bottom: 0px !important;
 }
+ol li p {
+    margin: 0px !important;
+}
 .footer-block-3 {
 	background: linear-gradient(180.07deg, #424d5b -56.89%, #272e37 96.02%);
 	box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15);
@@ -373,6 +376,12 @@ li.nav-item a:hover {
 .btn-yellow-pricing a{
 	cursor:pointer;
 
+}
+.markdown-section h1{
+padding: 0px 15px;
+/* margin-top: 0!important; */
+width: 800px !important;
+margin: 0px auto;
 }
 @media screen and (max-width: 1500px) {
 	.footer-block-3 {

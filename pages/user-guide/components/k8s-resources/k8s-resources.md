@@ -13,15 +13,10 @@ Details of the configurations that can be done for Kubernetes Containers are exp
 ![1](imgs\1.jpg)
 
 1. **K8s Resource**: Drop-down to add K8s resources. 
-
 2. **Container Icon**: Click the icon to configure container. 
-
 3. **Name**: Name for the service.
-
 4. **Version:** Version of the service.
-
-5. **Namespace**: Namespace for the service. 
-
+5. **Namespace**: Namespace for the service.  
 6. **Type**: Type of Pod or Controller i.e. Deployment, StatefulSet, DaemonSet, CronJob, Job.
 
    > **Deployment:** A Deployment controller provides declarative updates for Pods and ReplicaSets. It changes the actual state to the desired state at a controlled rate. You can define Deployments to create new ReplicaSets, or to remove existing Deployments and adopt all their resources with new Deployments.
@@ -260,15 +255,10 @@ Details of the configurations that can be done for Config Maps are explained bel
 ![24](imgs\24.jpg)
 
 1. **K8s Resource**: Drop-down to add K8s resources. 
-
 2. **Configmaps Icon**: Click the icon to configure config maps. 
-
 3. **Name**: Name for the service.
-
 4. **Version:** Version of the service.
-
 5. **Namespace**: Namespace for the service.
-
 6. **Add DataS**: Directory, file, or literal value to draw the data from.
 
    > **Key**: File name or the key you provided on the command line.
