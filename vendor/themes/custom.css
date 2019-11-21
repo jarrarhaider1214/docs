@@ -4,7 +4,7 @@
 	margin: 0px auto;
 	background: linear-gradient(354.51deg, #505b69 -84.92%, #424d5b 3.15%, #272e37 85.31%);
 	width: 100% !important;
-	padding: 5px 31.7% 0px 0px !important;
+	padding: 5px 28.7% 0px 0px !important;
 	color: #fff;
 }
 img.logo_img {
@@ -106,7 +106,7 @@ article#main ul {
 	padding-bottom: 0px !important;
 }
 ol li p {
-    margin: 0px !important;
+	margin: 0px !important;
 }
 .footer-block-3 {
 	background: linear-gradient(180.07deg, #424d5b -56.89%, #272e37 96.02%);
@@ -208,16 +208,21 @@ ol li p {
 .footer-bottom {
 	margin-top: 10px !important;
 }
-
-.navbar-toggler {
-	background-color: #cacaca !important;
+.navbar-light .navbar-toggler {
+	color: rgba(0, 0, 0, 0);
+	border-color: transparent !important;
+}
+.navbar-light .navbar-toggler-icon {
+	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,204,89)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") !important;
 }
 .navbar-toggler-icon {
-	width: 1.5em !important;
+	width: 1.9em !important;
 	font-size: 14px !important;
 	height: 2.5em !important;
 }
-
+.navbar-toggler {
+	padding: -1px !important;
+}
 .resourses_menu {
 	cursor: pointer;
 }
@@ -284,10 +289,10 @@ ul.sub-menu li {
 	overflow-y: unset !important;
 }
 ul.sub-menu li a {
-    text-transform: capitalize;
-    font-weight: normal;
-    font-size: 13px;
-    line-height: 16px;
+	text-transform: capitalize;
+	font-weight: normal;
+	font-size: 13px;
+	line-height: 16px;
 }
 li.resourses_menu {
 	padding: 19px 0px;
@@ -357,32 +362,32 @@ li.nav-item a:hover {
 	text-decoration: none;
 }
 .btn-yellow-pricing {
-	background: -webkit-gradient(linear, left top, left bottom, from(#FFCC59), to(#F8BF3E));
-	background: linear-gradient(top, #FFCC59 0%, #F8BF3E 100%);
-	background: linear-gradient(180deg, #FFCC59 0%, #F8BF3E 100%);
+	background: -webkit-gradient(linear, left top, left bottom, from(#ffcc59), to(#f8bf3e));
+	background: linear-gradient(top, #ffcc59 0%, #f8bf3e 100%);
+	background: linear-gradient(180deg, #ffcc59 0%, #f8bf3e 100%);
 	border: none;
 	-webkit-box-sizing: border-box;
-	        box-sizing: border-box;
+	box-sizing: border-box;
 	border-radius: 40px;
-	cursor:pointer;
+	cursor: pointer;
 	font-weight: 800;
 	font-size: 15px;
 	line-height: 21px;
 	text-align: center;
 	text-transform: capitalize;
-	color: #272E37;
+	color: #272e37;
 	padding: 10px 70px;
 }
-.btn-yellow-pricing a{
-	cursor:pointer;
+.btn-yellow-pricing a {
+	cursor: pointer;
+}
+.markdown-section h1 {
+	padding: 0px 15px;
+	/* margin-top: 0!important; */
+	width: 800px !important;
+	margin: 0px auto;
+}
 
-}
-.markdown-section h1{
-padding: 0px 15px;
-/* margin-top: 0!important; */
-width: 800px !important;
-margin: 0px auto;
-}
 @media screen and (max-width: 1500px) {
 	.footer-block-3 {
 		padding: 40px 16px 25px 0px !important;
@@ -400,19 +405,17 @@ margin: 0px auto;
 	}
 }
 @media screen and (max-width: 1400px) {
-
 	.footer-block-3 h4 {
 		font-size: 14px;
 		line-height: 20px;
 	}
 	.app-nav.no-badge {
-	    padding: 5px 21.7% 0px 0px !important;
+		padding: 5px 21.7% 0px 0px !important;
 	}
 }
 @media screen and (max-width: 1200px) {
-
 	.app-nav.no-badge {
-	    padding: 5px 5% 0px 0px !important;
+		padding: 5px 5% 0px 0px !important;
 	}
 	.btn-yellow-pricing {
 		padding: 10px 60px;
@@ -423,7 +426,10 @@ margin: 0px auto;
       width: 25%;
   } */
 	.navbar-light .navbar-brand {
-		width: auto;
+		text-align: left;
+	}
+	.navbar-light .navbar-brand img {
+		width: 91% !important;
 	}
 	.col-3 {
 		margin-bottom: 23px;
@@ -453,11 +459,11 @@ margin: 0px auto;
 		border-radius: 5px 5px 0px 0px;
 	}
 	.footer-block-3-right {
-        border-radius: 0px 0px 5px 5px;
-        padding: 0px 0px 4px 0px;
+		border-radius: 0px 0px 5px 5px;
+		padding: 0px 0px 4px 0px;
 	}
-	.footer-block-3-icons img{
-	    margin: 4px;	
+	.footer-block-3-icons img {
+		margin: 4px;
 	}
 }
 @media screen and (max-width: 769px) {
@@ -505,17 +511,20 @@ margin: 0px auto;
 		font-size: 13px !important;
 	}
 	li.nav-item.resourses_menu.active ul.sub-menu li {
-		width: 28%;
+		width: 100%;
 		margin: 10px auto;
 	}
 	.app-nav li {
-		text-align: center;
+		text-align: left;
 		display: block;
 		padding: 5px 15px;
 	}
 	.app-nav li,
 	.app-nav ul {
 		display: block;
+	}
+	ul.sub-menu li a {
+		margin-left: 20px !important;
 	}
 	.app-nav li ul {
 		right: 0px !important;
@@ -557,7 +566,6 @@ margin: 0px auto;
 	.footer-block-3 h4 {
 		font-size: 12px;
 	}
-	
 }
 @media screen and (max-width: 400px) {
 	.footer-block-3 li a,
