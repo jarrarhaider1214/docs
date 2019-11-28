@@ -17,9 +17,9 @@ Slack integration allows user to receive notification of important events from t
 
 5. Scroll down to the **Scopes** section, click **Add an OAuth Scope** button and add following permissions.
 
-   - **channels:read** (fetch the list of public channels)
-   - **groups:read** (fetch the list of private channels)
-   - **chat:write:bot** (send notification to channels)
+   - **channels : read** (fetch the list of public channels)
+   - **groups : read** (fetch the list of private channels)
+   - **chat : write : bot** (send notification to channels)
 
    ![3](imgs\3.jpg)
 
