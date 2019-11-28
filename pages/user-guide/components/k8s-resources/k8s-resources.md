@@ -192,7 +192,7 @@ Details of the configurations that can be done for Kubernetes Containers are exp
 1. **Security Context:** A security context defines privilege and access control settings for a Pod or Container.
 2. **Capabilities Add:** With Linux capabilities, you can grant certain privileges to a process without granting all the privileges of the root user. To add Linux capabilities for a Container, select the capabilities from the drop-down
 3. **Capabilities Drop:** To drop Linux capabilities for a Container, select the capabilities from the drop-down.
-4. **Run As Group:** Run As User field specifies the user ID that all processes will run with for any Containers in the Pod. 
+4. **Run As User:** Run As User field specifies the user ID that all processes will run with for any Containers in the Pod. 
 5. **Run As Group:** Run As Group field specifies the primary group ID for all processes within any containers of the Pod. If this field is omitted, the primary group ID of the containers will be root(0).
 6. **Proc Mount:** Allowed ProcMount types e.g. Unmasked. 
 
@@ -269,7 +269,7 @@ Details of the configurations that can be done for Config Maps are explained bel
 
 5. **Namespace**: Namespace for the service.
 
-6. **Add DataS**: Directory, file, or literal value to draw the data from.
+6. **Add Data**: Directory, file, or literal value to draw the data from.
 
    > **Key**: File name or the key you provided on the command line.
    >
