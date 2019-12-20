@@ -1,5 +1,5 @@
 .app-nav.no-badge {
-	position: absolute;
+	position: fixed;
 	top: 0px;
 	margin: 0px auto;
 	background: linear-gradient(354.51deg, #505b69 -84.92%, #424d5b 3.15%, #272e37 85.31%);
@@ -11,10 +11,10 @@ img.logo_img {
 	float: left;
 }
 .sidebarMarginTop_0 {
-	margin-top: 0px;
+	margin-top: 80px;
 }
 .sidebarMarginTop {
-	margin-top: 85px;
+	margin-top: 80px;
 }
 .content {
 	padding-top: 119px;
@@ -31,6 +31,24 @@ img.logo_img {
 	line-height: 16px;
 	text-transform: uppercase;
 	color: #ffffff;
+}
+.menu_get_started_btn{
+	background: linear-gradient(180deg,#FFCC59 0%,#F8BF3E 100%);
+	-webkit-border-radius: 60px;
+	border-radius: 60px;
+	border: none;
+	color: #eeeeee;
+	cursor: pointer;
+	display: inline-block;
+	padding: 8px 36px 11px 34px !important;
+	text-align: center;
+	text-decoration: none;
+}
+.menu_get_started_btn a{
+	color: #272E37;
+    font-weight: 700 !important;
+    text-transform: inherit;
+	color: #272e37 !important;
 }
 
 .close {
@@ -372,10 +390,10 @@ li.nav-item a:hover {
 	text-align: center;
 	text-transform: capitalize;
 	color: #272e37;
-	padding: 10px 40px;
+	padding: 13px 37px;
 }
-.btn-yellow-pricing a {
-	cursor: pointer;
+a.btn-yellow-pricing:hover {
+    text-decoration: none;
 }
 .markdown-section h1 {
 	padding: 0px 15px;
@@ -415,7 +433,7 @@ li.nav-item a:hover {
 		line-height: 20px;
 	}
 	.app-nav.no-badge {
-		padding: 5px 21.7% 0px 0px !important;
+		padding: 5px 18.7% 0px 0px !important;
 	}
 }
 @media screen and (max-width: 1200px) {
