@@ -33,22 +33,20 @@ img.logo_img {
 	color: #ffffff;
 }
 .menu_get_started_btn{
-	background: linear-gradient(180deg,#FFCC59 0%,#F8BF3E 100%);
-	-webkit-border-radius: 60px;
-	border-radius: 60px;
-	border: none;
-	color: #eeeeee;
-	cursor: pointer;
-	display: inline-block;
 	padding: 8px 36px 11px 34px !important;
-	text-align: center;
-	text-decoration: none;
+	border: 2px solid #FFCC59;
+    -webkit-border-radius: 60px;
+    border-radius: 60px;
+    color: #eeeeee;
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
 }
 .menu_get_started_btn a{
-	color: #272E37;
     font-weight: 700 !important;
     text-transform: inherit;
-	color: #272e37 !important;
+    color: #FFCC59 !important;
 }
 
 .close {
@@ -271,7 +269,7 @@ ul.sub-menu li {
 	border: 2px solid #7e8ea4;
 	background-color: #212933;
 	position: absolute;
-	padding: 7px 7px;
+	padding: 7px 10px;
 }
 .resourses_menu ul:before,
 .resourses_menu ul:after {
