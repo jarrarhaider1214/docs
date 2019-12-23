@@ -612,7 +612,8 @@ a.btn-yellow-pricing:hover {
 @media screen and (max-width: 400px) {
 	.footer-block-3 li a,
 	.footer-block-3 li {
-		font-size: 10px;
+		font-size: 9px;
+		line-height: 15px !important;
 	}
 	.padding_right {
 		padding-right: 0px !important;
