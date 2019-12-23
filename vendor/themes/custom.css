@@ -448,6 +448,9 @@ a.btn-yellow-pricing:hover {
 	.footer-block-3-icons img {
 		width: 28px;
 	}
+	.app-nav li{
+		margin: 0 10px;
+	}
 }
 @media screen and (max-width: 992px) {
 	/* .col-3 {
@@ -551,6 +554,12 @@ a.btn-yellow-pricing:hover {
 		text-align: left;
 		display: block;
 		padding: 5px 15px;
+	}
+	.app-nav ul {
+		margin-bottom: 15px;
+	}
+	.menu_get_started_btn{
+		width: fit-content;
 	}
 	.app-nav li,
 	.app-nav ul {
