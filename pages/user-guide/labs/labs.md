@@ -409,16 +409,16 @@ Purpose of these labs is to take user through the end to end process of deployme
 
 10. Click the Project, you just created. 
 
-    ![31](F:/CloudPlex/user-documentation/pages/user-guide/labs/imgs/31.jpg)
+    ![31](imgs/31.jpg)
 
 11. Click **Start** to deploy the project
 
-    ![32](F:/CloudPlex/user-documentation/pages/user-guide/labs/imgs/32.jpg)
+    ![32](imgs/32.jpg)
 
 12. Once a project is deployed, go to the **Logs** tab to check the logs. 
 
-    ![33](F:/CloudPlex/user-documentation/pages/user-guide/labs/imgs/33.jpg)
+    ![33](imgs/33.jpg)
 
 13. Don't forget to terminate the project to avoid incurring extra cloud charges. 
 
-    ![34](F:/CloudPlex/user-documentation/pages/user-guide/labs/imgs/34.jpg)
+    ![34](imgs/34.jpg)
