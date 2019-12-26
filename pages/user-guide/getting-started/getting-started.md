@@ -143,19 +143,19 @@ CloudPlex offers 4 types of project creation wizard based on the requirements an
      - Scroll down and specify **Image Name** and **Tag**.
      - Go to **Environment Variables** menu and add Variable. It is necessary to add at least one variable which in our case is **MYSQL_ROOT_PASSWORD**.
 
-     ![2.2](F:/CloudPlex/user-documentation/pages/user-guide/getting-started/imgs/2.2.jpg)
-     ![2.3](F:/CloudPlex/user-documentation/pages/user-guide/getting-started/imgs/2.3.jpg)
+     ![2.2](imgs/2.2.jpg)
+     ![2.3](imgs/2.3.jpg)
 
      - Go to the **Ports**, click **Add Port** button and specify the port for Traffic i.e. **8080**
 
-     ![2.4](F:/CloudPlex/user-documentation/pages/user-guide/getting-started/imgs/2.4.jpg)
-     ![2.5](F:/CloudPlex/user-documentation/pages/user-guide/getting-started/imgs/2.5.jpg)
+     ![2.4](imgs/2.4.jpg)
+     ![2.5](imgs/2.5.jpg)
 
      - Click **Save.**
 
 10. Click **Save** (green floppy icon at the top right) to save the project.
 
-   ![2.6](F:/CloudPlex/user-documentation/pages/user-guide/getting-started/imgs/2.6.jpg)
+   ![2.6](imgs/2.6.jpg)
 
 11. Click the Project, you just created. 
 
