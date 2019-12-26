@@ -409,6 +409,9 @@ a.btn-yellow-pricing:hover {
 .tooltip img {
     padding-right: 4px;
 }
+.markdown-section .anchor {
+	margin-top: 88px;
+}
 @media screen and (max-width: 1500px) {
 	.footer-block-3 {
 		padding: 40px 16px 25px 0px !important;
