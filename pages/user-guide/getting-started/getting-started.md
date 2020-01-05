@@ -155,7 +155,7 @@ CloudPlex offers 4 types of project creation wizard based on the requirements an
 
 10. Click **Save** (green floppy icon at the top right) to save the project.
 
-   ![2.6](imgs/2.6.jpg)
+![2.6](imgs/2.6.jpg)
 
 11. Click the Project, you just created. 
 
@@ -172,3 +172,84 @@ CloudPlex offers 4 types of project creation wizard based on the requirements an
 14. To check in-depth flow of traffic, go to the **Monitoring** tab.
 
     ![6](imgs/6.jpg)
+
+## Advanced
+
+1. **Select** Advanced from options. 
+
+2. Configure the **Basic Info** tab. (Platform has provided default values for most of the parameters)
+
+   - Select the **Cloud Provider** and specify necessary account details for the account. (For this guide we have selected AWS)
+
+   - Enter **Profile Name** and specify the AWS credentials (Access and Secret Key). You can also save this profile for future use. Credentials will be stored in vault i.e. Credentials Profile menu.
+
+     > **Note**: To know more about Credentials Profile menu, click [here](/pages/user-guide/components/credentials-profile/credentials-profile).
+
+   ![11](imgs/11.jpg)
+
+3. Click **Next** at the top right of screen.
+
+4. Customize Network configurations as per requirements.
+
+   > **Note:** Most of the fields are prepopulated with default values but you can also customize the configurations as per your requirements. 
+
+   - Specify VPC **CIDR**.
+   - Specify Subnet **CIDR**. (You can also add multiple subnets by clicking the **+** icon)
+
+   ![12](imgs\12.jpg)
+
+   - (Optional) Go to **Security Group** tab, to add Inbound or Outbound traffic rules. 
+
+   ![13](imgs\13.jpg)
+
+5. Click **Next** at the top right of screen.
+
+6. Configure **Cluster**.
+
+   - Most of the fields are preconfigured, but you can also customize them.
+   - Select **Key Type** from dropdown, i.e. **New** in this case, **Enter Key Name** and click **Generate**. A side menu will open, click **Save** and new SSH key will be generated. 
+
+   ![14](imgs/14.jpg)
+
+7. Click **Next** at the top right of screen.
+
+8. Configure **APP**.
+
+   > **Note**: As part of this guide, we will only configure the minimum settings necessary to deploy the container. For detailed configurations, please check our detailed guide by clicking [here](/pages/user-guide/components/container-services/container-services).
+
+   - Drag and drop the **Container** in the package canvas from left column.
+
+   - Click on **Container** icon to configure the settings. (Platform has provided default values for most of the parameters) 
+
+     - Scroll down and specify **Image Name** and **Tag**.
+     - Go to **Environment Variables** menu and add Variable. It is necessary to add at least one variable which in our case is **MYSQL_ROOT_PASSWORD**.
+
+     ![2.2](F:/CloudPlex/user-documentation/pages/user-guide/getting-started/imgs/2.2.jpg)
+     ![2.3](F:/CloudPlex/user-documentation/pages/user-guide/getting-started/imgs/2.3.jpg)
+
+     - Go to the **Ports**, click **Add Port** button and specify the port for Traffic i.e. **8080**
+
+     ![2.4](F:/CloudPlex/user-documentation/pages/user-guide/getting-started/imgs/2.4.jpg)
+     ![2.5](F:/CloudPlex/user-documentation/pages/user-guide/getting-started/imgs/2.5.jpg)
+
+     - Click **Save.**
+
+9. Click **Save** (green floppy icon at the top right) to save the project.
+
+![2.6](F:/CloudPlex/user-documentation/pages/user-guide/getting-started/imgs/2.6.jpg)
+
+11. Click the Project, you just created. 
+
+    ![3](F:/CloudPlex/user-documentation/pages/user-guide/getting-started/imgs/3.jpg)
+
+12. Click **Start** to deploy the project
+
+    ![4](F:/CloudPlex/user-documentation/pages/user-guide/getting-started/imgs/4.jpg)
+
+13. Once a project is deployed, go to the **Logs** tab to check the logs. 
+
+    ![5](F:/CloudPlex/user-documentation/pages/user-guide/getting-started/imgs/5.jpg)
+
+14. To check in-depth flow of traffic, go to the **Monitoring** tab.
+
+    ![6](imgs\6.jpg)
