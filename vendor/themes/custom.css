@@ -32,6 +32,7 @@ img.logo_img {
 	text-transform: uppercase;
 	color: #ffffff;
 }
+
 .menu_get_started_btn{
 	padding: 8px 36px 11px 34px !important;
 	border: 2px solid #FFCC59;
@@ -220,6 +221,7 @@ ol li p {
 .footer-bottom {
 	margin-top: 10px !important;
 }
+
 .navbar-light .navbar-toggler {
 	color: rgba(0, 0, 0, 0);
 	border-color: transparent !important;
@@ -262,6 +264,7 @@ ul.sub-menu li {
 .app-nav li:hover ul {
 	display: block !important;
 }
+
 .resourses_menu:hover ul {
 	display: grid;
 	box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.25);
@@ -304,6 +307,7 @@ ul.navbar-nav.ml-auto.mt-2.mt-lg-0 li a:hover {
 	right: -20px !important;
 	overflow-y: unset !important;
 }
+
 ul.sub-menu li a {
 	text-transform: capitalize;
 	font-weight: normal;
@@ -348,6 +352,7 @@ button.sidebar-toggle span {
 .navbar-collapse.collapse {
 	display: none !important;
 }
+
 li.nav-item.active a:after {
 	content: '';
 	display: block;
@@ -376,6 +381,9 @@ li.nav-item.resourses_menu.active ul.sub-menu li a:after {
 
 li.nav-item a:hover {
 	text-decoration: none;
+}
+li + li {
+    margin-top: 0;
 }
 .btn-yellow-pricing {
 	background: -webkit-gradient(linear, left top, left bottom, from(#ffcc59), to(#f8bf3e));
