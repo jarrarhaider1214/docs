@@ -505,6 +505,9 @@ a.btn-yellow-pricing:hover {
         font-size: 14px;
         line-height: 20px;
     }
+    .app-nav.no-badge {
+        padding: 5px 2% 9px 0px !important;
+    }
 }
 
 @media screen and (max-width: 1200px) {
@@ -523,6 +526,9 @@ a.btn-yellow-pricing:hover {
     }
     .app-nav li {
         margin: 0 6px;
+    }
+    .app-nav a {
+        font-size: 11px !important;
     }
 }
 
