@@ -3,7 +3,7 @@
 - CloudPlex Training Labs
   - [CloudPlex Training Labs](/pages/user-guide/labs/labs)
 - Cloudplex
-  - [What is Cloudplex Ultramesh?](pages/user-guide/overview/what-is-cloudplex-ultramesh/what-is-cloudplex-ultramesh)
+  - [What is Cloudplex?](pages/user-guide/overview/what-is-cloudplex/what-is-cloudplex)
   - [Cloudplex Features](pages/user-guide/overview/cloudplex-features/cloudplex-features)
 - Components
 
