@@ -1,6 +1,6 @@
 # Managed Services Consumption
 
-1. Login to Ultramesh and click the **green +** icon to start the project creation wizard. 
+1. Login to CloudPlex and click the **green +** icon to start the project creation wizard. 
    ![1](imgs\1.jpg)
 
 2. Configure the **Basic Info** tab.
@@ -43,9 +43,9 @@
 
    ![8](imgs\8.jpg)
 
-6. Configure **Mesh**.
+6. Configure **App**.
 
-   - Go to Cloud **Managed Services** drop-down to get the list of services currently supported in Ultramesh.
+   - Go to Cloud **Managed Services** drop-down to get the list of services currently supported in platform.
 
    ![9](imgs\9.jpg)
 
@@ -73,4 +73,4 @@
 
    - You can also add other parameters by clicking **Add Parameters** button.
 
-7. Click **Save** to save the service. You can now use these variables to configure other services in your mesh.
+7. Click **Save** to save the service. You can now use these variables to configure other services in your app.

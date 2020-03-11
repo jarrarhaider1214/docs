@@ -1,8 +1,8 @@
 # Components
 
-Before using Ultramesh, we advise you to go through this section to learn about different terminologies and to get the basic idea about the platform. While Ultramesh is easy to learn, there is some background knowledge you'll need to get started. 
+Before using CloudPlex, we advise you to go through this section to learn about different terminologies and to get the basic idea about the platform. While CloudPlex is easy to learn, there is some background knowledge you'll need to get started. 
 
-Ultramesh is basically a cloud management and orchestration platform from where you can effectively manage complex cloud environments. You can deploy and manage different kind of services, which include modern Docker based applications, serverless etc. In addition to this, the platform also provides other useful features like autoscaling, RBAC etc. 
+CloudPlex is basically a cloud management and orchestration platform from where you can effectively manage complex cloud environments. You can deploy and manage different kind of services, which include modern Docker based applications, serverless etc. In addition to this, the platform also provides other useful features like autoscaling, RBAC etc. 
 
 Now let’s move to the brief explanation of components.
 

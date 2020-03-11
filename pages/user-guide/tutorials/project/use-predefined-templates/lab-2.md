@@ -1,6 +1,6 @@
 # Deployment Using Saved Templates
 
-1. Login to Ultramesh and click the green **+** icon to start the project creation wizard. 
+1. Login to CloudPlex and click the green **+** icon to start the project creation wizard. 
 
    ![1](imgs/1.jpg)
 
@@ -44,7 +44,7 @@
 
    ![8](imgs/8.jpg)
 
-6. Configure **Mesh**.
+6. Configure **App**.
 
    - Click **Templates** button to get the list of saved templates.
 
@@ -76,6 +76,6 @@
 
     ![16](imgs/16.jpg)
 
-11. Once the solution is deployed, go to the **Monitoring** tab to see detailed graphs related to Mesh performance.
+11. Once the solution is deployed, go to the **Monitoring** tab to see detailed graphs related to app performance.
 
     ![17](imgs/17.jpg)

@@ -14,7 +14,7 @@ To cater above requirements, a multi stage canary pipeline can be configured whi
 
 To configure CI/CD or manual deployment pipeline:
 
-1. Go the **Mesh** tab while configuring a **Project** and add container.
+1. Go the **App** tab while configuring a **Project** and add container.
 
 2. Select container to configure it and go to the **CI/CD** menu. 
 
@@ -58,7 +58,7 @@ To configure CI/CD or manual deployment pipeline:
 
 To configure CI/CD or manual deployment pipeline:
 
-1. Go the **Mesh** tab while configuring a **Project** and add container.
+1. Go the **App** tab while configuring a **Project** and add container.
 
 2. Select container to configure it and go to the **CI/CD** menu. 
 

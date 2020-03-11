@@ -1,10 +1,10 @@
 # Container Logging
 
-Container Logging modules gives detailed logs for all the containers that are part of a mesh. Kibana is implemented for logs. 
+Container Logging modules gives detailed logs for all the containers that are part of an app. Kibana is implemented for logs. 
 
 User can also search for specific log using the search bar and can also retrieve logs using a snapshot. 
 
-Mostly multiple containers will be part of a mesh, so user can also get the logs of any specific container using All Systems drop-down. 
+Mostly multiple containers will be part of an app, so user can also get the logs of any specific container using All Systems drop-down. 
 
 ![1](imgs\1.jpg)
 
@@ -14,7 +14,7 @@ There is a feature of logs archiving in platform. Container logs usually end up 
 
 To configure Logs Archiving:
 
-1.  Click **Container Logging** button while configuring the **Mesh**. 
+1.  Click **Container Logging** button while configuring the **App**. 
 
    ![2](imgs\2.jpg)
 

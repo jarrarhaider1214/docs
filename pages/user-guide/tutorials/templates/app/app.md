@@ -1,16 +1,16 @@
-# Mesh
+# App
 
-This section will explain the process of Mesh creation and all the relevant configurations for different types of services.
+This section will explain the process of App creation and all the relevant configurations for different types of services.
 
-Now let's move to the step by step process of how to configure a Mesh. 
+Now let's move to the step by step process of how to configure an App. 
 
 1. Enter **Solution Name**.
 
    ![1](imgs\1.jpg)
 
-2. To use any existing template for this mesh click **Templates** button or configure the mesh from scratch by selecting services from left column. (We will be configuring a new one in this guide)
+2. To use any existing template for this App click **Templates** button or configure the App from scratch by selecting services from left column. (We will be configuring a new one in this guide)
 
-   > You can also upload a YAML file for solution mesh and its configurations.
+   > You can also upload a YAML file for solution app and its configurations.
 
 3. Drag and drop the services from left column on the canvas. You can add multiple services as per requirements. 
 

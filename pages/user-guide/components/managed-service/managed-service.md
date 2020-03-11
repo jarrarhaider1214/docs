@@ -2,7 +2,7 @@
 
 As enterprises are moving towards adopting the cloud at scale, it takes time and help to gain skills and experience necessary to manage different clouds like AWS, Azure and GCP end to end. To make it easy to manage cloud, cloud providers have created a managed services. Managed Services from different clouds reduces operational overheads by automating common activities like backup services, monitoring, change requests and provide a lot of other services to provision, run and support your infrastructure. Managed services also provides ongoing optimization of cost and day to day management of infrastructure to make sure everything is working in optimal conditions. By automating the process of system and infrastructure management using these services, businesses can work on value building for their user base rather than worrying about maintaining the whole system.
 
-Ultramesh provides support for multiple managed services from different cloud providers. In Ultramesh, you can make these managed services part of a solution mesh using dynamic parameters.  All the managed services that have been created on cloud platforms, can be consumed in Ultramesh using dynamic parameters. Values for parameters will be fetched on run time.
+CloudPlex provides support for multiple managed services from different cloud providers. In CloudPlex, you can make these managed services part of a solution application using dynamic parameters.  All the managed services that have been created on cloud platforms, can be consumed in CloudPlex using dynamic parameters. Values for parameters will be fetched on run time.
 
 Details of the configurations that can be done for Managed Services are explained below and also highlighted in the image.
 

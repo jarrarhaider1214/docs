@@ -1,10 +1,10 @@
 # Scaling
 
-As Ultramesh is a cloud management platform, it provides all the necessary cloud solutions and features to its users. In the IT world it is difficult to predict the growth of applications, storage capacity with time. To maintain consistent performance of different workloads over time, it is necessary that IT managers keep the resource requirement in check. Keeping this use case in mind, CloudPlex have provided the feature of Scaling to their users. Now in order to keep up with the workload, you can easily scale up/down your resources as per requirements.
+As CloudPlex is a cloud management platform, it provides all the necessary cloud solutions and features to its users. In the IT world it is difficult to predict the growth of applications, storage capacity with time. To maintain consistent performance of different workloads over time, it is necessary that IT managers keep the resource requirement in check. Keeping this use case in mind, CloudPlex have provided the feature of Scaling to their users. Now in order to keep up with the workload, you can easily scale up/down your resources as per requirements.
 
-Ultramesh provides a comprehensive auto-scaling solution. It has the ability to scale infrastructure dynamically by continuously monitoring the applications, keeping track of resource consumption and adjusting the capacity of resources for high performance. 
+CloudPlex provides a comprehensive auto-scaling solution. It has the ability to scale infrastructure dynamically by continuously monitoring the applications, keeping track of resource consumption and adjusting the capacity of resources for high performance. 
 
-Ultramesh provides an interactive and easy to navigate UI to define scaling policy. 
+CloudPlex provides an interactive and easy to navigate UI to define scaling policy. 
 
 There are two types of scaling supported in platform:
 
@@ -38,7 +38,7 @@ Now let’s move to step by step process on how to setup Container scaling.
 
 **Container Scaling**
 
-1. Go to the **Mesh** tab, configure **Container**, navigate to the **Scaling** menu and **Enable Scaling**.
+1. Go to the **App** tab, configure **Container**, navigate to the **Scaling** menu and **Enable Scaling**.
 
    ![3](imgs/3.jpg)
 
@@ -61,7 +61,7 @@ Now let’s move to step by step process on how to setup Container scaling.
 
 ## Node Scaling
 
-If any pod gets into pending state due to insufficient capacity in the cluster or if the nodes in the clusters are underutilized due to low number of running containers, In these cases, Ultramesh will automatically scale up (launch a new node) and scale down (terminate the idle node) respectively on Cloud provider selected by the user in the Project.
+If any pod gets into pending state due to insufficient capacity in the cluster or if the nodes in the clusters are underutilized due to low number of running containers, In these cases, CloudPlex will automatically scale up (launch a new node) and scale down (terminate the idle node) respectively on Cloud provider selected by the user in the Project.
 
 **Configuration** 
 
@@ -96,8 +96,10 @@ Now let’s move to step by step process on how to setup Node scaling.
 # Token
 
 This section allows you to generate a token with no expiry to provide necessary access control for long running process i.e AutoScaling.
-In Autoscaling this allows Kubernertes cluster to communicate with the Ultramesh.
-Using this token Ultramesh authenticates and registers newly provisioned node into already deployed Kubernetes cluster.
+
+In Autoscaling this allows Kubernertes cluster to communicate with the CloudPlex.
+
+Using this token, CloudPlex authenticates and registers newly provisioned node into already deployed Kubernetes cluster.
 
 To generate a token.
 

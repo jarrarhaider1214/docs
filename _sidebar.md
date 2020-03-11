@@ -31,7 +31,7 @@
   - [Templates](pages/user-guide/tutorials/templates/templates)
     - [Cluster](pages/user-guide/tutorials/templates/cluster/cluster)
     - [Network](pages/user-guide/tutorials/templates/network/network)
-    - [Mesh](pages/user-guide/tutorials/templates/mesh/mesh)
+    - [App](pages/user-guide/tutorials/templates/app/app)
   - [Telemetry](pages/user-guide/tutorials/telemetry/telemetry)
     - [Visualize & Trace Traffic](pages/user-guide/tutorials/telemetry/visualize-trace-traffic/visualize-trace-traffic)
     - [Monitoring](pages/user-guide/tutorials/telemetry/monitoring/monitoring)

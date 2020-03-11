@@ -1,6 +1,6 @@
 # Deployment of Serverless Solution
 
-1. Login to Ultramesh and click the green **+** icon to start the project creation wizard. 
+1. Login to CloudPlex and click the green **+** icon to start the project creation wizard. 
 
    ![1](imgs/1.jpg)
 
@@ -73,7 +73,7 @@
 
 7. Click **Next**.
 
-8. Configure **Mesh**.
+8. Configure **App**.
 
    - Drag and drop the **Serverless** in the package canvas from left column.
 

@@ -1,6 +1,6 @@
 # Slack Integration
 
-Slack integration allows user to receive notification of important events from the CloudPlex Ultramesh for a particular project. For smooth integration, you need to create a **New Slack App** with required permissions. Process of creating a slack app is explained below.
+Slack integration allows user to receive notification of important events from the CloudPlex for a particular project. For smooth integration, you need to create a **New Slack App** with required permissions. Process of creating a slack app is explained below.
 
 ## How to Creation a Slack Application
 
@@ -29,7 +29,7 @@ Slack integration allows user to receive notification of important events from t
 
 7. Once the app is deployed, copy the **OAuth Access Token** (will be generated in the same menu). 
 
-## How to Setup Integration in Ultramesh
+## How to Setup Integration in CloudPlex
 
 1. Go to the **Projects** menu from top bar and select the required project. 
 

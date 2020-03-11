@@ -1,6 +1,6 @@
 # K8s Resources
 
-UltreMesh provides full support for Kubernetes resources. 5 types of K8s resources that Ultramesh supports are Container, Kubernetes Secret, Config Maps, Docker Hub and node. These can be configured in platform and can be a part of solution mesh. 
+CloudPlex provides full support for Kubernetes resources. 5 types of K8s resources that platform supports are Container, Kubernetes Secret, Config Maps, Docker Hub and node. These can be configured in platform and can be a part of solution application. 
 
 ## Container
 
@@ -173,7 +173,7 @@ Details of the configurations that can be done for Kubernetes Containers are exp
 
 ![17](imgs\17.jpg)
 
-1. **Enable Ingress Traffic:** To enable ingress traffic for an Istio service mesh.
+1. **Enable Ingress Traffic:** To enable ingress traffic for an Istio service application.
 2. **Weight:** Weight of the service. 
 3. **AddURLs:** To add URLs. You can add more than one URL.
 4. **Timeout:** Timeout for http requests. 
