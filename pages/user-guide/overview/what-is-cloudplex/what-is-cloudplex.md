@@ -18,58 +18,99 @@ We created this platform to address all the pain points that you experience when
 
 CloudPlex offers numerous features like Application Provisioning and Orchestration, Security & Identity Management, Automation, Team and Role Based Access Control, Policy Based Security, Financial Controls, Multi Tenancy, Support for Slack Based Team Collaboration, Multicluster Federation, Support for Hybrid Cloud and many more as explained below.  
 
-[Manifest Management](/pages/user-guide/overview/cloudplex-features/cloudplex-features?id=manifest-management)
-
-[Volume Management](/pages/user-guide/overview/cloudplex-features/cloudplex-features?id=volume-management)
-
-[Istio Integration](/pages/user-guide/overview/cloudplex-features/cloudplex-features?id=istio-integration)
-
-[Knative Integration](/pages/user-guide/overview/cloudplex-features/cloudplex-features?id=knative-integration)
-
-[Container Integration](/pages/user-guide/overview/cloudplex-features/cloudplex-features?id=container-integration)
-
-[Hybrid Application](/pages/user-guide/overview/cloudplex-features/cloudplex-features?id=hybrid-application)
-
-[Deployment Pipelines](/pages/user-guide/overview/cloudplex-features/cloudplex-features?id=deployment-pipelines)
-
-[Network & Traffic Management](/pages/user-guide/overview/cloudplex-features/cloudplex-features?id=network-traffic-management)
-
-[Kubernetes RBAC](/pages/user-guide/overview/cloudplex-features/cloudplex-features?id=kubernetes-rbac)
-
-[Kubernetes Cluster Support](/pages/user-guide/overview/cloudplex-features/cloudplex-features?id=kubernetes-cluster-support)
+[Access Control](/pages/user-guide/overview/cloudplex-features/cloudplex-features?id=access-control)
 
 [Associate Pods to Nodes](/pages/user-guide/overview/cloudplex-features/cloudplex-features?id=associate-pods-to-nodes)
 
 [Autoscaling](/pages/user-guide/overview/cloudplex-features/cloudplex-features?id=autoscaling)
 
-[Health Dashboard](/pages/user-guide/overview/cloudplex-features/cloudplex-features?id=health-dashboard)
+[CI/CD Integration](/pages/user-guide/overview/cloudplex-features/cloudplex-features?id=cicd-integration)
 
-[Service Status Dashboard](/pages/user-guide/overview/cloudplex-features/cloudplex-features?id=service-status-dashboard)
-
-[Service Flow Diagram](/pages/user-guide/overview/cloudplex-features/cloudplex-features?id=service-flow-diagram)
-
-[Access Control](/pages/user-guide/overview/cloudplex-features/cloudplex-features?id=access-control)
+[Container Integration](/pages/user-guide/overview/cloudplex-features/cloudplex-features?id=container-integration)
 
 [Data Security](/pages/user-guide/overview/cloudplex-features/cloudplex-features?id=data-security)
 
-[Slack Automation](/pages/user-guide/overview/cloudplex-features/cloudplex-features?id=slack-automation)
-
-[CI/CD Integration](/pages/user-guide/overview/cloudplex-features/cloudplex-features?id=cicd-integration)
+[Deployment Pipelines](/pages/user-guide/overview/cloudplex-features/cloudplex-features?id=deployment-pipelines)
 
 [Dynamic Variables](/pages/user-guide/overview/cloudplex-features/cloudplex-features?id=dynamic-variables)
 
+[Health Dashboard](/pages/user-guide/overview/cloudplex-features/cloudplex-features?id=health-dashboard)
+
+[Hybrid Application](/pages/user-guide/overview/cloudplex-features/cloudplex-features?id=hybrid-application)
+
 [Integration with Legacy Applications](/pages/user-guide/overview/cloudplex-features/cloudplex-features?id=integration-with-legacy-applications)
+
+[Istio Integration](/pages/user-guide/overview/cloudplex-features/cloudplex-features?id=istio-integration)
+
+[Kubernetes Cluster Support](/pages/user-guide/overview/cloudplex-features/cloudplex-features?id=kubernetes-cluster-support)
+
+[Kubernetes Integration](/pages/user-guide/overview/cloudplex-features/cloudplex-features?id=kubernetes-integration)
+
+[Kubernetes Labs](/pages/user-guide/overview/cloudplex-features/cloudplex-features?id=kubernetes-labs)
+
+[Kubernetes RBAC](/pages/user-guide/overview/cloudplex-features/cloudplex-features?id=kubernetes-rbac)
+
+[Manifest Management](/pages/user-guide/overview/cloudplex-features/cloudplex-features?id=manifest-management)
 
 [Monitoring & Alerts](/pages/user-guide/overview/cloudplex-features/cloudplex-features?id=monitoring-amp-alerts)
 
 [Multiple Cloud Support](/pages/user-guide/overview/cloudplex-features/cloudplex-features?id=multiple-cloud-support)
 
-[Resuable Templates](/pages/user-guide/overview/cloudplex-features/cloudplex-features?id=reusable-templates)
+[Network & Traffic Management](/pages/user-guide/overview/cloudplex-features/cloudplex-features?id=network-amp-traffic-management)
 
-[Service Flow Diagram](/pages/user-guide/overview/cloudplex-features/cloudplex-features?id=service-flow-diagram)
+[Resuable Templates](/pages/user-guide/overview/cloudplex-features/cloudplex-features?id=reusable-templates)
 
 [Service Applications](/pages/user-guide/overview/cloudplex-features/cloudplex-features?id=service-application)
 
+[Service Flow Diagram](/pages/user-guide/overview/cloudplex-features/cloudplex-features?id=service-flow-diagram)
+
+[Service Status Dashboard](/pages/user-guide/overview/cloudplex-features/cloudplex-features?id=service-status-dashboard)
+
+[Slack Automation](/pages/user-guide/overview/cloudplex-features/cloudplex-features?id=slack-automation)
+
 [Tool Integration](/pages/user-guide/overview/cloudplex-features/cloudplex-features?id=tools-integration)
 
-[Kubernetes Labs](/pages/user-guide/overview/cloudplex-features/cloudplex-features?id=kubernetes-labs)
+[Volume Management](/pages/user-guide/overview/cloudplex-features/cloudplex-features?id=volume-management)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
