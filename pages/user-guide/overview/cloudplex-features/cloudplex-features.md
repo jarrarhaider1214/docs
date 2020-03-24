@@ -2,6 +2,78 @@
 
 CloudPlex is full of advanced features, some of the major ones are listed below.
 
+### Manifest Management ###
+
+With CloudPlex, developers no longer need to manually create complex YAML manifest and config files. Developers just configure Docker containers using a drag-n-drop visual interface. The platform performs validation and generates all related manifest and config files.
+
+### Volume Management
+
+Developers provide basic information about the size of the volume and identity of the container. CloudPlex automatically configures storage class, persistent volume, persistent volume claim, and their associations. CloudPlex provides a uniform interface for all public clouds.
+
+### Istio Integration
+
+No need to manually configure Istio. CloudPlex provides an intuitive visual interface to visually configure and manage all the capabilities of Istio including connectivity, security, traffic control, and observability of services. CloudPlex always deploys applications as service mesh.
+
+### Knative Integration
+
+CloudPlex visual interface enables you to create scalable, secure, and serverless functions in seconds, without manually installing or configuring Knative. CloudPlex also provides a whole set of event management features including connecting and triggering events through visual interface.
+
+### Container Integration
+
+Developers can access containers on all major public container registries using the easy CloudPlex visual interface, without directly interacting with them. Docker Hub, Amazon ECR, Azure Container Registry, Google Container Registry (GCR) and JFrog Container Registry are ready to be used with CloudPlex.
+
+### Hybrid Integration
+
+With the CloudPlex Mesh Designer, you can easily create a hybrid application consisting of containers, serverless functions, provider-managed services, third-party APIs, and your legacy, VM-based applications through a visual, drag & drop experience.
+
+### Deployment Pipelines
+
+Visual design of deployment pipelines with Canary, Blue/Green or Highlander strategies with manual and automatic Canary analysis.
+
+### Network & Traffic Management
+
+Network and Traffic Management is a critical function in a cloud application. CloudPlex greatly simplifies the networking and traffic management of Kubernetes applications. Developers use a visual interface for fine-grain traffic control, retry policies, and circuit breakers.
+
+### Kubernetes RBAC
+
+Kubernetes RBAC regulates access to services. Developers just have to provide information about resources and permission. CloudPlex automatically creates and configures Service Accounts, Roles, and Role Bindings.
+
+### Kubernetes Cluster Support
+
+To overcome the limitations of provider-managed Kubernetes clusters, CloudPlex provides the flexibility of creating and running your own Kubernetes cluster on any public cloud (AWZ, Azure, GCP, Digital Ocean, IBM) using a visual interface.. Developers can start a new Kubernetes cluster from scratch with a rich set of network, infrastructure and Kubernetes configuration options.
+
+### Associate Pods to Nodes
+
+There are some circumstances where developers may need more control on a node where a pod lands. In CloudPlex, you can visualize your nodes and deployments in a single view and simply attach deployments to specific nodes through a visual interface. Node labeling and selectors are automatically handled by the platform.
+
+### Autoscaling
+
+Automatically sets up Metrics Server for each public cloud provider. For pod autoscaling, developers provide minimum and maximum values for replicas and resource quotas. For node autoscaling, developers select a CloudPlex provided node template.
+
+### Health Dashboard
+
+Understand service health with the mesh health dashboard, which provides a detailed look into health, latency and error rate of each component in the mesh.
+
+### Service Status Dashboard
+
+Allows navigation and search of service components and to receive detailed information on each component, such as its ports, variables, and virtual service rules.
+
+### Service Flow Diagram 
+
+An easy-to-understand service flow diagram provides a powerful way to visualize what is actually happening within your application. Know which components are communicating with each other and locate errors.
+
+### Access Control 
+
+Access to cluster, services, and other resources based on user defined roles and policies. Platform provides a rich set of roles and policies out of the box.
+
+### Data Security 
+
+CloudPlex fully integrates HashiCorp Vault with an intuitive visual interface to securely store all the passwords, ssh keys and cloud credentials. The platform centrally manages and enforces access to secrets and systems. It provides encryption of data in transit and at rest.
+
+### Slack Automation
+
+Automatically integrates with Slack channel for each project in CloudPlex. All project status notifications, monitoring and alerts are automatically sent via Slack channel.
+
 ### CI/CD Integration
 
 CloudPlex also provides easy integration with all the major CI/CD tools. You can integrate that without even disrupting your existing development, testing and deployment processes. 
@@ -64,3 +136,7 @@ Platform App Designer provides:
 ### Tools Integration
 
 CloudPlex has integrated multiple cloud native tools with the platform. Instead of manually downloading and configuring each tool separately, user can setup up the whole thing in CloudPlex in one go and get everything up and running in under **30 minutes**. Some of the major cloud native tools integrated with CloudPlex are - Docker, Kubernetes, Istio, Knative, Grafana, Prometheus, Kiali.
+
+### Kubernetes Labs
+
+Learn Kubernetes through our hands-on labs. These labs target the key pain points of Kubernetes encountered by developers and are specially designed to make developers productive very quickly.
