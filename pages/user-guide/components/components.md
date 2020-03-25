@@ -10,6 +10,12 @@ Now let’s move to the brief explanation of components.
 
 [Cluster](/pages/user-guide/components/cluster/cluster?id=cluster)
 
+[AWS Cluster](/pages/user-guide/components/aws-cluster/aws-cluster?id=aws-cluster)
+
+[Azure Cluster](/pages/user-guide/components/azure-cluster/azure-cluster?id=azure-cluster)
+
+[GCP Cluster](/pages/user-guide/components/gcp-cluster/gcp-cluster?id=gcp-cluster)
+
 [Container Services](/pages/user-guide/components/container-services/container-services?id=container-services)
 
 [Credentials Profile](/pages/user-guide/components/credentials-profile/credentials-profile?id=credentials-profile)

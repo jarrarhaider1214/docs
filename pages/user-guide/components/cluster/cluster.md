@@ -1,6 +1,6 @@
 # Cluster
 
-A cluster is a group of machines instances or nodes on which the services can be deployed. Currently on CloudPlex, clusters can be created on AWS (Amazon Web Services), Microsoft Azure and GCP (Google Cloud Platform). 
+A cluster is a group of machines instances or nodes on which the services can be deployed. Currently on CloudPlex, clusters can be created on AWS (Amazon Web Services), Microsoft Azure, GCP (Google Cloud Platform) etc. 
 
 Details of the configurations that can be done at Cluster level are explained below and also highlighted in the image.
 
