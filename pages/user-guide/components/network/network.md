@@ -9,3 +9,5 @@ For details of the configurations that can be done at Network level for each clo
 [Azure](pages/user-guide/components/network/azure-network/azure-network)
 
 [GCP](pages/user-guide/components/network/gcp-network/gcp-network)
+
+[Digital Ocean](pages/user-guide/components/network/do-network/do-network)

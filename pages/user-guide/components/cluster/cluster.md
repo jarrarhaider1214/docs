@@ -9,3 +9,5 @@ For details of the configurations that can be done at Cluster level for each clo
 [Azure](pages/user-guide/components/cluster/azure-cluster/azure-cluster)
 
 [GCP](pages/user-guide/components/cluster/gcp-cluster/gcp-cluster)
+
+[Digital Ocean](pages/user-guide/components/cluster/do-cluster/do-cluster)
