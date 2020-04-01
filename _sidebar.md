@@ -21,7 +21,10 @@
   - [Credentials Profile](pages/user-guide/components/credentials-profile/credentials-profile)
   - [Dashboard](pages/user-guide/components/dashboard/dashboard)
   - [Legacy Applications](pages/user-guide/components/legacy-applications/legacy-applications)
-  - [Managed Services](pages/user-guide/components/managed-service/managed-service)
+  - [Managed Services](pages/user-guide/components/managed-services/managed-services)
+    - [AWS](pages/user-guide/components/managed-services/aws-managed-services/aws-managed-services)
+    - Azure
+    - GCP
   - [Network](pages/user-guide/components/network/network)
     - [AWS](pages/user-guide/components/network/aws-network/aws-network)
     - [Azure](pages/user-guide/components/network/azure-network/azure-network)
