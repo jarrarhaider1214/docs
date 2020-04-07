@@ -10,5 +10,10 @@ For details of the configurations that can be done for Managed Services of each 
   - [S3](pages/user-guide/components/managed-services/aws-managed-services/aws-managed-services?id=s3)
   - [RDS](pages/user-guide/components/managed-services/aws-managed-services/aws-managed-services?id=rds)
   - [RedShift](pages/user-guide/components/managed-services/aws-managed-services/aws-managed-services?id=redshift)
+  - [Elastic Cache](pages/user-guide/components/managed-services/aws-managed-services/aws-managed-services?id=elastic-cache)
+  - [EMR](pages/user-guide/components/managed-services/aws-managed-services/aws-managed-services?id=emr)
+  - [EC2](pages/user-guide/components/managed-services/aws-managed-services/aws-managed-services?id=ec2)
+  - [Dynamo DB](pages/user-guide/components/managed-services/aws-managed-services/aws-managed-services?id=dynamo-db)
+  - [SQS](pages/user-guide/components/managed-services/aws-managed-services/aws-managed-services?id=sqs)
 - Azure
 - GCP
