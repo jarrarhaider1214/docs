@@ -52,7 +52,7 @@ Drag and drop **Azure Redis Cache** from left pallet and in to the canvas to con
 
 1. **Add Parameters**: To add any static parameter. 
 
-## Computer
+## Azure Compute
 
 Drag and drop **Azure Compute** from left pallet and in to the canvas to configure it.
 
