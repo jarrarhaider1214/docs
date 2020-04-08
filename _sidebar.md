@@ -23,7 +23,7 @@
   - [Legacy Applications](pages/user-guide/components/legacy-applications/legacy-applications)
   - [Managed Services](pages/user-guide/components/managed-services/managed-services)
     - [AWS](pages/user-guide/components/managed-services/aws-managed-services/aws-managed-services)
-    - Azure
+    - [Azure](pages/user-guide/components/managed-services/azure-managed-services/azure-managed-services)
     - GCP
   - [Network](pages/user-guide/components/network/network)
     - [AWS](pages/user-guide/components/network/aws-network/aws-network)

@@ -15,5 +15,8 @@ For details of the configurations that can be done for Managed Services of each 
   - [EC2](pages/user-guide/components/managed-services/aws-managed-services/aws-managed-services?id=ec2)
   - [Dynamo DB](pages/user-guide/components/managed-services/aws-managed-services/aws-managed-services?id=dynamo-db)
   - [SQS](pages/user-guide/components/managed-services/aws-managed-services/aws-managed-services?id=sqs)
-- Azure
+- [Azure](pages/user-guide/components/managed-services/azure-managed-services/azure-managed-services)
+  - [Storage Account](pages/user-guide/components/managed-services/azure-managed-services/azure-managed-services?id=storage-account)
+  - [Redis Cache](pages/user-guide/components/managed-services/azure-managed-services/azure-managed-services?id=redis-cache)
+  - [Azure Compute](pages/user-guide/components/managed-services/azure-managed-services/azure-managed-services?id=azure-compute)
 - GCP
