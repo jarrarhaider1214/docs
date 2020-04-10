@@ -15,7 +15,7 @@ Details of the configurations that can be done for Build service are explained b
 2. **Name:** Name for the service.
 3. **Version:** Version of the service
 4. **Namespace:** Namespace for the service.
-5. **GIT:** Drop-down to select Git profile. You can use any existing/saved profile or a new profile.
+5. **GIT:** Drop-down to select Git profile. You can use any existing/saved profile or a new profile. (Using new Git profile for this guide)
 6. **(For New Profile)** **Profile Name:** Profile name for Git.
 7. **Private Key:** Private Key of Git.
 8. **Save Git Credentials:** To store the Git profile for future use.
