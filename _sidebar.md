@@ -18,6 +18,7 @@
     - [Config Maps](pages/user-guide/components/k8s-resources/config-maps/config-maps)
     - [Docker Hub](pages/user-guide/components/k8s-resources/docker-hub/docker-hub)
     - [Node](pages/user-guide/components/k8s-resources/node/node)
+  - [Build Service](pages/user-guide/components/build-service/build-service)
   - [Credentials Profile](pages/user-guide/components/credentials-profile/credentials-profile)
   - [Dashboard](pages/user-guide/components/dashboard/dashboard)
   - [Legacy Applications](pages/user-guide/components/legacy-applications/legacy-applications)
