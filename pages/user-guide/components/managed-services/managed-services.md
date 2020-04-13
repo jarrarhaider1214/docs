@@ -19,4 +19,7 @@ For details of the configurations that can be done for Managed Services of each 
   - [Storage Account](pages/user-guide/components/managed-services/azure-managed-services/azure-managed-services?id=storage-account)
   - [Redis Cache](pages/user-guide/components/managed-services/azure-managed-services/azure-managed-services?id=redis-cache)
   - [Azure Compute](pages/user-guide/components/managed-services/azure-managed-services/azure-managed-services?id=azure-compute)
+  - [Maria DB](pages/user-guide/components/managed-services/azure-managed-services/azure-managed-services?id=maria-db)
+  - [My SQL](pages/user-guide/components/managed-services/azure-managed-services/azure-managed-services?id=my-sql)
+  - [Postgres SQL](pages/user-guide/components/managed-services/azure-managed-services/azure-managed-services?id=postgres-sql)
 - GCP

@@ -76,3 +76,78 @@ Drag and drop **Azure Compute** from left pallet and in to the canvas to configu
 ![3](imgs/3.jpg)
 
 1. **Add Parameters**: To add any static parameter. 
+
+## Maria DB
+
+Drag and drop **Azure Maria DB** from left pallet and in to the canvas to configure it.
+
+![6](imgs/6.jpg)
+
+1. **Templates**: To reuse any existing service template.
+2. **Name**: Name for the service.
+3. **Version**: Version of the service.
+4. **Namespace:** Namespace for the service.
+5. **Region:** Region of the Maria DB.
+6. **Profile**: Profile to use to fetch the service. 
+7. **Fetch Maria DB**: To fetch all the Maria DB of the selected profile. 
+8. **Select Maria DB**: Maria DB to fetch the attributes from.
+9. **Select Attributes**: To select attributes of the services that will be used as dynamic parameters.
+
+![2](imgs/2.jpg)
+
+1. **Attributes JSON**: Available Attributes that can be added as dynamic parameters. 
+2. **Selected Attributes**: Attributes added that are required as dynamic parameters. Click on the attribute name to add it.
+
+![3](imgs/3.jpg)
+
+1. **Add Parameters**: To add any static parameter. 
+
+## My SQL
+
+Drag and drop **Azure My SQL** from left pallet and in to the canvas to configure it.
+
+![7](imgs/7.jpg)
+
+1. **Templates**: To reuse any existing service template.
+2. **Name**: Name for the service.
+3. **Version**: Version of the service.
+4. **Namespace:** Namespace for the service.
+5. **Region:** Region of My SQL.
+6. **Profile**: Profile to use to fetch the service. 
+7. **Fetch My SQL**: To fetch all the My SQL of the selected profile. 
+8. **Select My SQL**: My SQL to fetch the attributes from.
+9. **Select Attributes**: To select attributes of the services that will be used as dynamic parameters.
+
+![2](imgs/2.jpg)
+
+1. **Attributes JSON**: Available Attributes that can be added as dynamic parameters. 
+2. **Selected Attributes**: Attributes added that are required as dynamic parameters. Click on the attribute name to add it.
+
+![3](imgs/3.jpg)
+
+1. **Add Parameters**: To add any static parameter. 
+
+## Postgres SQL
+
+Drag and drop **Azure Postgres SQL** from left pallet and in to the canvas to configure it.
+
+![8](imgs/8.jpg)
+
+1. **Templates**: To reuse any existing service template.
+2. **Name**: Name for the service.
+3. **Version**: Version of the service.
+4. **Namespace:** Namespace for the service.
+5. **Region:** Region of the Postgres SQL.
+6. **Profile**: Profile to use to fetch the service. 
+7. **Fetch Postgres SQL**: To fetch all the Postgres SQL of the selected profile. 
+8. **Select Postgres SQL**: Postgres SQL to fetch the attributes from.
+9. **Select Attributes**: To select attributes of the services that will be used as dynamic parameters.
+
+![2](imgs/2.jpg)
+
+1. **Attributes JSON**: Available Attributes that can be added as dynamic parameters. 
+2. **Selected Attributes**: Attributes added that are required as dynamic parameters. Click on the attribute name to add it.
+
+![3](imgs/3.jpg)
+
+1. **Add Parameters**: To add any static parameter. 
