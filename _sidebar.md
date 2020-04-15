@@ -23,9 +23,9 @@
   - [Dashboard](pages/user-guide/components/dashboard/dashboard)
   - [Legacy Applications](pages/user-guide/components/legacy-applications/legacy-applications)
   - [Managed Services](pages/user-guide/components/managed-services/managed-services)
-    - [AWS](pages/user-guide/components/managed-services/aws-managed-services/aws-managed-services)
-    - [Azure](pages/user-guide/components/managed-services/azure-managed-services/azure-managed-services)
-    - GCP
+    - [AWS](pages/user-guide/components/managed-services/aws-managed-services/aws-managed-services?id=aws)
+    - [Azure](pages/user-guide/components/managed-services/azure-managed-services/azure-managed-services?id=azure)
+    - [GCP](pages/user-guide/components/managed-services/gcp-managed-services/gcp-managed-services?id=gcp)
   - [Network](pages/user-guide/components/network/network)
     - [AWS](pages/user-guide/components/network/aws-network/aws-network)
     - [Azure](pages/user-guide/components/network/azure-network/azure-network)

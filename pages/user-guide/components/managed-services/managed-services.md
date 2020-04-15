@@ -22,4 +22,7 @@ For details of the configurations that can be done for Managed Services of each 
   - [Maria DB](pages/user-guide/components/managed-services/azure-managed-services/azure-managed-services?id=maria-db)
   - [My SQL](pages/user-guide/components/managed-services/azure-managed-services/azure-managed-services?id=my-sql)
   - [Postgres SQL](pages/user-guide/components/managed-services/azure-managed-services/azure-managed-services?id=postgres-sql)
-- GCP
+- [GCP](pages/user-guide/components/managed-services/gcp-managed-services/gcp-managed-services?id=gcp)
+  - [Cloud Storage](pages/user-guide/components/managed-services/gcp-managed-services/gcp-managed-services?id=cloud-storage)
+  - [Cloud SQL](pages/user-guide/components/managed-services/gcp-managed-services/gcp-managed-services?id=cloud-sql)
+  - [Big Data](pages/user-guide/components/managed-services/gcp-managed-services/gcp-managed-services?id=big-data)
