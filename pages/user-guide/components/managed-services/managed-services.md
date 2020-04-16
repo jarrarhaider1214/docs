@@ -25,4 +25,6 @@ For details of the configurations that can be done for Managed Services of each 
 - [GCP](pages/user-guide/components/managed-services/gcp-managed-services/gcp-managed-services?id=gcp)
   - [Cloud Storage](pages/user-guide/components/managed-services/gcp-managed-services/gcp-managed-services?id=cloud-storage)
   - [Cloud SQL](pages/user-guide/components/managed-services/gcp-managed-services/gcp-managed-services?id=cloud-sql)
+  - [GCP Compute](pages/user-guide/components/managed-services/gcp-managed-services/gcp-managed-services?id=gcp-commute)
+  - [Cloud Memory](pages/user-guide/components/managed-services/gcp-managed-services/gcp-managed-services?id=cloud-memory)
   - [Big Data](pages/user-guide/components/managed-services/gcp-managed-services/gcp-managed-services?id=big-data)
