@@ -26,6 +26,7 @@
     - [AWS](pages/user-guide/components/managed-services/aws-managed-services/aws-managed-services?id=aws)
     - [Azure](pages/user-guide/components/managed-services/azure-managed-services/azure-managed-services?id=azure)
     - [GCP](pages/user-guide/components/managed-services/gcp-managed-services/gcp-managed-services?id=gcp)
+    - [Digital Ocean](pages/user-guide/components/managed-services/do-managed-services/do-managed-services?id=digital-ocean)
   - [Network](pages/user-guide/components/network/network)
     - [AWS](pages/user-guide/components/network/aws-network/aws-network)
     - [Azure](pages/user-guide/components/network/azure-network/azure-network)

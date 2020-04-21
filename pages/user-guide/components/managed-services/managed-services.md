@@ -28,3 +28,7 @@ For details of the configurations that can be done for Managed Services of each 
   - [GCP Compute](pages/user-guide/components/managed-services/gcp-managed-services/gcp-managed-services?id=gcp-compute)
   - [Cloud Memory](pages/user-guide/components/managed-services/gcp-managed-services/gcp-managed-services?id=cloud-memory)
   - [Big Data](pages/user-guide/components/managed-services/gcp-managed-services/gcp-managed-services?id=big-data)
+- [Digital Ocean](pages/user-guide/components/managed-services/do-managed-services/do-managed-services)
+  - [Redis](pages/user-guide/components/managed-services/do-managed-services/do-managed-services?id=redis)
+  - [Postgres SQL](pages/user-guide/components/managed-services/do-managed-services/do-managed-services?id=postgres-sql)
+  - [My SQL](pages/user-guide/components/managed-services/do-managed-services/do-managed-services?id=my-sql)
