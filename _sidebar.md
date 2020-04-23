@@ -36,6 +36,7 @@
   - [Scaling](pages/user-guide/components/scaling/scaling)
   - [Serverless](pages/user-guide/components/serverless/serverless)
   - [Slack Integration](pages/user-guide/components/slack-integration/slack-integration)
+  - [Cloud Authorization Level](pages/user-guide/components/cloud-authorization-level/cloud-authorization-level)
 - Tutorials
   - [Overview](pages/user-guide/tutorials/tutorials)
   - [Project](pages/user-guide/tutorials/project/project)
