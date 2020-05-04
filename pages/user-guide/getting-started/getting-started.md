@@ -20,15 +20,21 @@ Now, lets move to the process of signing up and deployment
 
 ![1](imgs\1.jpg)
 
-CloudPlex offers 4 types of project creation wizard based on the requirements and expertise level of the user. 
+CloudPlex offers 3 way of creating and deploying a new application on cloud based on the requirements and expertise level of the user. 
 
-1. Quick Start
-   Recommended for the users who want to deploy a project quickly using predefined default configurations. 
-2. Use Template
-   Recommended for the users who to deploy a project using different prebuilt templates (Network and Cluster) provided by the platform.
-3. Advanced
-   Recommended for the expert level users who want to customize configurations of Network, Cluster and Applications as per their requirements. 
-4. Use Cloning
+1. Provider Managed
+   To setup a cloud provider (AWS, Azure etc) managed Kubernetes cluster on CloudPlex.
+   - Create New Kubernetes Cluster
+     To create new provider managed Kubernetes cluster from scratch
+   - Use Existing Kubernetes Cluster
+     To use any existing provider managed Kubernetes cluster
+2. User Managed
+   To build whole infrastructure and Kubernetes from scratch using CloudPlex intuitive user interface.
+   - Create New Kubernetes Cluster
+     To setup a new infrastructure and cluster from scratch.
+   - Create New On-Premise Kubernetes Cluster
+     To use On-Premise machines to create a Kubernetes cluster.
+3. Clone Existing Application
    Recommended for the users who want to use same configurations or configurations with minor changes of any existing project by cloning it. 
 
 ![1.1](imgs\1.1.jpg)
