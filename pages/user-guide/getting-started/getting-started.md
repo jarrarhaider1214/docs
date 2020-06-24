@@ -1,8 +1,6 @@
 # Getting Started
 
-Welcome to CloudPlex! 
-
-Purpose of this getting started guide is take user through the end to end process of signing up and deployment. We are excited to have you try our platform. Once you are done with this guide, feel free to share your feedback at info@cloudplex.io. For detailed guide on what CloudPlex has to offer click [here](/overview).
+Purpose of this getting started guide is take user through the end to end process of signing up and deployment. We are excited to have you try our platform. Once you are done with this guide, feel free to share your feedback at info@cloudplex.io. 
 
 Now, lets move to the process of signing up and deployment
 
@@ -16,7 +14,7 @@ Now, lets move to the process of signing up and deployment
 
    ![0.1](imgs\0.1.jpg)
 
-3. Once logged in, click **Create Project** button to start the project creation wizard. 
+3. Once logged in, click **Create Application** button to start the application creation wizard. 
 
 ![1](imgs\1.jpg)
 

@@ -12,5 +12,4 @@ CloudPlex can effectively connect, manage and secure microservices and also supp
 
 As you continue with your Kubernetes journey, our experienced team is here to assist you to become productive quickly and to help you build your application with the least amount of friction. We offer free use of our platform to developers, hands-on labs, access to a community of Kubernetes developers, and email support to help you achieve your goal and to overcome any obstacles along the way.
 
-
-
+To know more about CloudPlex and and how we make Kubernetes easy for developers, click [here.](/pages/user-guide/overview/what-is-cloudplex/what-is-cloudplex) Or you can also check out our [Getting Started](/pages/user-guide/getting-started/getting-started) guide, which will take you through an end to end deployment process.
