@@ -65,7 +65,9 @@ CloudPlex offers 3 way of creating and deploying a new application on cloud base
 
    - Specify **Node Count**.
 
-   - Enable **Custom Advance Settings** using radio button.
+   - (Optional) Enable **Custom Advance Settings** using radio button.
+
+     > Advance settings is disabled for this guide, for advanced settings related to Cluster, Node Pools and Network click here.
 
    ![2.1](imgs/2.1.jpg)
 
@@ -91,25 +93,21 @@ CloudPlex offers 3 way of creating and deploying a new application on cloud base
 
      - Click **Save.**
 
-7. Click **Save** (green floppy icon at the top right) to save the project.
+7. Click **Save** (green floppy icon at the top right) to save the application.
 
    ![2.5](imgs/2.5.jpg)
 
-8. Click the Project, you just created. 
+9. Click **Start** to deploy the application.
 
-   ![aws3](imgs/3.jpg)
+   ![3](imgs/3.jpg)
 
-9. Click **Start** to deploy the project
+10. Once an application is deployed, go to the **Logs** tab to check the logs. 
 
-   ![4](imgs/4.jpg)
-
-10. Once a project is deployed, go to the **Logs** tab to check the logs. 
-
-![5](imgs/5.jpg)
+![4](imgs/4.jpg)
 
 11. To check in-depth flow of traffic, go to the **Monitoring** tab.
 
-![6](imgs\6.jpg)
+![5](imgs\5.jpg)
 
 ## Quick Start
 
