@@ -24,12 +24,17 @@ CloudPlex offers 3 ways of creating and deploying a new application on the cloud
    To setup a cloud provider (AWS, Azure etc) managed Kubernetes cluster on CloudPlex.
    - Create New Kubernetes Cluster
      To create new provider managed Kubernetes cluster from scratch
+     
    - Use Existing Kubernetes Cluster
-     To use any existing provider managed Kubernetes cluster
+
+     This option can be used for the following 2 use cases
+
+     1. To manage and deploy apps on any existing provider managed kubernetes cluster using CloudPlex
+     2. To migrate application from any existing kubernetes cluster to CloudPlex. User can then add new services to the application or migrate that to any other cloud.
 2. User Managed
    To build whole infrastructure and Kubernetes from scratch using CloudPlex intuitive user interface.
    - Create New Kubernetes Cluster
-     To setup a new infrastructure and cluster from scratch.
+     To setup a new infrastructure and kubernetes cluster from scratch.
    - Create New On-Premise Kubernetes Cluster
      To use On-Premise machines to create a Kubernetes cluster.
 3. Clone Existing Application
@@ -134,7 +139,59 @@ CloudPlex offers 3 ways of creating and deploying a new application on the cloud
      kubectl apply -f agent.yml
      ```
 
+   > Download Config file of the cluster from the cloud and apply agent on that as shown in the picture below.
+   
+   ![6.1](imgs\6.1.png)
+   
    - Once pod is in running state, click **Verify Connect** to verify the connection with cluster. 
+   
+   ![6.2](imgs\6.2.png)
+   
+5.  Click **Next** at the top right of screen.
+
+6. Select **App Type**.
+   **Select New Application**: To deploy new CloudPlex managed application on existing kubernetes cluster. (creating new application as part of this guide)
+   **Select Existing Application:** To migrate application from any kubernetes cluster to CloudPlex. 
+
+   ![6.3](imgs\6.3.png)
+
+7. Click **Next** at the top right of screen.
+
+8. Design application using **App Designer**.
+
+   > As part of this guide, we will only configure the minimum settings necessary to deploy the container. For detailed configurations, please check our detailed guide by clicking [here](/pages/user-guide/components/container-services/container-services).
+
+   - Drag and drop the **Container** in the package canvas from left column.
+
+   - Click on **Container** icon to configure the settings. (Platform has provided default values for most of the parameters) 
+
+     - Specify **Image Name** and **Tag**.
+     - Go to **Environment Variables** menu and add Variable. It is necessary to add at least one variable which in our case is **MYSQL_ROOT_PASSWORD**.
+
+     ![2.2](imgs/2.2.jpg)
+     ![2.3](imgs/2.3.jpg)
+
+     - Go to the **Ports**, click **Add Port** button and specify the port for Traffic i.e. **8080**
+
+     ![2.4](imgs/2.4.jpg)
+
+     - Click **Save.**
+
+9. Click **Save** (green floppy icon at the top right) to save the application.
+
+   ![2.5](imgs/2.5.jpg)
+
+10. Click **Start** to deploy the application.
+
+    ![3](imgs/3.jpg)
+
+11. Once an application is started, platform automatically redirect to **Logs** tab. Logs help in monitoring of different phases of application deployment.
+
+![4](imgs/4.jpg)
+
+11. To check in-depth flow of traffic, go to the **Monitoring** tab.
+
+![5](imgs\5.jpg)
 
 
 ## User Managed - New Kubernetes Cluster
@@ -179,6 +236,14 @@ CloudPlex offers 3 ways of creating and deploying a new application on the cloud
 7. Click **Next** at the top right of screen.
 
 8. (Optional) Configure **Kubernetes**.
+
+   - Select **Kubernetes, Istio, Knative Version** from drop-down to install on cluster.
+
+   - Specify **Pod Address Range** that will be assigned to the pods in cluster.
+
+   - Use Radio buttons to enable **Load Balancing** and **Network Policy**.
+
+      > Before deploying application, system will first install kubernetes on cluster.
 
    ![10](imgs\10.jpg)
 
@@ -234,241 +299,68 @@ CloudPlex offers 3 ways of creating and deploying a new application on the cloud
 
    - Specify **Username**, **Public IP** and **SSH Key** for the on-prem cluster.
 
+     > You can also use existing Cloud instances, e.g. AWS EC2, Azure VM etc, to setup on-prem cluster.
+
    ![12](imgs\12.jpg)
 
 5. Click **Next** at the top right of screen.
 
 6. **Setup** cluster.
 
-   From here you can connect your on-prem kubernetes cluster with CloudPlex.  (Follow on screen instructions to run your agent)
+   From here you can connect your on-prem cluster with CloudPlex.  (Follow on screen instructions to install agent on your machine)
+
+   ![13](imgs\13.png)
 
    - Once agent is in running state, click **Verify Connect** to verify the connection with cluster.
 
-7. 
+7. Click **Next** at the top right of screen.
 
-## Quick Start
+8. (Optional) Configure **Kubernetes**.
 
-1. **Select** Quick Start from options. 
+   - Select **Kubernetes, Istio, Knative Version** from drop-down to install on cluster.
 
-2. Configure the **Basic Info** tab. (Platform has provided default values for most of the parameters)
+   - Specify **Pod Address Range** that will be assigned to the pods in cluster.
 
-   - Select the **Cloud Provider** and specify necessary account details for the account. (For this guide we have selected AWS)
+   - Use Radio buttons to enable **Load Balancing** and **Network Policy**.
 
-   - Enter **Profile Name** and specify the AWS credentials (Access and Secret Key). You can also save this profile for future use. Credentials will be stored in vault i.e. Credentials Profile menu.
+     > Before deploying application, system will first install kubernetes on cluster.
 
-     > **Note**: To know more about Credentials Profile menu, click [here](/pages/user-guide/components/credentials-profile/credentials-profile).
-     >
-     > **Note:** To perform different functions and to deploy application using CloudPlex, it is necessary to have required permissions on cloud. To know about all those permissions click [here.](pages/user-guide/components/cloud-authorization-level/cloud-authorization-level?id=cloud-authorization-level)
+   ![14](imgs\14.jpg)
 
-   ![2](imgs/2.jpg)
+9. Click **Next** at the top right of screen.
 
-3. Click **Next** at the top right of screen.
+10. Design application using **App Designer**.
 
-4. As part of Quick Start project creation, CloudPlex provides preconfigured **Infrastructure** (Cluster and Network). 
+    > As part of this guide, we will only configure the minimum settings necessary to deploy the container. For detailed configurations, please check our detailed guide by clicking [here](/pages/user-guide/components/container-services/container-services).
 
-   - Click **Download Key** to download SSH key as you might need it in future. 
+    - Drag and drop the **Container** in the package canvas from left column.
 
-   ![2.1](imgs\2.1.jpg)
+    - Click on **Container** icon to configure the settings. (Platform has provided default values for most of the parameters) 
 
-5. Click **Next** at the top right of screen.
+      - Specify **Image Name** and **Tag**.
+      - Go to **Environment Variables** menu and add Variable. It is necessary to add at least one variable which in our case is **MYSQL_ROOT_PASSWORD**.
 
-6. Configure **APP**.
+      ![2.2](imgs/2.2.jpg)
+      ![2.3](imgs/2.3.jpg)
 
-   > **Note**: As part of this guide, we will only configure the minimum settings necessary to deploy the container. For detailed configurations, please check our detailed guide by clicking [here](/pages/user-guide/components/container-services/container-services).
+      - Go to the **Ports**, click **Add Port** button and specify the port for Traffic i.e. **8080**
 
-   - Drag and drop the **Container** in the package canvas from left column.
+      ![2.4](imgs/2.4.jpg)
 
-   - Click on **Container** icon to configure the settings. (Platform has provided default values for most of the parameters) 
+      - Click **Save.**
 
-     - Scroll down and specify **Image Name** and **Tag**.
+11. Click **Save** (green floppy icon at the top right) to save the application.
 
-     - Go to **Environment Variables** menu and add Variable. It is necessary to add at least one variable which in our case is **MYSQL_ROOT_PASSWORD**.
+    ![2.5](imgs/2.5.jpg)
 
-     ![2.2](imgs\2.2.jpg)
-     ![2.3](imgs\2.3.jpg)
+12. Click **Start** to deploy the application.
 
-     - Go to the **Ports**, click **Add Port** button and specify the port for Traffic i.e. **8080**
+    ![3](imgs/3.jpg)
 
-     ![2.4](imgs\2.4.jpg)
-     ![2.5](imgs\2.5.jpg)
+13. Once an application is started, platform automatically redirect to **Logs** tab. Logs help in monitoring of different phases of application deployment.
 
-     - Click **Save.**
-
-7. Click **Save** (green floppy icon at the top right) to save the project.
-
-   ![2.6](imgs\2.6.jpg)
-
-8. Click the Project, you just created. 
-
-   ![3](imgs/3.jpg)
-
-9. Click **Start** to deploy the project
-
-   ![4](imgs/4.jpg)
-
-10. Once a project is deployed, go to the **Logs** tab to check the logs. 
-
-   ![5](imgs/5.jpg)
+![4](imgs/4.jpg)
 
 11. To check in-depth flow of traffic, go to the **Monitoring** tab.
 
-    ![6](imgs/6.jpg)
-
-## Use Template
-
-1. **Select** Use Template from options. 
-
-2. Configure the **Basic Info** tab. (Platform has provided default values for most of the parameters)
-
-   - Select the **Cloud Provider** and specify necessary account details for the account. (For this guide we have selected AWS)
-
-   - Enter **Profile Name** and specify the AWS credentials (Access and Secret Key). You can also save this profile for future use. Credentials will be stored in vault i.e. Credentials Profile menu.
-
-     > **Note**: To know more about Credentials Profile menu, click [here](/pages/user-guide/components/credentials-profile/credentials-profile).
-     >
-     > **Note:** To perform different functions and to deploy application using CloudPlex, it is necessary to have required permissions on cloud. To know about all those permissions click [here.](pages/user-guide/components/cloud-authorization-level/cloud-authorization-level?id=cloud-authorization-level)
-
-   ![7](imgs/7.jpg)
-
-3. Click **Next** at the top right of screen.
-
-4. As part of Use Template project creation, CloudPlex provides preconfigured **Infrastructure** (Cluster and Network) templates. You can select any one from the **CloudPlex Templates** tab. These templates are also customizable.  
-
-5. Click **Next** at the top right of screen.
-
-6. Customize Network configurations as per requirements or click **Next**.
-
-   ![9](imgs\9.jpg)
-
-7. Configure **Cluster**.
-
-   - Most of the fields are preconfigured, but you can also customize them.
-   - Select **Key Type** from dropdown, i.e. **New** in this case, **Enter Key Name** and click **Generate**. A side menu will open, click **Save** and new SSH key will be generated. 
-
-   ![10](imgs\10.jpg)
-
-8. Click **Next** at the top right of screen.
-
-9. Configure **APP**.
-
-   > **Note**: As part of this guide, we will only configure the minimum settings necessary to deploy the container. For detailed configurations, please check our detailed guide by clicking [here](/pages/user-guide/components/container-services/container-services).
-
-   - Drag and drop the **Container** in the package canvas from left column.
-
-   - Click on **Container** icon to configure the settings. (Platform has provided default values for most of the parameters) 
-
-     - Scroll down and specify **Image Name** and **Tag**.
-     - Go to **Environment Variables** menu and add Variable. It is necessary to add at least one variable which in our case is **MYSQL_ROOT_PASSWORD**.
-
-     ![2.2](imgs/2.2.jpg)
-     ![2.3](imgs/2.3.jpg)
-
-     - Go to the **Ports**, click **Add Port** button and specify the port for Traffic i.e. **8080**
-
-     ![2.4](imgs/2.4.jpg)
-     ![2.5](imgs/2.5.jpg)
-
-     - Click **Save.**
-
-10. Click **Save** (green floppy icon at the top right) to save the project.
-
-![2.6](imgs/2.6.jpg)
-
-11. Click the Project, you just created. 
-
-    ![3](imgs/3.jpg)
-
-12. Click **Start** to deploy the project
-
-    ![4](imgs/4.jpg)
-
-13. Once a project is deployed, go to the **Logs** tab to check the logs. 
-
-    ![5](imgs/5.jpg)
-
-14. To check in-depth flow of traffic, go to the **Monitoring** tab.
-
-    ![6](imgs/6.jpg)
-
-## Advanced
-
-1. **Select** Advanced from options. 
-
-2. Configure the **Basic Info** tab. (Platform has provided default values for most of the parameters)
-
-   - Select the **Cloud Provider** and specify necessary account details for the account. (For this guide we have selected AWS)
-
-   - Enter **Profile Name** and specify the AWS credentials (Access and Secret Key). You can also save this profile for future use. Credentials will be stored in vault i.e. Credentials Profile menu.
-
-     > **Note**: To know more about Credentials Profile menu, click [here](/pages/user-guide/components/credentials-profile/credentials-profile).
-     >
-     > **Note:** To perform different functions and to deploy application using CloudPlex, it is necessary to have required permissions on cloud. To know about all those permissions click [here.](pages/user-guide/components/cloud-authorization-level/cloud-authorization-level?id=cloud-authorization-level)
-
-   ![11](imgs/11.jpg)
-
-3. Click **Next** at the top right of screen.
-
-4. Customize Network configurations as per requirements.
-
-   > **Note:** Most of the fields are prepopulated with default values but you can also customize the configurations as per your requirements. 
-
-   - Specify VPC **CIDR**.
-   - Specify Subnet **CIDR**. (You can also add multiple subnets by clicking the **+** icon)
-
-   ![12](imgs\12.jpg)
-
-   - (Optional) Go to **Security Group** tab, to add Inbound or Outbound traffic rules. 
-
-   ![13](imgs\13.jpg)
-
-5. Click **Next** at the top right of screen.
-
-6. Configure **Cluster**.
-
-   - Most of the fields are preconfigured, but you can also customize them.
-   - Select **Key Type** from dropdown, i.e. **New** in this case, **Enter Key Name** and click **Generate**. A side menu will open, click **Save** and new SSH key will be generated. 
-
-   ![14](imgs/14.jpg)
-
-7. Click **Next** at the top right of screen.
-
-8. Configure **APP**.
-
-   > **Note**: As part of this guide, we will only configure the minimum settings necessary to deploy the container. For detailed configurations, please check our detailed guide by clicking [here](/pages/user-guide/components/container-services/container-services).
-
-   - Drag and drop the **Container** in the package canvas from left column.
-
-   - Click on **Container** icon to configure the settings. (Platform has provided default values for most of the parameters) 
-
-     - Scroll down and specify **Image Name** and **Tag**.
-     - Go to **Environment Variables** menu and add Variable. It is necessary to add at least one variable which in our case is **MYSQL_ROOT_PASSWORD**.
-
-     ![2.2](imgs/2.2.jpg)
-     ![2.3](imgs/2.3.jpg)
-
-     - Go to the **Ports**, click **Add Port** button and specify the port for Traffic i.e. **8080**
-
-     ![2.4](imgs/2.4.jpg)
-     ![2.5](F:/CloudPlex/user-documentation/pages/user-guide/getting-started/imgs/2.5.jpg)
-
-     - Click **Save.**
-
-9. Click **Save** (green floppy icon at the top right) to save the project.
-
-![2.6](imgs/2.6.jpg)
-
-11. Click the Project, you just created. 
-
-    ![3](imgs/3.jpg)
-
-12. Click **Start** to deploy the project
-
-    ![4](imgs/4.jpg)
-
-13. Once a project is deployed, go to the **Logs** tab to check the logs. 
-
-    ![5](imgs/5.jpg)
-
-14. To check in-depth flow of traffic, go to the **Monitoring** tab.
-
-    ![6](imgs\6.jpg)
+![5](imgs\5.jpg)

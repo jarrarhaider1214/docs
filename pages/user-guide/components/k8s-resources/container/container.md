@@ -29,55 +29,75 @@ Details of the configurations that can be done for Kubernetes Containers are exp
    > **Job:** A Job creates one or more Pods and ensures that a specified number of them successfully terminate. As pods successfully complete, the Job tracks the successful completions. When a specified number of successful completions is reached, the task is complete. Deleting a Job will clean up the Pods it created.
    >
    > **CronJob:** A Cron Job creates Jobs on a time-based schedule. It runs a job periodically on a given schedule, written in Cron format.
+   
+7. **Replica:** To set number of container replicas. 
 
-![2](imgs/2.jpg)
+8. **Registry**: Select any saved docker registry from drop-down or create a new one. 
 
-1. **Registry**: Select any saved docker registry from drop-down or create a new one. 
-2. **Registry Name**: Specify Name of the registry.
-3. **Registry Username** of docker registry.
-4. **Registry Password** of docker registry. 
-5. **Save Docker Credentials**: To save credentials for future use. 
+9. **Profile Name**: Profile Name to save registry for future use. 
 
-![3](imgs/3.jpg)
+10. **Registry Username** of docker registry.
+
+11. **Registry Password** of docker registry. 
+
+12. **Registry Name:** Specify Name of the registry. 
+
+13. **Save Docker Credentials**: To save credentials for future use. 
+
+![2](imgs\2.jpg)
 
 1. **Image Name**: Name of the docker image. 
 2. **Tag**: Tag of the docker image.
 3. **Enable INIT Container**: Specialized containers that run before app containers in a Pod . Init containers can contain utilities or setup scripts not present in an app image.
 
-**To Configure Volume Container:**
-
-![4](imgs/4.jpg)
-
-1. **Add Static**: To get the options to select Volume and Mount Path.
-2. **Volume**: Select volume from drop-down.
-3. **Mount Path**: Specify mount path.
-
 **To Configure Environment Variables:**
 
-![5](imgs/5.jpg)
+![3](imgs/3.jpg)
 
 1. **Add Static**: Too add static environment variable. Only Key, Value pair will be needed
-2. **Add Dynamic:** To add dynamic variable. For getting the values dynamically on run time from other services in the solution. 
+2. **Add Dynamic:** To add dynamic variable. For getting the values dynamically on run time from other services in the application.
+3. **Bulk Edit:** To bulk edit multiple variables at once.  
 
 **To Configure Ports:**
 
-![6](imgs/6.jpg)
+![4](imgs/4.jpg)
 
 1. **Ports**: To add Ports. You can also add multiple ports. Name, Host and Container will be needed.
 
+**To Configure Ingress:**
+
+![5](imgs/5.jpg)
+
+1. **Enable Ingress Traffic:** To enable ingress traffic for an Istio service application.
+   Ingress exposes HTTP and HTTPS routes from outside the cluster to services within the cluster. Traffic routing is controlled by rules defined on the Ingress resource
+2. **Weight:** Weight of the service. 
+3. **AddURLs:** To add URLs. You can add more than one URL.
+4. **Timeout:** Timeout for http requests. 
+5. **Port**: Select the port from the drop-down.
+
+## Advanced Configurations
+
 **To Configure Command And Arguments:**
 
-![7](imgs/7.jpg)
+![6](imgs\6.jpg)
 
 1. **Command And Arguments**: To add command and arguments in the fields provided.
 
 **To Configure CI/CD:**
 
-![8](imgs/8.jpg)
+![7](imgs/7.jpg)
 
 1. **Enable CI/CD**: To enable CI/CD
-2. **Enable Deployment Pipeline**: Check to enable deployment pipeline e.g. Canary. 
-3. **Configure Pipeline**: To configure deployment pipeline. 
+3. **Configure Pipeline**: To configure deployment pipeline. For detailed guide on this, [click here](/pages/user-guide/tutorials/continuous-delivery/continuous-delivery). 
+
+**To Configure Container Volumes:**
+
+![8](imgs/8.jpg)
+
+1. **Add Volume:** For detailed guide on how to configure Volume, click here.
+2. **Add Secret:** For detailed guide on how to configure Kubernetes secret, click [here](/pages/user-guide/components/k8s-resources/kubernetes-secret/kubernetes-secret).
+3. **Add ConfigMap:** For detailed guide on how to configure ConfigMap, click 
+   **Mount Path**: Once the volumes are configured, click on volume bar and specify mount path.
 
 **To Configure Resource Quota:**
 
