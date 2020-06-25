@@ -26,4 +26,5 @@
 4. **Image SKU:** SKU is like an instance of an offer, such as a major release of a distribution e.g. 2016-Datacenter.
 5. **Image Version:**  Version number of an image SKU.
 6. **Enable Boot Diagnostics:** To enable and store in Storage Account. 
-7. **Docker Data Volume**: To add docker data volume as well.
+7. **New Storage Account:** To attach new storage account with node.
+8. **Docker Data Volume**: To add docker data volume as well.

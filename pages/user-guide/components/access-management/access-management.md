@@ -27,7 +27,7 @@ Now, let's move to the step by step guide on how to use Access Management. We'll
 
 ## New Company User
 
-As mentioned above, User who will be signing up for the first time using a company domain will have Super User access. Go to the **Access Management** menu from top bar to check the Role.
+As mentioned above, User who will be signing up for the first time using a company domain will have Super User access. Go to the **Access Management** menu from top bar to check the Role from **Users** tab.
 
 ![0a](imgs\0a.jpg)
 
@@ -35,7 +35,7 @@ As mentioned above, User who will be signing up for the first time using a compa
 
 First step would be to add the team players and make the platform accessible to them.
 
-1. Go to the **Access Management** menu from top bar, click **Users** and **Add Team Member**.
+1. Go to the **Access Management** menu from top bar, click **Users** and click **+** button.
    ![1](imgs\1.jpg)
 
 2. Enter **Email** and click **Add**.
@@ -52,27 +52,27 @@ First step would be to add the team players and make the platform accessible to 
 
 ## Roles
 
-Next step is to create roles that will be later assigned to team members. Platform provides some prebuilt roles for Team Leads and Team Players but you can also create custom roles as well. 
+Next step is to create roles that will be later assigned to team members. Platform provides some prebuilt roles for Team Leads and Team Member but you can create custom roles as well. 
 
 To create a new Role:
 
 1. Go to the **Roles** tab.
 
-   Some of the Prebuilt roles will be listed here - Admin, Team Lead, Team Player. You can also create custom roles. 
+   Some of the Prebuilt roles will be listed here - Admin, Team Lead, Team Member, Default. You can also create custom roles. 
    ![4](imgs\4.jpg)
-2. To create a new role, click **Add Role**.
+2. To create a new role, click **+** button.
 
 3. Enter **Role Name** and check the access level as per requirement.
 
-   In the picture below, we have created a role for full **Cluster** access.
+   In the picture below, we have created a role for full **App Template** access.
    ![5](imgs\5.jpg)
 4. Click **Save**.
 
 ## Teams
 
-Last step is to create Teams and assign Users relevant roles.
+Last step is to create Teams and assign relevant role to the Users.
 
-1. Go to the **Teams** tab and click **Add Team**.
+1. Go to the **Teams** tab and click **+** button.
 
    ![6](imgs\6.jpg)
 
@@ -87,10 +87,11 @@ Last step is to create Teams and assign Users relevant roles.
 
 Active Directory menu can be used to fetch the users from AD and make them a part of team in platform.
 
-1. Specify **Host Name** of AD.
-2. Specify **Port**.
-3. (Optional) Enter **Search Base** to filter the search.
-4. Specify **Username** and **Password** of AD.
-5. Click **Test AD** button to test the connection.
+1. To setup Active Directory, click **+** button.
+2. Specify **Host Name** of AD.
+3. Specify **Port**.
+4. (Optional) Enter **Search Base** to filter the search.
+5. Specify **Username** and **Password** of AD.
+6. Click **Test AD** button to test the connection.
 
 ![8](imgs\8.jpg)
