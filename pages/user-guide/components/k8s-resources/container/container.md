@@ -97,7 +97,7 @@ Details of the configurations that can be done for Kubernetes Containers are exp
 1. **Add Volume:** For detailed guide on how to configure Volume, click here.
 2. **Add Secret:** For detailed guide on how to configure Kubernetes secret, click [here](/pages/user-guide/components/k8s-resources/kubernetes-secret/kubernetes-secret).
 3. **Add ConfigMap:** For detailed guide on how to configure ConfigMap, click 
-   **Mount Path**: Once the volumes are configured, click on volume bar and specify mount path.
+   **Mount Path**: Once the volumes are configured, click on volume bar and specify mount path. Mount Path is destination inside the Pod, where a volume gets mounted to.
 
 **To Configure Resource Quota:**
 
@@ -130,30 +130,9 @@ Details of the configurations that can be done for Kubernetes Containers are exp
 5. **Success Threshold:**  Minimum consecutive successes for the probe to be considered successful after having failed. 
 6. **Failure Threshold:** When a Pod starts and the probe fails, Kubernetes will try Failure Threshold times before giving up. Giving up in case of liveness probe means restarting the Pod. In case of readiness probe the Pod will be marked Unready. Defaults to 3. Minimum value is 1.
 
-**To Configure RBAC:**
-
-![12](imgs/12.jpg)
-
-1. **Enable RBAC**: To enable and configure Role Based Access Control for the service. 
-2. **Add Resource Based Roles**: To add resource based roles for the container. Resources includes Nodes etc. 
-3. **Add Service Based Roles**: To add service based roles for the container e.g. mysql related tasks.
-
-![13](imgs/13.jpg)
-
-1. **Add Resource Based Roles**: To add resource based roles. You can add more than one as well.
-2. **Resource:** Select resource from drop-down e.g. Endpoints, Nodes etc. Resources are on which we want to give access to this role. 
-3. **Action**: Actions allowed for the resource selected e.g. Create, Update etc. You can can select more than one action as well.
-4. **AddAPI Groups**: To add API group. You can add more than one API group. It is that specific API which will have access. 
-
-![14](imgs/14.jpg)
-
-1. **Add Service Based Roles**: To add service based roles for the container. You can add more than one as well.
-2. **Method**: Method of the role e.g. Get, Post etc. You can select more than one from the drop-down
-3. **ADDPaths**: To add paths. It is the path of http request e.g. /raccon, /api/solutions/create etc.
-
 **To Configure Resiliency**:
 
-![15](imgs/15.jpg)
+![12](imgs/12.jpg)
 
 1. **Fault Injection:** To configure fault injection.
 
@@ -171,7 +150,7 @@ Details of the configurations that can be done for Kubernetes Containers are exp
 
 7. **Delay:** Delay in seconds.
 
-![16](imgs/16.jpg)
+![13](imgs/13.jpg)
 
 1. **Circuit Breaker:** To configure circuit breaker. 
 
@@ -185,25 +164,44 @@ Details of the configurations that can be done for Kubernetes Containers are exp
 
 5. **Max Retries:** Maximum number of retries that can be outstanding to all hosts in a cluster at a given time.
 
-**To Configure Ingress:**
+6. **Per Request Timeout:** Timeout period of the request.
 
-![17](imgs/17.jpg)
-
-1. **Enable Ingress Traffic:** To enable ingress traffic for an Istio service application.
-2. **Weight:** Weight of the service. 
-3. **AddURLs:** To add URLs. You can add more than one URL.
-4. **Timeout:** Timeout for http requests. 
-5. **Port**: Select the port from the drop-down.
+7. **Attempts:** Number of requests attempts to be made.
 
 **To Configure Scaling:**
 
-![18](imgs/18.jpg)
+![14](imgs/14.jpg)
 
 1. **Scaling**: To setup scaling. Check our scaling guide [here](/pages/user-guide/components/scaling/scaling).
 
+**To Configure RBAC:**
+Authorization mechanism for managing permissions around Kubernetes resources. RBAC allows configuration of flexible authorization policies that can be updated without restarting clusters.
+
+![15](imgs/15.jpg)
+
+1. **Enable RBAC**: To enable and configure Role Based Access Control for the service. 
+
+2. **Add Role: ** To add container level access roles.
+
+3. **Add Cluster Role:** To add cluster level access roles.
+
+   > Resource based rules can be configured at container and cluster level. Process explained below is same for cluster and container. 
+
+![16](imgs\16.jpg)
+
+1. **Service**: Select any existing service from drop-down or create **New**.
+2. **Type**: Specify Mount Path, which is a destination inside the Pod, where a volume gets mounted to.
+
+![17](imgs/17.jpg)
+
+1. **Add Resource Based Roles**: To add resource based roles. You can add more than one as well.
+2. **Resource Name:** Select resource from drop-down e.g. Endpoints, Nodes etc. Resources are on which we want to give access to this role. 
+3. **Action**: Actions allowed for the resource selected e.g. Create, Update etc. You can can select more than one action as well.
+4. **AddAPI Groups**: To add API group. You can add more than one API group. It is that specific API which will have access. 
+
 **To Configure Security Context:**
 
-![19](imgs/19.jpg)
+![18](imgs/18.jpg)
 
 1. **Security Context:** A security context defines privilege and access control settings for a Pod or Container.
 2. **Capabilities Add:** With Linux capabilities, you can grant certain privileges to a process without granting all the privileges of the root user. To add Linux capabilities for a Container, select the capabilities from the drop-down
@@ -212,7 +210,7 @@ Details of the configurations that can be done for Kubernetes Containers are exp
 5. **Run As Group:** Run As Group field specifies the primary group ID for all processes within any containers of the Pod. If this field is omitted, the primary group ID of the containers will be root(0).
 6. **Proc Mount:** Allowed ProcMount types e.g. Unmasked. 
 
-![20](imgs/20.jpg)
+![19](imgs/19.jpg)
 
 1. **Run as NonRoot:** Require the container to run without root privileges.
 2. **Read Only FileSystem:** Requires that containers must run with a read-only root filesystem (i.e. no writable layer)
@@ -226,13 +224,14 @@ Details of the configurations that can be done for Kubernetes Containers are exp
 
 **To Configure Node Selector:**
 
-![21](imgs/21.jpg)
+![20](imgs/20.jpg)
 
-1. **AddNode Selectors:** To add node selectors i.e. Key, Value.
+1. **Node Selector:** Node Selector specifies a map of key value pairs. For the pod to be eligible to run on a node, the node must have each of the indicated key-value pairs as labels (it can have additional labels as well).
+2. **AddNode Selectors:** To add node selectors i.e. Key, Value.
 
 **To Configure Label Selector:**
 
-![22](imgs/22.jpg)
+![21](imgs/21.jpg)
 
 1. **Label Selector:** To configure label selector and to add match expressions or labels.
 
@@ -246,4 +245,19 @@ Details of the configurations that can be done for Kubernetes Containers are exp
 
 5. **AddValues:** To add other values if needed.
 
-6. **AddMatch Labels**: To add match labels.
+6. **AddMatch Labels**: To add match labels. The key to be attached with node for the match label.
+
+**To Configure Labels**:
+
+![22](imgs/22.jpg)
+
+1. **Labels:** Labels are key/value pairs that are attached to Kubernetes objects. Labels are intended to be used to specify identifying attributes of objects that are meaningful and relevant to users.
+
+**To Configure Annotations:**
+
+![23](imgs/23.jpg)
+
+1. **Annotations:** Annotations can be used to attach arbitrary non-identifying metadata to objects. Clients such as tools and libraries can retrieve this metadata.
+
+
+
