@@ -11,4 +11,4 @@ Details of the configurations that can be done for Kubernetes Containers are exp
 3. **Name**: Name for the service.
 4. **Version:** Version of the service.
 5. **Node Pool**: Select the Node Pool from drop-down. You can select multiple node pools as well
-6. **Add Labels:** To add Key Value pair as label.
+6. **Add Labels:** Labels are key/value pairs that are attached to Kubernetes objects. Labels are intended to be used to specify identifying attributes of objects that are meaningful and relevant to users.
