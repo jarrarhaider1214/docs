@@ -6,17 +6,17 @@ Now, lets move to the process of signing up and deployment
 
 1. Go to [app.cloudplex.io/register](https://app.cloudplex.io/register) and sign up for a new account. 
 
-   ![0](imgs\0.jpg)
+   ![0](imgs/0.jpg)
 
 2. After email verification, you will be able to login to platform.
 
    > First time user signing up using a company domain will have **Super User** access of platform.  For more details on how super user can invite team members, check our guide on Access Management by clicking [here](/pages/user-guide/components/access-management/access-management).
 
-   ![0.1](imgs\0.1.jpg)
+   ![0.1](imgs/0.1.jpg)
 
 3. Once logged in, click **Create Application** button to start the application creation wizard. 
 
-![1](imgs\1.jpg)
+![1](imgs/1.jpg)
 
 CloudPlex offers 3 ways of creating and deploying a new application on the cloud, based on the requirements and expertise level of the user. 
 
@@ -40,7 +40,7 @@ CloudPlex offers 3 ways of creating and deploying a new application on the cloud
 3. Clone Existing Application
    Recommended for the users who want to use same configurations or configurations with minor changes of any existing project by cloning it. 
 
-![1.1](imgs\1.1.jpg)
+![1.1](imgs/1.1.jpg)
 
 ## Provider Managed - New Kubernetes Cluster
 
@@ -112,7 +112,7 @@ CloudPlex offers 3 ways of creating and deploying a new application on the cloud
 
 11. To check in-depth flow of traffic, go to the **Monitoring** tab.
 
-![5](imgs\5.jpg)
+![5](imgs/5.jpg)
 
 ## Provider Managed - Existing Kubernetes Cluster
 
@@ -122,7 +122,7 @@ CloudPlex offers 3 ways of creating and deploying a new application on the cloud
 
    - Select the **Cloud Provider**. (For this guide we have selected Azure Kubernetes Service)
 
-   ![6](imgs\6.jpg)
+   ![6](imgs/6.jpg)
 
 3. Click **Next** at the top right of screen.
 
@@ -141,11 +141,11 @@ CloudPlex offers 3 ways of creating and deploying a new application on the cloud
 
    > Download Config file of the cluster from the cloud and apply agent on that as shown in the picture below.
    
-   ![6.1](imgs\6.1.png)
+   ![6.1](imgs/6.1.png)
    
    - Once pod is in running state, click **Verify Connect** to verify the connection with cluster. 
    
-   ![6.2](imgs\6.2.png)
+   ![6.2](imgs/6.2.png)
    
 5.  Click **Next** at the top right of screen.
 
@@ -153,7 +153,7 @@ CloudPlex offers 3 ways of creating and deploying a new application on the cloud
    **Select New Application**: To deploy new CloudPlex managed application on existing kubernetes cluster. (creating new application as part of this guide)
    **Select Existing Application:** To migrate application from any kubernetes cluster to CloudPlex. 
 
-   ![6.3](imgs\6.3.png)
+   ![6.3](imgs/6.3.png)
 
 7. Click **Next** at the top right of screen.
 
@@ -191,7 +191,7 @@ CloudPlex offers 3 ways of creating and deploying a new application on the cloud
 
 11. To check in-depth flow of traffic, go to the **Monitoring** tab.
 
-![5](imgs\5.jpg)
+![5](imgs/5.jpg)
 
 
 ## User Managed - New Kubernetes Cluster
@@ -219,12 +219,12 @@ CloudPlex offers 3 ways of creating and deploying a new application on the cloud
    - Specify VPC **CIDR**.
    - Specify Subnet **CIDR**. (You can also add multiple subnets by clicking the **+** icon)
 
-   ![8](imgs\8.jpg)
+   ![8](imgs/8.jpg)
 
    - (Optional) Go to **Security Groups** tab, to add Inbound or Outbound traffic rules. 
      Platform provides preconfigured traffic rules, but you can customize them as per the requirements.
 
-   ![9](imgs\9.jpg)
+   ![9](imgs/9.jpg)
 
 5. Click **Next** at the top right of screen.
 
@@ -245,7 +245,7 @@ CloudPlex offers 3 ways of creating and deploying a new application on the cloud
 
       > Before deploying application, system will first install kubernetes on cluster.
 
-   ![10](imgs\10.jpg)
+   ![10](imgs/10.jpg)
 
 9. Click **Next** at the top right of screen.
 
@@ -283,7 +283,7 @@ CloudPlex offers 3 ways of creating and deploying a new application on the cloud
 
 11. To check in-depth flow of traffic, go to the **Monitoring** tab.
 
-![5](imgs\5.jpg)
+![5](imgs/5.jpg)
 
 ## User Managed - New On-Premise Kubernetes Cluster
 
@@ -291,7 +291,7 @@ CloudPlex offers 3 ways of creating and deploying a new application on the cloud
 
 2. Configure the **Basic Info** tab. (Platform has provided default values for most of the parameters)
 
-   ![11](imgs\11.jpg)
+   ![11](imgs/11.jpg)
 
 3. Click **Next** at the top right of screen.
 
@@ -301,7 +301,7 @@ CloudPlex offers 3 ways of creating and deploying a new application on the cloud
 
      > You can also use existing Cloud instances, e.g. AWS EC2, Azure VM etc, to setup on-prem cluster.
 
-   ![12](imgs\12.jpg)
+   ![12](imgs/12.jpg)
 
 5. Click **Next** at the top right of screen.
 
@@ -309,7 +309,7 @@ CloudPlex offers 3 ways of creating and deploying a new application on the cloud
 
    From here you can connect your on-prem cluster with CloudPlex.  (Follow on screen instructions to install agent on your machine)
 
-   ![13](imgs\13.png)
+   ![13](imgs/13.png)
 
    - Once agent is in running state, click **Verify Connect** to verify the connection with cluster.
 
@@ -325,7 +325,7 @@ CloudPlex offers 3 ways of creating and deploying a new application on the cloud
 
      > Before deploying application, system will first install kubernetes on cluster.
 
-   ![14](imgs\14.jpg)
+   ![14](imgs/14.jpg)
 
 9. Click **Next** at the top right of screen.
 
@@ -363,4 +363,4 @@ CloudPlex offers 3 ways of creating and deploying a new application on the cloud
 
 11. To check in-depth flow of traffic, go to the **Monitoring** tab.
 
-![5](imgs\5.jpg)
+![5](imgs/5.jpg)

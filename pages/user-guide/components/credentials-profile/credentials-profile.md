@@ -22,7 +22,7 @@ Cloud Profile can be saved while configuring the Basic Info tab of project.
 
 5. Click **Save Profile**.
 
-   ![1](imgs\1.jpg)
+   ![1](imgs/1.jpg)
 
 6. **Template Name** will get populated automatically. 
 
@@ -30,7 +30,7 @@ Cloud Profile can be saved while configuring the Basic Info tab of project.
 
 8. Click **Save**. You will now be able to select this profile from drop-down for future projects. 
 
-   ![2](imgs\2.jpg)
+   ![2](imgs/2.jpg)
 
 ## Docker Registry
 
@@ -44,7 +44,7 @@ Docker registry credentials can be saved while configuring the container service
 
 4. Click **Save Docker Credentials** button. You will now be able to select these credentials from drop-down to configure other container services.
 
-   ![3](imgs\3.jpg)
+   ![3](imgs/3.jpg)
 
 ## Git Credentials
 
@@ -58,4 +58,4 @@ Git credentials can be saved while configuring the Serverless service.
 
 4. Click **Save Git Credentials** button. You will now be able to select these credentials from drop-down to configure other Serverless services.
 
-   ![4](imgs\4.jpg)
+   ![4](imgs/4.jpg)

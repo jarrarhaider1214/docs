@@ -4,12 +4,12 @@ Build service can be used to build a docker image and push it to the repository.
 
 Details of the configurations that can be done for Build service are explained below and also highlighted in the image.
 
-![1](imgs\1.jpg)
+![1](imgs/1.jpg)
 
 1. **Build:** Drop-down to add build service in canvas.
 2. **Build Icon:** Drag and drop the service icon to add in canvas. Click on icon to configure the service.
 
-![2](imgs\2.jpg)
+![2](imgs/2.jpg)
 
 1. **Templates:** To reuse any existing service template.
 2. **Name:** Name for the service.
@@ -20,7 +20,7 @@ Details of the configurations that can be done for Build service are explained b
 7. **Private Key:** Private Key of Git.
 8. **Save Git Credentials:** To store the Git profile for future use.
 
-![3](imgs\3.jpg)
+![3](imgs/3.jpg)
 
 1. Specify **Git Url**.
 
@@ -40,7 +40,7 @@ Details of the configurations that can be done for Build service are explained b
 
 8. **Save Docker Credentials**: To save docker registry credentials for future use.
 
-![4](imgs\4.jpg)
+![4](imgs/4.jpg)
 
 1. Specify **Image URL**, where the image will be pushed.
 2. Specify **Registry Tag**.

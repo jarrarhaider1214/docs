@@ -4,7 +4,7 @@ Project is where all the previous modules cluster, network, solution will be con
 
 Details of the configurations that can be done at Project level (Basic Info) are explained below and also highlighted in the image.
 
-![1](imgs\1.jpg)
+![1](imgs/1.jpg)
 
 1. **Back Button**: Can be used to navigate to the previous menu.
 2. **Next Button**: Can be used to navigate to the next step.
@@ -14,7 +14,7 @@ Details of the configurations that can be done at Project level (Basic Info) are
 6. **Description**: Any description related to the project.
 7. **Kubernetes Cluster:** Whether you want to create a new one or use any existing.
 
-![2](imgs\2.jpg)
+![2](imgs/2.jpg)
 
 1. **Provider**: Cloud Type for deployment i.e. AWS, Azure, GCP
 2. **Region**: Region for deployment. Regions will be listed based on cloud provider selected.

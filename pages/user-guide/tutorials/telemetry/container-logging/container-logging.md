@@ -6,7 +6,7 @@ User can also search for specific log using the search bar and can also retrieve
 
 Mostly multiple containers will be part of an app, so user can also get the logs of any specific container using All Systems drop-down. 
 
-![1](imgs\1.jpg)
+![1](imgs/1.jpg)
 
 # Logs Archiving
 
@@ -16,7 +16,7 @@ To configure Logs Archiving:
 
 1.  Click **Container Logging** button while configuring the **App**. 
 
-   ![2](imgs\2.jpg)
+   ![2](imgs/2.jpg)
 
 2. Enable **Log Archiving** using the radio button. 
 
@@ -32,7 +32,7 @@ To configure Logs Archiving:
    >
    > **Note:** In the image below, even thought the days mentioned are 7 but still if logs reach 5GB storage threshold before 7th day, logs will get archived. 
 
-   ![3](imgs\3.jpg)
+   ![3](imgs/3.jpg)
 
 5. 
 

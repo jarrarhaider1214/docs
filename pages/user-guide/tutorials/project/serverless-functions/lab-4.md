@@ -45,7 +45,7 @@
 
    ![5](imgs/5.jpg)
 
-   ![5.2](imgs\5.2.jpg)
+   ![5.2](imgs/5.2.jpg)
 
 5. Click **Next**.
 

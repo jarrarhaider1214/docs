@@ -8,19 +8,19 @@ CloudPlex has made to it easy deploy serverless applications. Not only deploymen
 
 Details of the configurations that can be done for Serverless are explained below and also highlighted in the image.
 
-![1](imgs\1.jpg)
+![1](imgs/1.jpg)
 
 1. **Serverless**: Drop-down to add serverless in canvas. 
 2. **Serverless Icon**: Drag and drop the service icon to add in canvas. Click on icon to configure the service.
 
-![2](imgs\2.jpg)
+![2](imgs/2.jpg)
 
 1. **Templates**: To reuse any existing service template.
 2. **Name**: Name for the service.
 3. **Version**: Version of the service
 4. **Namespace**: Namespace for the service.
 
-![3](imgs\3.jpg)
+![3](imgs/3.jpg)
 
 1. **GIT**: Drop-down to select Git profile. You can use any existing or use new profile.
 2. **Profile Name**: Profile name for Git.
@@ -28,7 +28,7 @@ Details of the configurations that can be done for Serverless are explained belo
 4. **Private Key**: Private Key of Git.
 5. **Save Git Credentials**: To store the Git profile for future use.
 
-![4](imgs\4.jpg)
+![4](imgs/4.jpg)
 
 1. Specify **Git Url**.
 2. Specify **Git Branch**
@@ -38,13 +38,13 @@ Details of the configurations that can be done for Serverless are explained belo
 6. **Registry Password** of the registry.
 7. **Save Docker Credentials**: To save docker registry credentials for future use. 
 
-![5](imgs\5.jpg)
+![5](imgs/5.jpg)
 
 1. Specify **Image Url**.
 2. Specify **Registry Tag**.
 3. **Environment Variables**: To add static/dynamic environment variables or Load Balancer.
 
-![6](imgs\6.jpg)
+![6](imgs/6.jpg)
 
 1. **Minimum Scale:** Minimum scale limit.
 2. **Maximum Scale:** Maximum scale limit.

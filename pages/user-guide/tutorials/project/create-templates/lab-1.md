@@ -45,7 +45,7 @@
 
    ![5](imgs/5.jpg)
 
-   ![5.2](imgs\5.2.jpg)
+   ![5.2](imgs/5.2.jpg)
 
 5. Click **Next**.
 
@@ -94,13 +94,13 @@
 
      ![11](imgs/11.jpg)
 
-     ![11.2](imgs\11.2.jpg)
+     ![11.2](imgs/11.2.jpg)
 
      - Go to the **Ports**, click **Add Port** button and specify the port for Traffic i.e. **8080**
 
      ![12](imgs/12.jpg)
 
-     ![12.2](imgs\12.2.jpg)
+     ![12.2](imgs/12.2.jpg)
 
      - Click **Save.**
 

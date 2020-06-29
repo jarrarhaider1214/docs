@@ -58,11 +58,11 @@ Purpose of these labs is to take user through the end to end process of deployme
 
    - Now, select 2nd node pool and select the **Subnet** and **Security Group** from drop-down.
 
-     ![7.1](imgs\7.1.jpg)
+     ![7.1](imgs/7.1.jpg)
 
    - Select **Existing** from **Key Type** drop-down and then select the key (which we generated while configuring the 1st node pool) from **Existing SSH Key** drop-down.
 
-     ![7.2](imgs\7.2.jpg)
+     ![7.2](imgs/7.2.jpg)
 
 7. Click **Next** at the top right of screen.
 
@@ -156,19 +156,19 @@ Purpose of these labs is to take user through the end to end process of deployme
 
      ![24](imgs/24.jpg)
 
-     ![25](imgs\25.jpg)
+     ![25](imgs/25.jpg)
 
    - Now, select 2nd node pool and select the **Subnet** from drop-down.
 
    - Enter **Username**. You can set any username e.g. ubuntu.
 
-     ![26](imgs\26.jpg)
+     ![26](imgs/26.jpg)
 
    - Select **Key** from **Credential Type** drop-down, **Existing** from **Key Type** dropdown and select the key (which we generated while configuring the 1st node pool) from **Existing SSH Key** drop-down.  
 
    - Select **Service Account Email** from drop-down.
 
-     ![27](imgs\27.jpg)
+     ![27](imgs/27.jpg)
 
 7. Click **Next** at the top right of screen.
 
@@ -178,7 +178,7 @@ Purpose of these labs is to take user through the end to end process of deployme
 
    - 2 **Docker Hub** Services
 
-      ![28](imgs\28.jpg)
+      ![28](imgs/28.jpg)
 
    - Click on service icon to open the side menu for configurations and repeat this step for all the services. Configurations for each service can be found [here](https://docs.google.com/document/d/16jgpxSL216mlZyMmoWA127WyUR9BRnjr9P3R1cKrMN0/edit?usp=sharing).
 
@@ -190,11 +190,11 @@ Purpose of these labs is to take user through the end to end process of deployme
       - productpage to details service
       - reviews to ratings service
 
-      ![29](imgs\29.jpg)
+      ![29](imgs/29.jpg)
 
 9. Click **Save** (green floppy icon at the top right) to save the project.
 
-   ![30](imgs\30.jpg)
+   ![30](imgs/30.jpg)
 
 10. Click the Project, you just created. 
 
@@ -266,11 +266,11 @@ Purpose of these labs is to take user through the end to end process of deployme
 
    - Now, select 2nd node pool and select the **Subnet** and **Security Group** from drop-down.
 
-     ![7.1](imgs\7.1.jpg)
+     ![7.1](imgs/7.1.jpg)
 
    - Select **Existing** from **Key Type** drop-down and then select the key (which we generated while configuring the 1st node pool) from **Existing SSH Key** drop-down.
 
-     ![7.2](imgs\7.2.jpg)
+     ![7.2](imgs/7.2.jpg)
 
 7. Click **Next** at the top right of screen.
 
@@ -280,7 +280,7 @@ Purpose of these labs is to take user through the end to end process of deployme
 
    ![16](imgs/16.jpg)
 
-   ![17](imgs\17.jpg)
+   ![17](imgs/17.jpg)
 
 9. Click **Save** (green floppy icon at the top right) to save the project.
 

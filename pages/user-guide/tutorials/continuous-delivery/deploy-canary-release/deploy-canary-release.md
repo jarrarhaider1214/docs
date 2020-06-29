@@ -18,7 +18,7 @@ To configure CI/CD or manual deployment pipeline:
 
 2. Select container to configure it and go to the **CI/CD** menu. 
 
-   ![1](imgs\1.jpg)
+   ![1](imgs/1.jpg)
 
 3. **Enable CI/CD** or **Deployment Pipeline** and click **Configure Pipeline**. 
 
@@ -28,19 +28,19 @@ To configure CI/CD or manual deployment pipeline:
 
    > **Note:** Web hooks can be used for CI/CD and deployment pipeline. 
 
-   ![2](imgs\2.jpg)
+   ![2](imgs/2.jpg)
 
 4. Enter **Pipeline Name**, **Pipeline Description** and select the **Type** from drop-down i.e. **Canary**. 
 
    To configure **Traffic Weight**, click **Add Stage**. You can add multiple stages as well. 
 
-   ![3](imgs\3.jpg)
+   ![3](imgs/3.jpg)
 
 5. Select **Manual** from **Analysis** drop-down. Specify **Canary**, **Baseline** and **Current** threshold. 
 
    Similarly, you can add more stages as well and keep on increasing the threshold level as per requirements. 
 
-   ![4](imgs\4.jpg)
+   ![4](imgs/4.jpg)
 
 6. Click **Save**, configure the rest of Project and deploy the solution. 
 
@@ -48,7 +48,7 @@ To configure CI/CD or manual deployment pipeline:
 
    All the pipelines created will be listed here. 
 
-   ![5](imgs\5.jpg)
+   ![5](imgs/5.jpg)
 
 8. Using the **Actions** button, you can start pipeline or check the configurations of pipelines. 
 
@@ -62,7 +62,7 @@ To configure CI/CD or manual deployment pipeline:
 
 2. Select container to configure it and go to the **CI/CD** menu. 
 
-   ![1](imgs\1.jpg)
+   ![1](imgs/1.jpg)
 
 3. **Enable CI/CD** or **Deployment Pipeline** and click **Configure Pipeline**. 
 
@@ -90,9 +90,9 @@ To configure CI/CD or manual deployment pipeline:
 
    Similarly, you can add more stages as well and keep on increasing the threshold level as per requirements. 
 
-   ![6](imgs\6.jpg)
+   ![6](imgs/6.jpg)
 
-   ![7](imgs\7.jpg)
+   ![7](imgs/7.jpg)
 
 6. Click **Save**, configure the rest of Project and deploy the solution. 
 

@@ -42,7 +42,7 @@ Now let’s move to step by step process on how to setup Container scaling.
 
    ![3](imgs/3.jpg)
 
-   ![3.2](imgs\3.2.jpg)
+   ![3.2](imgs/3.2.jpg)
 
 2. Specify **MIN** and **MAX** number for container replicas. 
 
@@ -105,8 +105,8 @@ To generate a token.
 
 1. Click the username at top right to get the drop-down and go to **Profile** menu. 
 
-   ![6](imgs\6.jpg)
+   ![6](imgs/6.jpg)
 
 2. Go to the **Token** menu and click **Add Token** button. A Token will now be generated and appear in the drop-down while configuring scaling. 
 
-   ![7](imgs\7.jpg)
+   ![7](imgs/7.jpg)

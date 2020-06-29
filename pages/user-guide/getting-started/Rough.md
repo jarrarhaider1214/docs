@@ -223,4 +223,4 @@
 
 14. To check in-depth flow of traffic, go to the **Monitoring** tab.
 
-    ![6](imgs\6.jpg)
+    ![6](imgs/6.jpg)

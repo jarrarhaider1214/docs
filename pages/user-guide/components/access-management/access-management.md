@@ -29,22 +29,22 @@ Now, let's move to the step by step guide on how to use Access Management. We'll
 
 As mentioned above, User who will be signing up for the first time using a company domain will have Super User access. Go to the **Access Management** menu from top bar to check the Role from **Users** tab.
 
-![0a](imgs\0a.jpg)
+![0a](imgs/0a.jpg)
 
 ## Users
 
 First step would be to add the team players and make the platform accessible to them.
 
 1. Go to the **Access Management** menu from top bar, click **Users** and click **+** button.
-   ![1](imgs\1.jpg)
+   ![1](imgs/1.jpg)
 
 2. Enter **Email** and click **Add**.
 
    User will now receive an invitation email along with the confirmation link.
 
-   ![2](imgs\2.jpg)
+   ![2](imgs/2.jpg)
 
-   ![3](imgs\3.jpg)
+   ![3](imgs/3.jpg)
 
    > **Note:** All the subsequent New Users will be assigned **Default** role. But you can also change the role assigned, process of which is explained below. 
    >
@@ -59,13 +59,13 @@ To create a new Role:
 1. Go to the **Roles** tab.
 
    Some of the Prebuilt roles will be listed here - Admin, Team Lead, Team Member, Default. You can also create custom roles. 
-   ![4](imgs\4.jpg)
+   ![4](imgs/4.jpg)
 2. To create a new role, click **+** button.
 
 3. Enter **Role Name** and check the access level as per requirement.
 
    In the picture below, we have created a role for full **App Template** access.
-   ![5](imgs\5.jpg)
+   ![5](imgs/5.jpg)
 4. Click **Save**.
 
 ## Teams
@@ -74,12 +74,12 @@ Last step is to create Teams and assign relevant role to the Users.
 
 1. Go to the **Teams** tab and click **+** button.
 
-   ![6](imgs\6.jpg)
+   ![6](imgs/6.jpg)
 
 2. Enter **Team Name** and click **Add** to add members and assign roles to them.
 
    You can **Add** multiple entries as well e.g. in the picture below we have added two entries, one for Team Lead and one for Team Member and added members in that. 
-   ![7](imgs\7.jpg)
+   ![7](imgs/7.jpg)
 
 3. Click **Save**.
 
@@ -94,4 +94,4 @@ Active Directory menu can be used to fetch the users from AD and make them a par
 5. Specify **Username** and **Password** of AD.
 6. Click **Test AD** button to test the connection.
 
-![8](imgs\8.jpg)
+![8](imgs/8.jpg)

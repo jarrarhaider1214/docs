@@ -18,17 +18,17 @@ To configure a **Network**
 
 4. Specify **VPC CIDR**.
 
-   ![1](imgs\1.jpg)
+   ![1](imgs/1.jpg)
 
 5. To add Subnet, go to the **Subnets** tab, click **+** icon and specify the Subnet **Name** and **CIDR**. (You can add multiple Subnets as well)
 
-   ![2](imgs\2.jpg)
+   ![2](imgs/2.jpg)
 
 6. To add Security Group (SG), go to the **Security Groups** tab and click **+** icon . (You can add multiple SGs as well)
 
 7. Enter Security Group **Name** and **Description**.
 
-   ![3](imgs\3.jpg)
+   ![3](imgs/3.jpg)
 
 8. Click the **+** icon on the **Security Group_1** button to add Traffic Rules. (You can add multiple rules as well)
 
@@ -38,11 +38,11 @@ To configure a **Network**
    4. Specify the **Port Range** that will be exposed to traffic.
    5. Add **IP Ranges** in CIDR notation.
 
-   ![4](imgs\4.jpg)
+   ![4](imgs/4.jpg)
 
 9. Click the **Templates** button on top and click **Save as Template** to save the configurations.
 
-   ![5](imgs\5.jpg)
+   ![5](imgs/5.jpg)
 
    ## Azure
 
@@ -60,17 +60,17 @@ To configure a **Network**
 
    4. Specify **VPC CIDR**.
 
-      ![6](imgs\6.jpg)
+      ![6](imgs/6.jpg)
 
    5. To add Subnet, go to the **Subnets** tab, click **+** icon and specify the Subnet **Name** and **CIDR**. (You can add multiple Subnets as well)
 
-      ![7](imgs\7.jpg)
+      ![7](imgs/7.jpg)
 
    6. To add Security Group (SG), go to the **Security Groups** tab and click **+** icon. (You can add multiple SGs as well)
 
    7. Enter Security Group **Name**.
 
-      ![8](imgs\8.jpg)
+      ![8](imgs/8.jpg)
 
    8. Click the **+** icon on the Security Group name button to add Traffic Rules. (You can add multiple rules as well)
 
@@ -81,11 +81,11 @@ To configure a **Network**
       5. Specify the **Source** and **Destination Ports Range**.
       6. Add **IP Ranges** in CIDR notation.
 
-      ![9](imgs\9.jpg)
+      ![9](imgs/9.jpg)
 
    9. Click the **Templates** button on top and click **Save as Template** to save the configurations.
 
-      ![5](imgs\5.jpg)
+      ![5](imgs/5.jpg)
 
 ## GCP
 
@@ -101,11 +101,11 @@ To configure a **Network**
 
 3. Enter **VPC Name**. 
 
-   ![10](imgs\10.jpg)
+   ![10](imgs/10.jpg)
 
 4. To add Subnet, go to the **Subnets** tab, click **+** icon and specify the Subnet **Name** and **CIDR**. (You can add multiple Subnets as well)
 
-   ![11](imgs\11.jpg)
+   ![11](imgs/11.jpg)
 
 5. To add Security Group (SG), go to the **Security Groups** tab, click **+** icon and configure it. (You can add multiple SGs as well)
 
@@ -117,7 +117,7 @@ To configure a **Network**
 
 9. **Add Source** and **Target Tags**. (They will appear while configuring the cluster as well)
 
-   ![12](imgs\12.jpg)
+   ![12](imgs/12.jpg)
 
 10. Click the **+** icon on the Security Group name button to add Traffic Rules. (You can add multiple rules as well)
 
@@ -126,8 +126,8 @@ To configure a **Network**
     3. Specify the **Port Range.**
     4. Select the **Access** type from drop-down i.e. Allowed or Disallowed.
 
-    ![13](imgs\13.jpg)
+    ![13](imgs/13.jpg)
 
 11. Click the **Templates** button on top and click **Save as Template** to save the configurations.
 
-    ![14](imgs\14.jpg)
+    ![14](imgs/14.jpg)

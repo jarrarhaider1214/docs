@@ -12,7 +12,7 @@ Each bash script will have complete app expansion setup process and will need to
 
 Details of the configurations that can be done for Legacy Service are explained below and also highlighted in the image.
 
-![1](imgs\1.jpg)
+![1](imgs/1.jpg)
 
 1. **Others**: Drop-down to add Legacy service.
 2. **Legacy Icon**: Click the icon to configure service.

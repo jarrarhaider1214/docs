@@ -20,7 +20,7 @@ To configure a **Cluster**
 
 4. Select **Subnet** from dropdown to associate with node pool. (You can select upto 5 subnets)
 
-   ![1](imgs\1.jpg)
+   ![1](imgs/1.jpg)
 
 5. Select **Key Type** from dropdown i.e. **New** or **Existing**.
    Whether you want to create a new Key or use any existing one.
@@ -31,17 +31,17 @@ To configure a **Cluster**
 
 8. Specify the **Volume Size** and **IOPS** for volume. 
 
-   ![2](imgs\2.jpg)
+   ![2](imgs/2.jpg)
 
 9. (Optional) Use to toggle button to use **Docker Data Volume** and select the **Volume Type**, **Volume Size** and **IOPS**.
 
    - Check **Delete on Termination** if you want to delete the volume on Project termination. 
 
-   ![3](imgs\3.jpg)
+   ![3](imgs/3.jpg)
 
 10. Click the **Templates** button on top and click **Save as Template** to save the configurations.
 
-    ![4](imgs\4.jpg)
+    ![4](imgs/4.jpg)
 
     ## Azure
 
@@ -59,7 +59,7 @@ To configure a **Cluster**
 
        > **Note**: Node count for first node pool will always be **1** as it will be used for master node.  
 
-       ![5](imgs\5.jpg)
+       ![5](imgs/5.jpg)
 
     4. Select **Subnet** and **Security Groups** from dropdown. (You can select only 1 subnet)
 
@@ -72,7 +72,7 @@ To configure a **Cluster**
 
        1. For **New**, **Enter SSH Key** or for **Existing** select one from drop-down.
 
-       ![6](imgs\6.jpg)
+       ![6](imgs/6.jpg)
 
     8. Specify the **Image Username**, **Image Offer**, **Image Publisher**, **Image SKU** and **Image Version**. (you can get these from cloud admin portal)
 
@@ -80,11 +80,11 @@ To configure a **Cluster**
 
     10. (Optional) Use to toggle button to use **Docker Data Volume** and specify the **Disk Type**, and **Disk Size**.
 
-        ![7](imgs\7.jpg)
+        ![7](imgs/7.jpg)
 
     11. Click the **Templates** button on top and click **Save as Template** to save the configurations.
 
-        ![8](imgs\8.jpg)
+        ![8](imgs/8.jpg)
 
 ## GCP
 
@@ -102,7 +102,7 @@ To configure a **Cluster**.
 
    > **Note**: Node count for first node pool will always be **1** as it will be used for master node.  
 
-   ![9](imgs\9.jpg)
+   ![9](imgs/9.jpg)
 
 4. Select **Subnet** from dropdown. (You can select only 1 subnet)
 
@@ -115,7 +115,7 @@ To configure a **Cluster**.
 
    - For **New**, **Enter Key Name**  and generate or for **Existing** select existing **SSH Key** from drop-down.
 
-   ![10](imgs\10.jpg)
+   ![10](imgs/10.jpg)
 
 8. Select the **Image Family**, **Image Project**, and **Service Account Email** from drop-down (based on profile selected in Basic Info tab of project).
 
@@ -127,8 +127,8 @@ To configure a **Cluster**.
 
 11. (Optional) Use to toggle button to use **Docker Data Volume** and specify the **Disk Type**, and **Disk Size**.
 
-    ![11](imgs\11.jpg)
+    ![11](imgs/11.jpg)
 
 12. Click the **Templates** button on top and click **Save as Template** to save the configurations.
 
-    ![12](imgs\12.jpg)
+    ![12](imgs/12.jpg)

@@ -44,7 +44,7 @@ Details of the configurations that can be done for Kubernetes Containers are exp
 
 13. **Save Docker Credentials**: To save credentials for future use. 
 
-![2](imgs\2.jpg)
+![2](imgs/2.jpg)
 
 1. **Image Name**: Name of the docker image. 
 2. **Tag**: Tag of the docker image.
@@ -79,7 +79,7 @@ Details of the configurations that can be done for Kubernetes Containers are exp
 
 **To Configure Command And Arguments:**
 
-![6](imgs\6.jpg)
+![6](imgs/6.jpg)
 
 1. **Command And Arguments**: To add command and arguments in the fields provided.
 
@@ -187,7 +187,7 @@ Authorization mechanism for managing permissions around Kubernetes resources. RB
 
    > Resource based rules can be configured at container and cluster level. Process explained below is same for cluster and container. 
 
-![16](imgs\16.jpg)
+![16](imgs/16.jpg)
 
 1. **Service**: Select any existing service from drop-down or create **New**.
 2. **Type**: Specify Mount Path, which is a destination inside the Pod, where a volume gets mounted to.
