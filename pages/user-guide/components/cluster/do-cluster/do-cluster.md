@@ -1,5 +1,7 @@
 # Digital Ocean
 
+A cluster is a group of machines instances or nodes on which the services can be deployed. On Digital Ocean, these machines are called Droplets. DigitalOcean Droplets are Linux-based virtual machines (VMs) that run on top of virtualized hardware. To know more about DO Droplets, click [here](https://www.digitalocean.com/products/droplets/).
+
 ![1](imgs/1.jpg)
 
 1. Name of the **Cluster**. Cluster is a group of node pools. 

@@ -1,5 +1,7 @@
 # AWS
 
+A cluster is a group of machines instances or nodes on which the services can be deployed. On amazon those machines are called Amazon Elastic Compute Cloud EC2. It  provides secure, resizable compute capacity in the cloud and is designed to make web-scale cloud computing easier for developers. To know more about EC2, click [here](https://aws.amazon.com/ec2/).
+
 ![1](imgs/1.jpg)
 
 1. **Node Pool**: Pool of nodes and complete configurations for that node. Node Pools can be more than one. 1st node pool will always be Master node pool

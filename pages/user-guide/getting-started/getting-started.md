@@ -46,5 +46,5 @@ For a step by step guide on how to configure and manage different type of kubern
 
 1. [Provider Managed - New Kubernetes Cluster](pages/user-guide/getting-started/pm-new-cluster/pm-new-cluster)
 2. [Provider Managed - Existing Kubernetes Cluster](pages/user-guide/getting-started/pm-existing-cluster/pm-existing-cluster)
-3. [User Managed - New Kubernetes Cluster](pages/user-guide/getting-started/up-new-cluster/up-new-cluster)
+3. [User Managed - New Kubernetes Cluster](pages/user-guide/getting-started/um-new-cluster/um-new-cluster)
 4. [User Managed - New On-Premise Kubernetes Cluster](pages/user-guide/getting-started/um-new-op-cluster/um-new-op-cluster)

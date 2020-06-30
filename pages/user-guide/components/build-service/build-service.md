@@ -12,13 +12,14 @@ Details of the configurations that can be done for Build service are explained b
 ![2](imgs/2.jpg)
 
 1. **Templates:** To reuse any existing service template.
-2. **Name:** Name for the service.
-3. **Version:** Version of the service
-4. **Namespace:** Namespace for the service.
-5. **GIT:** Drop-down to select Git profile. You can use any existing/saved profile or a new profile. (Using new Git profile for this guide)
-6. **(For New Profile)** **Profile Name:** Profile name for Git.
-7. **Private Key:** Private Key of Git.
-8. **Save Git Credentials:** To store the Git profile for future use.
+2. **Service ID:** Id of the service. System will automatically assign id to the service but user can customize it.
+3. **Name:** Name for the service.
+4. **Version:** Version of the service
+5. **Namespace:** Namespace for the service.
+6. **GIT:** Drop-down to select Git profile. You can use any existing/saved profile or a new profile. (Using new Git profile for this guide)
+7. **(For New Profile)** **Profile Name:** Profile name for Git.
+8. **Private Key:** Private Key of Git.
+9. **Save Git Credentials:** To store the Git profile for future use.
 
 ![3](imgs/3.jpg)
 
@@ -32,16 +33,16 @@ Details of the configurations that can be done for Build service are explained b
 
 4. **Registry**: Drop-down to use a New docker registry or any existing one. (Using new registry for this guide)
 
-5. **Registry Name**: Can also be considered as image repository name. 
+5. **Profile Name:** Profile name to save the registry credentials for future use. 
 
 6. **Username** of the registry.
 
 7. **Password** of the registry.
 
-8. **Save Docker Credentials**: To save docker registry credentials for future use.
+8. **Registry Name**: Can also be considered as image repository name. 
 
-![4](imgs/4.jpg)
+9. **Save Docker Credentials**: To save docker registry credentials for future use.
 
-1. Specify **Image URL**, where the image will be pushed.
-2. Specify **Registry Tag**.
-3. **Save** the service.
+10. Specify **Image URL**, where the image will be pushed.
+
+11. Specify **Registry Tag**.

@@ -136,7 +136,7 @@ Details of the configurations that can be done for Kubernetes Containers are exp
 
 1. **Fault Injection:** To configure fault injection.
 
-   > To inject faults to test the resiliency of application.
+   > To inject faults to test the resiliency of application. Fault injection is a system testing method which involves the deliberate introduction of faults and errors into a system. It can be used to identify design or configuration weaknesses and to ensure that the system is able the handle faults and recover from error conditions. 
 
 2. **Fault Injection Abort**: Aborts are crash failures. They mimic failures in upstream services. Aborts usually manifest in the form of HTTP error codes or TCP connection failures.
 
@@ -146,6 +146,8 @@ Details of the configurations that can be done for Kubernetes Containers are exp
 
 5. **Fault Injection Delay:** Delays are timing failures. They mimic increased network latency or an overloaded upstream service.
 
+   > It can delay requests before forwarding, emulating various failures such as network issues, an overloaded upstream service, etc.
+
 6. **Percentage:** Percent of requests to introduce a delay for. 
 
 7. **Delay:** Delay in seconds.
@@ -154,7 +156,7 @@ Details of the configurations that can be done for Kubernetes Containers are exp
 
 1. **Circuit Breaker:** To configure circuit breaker. 
 
-   > **Circuit breaking** is an important pattern for creating resilient microservice applications. It allows to write applications that limit the impact of failures, latency spikes, and other undesirable effects of network peculiarities.
+   > **Circuit breaking** is an important pattern for creating resilient microservice applications. It allows to write applications that limit the impact of failures, latency spikes, and other undesirable effects of network peculiarities. To know more about Istio Circuit Breaker, click [here](https://developers.redhat.com/blog/2018/03/27/istio-circuit-breaker-when-failure-is-an-option/).
 
 2. **Max Request:** Maximum number of requests to a backend. 
 
@@ -164,9 +166,11 @@ Details of the configurations that can be done for Kubernetes Containers are exp
 
 5. **Max Retries:** Maximum number of retries that can be outstanding to all hosts in a cluster at a given time.
 
-6. **Per Request Timeout:** Timeout period of the request.
+6. **Per Request Timeout:** Timeout period of the request in seconds. 
 
 7. **Attempts:** Number of requests attempts to be made.
+
+   > One of the use case for Timeout and Attempts is the network reliability issue. In case if there is no response from a service, we can set a timeout period of a request and number of tries after which the system will stop sending requests to the service. 
 
 **To Configure Scaling:**
 
@@ -181,7 +185,7 @@ Authorization mechanism for managing permissions around Kubernetes resources. RB
 
 1. **Enable RBAC**: To enable and configure Role Based Access Control for the service. 
 
-2. **Add Role: ** To add container level access roles.
+2. **Add Role: ** To add access roles. This option will define the namespace level access/restriction roles.
 
 3. **Add Cluster Role:** To add cluster level access roles.
 
@@ -195,9 +199,13 @@ Authorization mechanism for managing permissions around Kubernetes resources. RB
 ![17](imgs/17.jpg)
 
 1. **Add Resource Based Roles**: To add resource based roles. You can add more than one as well.
-2. **Resource Name:** Select resource from drop-down e.g. Endpoints, Nodes etc. Resources are on which we want to give access to this role. 
+2. **Resource Name:** Select resource from drop-down e.g. Endpoints, Nodes etc. Resources are on which we want to give access to this role. Click **+** button to add a new resource.
 3. **Action**: Actions allowed for the resource selected e.g. Create, Update etc. You can can select more than one action as well.
 4. **AddAPI Groups**: To add API group. You can add more than one API group. It is that specific API which will have access. 
+
+   > Use Case: If you set **secret** as resource name and **list** as action then you will be able to get the list of list of secrets as shown below.
+
+![17.1](imgs/17.1.png)
 
 **To Configure Security Context:**
 
