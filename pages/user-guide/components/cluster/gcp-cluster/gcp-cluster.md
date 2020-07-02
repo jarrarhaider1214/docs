@@ -2,6 +2,8 @@
 
 A cluster is a group of machines instances or nodes on which the services can be deployed. On GCP, these machines are called Compute Engine instances. An instance is a virtual machine (VM) hosted on Google's infrastructure. To know more about GCP Compute, click [here](https://cloud.google.com/compute).
 
+Here are the configurations option that will be available to user while configuring cluster for Application deployment. 
+
 ![1](imgs/1.jpg)
 
 1. **Node Pool**: Pool of nodes and complete configurations for that node. Node Pools can be more than one. 1st node pool will always be Master node pool
