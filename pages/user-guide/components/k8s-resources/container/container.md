@@ -176,18 +176,19 @@ Details of the configurations that can be done for Kubernetes Containers are exp
 
 ![14](imgs/14.jpg)
 
-1. **Scaling**: To setup scaling. Check our scaling guide [here](/pages/user-guide/components/scaling/scaling).
+1. **Scaling**: To setup scaling, check our detailed scaling guide [here](/pages/user-guide/components/scaling/scaling).
 
 **To Configure RBAC:**
-Authorization mechanism for managing permissions around Kubernetes resources. RBAC allows configuration of flexible authorization policies that can be updated without restarting clusters.
 
 ![15](imgs/15.jpg)
 
-1. **Enable RBAC**: To enable and configure Role Based Access Control for the service. 
+1. **RBAC:** Authorization mechanism for managing permissions around Kubernetes resources. RBAC allows configuration of flexible authorization policies that can be updated without restarting clusters.
 
-2. **Add Role: ** To add access roles. This option will define the namespace level access/restriction roles.
+2. **Enable RBAC**: To enable and configure Role Based Access Control for the service. 
 
-3. **Add Cluster Role:** To add cluster level access roles.
+3. **Add Role: ** To add access roles. This option will define the namespace level access/restriction roles.
+
+4. **Add Cluster Role:** To add cluster level access roles.
 
    > Resource based rules can be configured at container and cluster level. Process explained below is same for cluster and container. 
 

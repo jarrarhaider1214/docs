@@ -32,13 +32,13 @@ Threshold value of chosen metrics in can be defined in two forms
 
 User can also define the MIN and MAX value for number of replicas of running containers. Whenever the threshold is reached, number of replicas will automatically adjust in the range defined by the user.
 
-User can define only one container policy for each container service in the Project.
+User can define only one container policy for each container service in the Application.
 
 Now let’s move to step by step process on how to setup Container scaling.
 
 **Container Scaling**
 
-1. Go to the **App** tab, configure **Container**, navigate to the **Scaling** menu and **Enable Scaling**.
+1. Go to the **App Design** tab while configuring application, drag and drop **Container** on canvas, go to **Advanced Settings** (last menu in side bar), select **Scaling** menu and **Enable Scaling**.
 
    ![3](imgs/3.jpg)
 
@@ -65,7 +65,7 @@ If any pod gets into pending state due to insufficient capacity in the cluster o
 
 **Configuration** 
 
-Whenever a new node gets launched by autoscaling, CP will fetch its details and show it in Project. It will also clean up the details of terminated node from the Project UI.
+Whenever a new node gets launched by autoscaling, CP will fetch its details and show it in Application. It will also clean up the details of terminated node from the Application UI.
 
 Node scaling can only be defined for Node Pools but can't be defined for Master Pool (First Node Pool). Other than the first Master pool scaling can be defined for all the node pools. 
 
@@ -107,6 +107,6 @@ To generate a token.
 
    ![6](imgs/6.jpg)
 
-2. Go to the **Token** menu and click **Add Token** button. A Token will now be generated and appear in the drop-down while configuring scaling. 
+2. Go to the **Token Management** menu and click **Add Token** button. A Token will now be generated and appear in the drop-down while configuring scaling. 
 
    ![7](imgs/7.jpg)
