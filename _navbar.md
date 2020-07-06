@@ -1,5 +1,1 @@
-- [Cloudplex](http://beta.cloudplex.io)
-
-- Application
-
-- Forum
+- [Cloudplex](https://cloudplex.io)
