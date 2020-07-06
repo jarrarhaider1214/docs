@@ -112,6 +112,8 @@ While configuring Application, drag and drop **GCP Cloud Memory** from left pall
 
 ## Big Data
 
+BigQuery (Big Data) is Google's fully managed, petabyte scale, low cost analytics data warehouse. BigQuery is NoOps i.e. there is no infrastructure to manage and no need of a database administrator— so users can focus on analyzing data to find meaningful insights. To know more about BigQuery, click [here](https://cloud.google.com/bigquery). 
+
 While configuring Application, drag and drop **GCP Big Data** from left pallet and in to the canvas to configure it.
 
 ![7](imgs/7.jpg)

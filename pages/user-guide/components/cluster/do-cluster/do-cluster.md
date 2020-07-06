@@ -6,13 +6,21 @@ Here are the configurations option that will be available to user while configur
 
 ![1](imgs/1.jpg)
 
-1. Name of the **Cluster**. Cluster is a group of node pools. 
-2. **Add Mode Pools:** To add another node pool. Cluster can have 1 or multiple node pools.
+1. **Node Pool**: Pool of nodes and complete configurations for that node. User can add more than 1 Node Pools as well by clicking the **+** icon. 1st node pool will always be Master node pool. All the other node pools will be slave/worker node pools. 
+
+   > Platform provides default values for Master node pools. All the other node pools will need to be configured by the users. 
+
+2. **Clone:** To clone the configurations of current node pool and create another one similar to it. 
+
 3. **Name** of the Node Pool.
    Node pool is pool of machines/droplets and complete configurations for that droplet. 1st node pool will always be Master node pool
+
 4. **Machine Type**: Droplet type based on Cloud Provider selected. (To know more about pricing of droplets click [here](https://www.digitalocean.com/pricing/#Compute))
+
 5. **Node Count**: Number of droplets in the node pool.
+
 6. **Node Pool Role**: Role of node pool i.e. Master or Slave. (First Node Pool will always be master)
+
 7. **Firewall**: Firewall to associate with the machine depending on network.
 
 ![2](imgs/2.jpg)

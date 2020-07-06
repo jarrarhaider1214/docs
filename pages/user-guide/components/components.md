@@ -48,3 +48,4 @@ Now let’s move to the brief explanation of components.
 
 [Slack Integration](/pages/user-guide/components/slack-integration/slack-integration)
 
+[Application Sharing](pages/user-guide/components/application-sharing/application-sharing)

@@ -37,6 +37,12 @@
    - Most of the fields are preconfigured, but you can also customize them.
    - Select **Credential Type** from dropdown, i.e. **Key** in this case, select **Key Type** i.e. **New**, **Enter Key Name** and click **Generate**. A side menu will open, click **Save** and new SSH key will be generated. 
 
+     > While saving the key, you can also download the key for future use by checking **Download Key** option.
+
+   ![9.1](imgs/9.1.jpg)
+
+   ![9.2](imgs/9.2.jpg)
+
 7. Click **Next** at the top right of screen.
 
 8. (Optional) Configure **Kubernetes**.
@@ -55,19 +61,21 @@
 
 10. Design application using **App Designer**.
 
-    > As part of this guide, we will only configure the minimum settings necessary to deploy the container. For detailed configurations, please check our detailed guide by clicking [here](/pages/user-guide/components/container-services/container-services).
+    > As part of this guide, we will only configure the minimum settings necessary to deploy the container. For detailed configurations, please check our detailed guide by clicking [here](/pages/user-guide/components/k8s-resources/container/container).
 
-    - Drag and drop the **Container** in the package canvas from left column.
+    - Drag and drop the **Container** service in K8s resources from left column in to the canvas.
 
     - Click on **Container** icon to configure the settings. (Platform has provided default values for most of the parameters) 
 
       - Specify **Image Name** and **Tag**.
-      - Go to **Environment Variables** menu and add Variable. It is necessary to add at least one variable which in our case is **MYSQL_ROOT_PASSWORD**.
 
       ![2.2](imgs/2.2.jpg)
+
+      - Go to **Environment Variables** menu and **Add Static** Variable. It is necessary to add at least one variable which in our case is **MYSQL_ROOT_PASSWORD**.
+
       ![2.3](imgs/2.3.jpg)
 
-      - Go to the **Ports**, click **Add Port** button and specify the port for Traffic i.e. **8080**
+      - Go to the **Ports**, click **Add Port** button and specify the port for Traffic i.e. **8080**.
 
       ![2.4](imgs/2.4.jpg)
 
@@ -83,8 +91,8 @@
 
 13. Once an application is started, platform automatically redirect to **Logs** tab. Logs help in monitoring of different phases of application deployment.
 
-![4](imgs/4.jpg)
+    ![4](imgs/4.jpg)
 
-11. To check in-depth flow of traffic, go to the **Monitoring** tab.
+14. To check in-depth flow of traffic, go to the **Monitoring** tab.
 
-![5](imgs/5.jpg)
+    ![5](imgs/5.jpg)

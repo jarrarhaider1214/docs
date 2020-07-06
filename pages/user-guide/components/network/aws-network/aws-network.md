@@ -9,15 +9,26 @@ Here are the configurations option that will be available to user while configur
 ![1](imgs/1.jpg)
 
 1. **Network Name**: Name of the network. 
+
 2. **Virtual Private Cloud**: VPC to be used for the project. You can use any existing VPC created on cloud or create a new one. 
+
 3. **VPC Name**: Unique name of the virtual private cloud where resources will be launched.
+
 4. **CIDR**: IPv4 address in the form of a CIDR block.
+
 5. **Private IP:** To configure private IP.
+
 6. **Subnets**: Tab to configure subnet settings. Subnet is a logical subdivision of a VPC.
+
 7. **Security Groups**: Tab to configure security groups settings. A security group acts as a virtual firewall for your instance to control inbound and outbound traffic.
+
 8. **Gateway:** Tab to configure Internet Gateway.
+
 9. **Route Tables:** Tab to configure Route Tables.
->  Support for Gateway and Route Tables will be added soon in the platform.
+
+   > Support for Gateway and Route Tables will be added soon in the platform.
+
+
 ![2](imgs/2.jpg)
 
 1. **Add Subnets**: To add subnets. VPC can have multiple subnets.

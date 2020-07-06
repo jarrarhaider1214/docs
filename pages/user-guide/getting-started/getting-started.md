@@ -8,13 +8,17 @@ Now, lets move to the process of signing up and deployment
 
    ![0](imgs/0.jpg)
 
-2. After email verification, you will be able to login to platform.
+2. (**In case you haven't received verification email**) Click **Resend Activation Email** to resend the email.
+
+   ![0.01](imgs/0.01.jpg)
+
+3. After email verification, you will be able to login to platform.
 
    > First time user signing up using a company domain will have **Super User** access of platform.  For more details on how super user can invite team members, check our guide on Access Management by clicking [here](/pages/user-guide/components/access-management/access-management).
 
    ![0.1](imgs/0.1.jpg)
 
-3. Once logged in, click **Create Application** button to start the application creation wizard. 
+4. Once logged in, click **Create Application** button to start the application creation wizard. 
 
 ![1](imgs/1.jpg)
 
@@ -38,7 +42,7 @@ CloudPlex offers 3 ways of creating and deploying a new application on the cloud
    - Create New On-Premise Kubernetes Cluster
      To use On-Premise machines to create a Kubernetes cluster.
 3. Clone Existing Application
-   Recommended for the users who want to use same configurations or configurations with minor changes of any existing project by cloning it. 
+   Recommended for the users who want to use same configurations or configurations with minor changes of any existing application by cloning it. 
 
 ![1.1](imgs/1.1.jpg)
 

@@ -6,13 +6,16 @@ Here are the configurations option that will be available to user while configur
 
 ![1](imgs/1.jpg)
 
-1. **Node Pool**: Pool of nodes and complete configurations for that node. Node Pools can be more than one. 1st node pool will always be Master node pool
-2. Name of the **Node Pool**.
-3. **Machine Type**: Instance type based on Cloud Provider selected. 
-4. **Node Count**: Number of Nodes in the node pool.
-5. **Node Pool Role**: Role of node pool i.e. Master or Slave. (First Node Pool will always be master)
-6. **Subnet**: Subnet to associate with the node depending on network.
-7. **Security Group**: Security Group to associate with the node depending on network.
+1. **Node Pool**: Pool of nodes and complete configurations for that node. User can add more than 1 Node Pools as well by clicking the **+** icon. 1st node pool will always be Master node pool. All the other node pools will be slave/worker node pools. 
+
+   > Platform provides default values for Master node pools. All the other node pools will need to be configured by the users. 
+2. **Clone:** To clone the configurations of current node pool and create another one similar to it. 
+3. Name of the **Node Pool**.
+4. **Machine Type**: Instance type based on Cloud Provider selected. 
+5. **Node Count**: Number of Nodes in the node pool.
+6. **Node Pool Role**: Role of node pool i.e. Master or Slave. (First Node Pool will always be master)
+7. **Subnet**: Subnet to associate with the node depending on network.
+8. **Security Group**: Security Group to associate with the node depending on network.
 
 ![1](imgs/2.jpg)
 
@@ -34,4 +37,4 @@ Here are the configurations option that will be available to user while configur
 
 4. **Docker Data Volume**: To add docker data volume as well.
 
-5. **Down Arrow Button**: To fetch latest AMIs
+5. Fetch **root volume** of image which is provided as **AMI**.

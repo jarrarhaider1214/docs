@@ -30,10 +30,21 @@ Details of the configurations that can be done for Serverless at Application lev
 ![3](imgs\3.jpg)
 
 1. Specify **Image Url**.
+
 2. Specify **Registry Tag**.
+
 3. **Environment Variables**: To add static/dynamic environment variables or Load Balancer.
+
 4. **Minimum Scale:** Minimum scale limit.
+
 5. **Maximum Scale:** Maximum scale limit.
+
 6. **Add Ports**: To add host and ports.
+
 7. To enable **Enforce Internal Communication**.
+
+   > By default services deployed through Knative are published to an external IP address, making them public services on a public IP address and with a public URL. In order to build a service that should not be available off-cluster user can enable enforce internal communication.
+
 8. (If **Enforce Internal Communication** is not **Enabled**) **Add Domains** and **Labels**.
+
+   > **Labels:** To configure a service to only be available on the cluster-local network (and not on the public Internet), a user can apply labels. To know more about labels, click [here](https://knative.dev/docs/serving/cluster-local-route/).

@@ -103,13 +103,21 @@ Details of the configurations that can be done for Kubernetes Containers are exp
 
 ![9](imgs/9.jpg)
 
-1. **Resource Quota**: To setup resource quota limits. Currently, CPU and Memory resource quota is supported.
+1. **Resource Quota**: A resource quota provides constraints that limit aggregate resource consumption per namespace. It can limit the quantity of objects that can be created in a namespace by type, as well as the total amount of compute resources that may be consumed by resources in that project. 
 
-   > When allocating compute resources, each container may specify a request and a limit value for either CPU or memory. The quota can be configured to quota either value.
+   > Currently, CPU and Memory resource quota is supported.
    >
-   > **Request:** If the quota has a value specified for requests.cpu or requests.memory, then it requires that every incoming container makes an explicit request for those resources.
-   >
-   > **Limit:** If the quota has a value specified for limits.cpu or limits.memory, then it requires that every incoming container specifies an explicit limit for those resources.
+   > When allocating compute resources, each container may specify a request and a limit value for either CPU or memory. 
+
+2. **Limit Resources:** If the quota has a value specified for limits.cpu or limits.memory, then it requires that every incoming container specifies an explicit limit for those resources.
+
+   - Limits CPU: Across all pods in a non-terminal state, the sum of CPU limits cannot exceed this value.
+   - Limits Memory: Across all pods in a non-terminal state, the sum of memory limits cannot exceed this value.
+
+3.  **Request Resources:** If the quota has a value specified for requests.cpu or requests.memory, then it requires that every incoming container makes an explicit request for those resources.
+
+   - Requests CPU: Across all pods in a non-terminal state, the sum of CPU requests cannot exceed this value.
+   - Requests Memory: Across all pods in a non-terminal state, the sum of memory requests cannot exceed this value.
 
 **To Configure Probing:**
 

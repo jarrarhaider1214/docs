@@ -6,12 +6,20 @@ Here are the configurations option that will be available to user while configur
 
 ![1](imgs/1.jpg)
 
-1. **Node Pool**: Pool of nodes and complete configurations for that node. Node Pools can be more than one. 1st node pool will always be Master node pool
-2. Name of the **Node Pool**.
+1. **Node Pool**: Pool of nodes and complete configurations for that node. User can add more than 1 Node Pools as well by clicking the **+** icon. 1st node pool will always be Master node pool. All the other node pools will be slave/worker node pools. 
+
+   > Platform provides default values for Master node pools. All the other node pools will need to be configured by the users. 
+
+2. **Clone:** To clone the configurations of current node pool and create another one similar to it. 
+
 3. **Machine Type**: Machine type based on Cloud Provider selected. 
+
 4. **Node Count**: Number of Nodes in the node pool.
+
 5. **Node Pool Role**: Role of node pool i.e. Master or Slave. (First Node Pool will always be master)
+
 6. **Subnet**: Subnet to associate with the machine depending on network.
+
 7. **Security Group**: Security Group to associate with the machine depending on network.
 
 ![2](imgs/2.jpg)
@@ -30,5 +38,5 @@ Here are the configurations option that will be available to user while configur
 4. **Image SKU:** SKU is like an instance of an offer, such as a major release of a distribution e.g. 2016-Datacenter.
 5. **Image Version:**  Version number of an image SKU.
 6. **Enable Boot Diagnostics:** To enable and store in Storage Account. 
-7. **New Storage Account:** To attach new storage account with node.
+7. **New Storage Account:** To attach new storage account with node or you can use any existing Storage Account by providing the **Storage Account Id.**
 8. **Docker Data Volume**: To add docker data volume as well.

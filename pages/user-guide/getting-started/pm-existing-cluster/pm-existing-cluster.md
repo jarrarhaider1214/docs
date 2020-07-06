@@ -43,19 +43,21 @@
 
 8. Design application using **App Designer**.
 
-   > As part of this guide, we will only configure the minimum settings necessary to deploy the container. For detailed configurations, please check our detailed guide by clicking [here](/pages/user-guide/components/container-services/container-services).
+   > As part of this guide, we will only configure the minimum settings necessary to deploy the container. For detailed configurations, please check our detailed guide by clicking [here](/pages/user-guide/components/k8s-resources/container/container).
 
-   - Drag and drop the **Container** in the package canvas from left column.
+   - Drag and drop the **Container** service in K8s resources from left column in to the canvas.
 
    - Click on **Container** icon to configure the settings. (Platform has provided default values for most of the parameters) 
 
      - Specify **Image Name** and **Tag**.
-     - Go to **Environment Variables** menu and add Variable. It is necessary to add at least one variable which in our case is **MYSQL_ROOT_PASSWORD**.
 
      ![2.2](imgs/2.2.jpg)
+
+     - Go to **Environment Variables** menu and **Add Static** Variable. It is necessary to add at least one variable which in our case is **MYSQL_ROOT_PASSWORD**.
+
      ![2.3](imgs/2.3.jpg)
 
-     - Go to the **Ports**, click **Add Port** button and specify the port for Traffic i.e. **8080**
+     - Go to the **Ports**, click **Add Port** button and specify the port for Traffic i.e. **8080**.
 
      ![2.4](imgs/2.4.jpg)
 
@@ -71,8 +73,8 @@
 
 11. Once an application is started, platform automatically redirect to **Logs** tab. Logs help in monitoring of different phases of application deployment.
 
-![4](imgs/4.jpg)
+    ![4](imgs\4.png)
 
-11. To check in-depth flow of traffic, go to the **Monitoring** tab.
+12. To check in-depth flow of traffic, go to the **Monitoring** tab.
 
-![5](imgs/5.jpg)
+    ![5](imgs/5.jpg)

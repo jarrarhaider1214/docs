@@ -6,12 +6,21 @@ Here are the configurations option that will be available to user while configur
 
 ![1](imgs/1.jpg)
 
-1. **Node Pool**: Pool of nodes and complete configurations for that node. Node Pools can be more than one. 1st node pool will always be Master node pool
-2. Name of the **Node Pool**.
-3. **Machine Type**: Machine type based on Cloud Provider selected. 
-4. **Node Count**: Number of Nodes in the node pool.
-5. **Node Pool Role**: Role of node pool i.e. Master or Slave. (First Node Pool will always be master)
-6. **Subnet**: Subnet to associate with the machine depending on network.
+1. **Node Pool**: Pool of nodes and complete configurations for that node. User can add more than 1 Node Pools as well by clicking the **+** icon. 1st node pool will always be Master node pool. All the other node pools will be slave/worker node pools. 
+
+   > Platform provides default values for Master node pools. All the other node pools will need to be configured by the users. 
+
+2. **Clone:** To clone the configurations of current node pool and create another one similar to it. 
+
+3. Name of the **Node Pool**.
+
+4. **Machine Type**: Machine type based on Cloud Provider selected. 
+
+5. **Node Count**: Number of Nodes in the node pool.
+
+6. **Node Pool Role**: Role of node pool i.e. Master or Slave. (First Node Pool will always be master)
+
+7. **Subnet**: Subnet to associate with the machine depending on network.
 
 ![2](imgs/2.jpg)
 
@@ -26,7 +35,7 @@ Here are the configurations option that will be available to user while configur
 1. **Image Family**: Will be listed based on the GCP account used to create cluster. 
 2. **Image Project**: Will be listed based on the image family selected.
 3. **Service Account Email:** Will be listed based on the GCP account used. It needs to have required access level as shown in info message in screenshot above. 
-4. **Tags**: Tags attached with the cluster. They can be attached while configuring cluster. 
+4. **Tags**: Tags attached with the cluster. They can be attached while configuring network. 
 5. **Disk Type:** Type of the disk for root volume e.g. Persistent SSD.
 6. **Disk Size**: Size for the root volume disk.
 7. **Docker Data Volume**: To add docker data volume as well.

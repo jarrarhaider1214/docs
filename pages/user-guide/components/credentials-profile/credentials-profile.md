@@ -1,8 +1,8 @@
 ## Credentials Profile
 
-Credential profile menu lets you save your credentials for AWS, Azure, GCP and other credentials that might be needed to setup project and for deployment. You can save your credentials for docker registry, APIs etc. These stored credentials can then be later used to configure a project or solution.
+Credential profile menu lets you save your credentials for AWS, Azure, etc and other credentials that might be needed to setup Application for deployment. You can save your credentials for docker registry, APIs etc. These stored credentials can then be later used to configure an Application.
 
-Purpose of this is to make it as easy as possible for the user to deploy the project. CloudPlex aims to provide a seamless experience of deployment. By storing the credentials, user won't have to manually provide the credentials to gain the access of resource everytime and be done with deployment in under 5 minutes. 
+Purpose of this is to make it as easy as possible for the user to deploy the application. CloudPlex aims to provide a seamless experience of deployment. By storing the credentials, user won't have to manually provide the credentials to gain the access of resources everytime and be done with deployment in under 5 minutes. 
 
 Different type of Credentials can be saved and fetched while configuring different modules in the platform. Explained below is the process of storing credentials in platform. 
 
@@ -57,6 +57,8 @@ Cloud Profile can be saved while configuring the Basic Info/General tab of  the 
 7. Select **Team** from drop-down to share access of this profile.
 
 8. Click **Save**. You will now be able to select this profile from drop-down for future applications. 
+
+   > Profiles saved while configuring the Application will also appear in Credentials Profile menu. User can update or edit the saved profiles by navigating to the credential profiles.
 
    ![2](imgs/2.jpg)
 
