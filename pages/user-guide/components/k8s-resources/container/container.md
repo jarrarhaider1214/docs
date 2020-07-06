@@ -12,13 +12,15 @@ Details of the configurations that can be done for Kubernetes Containers are exp
 
 2. **Container Icon**: Click the icon to configure container. 
 
-3. **Name**: Name for the service.
+3. **Service Id:** Id of the service. System will automatically assign id to the service but user can customize it.
 
-4. **Version:** Version of the service.
+4. **Name**: Name for the service.
 
-5. **Namespace**: Namespace for the service. 
+5. **Version:** Version of the service.
 
-6. **Type**: Type of Pod or Controller i.e. Deployment, StatefulSet, DaemonSet, CronJob, Job.
+6. **Namespace**: Namespace for the service. 
+
+7. **Type**: Type of Pod or Controller i.e. Deployment, StatefulSet, DaemonSet, CronJob, Job.
 
    > **Deployment:** A Deployment controller provides declarative updates for Pods and ReplicaSets. It changes the actual state to the desired state at a controlled rate. You can define Deployments to create new ReplicaSets, or to remove existing Deployments and adopt all their resources with new Deployments.
    >
@@ -29,20 +31,20 @@ Details of the configurations that can be done for Kubernetes Containers are exp
    > **Job:** A Job creates one or more Pods and ensures that a specified number of them successfully terminate. As pods successfully complete, the Job tracks the successful completions. When a specified number of successful completions is reached, the task is complete. Deleting a Job will clean up the Pods it created.
    >
    > **CronJob:** A Cron Job creates Jobs on a time-based schedule. It runs a job periodically on a given schedule, written in Cron format.
-   
-7. **Replica:** To set number of container replicas. 
 
-8. **Registry**: Select any saved docker registry from drop-down or create a new one. 
+8. **Replica:** To set number of container replicas. 
 
-9. **Profile Name**: Profile Name to save registry for future use. 
+9. **Registry**: Select any saved docker registry from drop-down or create a new one. 
 
-10. **Registry Username** of docker registry.
+10. **Profile Name**: Profile Name to save registry for future use. 
 
-11. **Registry Password** of docker registry. 
+11. **Registry Username** of docker registry.
 
-12. **Registry Name:** Specify Name of the registry. 
+12. **Registry Password** of docker registry. 
 
-13. **Save Docker Credentials**: To save credentials for future use. 
+13. **Registry Name:** Specify Name of the registry. 
+
+14. **Save Docker Credentials**: To save credentials for future use. 
 
 ![2](imgs/2.jpg)
 
