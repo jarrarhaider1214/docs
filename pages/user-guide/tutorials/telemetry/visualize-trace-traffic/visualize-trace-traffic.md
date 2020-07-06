@@ -10,6 +10,10 @@ Integration with distributed tracing systems happens in two different ways: Envo
 
 Number of tracing backends are also supported including Jaeger, LightStep, Zipkin, and Datadog. Operators control the sampling rate for trace generation (that is, the rate at which tracing data is generated per request). This gives operators further control of the amount and rate of tracing data being produced for their app.
 
+> Monitoring/visualization will only be available for the deployed Applications. To access monitoring, select any deployed application from Applications module and go to the **Monitoring** tab.
+
+![0](imgs/0.jpg)
+
 Now, let's move to the brief overview of visualization options available in CloudPlex Monitoring.
 
 ![1](imgs/1.jpg)

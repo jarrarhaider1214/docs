@@ -6,6 +6,10 @@ User can also search for specific log using the search bar and can also retrieve
 
 Mostly multiple containers will be part of an app, so user can also get the logs of any specific container using All Systems drop-down. 
 
+> Once an Application is deployed, platform automatically redirects the user to Logs tab. User can also access Logs, by selecting any deployed application from Applications module and going to the **Logs** tab.
+
+![0](imgs/0.jpg)
+
 ![1](imgs/1.jpg)
 
 # Logs Archiving

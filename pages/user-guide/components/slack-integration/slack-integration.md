@@ -1,6 +1,6 @@
 # Slack Integration
 
-Slack integration allows user to receive notification of important events from the CloudPlex for a particular project. For smooth integration, you need to create a **New Slack App** with required permissions. Process of creating a slack app is explained below.
+Slack integration allows user to receive notification of important events from the CloudPlex for any specific application. For smooth integration, you need to create a **New Slack App** with required permissions. Process of creating a slack app is explained below.
 
 ## How to Creation a Slack Application
 
@@ -31,7 +31,7 @@ Slack integration allows user to receive notification of important events from t
 
 ## How to Setup Integration in CloudPlex
 
-1. Go to the **Projects** menu from top bar and select the required project. 
+1. Go to the **Applications** menu from top bar and select the required Application. 
 
    ![5](imgs/5.jpg) 
 
@@ -41,11 +41,14 @@ Slack integration allows user to receive notification of important events from t
 
 3. Once verified, select the channels from **Select Channels** drop-down.
 
-4. Select the **Notification Topics** using toggle buttons to receive notifications and click on **Save Settings** button. 
+4. Select the **Notification Topics** using toggle buttons to receive notifications on slack channel and click on **Save Settings** button.
 
-   **Note**: You can also select more than one channel and topic.
+   > You can also select more than one channel from drop-down.
 
-   ![7](imgs/7.png)
+   ![7](imgs/7.jpg)
 
 5. You will now start receiving notifications for your topics in Slack channels.
 
+> To delete stored slack details from application, click **Delete Settings** link at the top right.
+
+![8](imgs/8.jpg)

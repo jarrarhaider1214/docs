@@ -16,8 +16,9 @@ Details of the configurations that can be done for Legacy Service are explained 
 
 1. **Others**: Drop-down to add Legacy service.
 2. **Legacy Icon**: Click the icon to configure service.
-3. **Name**: Name for the service.
-4. **Version**: Version of the service.
-5. **Namespace**: Namespace for the service
-6. **IP**: IP of the service.
-7. **Port**: To add running process ports. 
+3. **Service ID:** Id of the service. System will automatically assign id to the service but user can customize it.
+4. **Name**: Name for the service.
+5. **Version**: Version of the service.
+6. **Namespace**: Namespace for the service
+7. **IP**: IP of the service.
+8. **Port**: To add running process ports. 

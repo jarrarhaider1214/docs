@@ -1,9 +1,14 @@
 # Digital Ocean
 
+Digital Ocean network secures and controls the traffic to the applications with private networking, traffic filtering, and load balancing.
+
+> It is recommended to have good knowledge of networking components before configuring it. To learn more, click [here](https://www.digitalocean.com/products/networking/).
+
+Here are the configurations option that will be available to user while configuring network cluster for Application deployment. 
+
 ![1](imgs/1.jpg)
 
 1. **Network Name**: Name of the network. 
-   It is to secure and control the traffic to your applications with private networking, traffic filtering, and load balancing.
 2. **Virtual Firewall Type**: Whether you want to setup a new farewell or use any existing firewall.. 
 3. **Firewalls**: Cloud firewalls to block all traffic that isn't expressly permitted by a rule
 4. **Add Firewalls**: Button to add and configure firewall.

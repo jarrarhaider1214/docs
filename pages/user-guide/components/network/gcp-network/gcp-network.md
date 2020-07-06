@@ -1,13 +1,23 @@
 # GCP
 
+Google Cloud Virtual Private Cloud (VPC) provides networking functionality to Compute Engine virtual machine (VM) instances, Google Kubernetes Engine (GKE) containers, and the App Engine flexible environment. 
+
+> It is recommended to have good knowledge of networking components before configuring it. To learn more, click [here](https://cloud.google.com/vpc).
+
+Here are the configurations option that will be available to user while configuring network cluster for Application deployment. 
+
 ![1](imgs/1.jpg)
 
 1. **Network Name**: Name of the network.
-2. **Templates**: To get the list of existing network templates stored in platform
-3. **Virtual Private Cloud**: VPC to be used for the project. You can use any existing VPC created on cloud or create a new one. 
-4. **VPC Name**: Name of the VPC.
+2. **Virtual Private Cloud**: VPC to be used for the project. You can use any existing VPC created on cloud or create a new one. 
+3. **VPC Name**: Name of the VPC.
+4. **Private IP:** To configure private IP.
 5. **Subnets**: Tab to configure subnet settings.
 6. **Security Groups**: Tab to configure security groups settings.
+7. **Gateway:** Tab to configure Internet Gateway.
+8. **Route Tables:** Tab to configure Route Tables.
+
+> Support for Gateway and Route Tables will be added soon in the platform.
 
 ![2](imgs/2.jpg)
 

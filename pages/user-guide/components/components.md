@@ -10,13 +10,17 @@ Now let’s move to the brief explanation of components.
 
 [Cluster](/pages/user-guide/components/cluster/cluster?id=cluster)
 
-[AWS Cluster](/pages/user-guide/components/aws-cluster/aws-cluster?id=aws-cluster)
+​	[AWS Cluster](/pages/user-guide/components/cluster/aws-cluster/aws-cluster)
 
-[Azure Cluster](/pages/user-guide/components/azure-cluster/azure-cluster?id=azure-cluster)
+​	[Azure Cluster](/pages/user-guide/components/cluster/azure-cluster/azure-cluster)
 
-[GCP Cluster](/pages/user-guide/components/gcp-cluster/gcp-cluster?id=gcp-cluster)
+​	[GCP Cluster](/pages/user-guide/components/cluster/gcp-cluster/gcp-cluster)
 
-[Container Services](/pages/user-guide/components/container-services/container-services?id=container-services)
+​	[Digital Ocean Cluster](/pages/user-guide/components/cluster/do-cluster/do-cluster)
+
+[K8s Resources](/pages/user-guide/components/k8s-resources/k8s-resources?id=k8s-resources)
+
+[Build Service](/pages/user-guide/components/build-service/build-service)
 
 [Credentials Profile](/pages/user-guide/components/credentials-profile/credentials-profile?id=credentials-profile)
 
@@ -26,7 +30,15 @@ Now let’s move to the brief explanation of components.
 
 [Managed Services](/pages/user-guide/components/managed-service/managed-service?id=managed-services)
 
-[Network](http://localhost:3000/#/pages/user-guide/components/network/network?id=networking)
+[Network](/pages/user-guide/components/network/network?id=networking)
+
+​	[AWS](/pages/user-guide/components/network/aws-network/aws-network)
+
+​	[Azure](/pages/user-guide/components/network/azure-network/azure-network)
+
+​	[GCP](/pages/user-guide/components/network/gcp-network/gcp-network)
+
+​	[Digital Ocean](/pages/user-guide/components/network/do-network/do-network)
 
 [Project](/pages/user-guide/components/project/project?id=project)
 
@@ -34,3 +46,6 @@ Now let’s move to the brief explanation of components.
 
 [Serverless](/pages/user-guide/components/serverless/serverless?id=serverless)
 
+[Slack Integration](/pages/user-guide/components/slack-integration/slack-integration)
+
+[Application Sharing](pages/user-guide/components/application-sharing/application-sharing)
