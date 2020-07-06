@@ -21,7 +21,6 @@
     - [Registry Services](pages/user-guide/components/k8s-resources/registry-service/registry-service)
   - [Build Service](pages/user-guide/components/build-service/build-service)
   - [Credentials Profile](pages/user-guide/components/credentials-profile/credentials-profile)
-  - [Dashboard](pages/user-guide/components/dashboard/dashboard)
   - [Legacy Applications](pages/user-guide/components/legacy-applications/legacy-applications)
   - [Managed Services](pages/user-guide/components/managed-services/managed-services)
     - [AWS](pages/user-guide/components/managed-services/aws-managed-services/aws-managed-services?id=aws)
