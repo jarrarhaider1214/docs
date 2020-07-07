@@ -8,6 +8,22 @@ Now let’s move to the brief explanation of components.
 
 [Access Management](/pages/user-guide/components/access-management/access-management?id=access-management)
 
+[Credentials Profile](/pages/user-guide/components/credentials-profile/credentials-profile?id=credentials-profile)
+
+[Create Application](pages/user-guide/components/application/application?id=application)
+
+[Application Sharing](pages/user-guide/components/application-sharing/application-sharing)
+
+[Network](/pages/user-guide/components/network/network?id=networking)
+
+​	[AWS](/pages/user-guide/components/network/aws-network/aws-network)
+
+​	[Azure](/pages/user-guide/components/network/azure-network/azure-network)
+
+​	[GCP](/pages/user-guide/components/network/gcp-network/gcp-network)
+
+​	[Digital Ocean](/pages/user-guide/components/network/do-network/do-network)
+
 [Cluster](/pages/user-guide/components/cluster/cluster?id=cluster)
 
 ​	[AWS Cluster](/pages/user-guide/components/cluster/aws-cluster/aws-cluster)
@@ -20,34 +36,28 @@ Now let’s move to the brief explanation of components.
 
 [K8s Resources](/pages/user-guide/components/k8s-resources/k8s-resources?id=k8s-resources)
 
+[Persistent Volume](/pages/user-guide/components/persistent-volume/persistent-volume?id=persistent-volume)
+
 [Build Service](/pages/user-guide/components/build-service/build-service)
 
-[Credentials Profile](/pages/user-guide/components/credentials-profile/credentials-profile?id=credentials-profile)
-
-[Dasboards](/pages/user-guide/components/dashboard/dashboard?id=dashboard)
+[Serverless](/pages/user-guide/components/serverless/serverless?id=serverless)
 
 [Legacy Application](/pages/user-guide/components/legacy-applications/legacy-applications?id=legacy-application)
 
 [Managed Services](/pages/user-guide/components/managed-service/managed-service?id=managed-services)
 
-[Network](/pages/user-guide/components/network/network?id=networking)
-
-​	[AWS](/pages/user-guide/components/network/aws-network/aws-network)
-
-​	[Azure](/pages/user-guide/components/network/azure-network/azure-network)
-
-​	[GCP](/pages/user-guide/components/network/gcp-network/gcp-network)
-
-​	[Digital Ocean](/pages/user-guide/components/network/do-network/do-network)
-
-[Project](/pages/user-guide/components/project/project?id=project)
-
 [Scaling](/pages/user-guide/components/scaling/scaling?id=scaling)
-
-[Serverless](/pages/user-guide/components/serverless/serverless?id=serverless)
-
-[Persistent Volume](/pages/user-guide/components/persistent-volume/persistent-volume?id=persistent-volume)
 
 [Slack Integration](/pages/user-guide/components/slack-integration/slack-integration)
 
-[Application Sharing](pages/user-guide/components/application-sharing/application-sharing)
+[Telemetry](pages/user-guide/tutorials/telemetry/telemetry)
+
+​	[Visualize & Trace Traffic](pages/user-guide/tutorials/telemetry/visualize-trace-traffic/visualize-trace-traffic)
+
+​	[Monitoring](pages/user-guide/tutorials/telemetry/monitoring/monitoring)
+
+​	[Container Logging](pages/user-guide/tutorials/telemetry/container-logging/container-logging)
+
+[Continuous Delivery](pages/user-guide/tutorials/continuous-delivery/continuous-delivery)
+
+​	[Deploy Canary Release](pages/user-guide/tutorials/continuous-delivery/deploy-canary-release/deploy-canary-release)
