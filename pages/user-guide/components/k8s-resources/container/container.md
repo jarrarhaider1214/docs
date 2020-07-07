@@ -56,7 +56,7 @@ Details of the configurations that can be done for Kubernetes Containers are exp
 
 ![3](imgs/3.jpg)
 
-1. **Add Static**: Too add static environment variable. Only Key, Value pair will be needed
+1. **Add Static**: To add static environment variable. Only Key, Value pair will be needed
 2. **Add Dynamic:** To add dynamic variable. For getting the values dynamically on run time from other services in the application.
 3. **Bulk Edit:** To bulk edit multiple variables at once.  
 
@@ -96,30 +96,43 @@ Details of the configurations that can be done for Kubernetes Containers are exp
 
 ![8](imgs/8.jpg)
 
-1. **Add Volume:** For detailed guide on how to configure Volume, click here.
+1. **Add Volume:** For detailed guide on how to configure **Persistent Volume**, click [here](/pages/user-guide/components/persistent-volume/persistent-volume).
 2. **Add Secret:** For detailed guide on how to configure Kubernetes secret, click [here](/pages/user-guide/components/k8s-resources/kubernetes-secret/kubernetes-secret).
-3. **Add ConfigMap:** For detailed guide on how to configure ConfigMap, click 
+3. **Add ConfigMap:** For detailed guide on how to configure ConfigMap, click [here](/pages/user-guide/components/k8s-resources/config-maps/config-maps). 
+4. **Add Empty Directory:** This volume gets created when a Pod is assigned to a Node, and exists as long as that Pod is running on that node.  When a Pod is removed from a node the data in the empty directory gets deleted forever. To know more about Empty Directory, click [here](https://kubernetes.io/docs/concepts/storage/volumes/#emptydir).
+5. **Add Host Path:** A hostPath volume mounts a file or directory from the host node's filesystem into the Pod. Host path offers powerful escape hatch for some applications. To know more about host path, click [here](https://kubernetes.io/docs/concepts/storage/volumes/#hostpath).
    **Mount Path**: Once the volumes are configured, click on volume bar and specify mount path. Mount Path is destination inside the Pod, where a volume gets mounted to.
 
 **To Configure Resource Quota:**
 
 ![9](imgs/9.jpg)
 
-1. **Resource Quota**: A resource quota provides constraints that limit aggregate resource consumption per namespace. It can limit the quantity of objects that can be created in a namespace by type, as well as the total amount of compute resources that may be consumed by resources in that project. 
+1. **Resource Quota**: A resource quota provides constraints that limit resource consumption. It can limit the quantity of objects that can be created as well as the total amount of compute resources that may be consumed by resources. Using resource quota, you can specify how much of each resource a Container needs. To know more about about resource quota, click [here](https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/).
 
    > Currently, CPU and Memory resource quota is supported.
    >
    > When allocating compute resources, each container may specify a request and a limit value for either CPU or memory. 
 
+   Supporting unites for CPU resources and memory are:
+
+   - Limits and requests for CPU resources are measured in cpu units. One cpu, in Kubernetes, is equivalent to 1 vCPU/Core for cloud providers and 1 hyperthread on bare-metal Intel processors.
+   - Limits and requests for memory are measured in bytes. You can express memory as a plain integer or as a fixed-point integer using one of these suffixes: E, P, T, G, M, K. You can also use the power-of-two equivalents: Ei, Pi, Ti, Gi, Mi, Ki
+
 2. **Limit Resources:** If the quota has a value specified for limits.cpu or limits.memory, then it requires that every incoming container specifies an explicit limit for those resources.
 
    - Limits CPU: Across all pods in a non-terminal state, the sum of CPU limits cannot exceed this value.
+
    - Limits Memory: Across all pods in a non-terminal state, the sum of memory limits cannot exceed this value.
 
-3.  **Request Resources:** If the quota has a value specified for requests.cpu or requests.memory, then it requires that every incoming container makes an explicit request for those resources.
+     > A container will never be allowed to use more than its resource limit.
+
+3. **Request Resources:** If the quota has a value specified for requests.cpu or requests.memory, then it requires that every incoming container makes an explicit request for those resources.
 
    - Requests CPU: Across all pods in a non-terminal state, the sum of CPU requests cannot exceed this value.
+
    - Requests Memory: Across all pods in a non-terminal state, the sum of memory requests cannot exceed this value.
+
+     > If the node where a Pod is running has enough of a resource available, it's possible (and allowed) for a container to use more resource than its request for that resource specifies.
 
 **To Configure Probing:**
 
@@ -278,5 +291,25 @@ Details of the configurations that can be done for Kubernetes Containers are exp
 
 1. **Annotations:** Annotations can be used to attach arbitrary non-identifying metadata to objects. Clients such as tools and libraries can retrieve this metadata.
 
+**To Configure Hooks:**
 
+![24](imgs/24.jpg)
 
+1. **Hooks:** Hooks allows developer, an opportunity to perform operations at strategic points in a release lifecycle e.g. hooks can be used to load a ConfigMap or Secret during install before any other services are deployed.
+
+2. **Add Hooks:** To add hooks, you can add multiple hooks as well. 
+
+3. **Service:** Select service from drop-down on which the hook will be applied. Only the services with some kind of dependency with particular service (in the screenshot above only the services having dependency with **Product** service) will be listed in the drop-down. 
+
+4. **Hook Type:** Select hook type from drop-down. You can select multiple hooks as well. 
+
+   > To know more about hook types. click [here](https://helm.sh/docs/topics/charts_hooks/).
+   > For services with inward arrow toward **Product** service, only **Pre** hook types will be listed.
+   >
+   > For services with outward arrow from **Product** service, only **Post** hook types will be listed.
+
+5. **Weight:** Specify weight of that hook. 
+
+   > Hook weights can be positive or negative numbers. When the system starts the execution cycle of hooks of a particular Kind it will sort those hooks in ascending order.
+
+ 

@@ -22,7 +22,7 @@ Now, lets move to the process of signing up and deployment
 
 ![1](imgs/1.jpg)
 
-CloudPlex offers 3 ways of creating and deploying a new application on the cloud, based on the requirements and expertise level of the user. 
+CloudPlex offers 3 ways of creation and application deployment on the cloud, based on the requirements and expertise level of the user. 
 
 1. Provider Managed
    To setup a cloud provider (AWS, Azure etc) managed Kubernetes cluster on CloudPlex.
@@ -42,7 +42,7 @@ CloudPlex offers 3 ways of creating and deploying a new application on the cloud
    - Create New On-Premise Kubernetes Cluster
      To use On-Premise machines to create a Kubernetes cluster.
 3. Clone Existing Application
-   Recommended for the users who want to use same configurations or configurations with minor changes of any existing application by cloning it. 
+   This feature is recommended when the users want to deploy an application having the same configurations or after making minute changes on any existing applications.
 
 ![1.1](imgs/1.1.jpg)
 

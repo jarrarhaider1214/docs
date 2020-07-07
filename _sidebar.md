@@ -32,9 +32,10 @@
     - [Azure](pages/user-guide/components/network/azure-network/azure-network)
     - [GCP](pages/user-guide/components/network/gcp-network/gcp-network)
     - [Digital Ocean](pages/user-guide/components/network/do-network/do-network)
-  - [Project](pages/user-guide/components/project/project)
+  - [Application](pages/user-guide/components/application/application)
   - [Scaling](pages/user-guide/components/scaling/scaling)
   - [Serverless](pages/user-guide/components/serverless/serverless)
+  - [Persistent Volume](pages/user-guide/components/persistent-volume/persistent-volume)
   - [Slack Integration](pages/user-guide/components/slack-integration/slack-integration)
   - [Application Sharing](pages/user-guide/components/application-sharing/application-sharing)
   - [Telemetry](pages/user-guide/tutorials/telemetry/telemetry)
@@ -44,4 +45,3 @@
   - [Continuous Delivery](pages/user-guide/tutorials/continuous-delivery/continuous-delivery)
     - [Deploy Canary Release](pages/user-guide/tutorials/continuous-delivery/deploy-canary-release/deploy-canary-release)
   - [Cloud Authorization Level](pages/user-guide/components/cloud-authorization-level/cloud-authorization-level)
-- Tutorials

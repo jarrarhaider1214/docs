@@ -6,7 +6,7 @@ Using continuous delivery, every code change is built, tested, and pushed to a t
 
 Continuous delivery helps developers in automating the testing process by going beyond unit tests so that applications can be verified before deploying to customers. Testing may include integration testing, load testing, UI testing etc. Using this, developers can thoroughly and easily validate updates and discover the issues beforehand. This will make sure that new changes will be released to the customers in a quicker and sustainable way. Clouds have further made it easy to efficiently and effectively automate the process of creation and replication of multiple environments for testing etc. 
 
-Some of the benefits or continuous delivery are. 
+Some of the benefits of continuous delivery are. 
 
 1. Automation the Process of Software Releases.
 2. Improves Productivity of Developers

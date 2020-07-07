@@ -46,6 +46,8 @@ Now let’s move to the brief explanation of components.
 
 [Serverless](/pages/user-guide/components/serverless/serverless?id=serverless)
 
+[Persistent Volume](/pages/user-guide/components/persistent-volume/persistent-volume?id=persistent-volume)
+
 [Slack Integration](/pages/user-guide/components/slack-integration/slack-integration)
 
 [Application Sharing](pages/user-guide/components/application-sharing/application-sharing)
