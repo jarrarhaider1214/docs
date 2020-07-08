@@ -6,12 +6,12 @@ Here are the configurations option that will be available to user while configur
 
 ![1](imgs/1.jpg)
 
-1. **Node Pool**: Pool of nodes and complete configurations for that node. User can add more than 1 Node Pools as well by clicking the **+** icon. 1st node pool will always be Master node pool. All the other node pools will be slave/worker node pools. 
+1. **Node Pool**: Pool of nodes and complete Clusterconfigurations for that node. User can add more than 1 Node Pools as well by clicking the **+** icon. 1st node pool will always be Master node pool. All the other node pools will be slave/worker node pools. 
 
    > Platform provides default values for Master node pools. All the other node pools will need to be configured by the users. 
 2. **Clone:** To clone the configurations of current node pool and create another one similar to it. 
 3. Name of the **Node Pool**.
-4. **Machine Type**: Instance type based on Cloud Provider selected. 
+4. **Machine Type**: Instance type based on Cloud Provider selected. (To know more about instance types, click [here](https://aws.amazon.com/ec2/instance-types/))
 5. **Node Count**: Number of Nodes in the node pool.
 6. **Node Pool Role**: Role of node pool i.e. Master or Slave. (First Node Pool will always be master)
 7. **Subnet**: Subnet to associate with the node depending on network.
@@ -34,6 +34,7 @@ Here are the configurations option that will be available to user while configur
 2. **Volume Size**: Size of the disk in GB.
 
 3. **IOPS**: IOPS for the disk.
+   IOPS are a unit of measure representing input/output operations per second. I/O size is capped at 256 KiB for SSD volumes and 1,024 KiB for HDD volumes. To know more about IOPS, click [here](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ebs-io-characteristics.html).
 
 4. **Docker Data Volume**: To add docker data volume as well.
 

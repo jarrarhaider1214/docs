@@ -48,7 +48,7 @@ CloudPlex offers 3 ways of creation and application deployment on the cloud, bas
 
 For a step by step guide on how to configure and manage different type of kubernetes cluster using CloudPlex, navigate to the respective guide below.
 
-1. [Provider Managed - New Kubernetes Cluster](pages/user-guide/getting-started/pm-new-cluster/pm-new-cluster)
-2. [Provider Managed - Existing Kubernetes Cluster](pages/user-guide/getting-started/pm-existing-cluster/pm-existing-cluster)
-3. [User Managed - New Kubernetes Cluster](pages/user-guide/getting-started/um-new-cluster/um-new-cluster)
-4. [User Managed - New On-Premise Kubernetes Cluster](pages/user-guide/getting-started/um-new-op-cluster/um-new-op-cluster)
+1. [Provider Managed - New Kubernetes Cluster](/pages/user-guide/getting-started/pm-new-cluster/pm-new-cluster?id=provider-managed-new-kubernetes-cluster)
+2. [Provider Managed - Existing Kubernetes Cluster](/pages/user-guide/getting-started/pm-existing-cluster/pm-existing-cluster?id=provider-managed-existing-kubernetes-cluster)
+3. [User Managed - New Kubernetes Cluster](/pages/user-guide/getting-started/um-new-cluster/um-new-cluster?id=user-managed-new-kubernetes-cluster)
+4. [User Managed - New On-Premise Kubernetes Cluster](/pages/user-guide/getting-started/um-new-op-cluster/um-new-op-cluster?id=user-managed-new-on-premise-kubernetes-cluster)

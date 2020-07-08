@@ -1,13 +1,10 @@
 # Cluster
 
-A cluster is a group of machines instances or nodes on which the services can be deployed. Currently on CloudPlex, clusters can be created on AWS (Amazon Web Services), Microsoft Azure, GCP (Google Cloud Platform) and Digital Ocean.
+A cluster is a group of machines instances or nodes on which the services can be deployed. Currently on CloudPlex, clusters can be created on AWS (Amazon Web Services), Microsoft Azure, GCP (Google Cloud Platform), Digital Ocean and IBM cloud.
 
-For details of the configurations that can be done at Cluster level for each cloud provider, please click the relevant link.
+The level of the configurations that can be done for Cluster differ based on application type. On CloudPlex, you can either setup Provide Managed Kubernetes Cluster or User Managed Kubernetes Cluster. To know more about the different between the two, click [here](/pages/user-guide/components/application/application). 
 
-[AWS](pages/user-guide/components/cluster/aws-cluster/aws-cluster)
+For more details on cluster level configurations guide, click the relevant link below. 
 
-[Azure](pages/user-guide/components/cluster/azure-cluster/azure-cluster)
-
-[GCP](pages/user-guide/components/cluster/gcp-cluster/gcp-cluster)
-
-[Digital Ocean](pages/user-guide/components/cluster/do-cluster/do-cluster)
+1. [Provider Managed - New Kubernetes Cluster](/pages/user-guide/components/cluster/pm-new-cluster/pm-new-cluster)
+2. [User Managed - New Kubernetes Cluster](/pages/user-guide/components/cluster/um-new-cluster/um-new-cluster)

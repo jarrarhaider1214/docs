@@ -14,7 +14,7 @@ Here are the configurations option that will be available to user while configur
 
 3. Name of the **Node Pool**.
 
-4. **Machine Type**: Machine type based on Cloud Provider selected. 
+4. **Machine Type**: Machine type based on Cloud Provider selected.  (To know more about machine types, click [here](https://cloud.google.com/compute/docs/machine-types).)
 
 5. **Node Count**: Number of Nodes in the node pool.
 

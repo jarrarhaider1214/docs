@@ -12,7 +12,7 @@ Here are the configurations option that will be available to user while configur
 
 2. **Clone:** To clone the configurations of current node pool and create another one similar to it. 
 
-3. **Machine Type**: Machine type based on Cloud Provider selected. 
+3. **Machine Type**: Machine type based on Cloud Provider selected.  (To know more about machine types, click [here](https://azure.microsoft.com/en-us/pricing/details/virtual-machines/series))
 
 4. **Node Count**: Number of Nodes in the node pool.
 

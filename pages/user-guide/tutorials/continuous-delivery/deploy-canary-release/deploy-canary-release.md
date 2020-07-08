@@ -98,4 +98,3 @@ To configure CI/CD or manual deployment pipeline:
    >
    > In case there are some manual and some auto stages in deployment pipeline, then you will have to manually mark the status as success etc for every manual stage.
    >
-   > You can also change the status of Auto stages using this menu without waiting for the cron to run.

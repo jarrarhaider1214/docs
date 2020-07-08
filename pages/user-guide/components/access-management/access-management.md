@@ -91,6 +91,7 @@ Active Directory menu can be used to fetch the users from AD and make them a par
 2. Specify **Host Name** of AD.
 3. Specify **Port**.
 4. (Optional) Enter **Search Base** to filter the search.
+   Search base can be some specific business unit inside AD. 
 5. Specify **Username** and **Password** of AD.
 6. Click **Test AD** button to test the connection.
 
