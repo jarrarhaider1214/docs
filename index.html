@@ -16,7 +16,7 @@
     <script src="//unpkg.com/docsify-edit-on-github/index.js"></script>
     <script>
         window.$docsify = {
-            name: 'NextGen',
+            name: 'Cloudplex',
             repo: '',
             loadSidebar: true,
             loadNavbar: true,
@@ -36,10 +36,22 @@
 
                         return editHtml
                             + html
-                            + '\n\n----\n\n'
-                            + '<a href="https://docsify.js.org" target="_blank" style="color: inherit; font-weight: normal; text-decoration: none;">Powered by docsify</a>'
+
                     })
                 },
+                function (hook) {
+                    var footer = [
+                        '<hr/>',
+                        '<footer>',
+                        '<span><a href="https://cloudplex.io">CloudPlex Inc</a> &copy;2020.</span>',
+                        '</footer>'
+                    ].join('');
+
+                    hook.afterEach(function (html) {
+                        return html + footer;
+                    });
+                },
+
             ],
             search: {
                 noData: {
@@ -50,13 +62,13 @@
                     '/': 'Search'
                 }
             },
-            footer: {
-                copy: '<span>NextGen &copy; 2020</span>',
-                auth: 'Cloudplex Inc.',
-                pre: '<hr/>',
-                style: 'text-align: right;',
-                style: 'className',
-            },
+            // footer: {
+            //     copy: '<span>NextGen &copy; 2020</span>',
+            //     auth: 'Cloudplex Inc.',
+            //     pre: '<hr/>',
+            //     style: 'text-align: right;',
+            //     style: 'className',
+            // },
 
 
         }
@@ -65,7 +77,7 @@
     <script src="//unpkg.com/docsify/lib/plugins/search.min.js"></script>
     <script src="//unpkg.com/docsify/lib/plugins/zoom-image.min.js"></script>
     <script src="//cdn.jsdelivr.net/npm/docsify-copy-code"></script>
-    <script src="//unpkg.com/docsify-footer-enh/dist/docsify-footer-enh.min.js"></script>
+    <!-- <script src="//unpkg.com/docsify-footer-enh/dist/docsify-footer-enh.min.js"></script> -->
 
 </body>
 
