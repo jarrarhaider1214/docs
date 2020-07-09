@@ -2,7 +2,7 @@
 
 Amazon VPC provision a logically isolated section of the Amazon Web Services (AWS) cloud where user can launch AWS resources in a virtual network. User can have complete control over virtual networking environment, including selection of IP address ranges, creation of subnets, and configuration of route tables and network gateways. 
 
-> It is recommended to have good knowledge of networking components before configuring it. To learn more, click [here](https://aws.amazon.com/vpc/).
+> It is recommended to have basic knowledge of networking components before configuring it. To learn more, click [here](https://aws.amazon.com/vpc/).
 
 Here are the configurations option that will be available to user while configuring network cluster for Application deployment. 
 
