@@ -15,7 +15,7 @@ Here are the configurations option that will be available to user while configur
 3. **Name** of the Node Pool.
    Node pool is pool of machines/droplets and complete configurations for that droplet. 1st node pool will always be Master node pool
 
-4. **Machine Type**: Droplet type based on Cloud Provider selected. (To know more about pricing of droplets click [here](https://www.digitalocean.com/pricing/#Compute))
+4. **Machine Type**: Droplet type based on Cloud Provider selected. (To know more about droplets click [here](https://www.digitalocean.com/products/droplets)
 
 5. **Node Count**: Number of droplets in the node pool.
 

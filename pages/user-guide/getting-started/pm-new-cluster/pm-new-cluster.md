@@ -28,7 +28,7 @@
 
    - (Optional) Enable **Custom Advance Settings** using radio button.
 
-     > To configure advanced settings for Cluster, Node Pools and Network click here.
+     > To configure advanced settings for Clusters, click [here](/pages/user-guide/components/cluster/pm-new-cluster/pm-new-cluster).
 
    ![2.1](imgs/2.1.jpg)
 

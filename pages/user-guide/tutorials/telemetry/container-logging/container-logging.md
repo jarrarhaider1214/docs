@@ -18,7 +18,7 @@ There is a feature of logs archiving in platform. Container logs usually end up 
 
 To configure Logs Archiving:
 
-1.  Click **Container Logging** button while configuring the **App**. 
+1. At the **App Design** tab, while configuring the Application, click the **Three Dots Icon** on right side of the screen to get the drop-down and click **Container Logging**. 
 
    ![2](imgs/2.jpg)
 
@@ -38,5 +38,4 @@ To configure Logs Archiving:
 
    ![3](imgs/3.jpg)
 
-5. 
 

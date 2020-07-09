@@ -39,7 +39,7 @@ Details of the configurations that can be done for PV are explained below and al
    > **ReadOnlyMany**: The volume can be mounted read-only by many nodes
    > **ReadWriteMany**: The volume can be mounted as read-write by many nodes
 
-7. **Capacity:** Specify the storage capacity, it should be between 10 and 2000 GBs. 
+7. **Capacity:** Specify the storage capacity, it should be between 10 and 2000 Gi. 
 
 ![5](imgs/5.jpg)
 

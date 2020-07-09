@@ -46,6 +46,8 @@ Now let’s move to the brief explanation of components.
 
 [Managed Services](/pages/user-guide/components/managed-service/managed-service?id=managed-services)
 
+[Service Import](pages/user-guide/components/service-import/service-import)
+
 [Scaling](/pages/user-guide/components/scaling/scaling?id=scaling)
 
 [Slack Integration](/pages/user-guide/components/slack-integration/slack-integration)

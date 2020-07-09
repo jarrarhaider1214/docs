@@ -4,12 +4,14 @@ Azure Kubernetes Service (AKS) makes it simple to deploy a managed Kubernetes cl
 
 Here are the configurations option that will be available to user while configuring AKS for Application deployment. 
 
-![1](imgs\1.jpg)
+![1](imgs/1.jpg)
 
 1. **Cluster Name:** Name of the cluster. CloudPlex provides default values but user can also customize it.
 
 2. **Machine Type:** Select machine type from drop-down.
    To know more about machine types, click [here](https://azure.microsoft.com/en-us/pricing/details/virtual-machines/series).
+
+   > Minimum 4 CPU machine is required for deployment.
 
 3. **Node Count:** Specify the number of nodes in node pool. 
 
@@ -19,13 +21,15 @@ Here are the configurations option that will be available to user while configur
 
 **Advanced Settings  - Cluster**
 
-![2](imgs\2.jpg)
+![2](imgs/2.jpg)
 
 1. **Kubernetes Version:** Select Kubernetes Version from drop-down to install on cluster.
 
 2. **DNS Prefix:** To add prefix for hostnames that will be created.
 
-3. **Enable Private Cluster:** To enable private cluster. 
+3. **Enable Private Cluster:** This field will remain disabled as currently private cluster is not supported by CloudPlex. 
+
+   > Support for private cluster will be added soon  
 
 4. **Enable RBAC:** To enable RBAC for this cluster.
 
@@ -40,7 +44,7 @@ Here are the configurations option that will be available to user while configur
 
 **Advanced Settings  - Nodepools**
 
-![3](imgs\3.jpg)
+![3](imgs/3.jpg)
 
 1. **Add Node Pools:** To add more node pools in the cluster. 
 
@@ -49,6 +53,8 @@ Here are the configurations option that will be available to user while configur
 3. **Node Pool:** Name of the node pool.
 
 4. **Machine Type:** Select machine type from drop-down.
+
+   > Minimum 4 CPU droplet is required for deployment.
 
 5. **Node Count:** Specify the number of nodes in node pool. 
 
@@ -68,7 +74,7 @@ Here are the configurations option that will be available to user while configur
 
 **Advanced Settings  - Networking & Security**
 
-![4](imgs\4.jpg)
+![4](imgs/4.jpg)
 
 1. **HTTP Application Routing:** To enable HTTP application routing.
    The HTTP application routing makes it easy to access applications that are deployed to AKS cluster. When enabled, it configures an Ingress controller in AKS cluster.

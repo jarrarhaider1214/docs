@@ -14,8 +14,12 @@ Details of how the image can be fetched from registry are explained below and al
 1. **K8s Resource**: Drop-down to add K8s resources. 
 2. **Azure Registry**: Click the icon to fetch image details from Azure registry.
 3. **Profile:** Select credential profile from the drop-down. (To know more about Credentials Profile menu, click [here](/pages/user-guide/components/credentials-profile/credentials-profile).)
+
+   > For AWS registry, you will also have to select Region. 
 4. **Search:** To fetch container registries from that profile. 
 5. **Registry:** Select registry to get the list of repositories.
+
+   > For some cloud providers, system will give an option to select repository. 
 
 ![2](imgs/2.jpg)
 
@@ -23,4 +27,8 @@ Details of how the image can be fetched from registry are explained below and al
 
 1. **Select Repository:** Select repository to fetch the image details.
 
-   > Once the image is fetched, you can deploy right away or save this image as template for future use.
+   > User can also change the configurations of the fetched image.
+   >
+   > You can also get more than one image from single registry. Simply click on the same registry icon and follow the same process as explained above to get the 2nd image. (Picture attached below)
+
+![4](imgs/4.jpg)
