@@ -8,8 +8,8 @@ CloudPlex provides an interactive and easy to navigate UI to define auto scaling
 
 There are two types of scaling supported in platform:
 
-1. Container Scaling
-2. Node Scaling
+1. [Container Scaling](/pages/user-guide/components/scaling/scaling?id=container-scaling)
+2. [Node Scaling](/pages/user-guide/components/scaling/scaling?id=node-scaling)
 
 Below are the details of the configurations required to setup auto scaling in platform.
 
@@ -64,17 +64,43 @@ Now let’s move to step by step process on how to setup Container scaling.
 
 ## Node Scaling
 
-If any pod gets into pending state due to insufficient capacity in the cluster or if the nodes in the clusters are underutilized due to low number of running containers, In these cases, CloudPlex will automatically scale up (launch a new node) and scale down (terminate the idle node) respectively on Cloud provider selected by the user in the Project.
+If any pod gets into pending state due to insufficient capacity in the cluster or if the nodes in the clusters are underutilized due to low number of running containers, In these cases, CloudPlex will automatically scale up (launch a new node) or scale down (terminate the idle node) the nodes on the cloud.
 
-**Configuration** 
+Process of setting up node autoscaling differ based on the application type selected. 
+
+> To know more about different type of applications provided by CloudPlex, check out our guide on application [here](/pages/user-guide/components/application/application).
+
+Now let’s move to step by step process on how to setup Node autoscaling.
+
+1. [Provider Managed - New Cluster](/pages/user-guide/components/scaling/scaling?id=provider-managed-new-cluster)
+2. [User Managed - New Cluster](/pages/user-guide/components/scaling/scaling?id=user-managed-new-cluster)
+
+### Provider Managed - New Cluster
 
 Whenever a new node gets launched by autoscaling, CP will fetch its details and show it in Application. It will also clean up the details of terminated node from the Application UI.
 
-Node scaling can only be defined for Node Pools but can't be defined for Master Pool (First Node Pool). Other than the first Master pool scaling can be defined for all the node pools. 
+Now let’s move to step by step process on how to setup Node autoscaling for provider managed cluster.
 
-Now let’s move to step by step process on how to setup Node scaling.
+1. Create new **Provider Managed - New Kubernetes Cluster** Application, navigate to the **Configurations** tab and **Enable Custom Advance Settings**.
 
-**Node Scaling**
+   ![8](imgs/8.jpg)
+
+2. Navigate to the **Nodepools** tab.
+
+   ![9](imgs/9.jpg)
+
+3. Scroll down, Enable Autoscaling and specify **Maximum** and **Minimum Nodecount**. 
+   Autoscaling will now dynamically create or delete nodes while staying within the provided limits.
+
+   ![10](imgs/10.jpg)
+
+### **User Managed - New Cluster**
+
+Whenever a new node gets launched by autoscaling, CP will fetch its details and show it in Application. It will also clean up the details of terminated node from the Application UI.
+
+Node scaling can be defined for all Node Pools in the cluster other than the Master Pool (First Node Pool). 
+
+Now let’s move to step by step process on how to setup Node autoscaling for user managed cluster
 
 1. Once container scaling is enabled and configured, click **Configure NodePool Auto Scaling** to configure node scaling.
 
