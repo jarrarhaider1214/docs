@@ -12,7 +12,7 @@
   - [Overview](pages/user-guide/components/components)
   - [Access Management](pages/user-guide/components/access-management/access-management)
   - [Credentials Profile](pages/user-guide/components/credentials-profile/credentials-profile)
-  - [Create Application](pages/user-guide/components/application/application)
+  - [Application](pages/user-guide/components/application/application)
   - [Application Sharing](pages/user-guide/components/application-sharing/application-sharing)
   - [Network](pages/user-guide/components/network/network)
     - [AWS](pages/user-guide/components/network/aws-network/aws-network)

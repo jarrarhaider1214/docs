@@ -6,7 +6,7 @@ Purpose of this guide is to list down all the permissions and access level or an
 
 Here are the permissions required for AWS:
 
-- CloudPlex profile will be made using google application credentials.
+- CloudPlex profile will be made using AWS Credentials i.e. Access and Secret Key.
 - Programmatic access.
 - Region and zone.
 - CloudPlex token. 
@@ -22,7 +22,7 @@ Here are the permissions required for AWS:
 
 Here are the permission required for GCP:
 
-- CloudPlex profile will be made using google application credentials.
+- CloudPlex profile will be made using Google Application Credentials.
 - Google Engine API should be enabled.
 - An Admin, Editor or Composer Worker role.
 - Region and zone.
@@ -39,7 +39,7 @@ Here are the permission required for GCP:
 
 Here are the permission required for GKE:
 
-- CloudPlex profile will be made using google application credentials.
+- CloudPlex profile will be made using Google Application Credentials.
 
 - Google Kubernetes Engine API should be enabled.
 
@@ -63,7 +63,7 @@ Here are the permission required for GKE:
 
 Here are the permission required for Azure:
 
-- CloudPlex profile will be made using client_id, client_secret ,region , subscription_id and tenant_id.
+- CloudPlex profile will be made using Client_Id, Client_Secret , Region , Subscription_Id and Tenant_Id.
 - Region and zone.
 - CloudPlex token.
 -  Service administrator role.
@@ -85,7 +85,7 @@ Here are the permission required for Azure:
 
 Here are the permission required for AKS:
 
-- CloudPlex profile will be made using client_id, client_secret ,region , subscription_id and tenant_id.
+- CloudPlex profile will be made using Client_Id, Client_Secret , Region , Subscription_Id and Tenant_Id.
 - Region and zone.
 - CloudPlex token.
 - Service Administrator role.
@@ -106,7 +106,7 @@ Here are the permission required for AKS:
 
 Here are the permission required for DO:
 
-- Profile: DO access token with read/write permission.
+- CloudPlex profile will be made using DO access token with read/write permission.
 - Region 
 - CloudPlex token
 - To access the Droplet, the user can download an SSH Key from the platform. 
@@ -115,7 +115,7 @@ Here are the permission required for DO:
 
 Here are the permission required for DOKS:
 
-- Profile: DO access token with read and write permission.
+- CloudPlex profile will be made using DO access token with read/write permission.
 
 - Region (Kubernetes is not offered in NYC2, AMS2, or SFO1.)
 
@@ -133,7 +133,7 @@ Here are the permission required for DOKS:
 
 Here are the permission required for IKS:
 
-- CP profile created using region and iam_key.
+- CloudPlex profile will be made using Region and IAM_Key.
 
 - Region and zone.
 

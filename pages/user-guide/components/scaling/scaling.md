@@ -19,11 +19,6 @@ Whenever the resources consumption of the container gets too high or low (based 
 
 **Configurations**
 
-User can define the value for range of replicas of running containers. Following metrics are available in platform to define the range.
-
-- MIN
-- MAX 
-
 Whenever the threshold of chosen metric is reached, number of replicas will automatically adjust in the range defined by the user.
 
 User can configure scaling using multiple metrics. Following metrics are available in platform.
@@ -36,6 +31,13 @@ Threshold value of chosen metrics in can be defined in two forms
 
 - Average Value
 - Average Utilization
+
+User can also provide the range of number of replicas using following attributes. 
+
+- MIN
+- MAX 
+
+Whenever the threshold of chosen metric is reached, number of replicas will automatically adjust in the range defined by the user.
 
 User can define only one container policy for each container service in the Application.
 
@@ -75,9 +77,9 @@ Now let’s move to step by step process on how to setup Node autoscaling.
 1. [Provider Managed - New Cluster](/pages/user-guide/components/scaling/scaling?id=provider-managed-new-cluster)
 2. [User Managed - New Cluster](/pages/user-guide/components/scaling/scaling?id=user-managed-new-cluster)
 
-### Provider Managed - New Cluster
+> Whenever a new node gets launched by autoscaling, CP will fetch its details and show it in Application. It will also clean up the details of terminated node from the Application UI.
 
-Whenever a new node gets launched by autoscaling, CP will fetch its details and show it in Application. It will also clean up the details of terminated node from the Application UI.
+### Provider Managed - New Cluster
 
 Now let’s move to step by step process on how to setup Node autoscaling for provider managed cluster.
 
@@ -95,8 +97,6 @@ Now let’s move to step by step process on how to setup Node autoscaling for pr
    ![10](imgs/10.jpg)
 
 ### **User Managed - New Cluster**
-
-Whenever a new node gets launched by autoscaling, CP will fetch its details and show it in Application. It will also clean up the details of terminated node from the Application UI.
 
 Node scaling can be defined for all Node Pools in the cluster other than the Master Pool (First Node Pool). 
 

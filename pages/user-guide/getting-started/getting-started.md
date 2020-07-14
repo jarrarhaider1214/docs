@@ -48,6 +48,8 @@ CloudPlex offers 3 ways of creation and application deployment on the cloud, bas
 
 For a step by step guide on how to configure and manage different type of kubernetes cluster using CloudPlex, navigate to the respective guide below.
 
+> To deploy on application on cloud, it is necessary for the user cloud profile to have all the required permissions. For detailed guide on all the required permissions, click [here](/pages/user-guide/components/cloud-authorization-level/cloud-authorization-level).
+
 1. [Provider Managed - New Kubernetes Cluster](/pages/user-guide/getting-started/pm-new-cluster/pm-new-cluster?id=provider-managed-new-kubernetes-cluster)
 2. [Provider Managed - Existing Kubernetes Cluster](/pages/user-guide/getting-started/pm-existing-cluster/pm-existing-cluster?id=provider-managed-existing-kubernetes-cluster)
 3. [User Managed - New Kubernetes Cluster](/pages/user-guide/getting-started/um-new-cluster/um-new-cluster?id=user-managed-new-kubernetes-cluster)

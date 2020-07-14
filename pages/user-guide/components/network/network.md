@@ -4,6 +4,8 @@ Networking deals with the configuration related to a network. Network is importa
 
 For details of the configurations that can be done at Network level for each cloud provider, please click the relevant link.
 
+To create a Network using CloudPlex, it is necessary for the user cloud profile to have all the required permissions. For detailed guide on all the required permissions, click [here](/pages/user-guide/components/cloud-authorization-level/cloud-authorization-level).
+
 [AWS](pages/user-guide/components/network/aws-network/aws-network)
 
 [Azure](pages/user-guide/components/network/azure-network/azure-network)

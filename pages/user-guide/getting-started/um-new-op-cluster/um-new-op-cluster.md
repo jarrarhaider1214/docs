@@ -1,5 +1,7 @@
 ## User Managed - New On-Premise Kubernetes Cluster
 
+> To deploy on application on cloud, it is necessary for the user cloud profile to have all the required permissions. For detailed guide on all the required permissions, click [here](/pages/user-guide/components/cloud-authorization-level/cloud-authorization-level).
+
 1. **Select** Create New On-Premise Kubernetes Cluster from User Managed section.  
 
 2. Configure the **Basic Info** tab. (Platform has provided default values for most of the parameters)

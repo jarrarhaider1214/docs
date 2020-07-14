@@ -37,3 +37,25 @@ Please click the relevant link below for details of the configurations that can 
 3. [User Managed - New Kubernetes Cluster](/pages/user-guide/components/application/um-new-cluster/um-new-cluster)
 4. [User Managed - New On-Premise Kubernetes Cluster](/pages/user-guide/components/application/um-new-op-cluster/um-new-op-cluster)
 
+## Application Deletion
+
+On CloudPlex, as part of application creation process user will need to configure Cluster, Network, and an Application. At any stage of the process, user can save the application template as **Draft**. Completed application template will have **New** status as shown in image below. 
+
+Once the Application is in **New** state, user can then Deploy an application. CloudPlex keeps on updating application status during the deployment process for the user to understand better at which phase of the deployment an application is in. Application can have following statuses. 
+
+1. Draft
+2. New
+3. Cluster Created
+4. Cluster Teminated
+5. Network Created
+6. Network Terminated
+7. App Deployed
+8. Terminated
+
+![2](imgs/2.jpg)
+
+User can delete the application at any stage except the **App Deployed** by clicking the 3 dot icon on every application card. To delete App Deployed applications, user will first need to terminate those applications.  
+
+> **Deleting** an Application won't terminate resources from Cloud, it will just deleted the data from CloudPlex. It is always recommended that user **Terminate** the application in CloudPlex to terminate all the resources on Cloud.
+
+![3](imgs/3.jpg)
