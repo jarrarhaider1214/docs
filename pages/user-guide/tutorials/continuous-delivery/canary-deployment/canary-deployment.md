@@ -1,4 +1,4 @@
-# Deploy Canary Release
+# Canary Deployment
 
 This guide explains step by step process of deploying a multi stage canary release. Canary deployment can be automated and manual. 
 

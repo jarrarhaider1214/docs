@@ -13,3 +13,8 @@ Some of the benefits of continuous delivery are.
 3. Quick Discovery and Resolution of Bugs
 4. Frequent and Faster Updates
 
+Using CloudPlex, you can configure various kind of production grade deployment strategies. To know more about those and to configure those, navigate to the required section from below.
+
+1. [Canary Deployment](pages/user-guide/tutorials/continuous-delivery/canary-deployment/canary-deployment)
+2. Simple Deployment
+3. Blue Green Deployment

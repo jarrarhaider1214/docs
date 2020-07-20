@@ -60,5 +60,5 @@
     - [Monitoring](pages/user-guide/tutorials/telemetry/monitoring/monitoring)
     - [Container Logging](pages/user-guide/tutorials/telemetry/container-logging/container-logging)
   - [Continuous Delivery](pages/user-guide/tutorials/continuous-delivery/continuous-delivery)
-    - [Deploy Canary Release](pages/user-guide/tutorials/continuous-delivery/deploy-canary-release/deploy-canary-release)
+    - [Canary Deployment](pages/user-guide/tutorials/continuous-delivery/canary-deployment/canary-deployment)
   - [Cloud Authorization Level](pages/user-guide/components/cloud-authorization-level/cloud-authorization-level)
