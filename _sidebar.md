@@ -61,4 +61,5 @@
     - [Container Logging](pages/user-guide/tutorials/telemetry/container-logging/container-logging)
   - [Continuous Delivery](pages/user-guide/tutorials/continuous-delivery/continuous-delivery)
     - [Canary Deployment](pages/user-guide/tutorials/continuous-delivery/canary-deployment/canary-deployment)
+    - [Blue Green Deployment](pages/user-guide/tutorials/continuous-delivery/blue-green-deployment/blue-green-deployment)
   - [Cloud Authorization Level](pages/user-guide/components/cloud-authorization-level/cloud-authorization-level)

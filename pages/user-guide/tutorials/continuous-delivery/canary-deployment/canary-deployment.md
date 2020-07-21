@@ -1,6 +1,10 @@
 # Canary Deployment
 
-This guide explains step by step process of deploying a multi stage canary release. Canary deployment can be automated and manual. 
+Canary deployment, or canary release, is when developers release or rollout new features of a software to just a subset of users. By releasing new version to just a part of user base, developers can monitor any issues it may cause without causing major disruptions to the whole release. 
+
+Canary deployment involves deployment of new release next to stable production versions to see how the canary version compares against the production before promoting or rejecting the deployment.
+
+This guide explains step by step process of setting up a multi stage canary deployment. Canary deployment can be automated and manual. 
 
 **Multi Stage Canary:** Enabled rapid development iterations for services while meeting requirements of downtime-free deployments and a stable development to production pipeline. An architecture that can run hundreds of containers and meets requirements such as:
 

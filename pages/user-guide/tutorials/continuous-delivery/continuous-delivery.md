@@ -17,4 +17,4 @@ Using CloudPlex, you can configure various kind of production grade deployment s
 
 1. [Canary Deployment](pages/user-guide/tutorials/continuous-delivery/canary-deployment/canary-deployment)
 2. Simple Deployment
-3. Blue Green Deployment
+3. [Blue Green Deployment](pages/user-guide/tutorials/continuous-delivery/blue-green-deployment/blue-green-deployment)
