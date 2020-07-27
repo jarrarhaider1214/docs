@@ -10,6 +10,6 @@ This section will be further divided in to labs, to make it easy for beginners a
 
 **Lab 4 (Serverless Functions):** It will discuss the process of deployment for serverless solution.
 
-**Lab 5 (Managed Services):** It will discuss the process of consuming managed services in the mesh.
+**Lab 5 (Managed Services):** It will discuss the process of consuming managed services in the app.
 
 Now lets move to the step by step guide for different labs and create a project.

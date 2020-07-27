@@ -1,6 +1,6 @@
 # Deployment Using Dynamic Variables
 
-1. Login to Ultramesh and click the green **+** icon to start the project creation wizard. 
+1. Login to CloudPlex and click the green **+** icon to start the project creation wizard. 
 
    ![1](imgs/1.jpg)
 
@@ -44,7 +44,7 @@
 
    ![8](imgs/8.jpg)
 
-6. Configure **Mesh**.
+6. Configure **App**.
 
    - Drag and drop 2 **Containers** in the package canvas from left column and create dependency between the two using arrow.
 
@@ -59,7 +59,7 @@
 
    ![10](imgs/10.jpg)
 
-   ![10.2](imgs\10.2.jpg)
+   ![10.2](imgs/10.2.jpg)
 
    - Configure Dynamic Variable.
 
@@ -77,11 +77,11 @@
 
    - Dynamic Variable will now be added. Complete rest of the configurations and click **Save**.
 
-   ![12](imgs\12.jpg)
+   ![12](imgs/12.jpg)
 
 7. Click **Save** (green floppy icon at the top right) to save the project.
 
-   ![13](imgs\13.jpg)
+   ![13](imgs/13.jpg)
 
 8. Click the Project, you just created. 
 

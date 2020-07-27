@@ -1,6 +1,6 @@
 # Deployment Using New Templates
 
-1. Login to Ultramesh and click the green **+** icon to start the project creation wizard. 
+1. Login to CloudPlex and click the green **+** icon to start the project creation wizard. 
 
    ![1](imgs/1.jpg)
 
@@ -45,7 +45,7 @@
 
    ![5](imgs/5.jpg)
 
-   ![5.2](imgs\5.2.jpg)
+   ![5.2](imgs/5.2.jpg)
 
 5. Click **Next**.
 
@@ -73,7 +73,7 @@
 
 7. Click **Next**.
 
-   1. Configure **Mesh**.
+   1. Configure **App**.
 
    - Drag and drop the **Container** in the package canvas from left column.
 
@@ -94,13 +94,13 @@
 
      ![11](imgs/11.jpg)
 
-     ![11.2](imgs\11.2.jpg)
+     ![11.2](imgs/11.2.jpg)
 
      - Go to the **Ports**, click **Add Port** button and specify the port for Traffic i.e. **8080**
 
      ![12](imgs/12.jpg)
 
-     ![12.2](imgs\12.2.jpg)
+     ![12.2](imgs/12.2.jpg)
 
      - Click **Save.**
 

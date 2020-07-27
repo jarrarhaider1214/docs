@@ -152,8 +152,7 @@
         
         .footer-block-3 h4 {
             font-weight: 800;
-            font-size: 14px;
-            padding-bottom: 10px !important;
+            font-size: 13px;
             line-height: 18px;
             font-family: 'Muli', sans-serif;
             text-transform: uppercase;
@@ -174,6 +173,41 @@
             color: #d1dcea;
             line-height: 24px;
             list-style-type: none;
+        }
+        
+        img.footer-logo {
+            width: 157px;
+        }
+        
+        .footer-social-icon {
+            width: 34px;
+            background-color: rgb(81, 95, 117);
+            height: 34px;
+            color: rgb(31, 36, 45);
+            border-radius: 50px;
+        }
+        
+        .fa-facebook.icon::before {
+            position: absolute;
+            font-size: 19px;
+            padding-top: 8px;
+            padding-left: 11px;
+            display: block;
+        }
+        
+        .footer-social-icon:hover {
+            background-color: rgb(162, 171, 186);
+        }
+        
+        .fa-github-alt.icon::before,
+        .fa-linkedin.icon::before,
+        .fa-twitter.icon::before,
+        .fa-youtube-play.icon::before {
+            position: absolute;
+            font-size: 19px;
+            padding-top: 8px;
+            padding-left: 8px;
+            display: block;
         }
         
         .footer-block-3 li a {
@@ -223,7 +257,8 @@
         
         .footer-bottom {
             text-align: center;
-            margin-top: 40px;
+            padding-bottom: 45px;
+            padding-top: 45px;
         }
         
         .footer-bottom p {
@@ -294,7 +329,7 @@
         }
         
         ul.sub-menu li {
-            padding: 1px 0px;
+            padding: 3px 0px;
         }
         
         .app-nav li:hover ul {
@@ -303,15 +338,15 @@
         
         .resourses_menu:hover ul {
             display: grid;
-            box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.25);
-            border-radius: 5px;
-            border: 2px solid #7e8ea4;
+            border: none;
+            box-shadow: none;
+            border-radius: 4px;
+            border-bottom: 2px solid #fcc64d;
             background-color: #212933;
             position: absolute;
-            padding: 7px 10px;
+            padding: 18px 16px;
         }
-        
-        .resourses_menu ul:before,
+        /* .resourses_menu ul:before,
         .resourses_menu ul:after {
             bottom: 100%;
             left: 42%;
@@ -321,7 +356,7 @@
             width: 0;
             position: absolute;
             pointer-events: none;
-        }
+        } */
         
         .resourses_menu ul:after {
             border-color: rgba(136, 183, 213, 0);
@@ -351,7 +386,7 @@
         ul.sub-menu li a {
             text-transform: capitalize;
             font-weight: normal;
-            font-size: 13px;
+            font-size: 12px !important;
             line-height: 16px;
         }
         
@@ -407,7 +442,7 @@
             position: absolute;
             bottom: -5px;
             width: 100%;
-            left: 2%;
+            left: 0%;
             border-top: 2px solid #ffffff;
         }
         
@@ -420,7 +455,7 @@
             width: 18%;
             margin-left: -10px !important;
             top: 2px;
-            left: 0px;
+            left: 4px;
             border-left: 2px solid #ffffff;
         }
         
@@ -483,7 +518,7 @@
         
         @media screen and (max-width: 1500px) {
             .footer-block-3 {
-                padding: 40px 16px 25px 0px !important;
+                padding: 40px 16px 0px 0px !important;
             }
             .col-lg-10 {
                 flex: 0 0 90.333333% !important;
@@ -502,7 +537,7 @@
         
         @media screen and (max-width: 1400px) {
             .footer-block-3 h4 {
-                font-size: 14px;
+                font-size: 13px;
                 line-height: 20px;
             }
             .app-nav.no-badge {
@@ -524,9 +559,9 @@
             .footer-block-3-icons img {
                 width: 28px;
             }
-            .app-nav li {
+            /* .app-nav li {
                 margin: 0 6px;
-            }
+            } */
             .app-nav a {
                 font-size: 11px !important;
             }
@@ -593,6 +628,12 @@
             body.close .github-corner {
                 display: flex !important;
             }
+            .app-nav li {
+                margin: 0 10px 0px 0px !important;
+            }
+            .menu_get_started_btn {
+                padding: 8px 24px 11px 24px !important;
+            }
             .app-nav a {
                 font-size: 10px !important;
             }
@@ -629,7 +670,11 @@
             article#main blockquote {
                 margin: 0px 0px 0px 5px;
             }
+            li.nav-item.resourses_menu.active:hover {
+                display: inherit;
+            }
             .app-nav a {
+                text-transform: capitalize;
                 font-size: 13px !important;
             }
             li.nav-item.resourses_menu.active ul.sub-menu li {
@@ -639,20 +684,26 @@
             .app-nav li {
                 text-align: left;
                 display: block;
-                padding: 5px 15px;
+                margin: 0 22px 0px 0px !important;
             }
-            .app-nav ul {
+            /* .app-nav ul {
                 margin-bottom: 15px;
-            }
+            } */
             .menu_get_started_btn {
                 width: fit-content;
             }
             .app-nav li,
             .app-nav ul {
+                padding-left: 5px;
                 display: block;
+                top: 8px;
+                padding-right: 5px;
             }
             ul.sub-menu li a {
-                margin-left: 20px !important;
+                margin-left: 10px !important;
+            }
+            .app-nav.no-badge {
+                padding: 20px 1% 20px 0px !important;
             }
             .app-nav li ul {
                 right: 0px !important;
