@@ -46,6 +46,7 @@
     - [Github](/pages/user-guide/components/eventing/github/github)
     - [Kubernetes](/pages/user-guide/components/eventing/kubernetes/kubernetes)
   - [Legacy Applications](pages/user-guide/components/legacy-applications/legacy-applications)
+  - [API Service](pages/user-guide/components/api-service/api-service)
   - [Managed Services](pages/user-guide/components/managed-services/managed-services)
     - [AWS](pages/user-guide/components/managed-services/aws-managed-services/aws-managed-services?id=aws)
     - [Azure](pages/user-guide/components/managed-services/azure-managed-services/azure-managed-services?id=azure)
