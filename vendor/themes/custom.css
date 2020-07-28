@@ -21,7 +21,7 @@
         }
         
         .content {
-            padding-top: 80px;
+            padding-top: 110px;
             margin: 0px auto !important;
         }
         
@@ -109,7 +109,7 @@
         
         article#main h3,
         article#main h2 {
-            margin: 40px auto;
+            margin: 25px auto;
             padding: 0px 15px;
             max-width: 800px;
         }
@@ -511,10 +511,9 @@
         .tooltip img {
             padding-right: 4px;
         }
-        
-        .markdown-section .anchor {
+        /* .markdown-section .anchor {
             margin-top: 88px;
-        }
+        } */
         
         @media screen and (max-width: 1500px) {
             .footer-block-3 {
