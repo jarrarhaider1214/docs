@@ -1,6 +1,6 @@
 ## Provider Managed - Existing Kubernetes Cluster
 
-> To deploy on application on cloud, it is necessary for the user cloud profile to have all the required permissions. For detailed guide on all the required permissions, click [here](/pages/user-guide/components/cloud-authorization-level/cloud-authorization-level).
+> To deploy an application on cloud, it is necessary for the user cloud profile to have all the required permissions. For detailed guide on all the required permissions, click [here](/pages/user-guide/components/cloud-authorization-level/cloud-authorization-level).
 
 1. **Select** Use Existing Kubernetes Cluster from Provided Managed section.  
 
