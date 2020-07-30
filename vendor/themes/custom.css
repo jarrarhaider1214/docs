@@ -19,11 +19,10 @@
         .sidebarMarginTop {
             margin-top: 80px;
         }
-        
-        .content {
+        /* .content {
             padding-top: 110px;
             margin: 0px auto !important;
-        }
+        } */
         
         .app-nav a:hover {
             color: var(--theme-color, #24d1c7) !important;
@@ -85,6 +84,15 @@
         .col-3 {
             padding: 0rem 4px !important;
         }
+        /* .content {
+            margin-top: 200px;
+            top: 34px;
+        } */
+        /* main {
+            margin-top: 90px;
+            top: 60px;
+        } */
+        /* 
         
         .markdown-section {
             padding: 0px;
@@ -94,7 +102,6 @@
         .markdown-section> :first-child {
             padding: 0px 15px;
             margin: 16px auto;
-            /* margin-top: 0!important; */
             width: 800px !important;
         }
         
@@ -139,7 +146,7 @@
         
         ol li p {
             margin: 0px !important;
-        }
+        } */
         
         .footer-block-3 {
             background: linear-gradient(180.07deg, #424d5b -56.89%, #272e37 96.02%);
@@ -466,10 +473,9 @@
         li.nav-item a:hover {
             text-decoration: none;
         }
-        
-        li+li {
+        /* li+li {
             margin-top: 0;
-        }
+        } */
         
         .btn-yellow-pricing {
             background: -webkit-gradient(linear, left top, left bottom, from(#ffcc59), to(#f8bf3e));
@@ -492,13 +498,11 @@
         a.btn-yellow-pricing:hover {
             text-decoration: none;
         }
-        
-        .markdown-section h1 {
+        /* .markdown-section h1 {
             padding: 0px 15px;
-            /* margin-top: 0!important; */
             width: 800px !important;
             margin: 0px auto;
-        }
+        } */
         
         .keyword_hidden {
             display: none;
@@ -647,7 +651,7 @@
                 cursor: pointer;
                 border-radius: 4px;
             }
-            .markdown-section p {
+            /* .markdown-section p {
                 margin: 1.2em 13px 1.2em 8px;
             }
             article#main ol {
@@ -662,13 +666,13 @@
             .markdown-section h1 {
                 font-size: 26px;
                 margin: 15px -6px !important;
-            }
+            } */
         }
         
         @media screen and (max-width: 630px) {
-            article#main blockquote {
+            /* article#main blockquote {
                 margin: 0px 0px 0px 5px;
-            }
+            } */
             li.nav-item.resourses_menu.active:hover {
                 display: inherit;
             }
@@ -745,9 +749,9 @@
                 font-size: 12px;
                 margin-bottom: 0;
             }
-            .content {
+            /* .content {
                 padding-top: 60px;
-            }
+            } */
             .footer-block-3-icons {
                 margin-bottom: 13px;
             }
