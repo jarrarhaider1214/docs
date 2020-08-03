@@ -385,8 +385,9 @@
         }
         
         .app-nav li ul {
+            width: 173px;
             top: 75% !important;
-            right: -20px !important;
+            right: -76px !important;
             overflow-y: unset !important;
         }
         
