@@ -31,7 +31,7 @@ $(document).ready(function () {
     <h4>Resources</h4>
     <ul>
   
-        <li><a style="color:#D1DCEA;" href="https://cloudplex.io/blog/">Blogs</a></li>
+        <li><a style="color:#D1DCEA;" href="https://cloudplex.io/blog/">Blog</a></li>
         <li> <a style="color:#D1DCEA;" href="https://learning.cloudplex.io/learning/">Hands-on Labs</a></li>
         <li><a style="color:#D1DCEA;" href="https://docs.cloudplex.io/">Documentation</a></li>
      
