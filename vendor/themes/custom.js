@@ -33,7 +33,7 @@ $(document).ready(function () {
   
         <li><a style="color:#D1DCEA;" href="https://cloudplex.io/blog/">Blogs</a></li>
         <li> <a style="color:#D1DCEA;" href="https://learning.cloudplex.io/learning/">Hands-on Labs</a></li>
-        <li><a style="color:#D1DCEA;" href="https://doc.cloudplex.io/">Documentation</a></li>
+        <li><a style="color:#D1DCEA;" href="https://docs.cloudplex.io/">Documentation</a></li>
      
     </ul>
 </div>
