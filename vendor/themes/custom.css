@@ -454,7 +454,7 @@
             border-top: 2px solid #ffffff;
         }
         
-        li.nav-item.resourses_menu.active ul.sub-menu li:first-child a:before {
+        li.nav-item.resourses_menu.active ul.sub-menu li:nth-child(3) a:before {
             content: '';
             display: inline-block;
             position: absolute;
