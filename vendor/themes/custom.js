@@ -41,7 +41,7 @@ $(document).ready(function () {
 <div class="col-4 padding_right">
     <h4>Company</h4>
     <ul>
-        <li><a style="color:#D1DCEA;" href="https://cloudplex.io/about/"> About</a>
+        <li><a style="color:#D1DCEA;" href="https://cloudplex.io/about/"> Learn About CloudPlex</a>
         </li>
         <li><a style="color:#D1DCEA;" href="https://cloudplex.io/terms-of-service/"> Terms of Service</a>
         </li>
