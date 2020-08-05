@@ -1,6 +1,7 @@
         .app-nav.no-badge {
             position: fixed;
             top: 0px;
+            z-index: 1000;
             margin: 0px auto;
             background: linear-gradient(354.51deg, #505b69 -84.92%, #424d5b 3.15%, #272e37 85.31%);
             width: 100% !important;
