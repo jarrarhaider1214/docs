@@ -39,6 +39,10 @@
             color: #ffffff;
         }
         
+        .progress {
+            display: none;
+        }
+        
         .menu_get_started_btn {
             padding: 8px 36px 11px 34px !important;
             border: 2px solid #FFCC59;
