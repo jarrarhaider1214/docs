@@ -35,7 +35,7 @@ div#app:empty:before {
 }
 
 .progress {
-    display: none;
+    display: none !important;
     /* background-color: var(--theme-color, #42b983);
     height: 2px;
     left: 0;
