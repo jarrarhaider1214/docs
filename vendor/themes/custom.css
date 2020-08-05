@@ -369,7 +369,7 @@
             border-bottom: 2px solid #fcc64d;
             background-color: #212933;
             position: absolute;
-            padding: 18px 16px;
+            padding: 16px;
         }
         /* .resourses_menu ul:before,
         .resourses_menu ul:after {
@@ -655,6 +655,9 @@
         }
         
         @media screen and (max-width: 769px) {
+            .menu_get_started_btn a {
+                padding-left: 12px;
+            }
             body.close .app-nav,
             body.close .github-corner {
                 display: flex !important;
@@ -663,7 +666,7 @@
                 margin: 0 10px 0px 0px !important;
             }
             .menu_get_started_btn {
-                padding: 8px 24px 11px 24px !important;
+                padding: 11px 24px 11px 24px !important;
             }
             .app-nav a {
                 font-size: 10px !important;
@@ -724,7 +727,7 @@
                 width: fit-content;
             }
             .app-nav li {
-                padding-left: 5px;
+                padding-left: 5px !important;
                 display: block;
                 top: 8px;
                 line-height: 14px;
