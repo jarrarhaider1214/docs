@@ -35,7 +35,8 @@ div#app:empty:before {
 }
 
 .progress {
-    background-color: var(--theme-color, #42b983);
+    display: none;
+    /* background-color: var(--theme-color, #42b983);
     height: 2px;
     left: 0;
     position: fixed;
@@ -43,7 +44,7 @@ div#app:empty:before {
     top: 0;
     transition: width .2s, opacity .4s;
     width: 0;
-    z-index: 999999
+    z-index: 999999 */
 }
 
 .search .search-keyword,
