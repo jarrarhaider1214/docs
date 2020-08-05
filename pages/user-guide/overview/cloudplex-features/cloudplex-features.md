@@ -4,33 +4,33 @@ CloudPlex is full of advanced features, some of the major ones are listed below.
 
 ### Access Control 
 
-Access to cluster, services, and other resources based on user defined roles and policies. Platform provides a rich set of roles and policies out of the box.
+Access to cluster, services, and other resources based on user defined roles and policies. Platform provides a rich set of roles and policies out of the box. For more details, click [here](/pages/user-guide/components/access-management/access-management?id=access-management).
 
 ### Associate Pods to Nodes
 
 There are some circumstances where developers may need more control on a node where a pod lands. In CloudPlex, you can visualize your nodes and deployments in a single view and simply attach deployments to specific nodes through a visual interface. Node labeling and selectors are automatically handled by the platform.
 
-### Autoscaling
+### Scaling
 
-Automatically sets up Metrics Server for each public cloud provider. For pod autoscaling, developers provide minimum and maximum values for replicas and resource quotas. For node autoscaling, developers select a CloudPlex provided node template.
+Automatically sets up Metrics Server for each public cloud provider. For pod autoscaling, developers provide minimum and maximum values for replicas and resource quotas. For node autoscaling, developers select a CloudPlex provided node template. For more details, click [here](/pages/user-guide/components/scaling/scaling?id=scaling).
 
 ### CI/CD Integration
 
-CloudPlex also provides easy integration with all the major CI/CD tools. You can integrate that without even disrupting your existing development, testing and deployment processes. 
+CloudPlex also provides easy integration with all the major CI/CD tools. You can integrate that without even disrupting your existing development, testing and deployment processes. For more details, click [here](/pages/user-guide/components/continuous-delivery/continuous-delivery?id=continuous-delivery).
 
 ![1](imgs/1.jpg)
 
 ### Container Integration
 
-Developers can access containers on all major public container registries using the easy CloudPlex visual interface, without directly interacting with them. Docker Hub, Amazon ECR, Azure Container Registry, Google Container Registry (GCR) and JFrog Container Registry are ready to be used with CloudPlex.
+Developers can access containers on all major public container registries using the easy CloudPlex visual interface, without directly interacting with them. Docker Hub, Amazon ECR, Azure Container Registry, Google Container Registry (GCR) and JFrog Container Registry are ready to be used with CloudPlex. For more details, click [here](/pages/user-guide/components/k8s-resources/k8s-resources?id=k8s-resources).
 
 ### Data Security 
 
-CloudPlex fully integrates HashiCorp Vault with an intuitive visual interface to securely store all the passwords, ssh keys and cloud credentials. The platform centrally manages and enforces access to secrets and systems. It provides encryption of data in transit and at rest.
+CloudPlex fully integrates HashiCorp Vault with an intuitive visual interface to securely store all the passwords, ssh keys and cloud credentials. The platform centrally manages and enforces access to secrets and systems. It provides encryption of data in transit and at rest. For more details, click [here](/pages/user-guide/components/credentials-profile/credentials-profile?id=credentials-profile).
 
 ### Deployment Pipelines
 
-Visual design of deployment pipelines with Canary, Blue/Green or Highlander strategies with manual and automatic Canary analysis.
+Visual design of deployment pipelines with Canary, Blue/Green or Highlander strategies with manual and automatic Canary analysis. For more details,click [here](/pages/user-guide/components/continuous-delivery/continuous-delivery?id=continuous-delivery).
 
 ### Dynamic Variables
 
@@ -40,7 +40,7 @@ CloudPlex provides the feature of dynamic variables for parameter passing. You d
 
 ### Health Dashboard ###
 
-Understand service health with the mesh health dashboard, which provides a detailed look into health, latency and error rate of each component in the mesh.
+Understand service health with the mesh health dashboard, which provides a detailed look into health, latency and error rate of each component in the mesh. For more details, click [here](/pages/user-guide/components/telemetry/live-cluster-health/live-cluster-health?id=live-cluster-health).
 
 ### Hybrid Integration
 
@@ -50,17 +50,17 @@ With the CloudPlex Mesh Designer, you can easily create a hybrid application con
 
 CloudPlex intuitive UI also provides fully automated integration of legacy applications. Using simple steps you can fully automate and integrate your legacy applications with the platform and make them part of your application. 
 
-You can deploy agents remotely on legacy application VM and establish remote connectivity by using minimal user intervention. 
+You can deploy agents remotely on legacy application VM and establish remote connectivity by using minimal user intervention. For more details, click [here](/pages/user-guide/components/legacy-applications/legacy-applications?id=legacy-application).
 
 ![3](imgs/3.jpg)
 
 ### Istio Integration
 
-No need to manually configure Istio. CloudPlex provides an intuitive visual interface to visually configure and manage all the capabilities of Istio including connectivity, security, traffic control, and observability of services. CloudPlex always deploys applications as service mesh.
+No need to manually configure Istio. CloudPlex provides an intuitive visual interface to visually configure and manage all the capabilities of Istio including connectivity, security, traffic control, and observability of services. CloudPlex always deploys applications as service mesh. For more details, click [here](/pages/user-guide/components/telemetry/visualize-trace-traffic/visualize-trace-traffic?id=visualize-amp-trace-traffic).
 
 ### Kubernetes Cluster Support
 
-To overcome the limitations of provider-managed Kubernetes clusters, CloudPlex provides the flexibility of creating and running your own Kubernetes cluster on any public cloud (AWZ, Azure, GCP, Digital Ocean, IBM) using a visual interface.. Developers can start a new Kubernetes cluster from scratch with a rich set of network, infrastructure and Kubernetes configuration options.
+To overcome the limitations of provider-managed Kubernetes clusters, CloudPlex provides the flexibility of creating and running your own Kubernetes cluster on any public cloud (AWZ, Azure, GCP, Digital Ocean, IBM) using a visual interface.. Developers can start a new Kubernetes cluster from scratch with a rich set of network, infrastructure and Kubernetes configuration options. For more details, click [here](/pages/user-guide/components/application/application?id=application).
 
 ### Knative Integration
 
@@ -84,7 +84,7 @@ For timely monitoring and issue diagnosis, you can setup alerts as well in Cloud
 
 Alerts notifications can be configured using webhooks for different collaboration platforms like slack etc. 
 
-Using monitoring and alerts, you can keep a timely check on the behavior and activity pattern of different components in a app. 
+Using monitoring and alerts, you can keep a timely check on the behavior and activity pattern of different components in a app. For more details, click [here](/pages/user-guide/components/telemetry/visualize-trace-traffic/visualize-trace-traffic?id=visualize-amp-trace-traffic).
 
 ![4](imgs/4.jpg)
 
@@ -127,7 +127,7 @@ Allows navigation and search of service components and to receive detailed infor
 
 ### Slack Automation
 
-Automatically integrates with Slack channel for each project in CloudPlex. All project status notifications, monitoring and alerts are automatically sent via Slack channel.
+Automatically integrates with Slack channel for each project in CloudPlex. All project status notifications, monitoring and alerts are automatically sent via Slack channel. For more details, click [here](/pages/user-guide/components/slack-integration/slack-integration?id=slack-integration).
 
 ### Tools Integration
 
@@ -135,7 +135,7 @@ CloudPlex has integrated multiple cloud native tools with the platform. Instead 
 
 ### Volume Management
 
-Developers provide basic information about the size of the volume and identity of the container. CloudPlex automatically configures storage class, persistent volume, persistent volume claim, and their associations. CloudPlex provides a uniform interface for all public clouds.
+Developers provide basic information about the size of the volume and identity of the container. CloudPlex automatically configures storage class, persistent volume, persistent volume claim, and their associations. CloudPlex provides a uniform interface for all public clouds. For more details, click [here](/pages/user-guide/components/persistent-volume/persistent-volume?id=persistent-volume).
 
 
 

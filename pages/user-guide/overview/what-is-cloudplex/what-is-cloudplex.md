@@ -22,7 +22,7 @@ CloudPlex offers numerous features like Application Provisioning and Orchestrati
 
 [Associate Pods to Nodes](/pages/user-guide/overview/cloudplex-features/cloudplex-features?id=associate-pods-to-nodes)
 
-[Autoscaling](/pages/user-guide/overview/cloudplex-features/cloudplex-features?id=autoscaling)
+[Scaling](/pages/user-guide/overview/cloudplex-features/cloudplex-features?id=scaling)
 
 [CI/CD Integration](/pages/user-guide/overview/cloudplex-features/cloudplex-features?id=cicd-integration)
 
