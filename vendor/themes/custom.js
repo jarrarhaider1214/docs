@@ -32,8 +32,10 @@ $(document).ready(function () {
     <ul>
   
         <li><a style="color:#D1DCEA;" href="https://cloudplex.io/blog/">Blog</a></li>
-        <li> <a style="color:#D1DCEA;" href="https://learning.cloudplex.io/learning/">Hands-on Labs</a></li>
+        <li><a style="color:#D1DCEA;" href="https://cloudplex.io/videos/">Video</a></li>
         <li><a style="color:#D1DCEA;" href="https://docs.cloudplex.io/">Documentation</a></li>
+        <li> <a style="color:#D1DCEA;" href="https://learning.cloudplex.io/learning/">Hands-on Labs</a></li>
+      
      
     </ul>
 </div>
