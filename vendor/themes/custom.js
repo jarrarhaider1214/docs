@@ -73,7 +73,7 @@ $(document).ready(function () {
         <span data-toggle="tooltip" title="" data-original-title="Linkedin"> <a href="https://pk.linkedin.com/company/cloudplex-inc" target="_blank"><i class="fa fa-linkedin icon footer-social-icon" aria-hidden="true"></i> </a></span>
         <span data-toggle="tooltip" title="" data-original-title="Twitter"> <a href="https://twitter.com/cloud_plex" target="_blank"><i class="fa fa-twitter icon footer-social-icon" aria-hidden="true"></i></a></span>
 
-        <span data-toggle="tooltip" title="" data-original-title="Github"><a href="#" target="_blank"><i class="fa fa-github-alt icon footer-social-icon" aria-hidden="true"></i></a>  </span>
+        <span data-toggle="tooltip" title="" data-original-title="Github"><a href="https://github.com/CloudplexPlatform" target="_blank"><i class="fa fa-github-alt icon footer-social-icon" aria-hidden="true"></i></a>  </span>
         <span data-toggle="tooltip" title="" data-original-title="Youtube"><a href="https://www.youtube.com/channel/UCcKuhc6in_Q6RN6u2H3gXMg" target="_blank"> <i class="fa fa-youtube-play icon footer-social-icon" aria-hidden="true"></i></a> </span>
     </div>
 </div>
