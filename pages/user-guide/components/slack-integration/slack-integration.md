@@ -2,7 +2,7 @@
 
 Slack integration allows user to receive notification of important events from the CloudPlex for any specific application. For smooth integration, you need to create a **New Slack App** with required permissions. Process of creating a slack app is explained below.
 
-## How to Creation a Slack Application
+## How to Create a Slack Application
 
 1. Go to the link by clicking [here](https://api.slack.com/apps).
 
