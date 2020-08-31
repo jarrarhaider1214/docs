@@ -4,7 +4,7 @@ Please refer to our [video guide for a walkthrough](https://drive.google.com/dri
 
 ## Manage Secrets and Protect Sensitive Data
 
-In the video, we will show you how to Manage Secrets and Protect Sensitive Data with the CloudPlex platform. 
+In the guide, we will show you how to Manage Secrets and Protect Sensitive Data with the CloudPlex platform. 
 
 CloudPlex integrates the HashiCorp vault. We use strong access control policies to keep your data secure at all times. 
 
@@ -16,19 +16,19 @@ It provides secrets management, data encryption, and identity-based access contr
 
 2. To create a new profile select Credential profiles.
 
-   ![1](imgs\1.jpg)
+   ![1](imgs/1.jpg)
 
 3. Click on the create new profile button and select your desired profile type.
 
-   ![2](imgs\2.jpg)
+   ![2](imgs/2.jpg)
 
-4. [For this video](https://drive.google.com/drive/u/1/folders/1q_qRnx2id_gn6_9Zp7TZqzJlF2LTr06o), let’s select AWS.
+4. For this guide, let’s select AWS.
 
 5. Provide basic information.
 
 6. Provide your AWS credentials and save your profile.
 
-   ![3](imgs\3.jpg)
+   ![3](imgs/3.jpg)
 
 7. All the sensitive information is stored in the CloudPlex managed vault .
 
@@ -44,7 +44,7 @@ It provides secrets management, data encryption, and identity-based access contr
 
 4. Provide a name for the SSH key and click on the generate button.
 
-   ![4](imgs\4.jpg)
+   ![4](imgs/4.jpg)
 
 5. CloudPlex will generate a 4096-bit key and store it in the vault.
 
@@ -52,7 +52,7 @@ It provides secrets management, data encryption, and identity-based access contr
 
 7. CloudPlex gives you the option to download your generated key only at the time of generating. The key is not accessible after that.
 
-   ![5](imgs\5.jpg)
+   ![5](imgs/5.jpg)
 
 8. The platform uses this SSH key to start your machines and deploy the CloudPlex agent on it.
 
@@ -68,11 +68,11 @@ It provides secrets management, data encryption, and identity-based access contr
 
 4. Drag-n-Drop CloudPlex Secrets service from pallet.
 
-   ![6](imgs\6.jpg)
+   ![6](imgs/6.jpg)
 
 5. Click on add new string secret
 
-   ![7](imgs\7.jpg)
+   ![7](imgs/7.jpg)
 
 6. Provide the key, value pair. CloudPlex gives you an option to paste sensitive data in the text field or directly upload a file.
 
