@@ -6,6 +6,7 @@
     - [User Managed - New On-Premise Cluster](pages/user-guide/getting-started/um-new-op-cluster/um-new-op-cluster?id=user-managed-new-on-premise-kubernetes-cluster)
     - [Cloud Native Security Policy Management](pages/user-guide/getting-started/cloud-native-security-policy-management/cloud-native-security-policy-management)
     - [Create & Use Provider Managed Cluster](pages/user-guide/getting-started/create-use-provider-managed-cluster/create-use-provider-managed-cluster)
+    - [Define RBAC for Kubernetes Application](pages/user-guide/getting-started/define-rbac-for-kubernetes-application/define-rbac-for-kubernetes-application)
 - Cloudplex
   - [What is Cloudplex?](pages/user-guide/overview/what-is-cloudplex/what-is-cloudplex?id=what-is-cloudplex)
   - [Cloudplex Features](pages/user-guide/overview/cloudplex-features/cloudplex-features?id=cloudplex-features)
