@@ -1,6 +1,6 @@
 # Cloud Native Security Policy Management
 
-Please refer to our [video guide for a walkthrough](https://drive.google.com/drive/u/1/folders/1q_qRnx2id_gn6_9Zp7TZqzJlF2LTr06o) on how to perform the below mentioned operations in platform. 
+Please refer to our [video guide for a walkthrough](https://www.youtube.com/watch?v=SwFD7_Nj2T0) on how to perform the below mentioned operations in platform. 
 
 ## Manage Secrets and Protect Sensitive Data
 
