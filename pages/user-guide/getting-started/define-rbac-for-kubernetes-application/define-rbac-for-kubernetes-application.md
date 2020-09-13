@@ -92,6 +92,8 @@ In this guide, we will show you how to define RBAC for your Kubernetes applicati
 
 8. Click on the terminate button to delete all your resources from Cloud.
 
+   ![12](imgs/12.jpg)
+
 **Conclusion:**
 
 1. You just deployed the Kubernetes application with RBAC using CloudPlex, the Kubernetes Application Platform for Developers.

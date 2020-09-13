@@ -64,14 +64,22 @@ In this guide, we will show you how to create and deploy a MySQL with readiness 
 **Step 3: Deploy MySQL on the cluster**
 
 1. Click on the Start button to start deploying the application on the cluster you have created
+
 2. You will see logs as the application deployment progresses.
    ![5](imgs/5.jpg)
+
 3. Click on the cluster tab to see the live status of your cluster.
+
 4. “Cluster live status” is a complete dashboard that gives you the “live status” about the health and consumption of the nodes in your cluster 
    ![6](imgs/6.jpg)
+
 5. You can see the status of the application you just deployed by clicking on the app tab and click on Table view to see the real time status of the MySQL service.
+
 6. To avoid unnecessary costs, don’t forget to terminate your application when you are done.
+
 7. Click on the terminate button to delete all your resources from Cloud.
+
+   ![8](imgs/8.jpg)
 
 **Conclusion:**
 

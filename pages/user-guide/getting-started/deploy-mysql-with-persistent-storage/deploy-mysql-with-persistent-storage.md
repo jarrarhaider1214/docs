@@ -76,6 +76,8 @@ In this guide, we will show you how to create and deploy a MySQL application wit
 
 7. Click on the terminate button to delete all your resources from Cloud.
 
+   ![11](imgs/11.jpg)
+
 **Conclusion:**
 
 1. You just deployed MySQL server with a persistent volume using CloudPlex, the Kubernetes Application Platform for Developers. 

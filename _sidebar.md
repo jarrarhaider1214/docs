@@ -11,6 +11,8 @@
     - [Dynamic Parameters on MySql Deployment](pages/user-guide/getting-started/dynamic-parameters-on-mysql-deployment/dynamic-parameters-on-mysql-deployment?id=dynamic-parameters-on-mysql-deployment)
     - [Deploy MySQL with Persistent Storage](pages/user-guide/getting-started/deploy-mysql-with-persistent-storage/deploy-mysql-with-persistent-storage?id=deploy-mysql-with-persistent-storage)
     - [Deploy MySQL with Readiness & Liveness Probe](/pages/user-guide/getting-started/deploy-mysql-with-readiness-and-liveness/deploy-mysql-with-readiness-and-liveness?id=deploy-mysql-with-readiness-amp-liveness-probe)
+    - [Privileges And Security For Kubernetes](pages/user-guide/getting-started/define-privileges-and-security-for-Kubernetes/define-privileges-and-security-for-Kubernetes?id=privileges-and-security-for-kubernetes)
+    - [Configure Circuit Breaking in Microservice](pages/user-guide/getting-started/configure-circuit-breaking-in-microservice/configure-circuit-breaking-in-microservice?id=configure-circuit-breaking-in-microservice)
 - Cloudplex
   - [What is Cloudplex?](pages/user-guide/overview/what-is-cloudplex/what-is-cloudplex?id=what-is-cloudplex)
   - [Cloudplex Features](pages/user-guide/overview/cloudplex-features/cloudplex-features?id=cloudplex-features)
