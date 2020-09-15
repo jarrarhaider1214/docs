@@ -104,6 +104,8 @@ In this guide, we will show you how to use Dynamic Parameters when deploying a M
 
 7. Click on the terminate button to delete all your resources from Cloud.
 
+   ![13](imgs/13.jpg)
+
 **Conclusion:**
 
 1. You just deployed MySQL server with a Secret Service using CloudPlex, the Kubernetes Application Platform for Developers.

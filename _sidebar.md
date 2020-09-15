@@ -7,8 +7,12 @@
     - [Cloud Native Security Policy Management](pages/user-guide/getting-started/cloud-native-security-policy-management/cloud-native-security-policy-management?id=cloud-native-security-policy-management)
     - [Create & Use Provider Managed Cluster](pages/user-guide/getting-started/create-use-provider-managed-cluster/create-use-provider-managed-cluster?id=create-amp-use-provider-managed-cluster)
     - [Define RBAC for Kubernetes Application](pages/user-guide/getting-started/define-rbac-for-kubernetes-application/define-rbac-for-kubernetes-application?id=define-rbac-for-kubernetes-application)
+    - [Deploy MySQL with Kubernetes Secret](pages/user-guide/getting-started/deploy-mysql-with-kubernetes-secret/deploy-mysql-with-kubernetes-secret?id=deploy-mysql-with-kubernetes-secret)
     - [Dynamic Parameters on MySql Deployment](pages/user-guide/getting-started/dynamic-parameters-on-mysql-deployment/dynamic-parameters-on-mysql-deployment?id=dynamic-parameters-on-mysql-deployment)
     - [Deploy MySQL with Persistent Storage](pages/user-guide/getting-started/deploy-mysql-with-persistent-storage/deploy-mysql-with-persistent-storage?id=deploy-mysql-with-persistent-storage)
+    - [Deploy MySQL with Readiness & Liveness Probe](/pages/user-guide/getting-started/deploy-mysql-with-readiness-and-liveness/deploy-mysql-with-readiness-and-liveness?id=deploy-mysql-with-readiness-amp-liveness-probe)
+    - [Privileges And Security For Kubernetes](pages/user-guide/getting-started/define-privileges-and-security-for-Kubernetes/define-privileges-and-security-for-Kubernetes?id=privileges-and-security-for-kubernetes)
+    - [Configure Circuit Breaking in Microservice](pages/user-guide/getting-started/configure-circuit-breaking-in-microservice/configure-circuit-breaking-in-microservice?id=configure-circuit-breaking-in-microservice)
 - Cloudplex
   - [What is Cloudplex?](pages/user-guide/overview/what-is-cloudplex/what-is-cloudplex?id=what-is-cloudplex)
   - [Cloudplex Features](pages/user-guide/overview/cloudplex-features/cloudplex-features?id=cloudplex-features)

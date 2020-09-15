@@ -2,7 +2,7 @@
 
 Please refer to our [video guide for a walkthrough](https://www.youtube.com/watch?v=BcyNpwluRXY) on how to perform the below mentioned operations in platform. 
 
-In this guide, we will show you How to create and deploy a MySQL application with persistent storage in 3 steps.
+In this guide, we will show you how to create and deploy a MySQL application with persistent storage in 3 steps.
 
 **Step 1: Create and Configure a Kubernetes cluster**
 
@@ -14,7 +14,7 @@ In this guide, we will show you How to create and deploy a MySQL application wit
 
 2. Before attaching volume with the MySQL container, we need to first create and configure a CloudPlex secret service and a mysql container.
 
-3. To create and configure a Mysql container, see our guide **How to deploy a MySQL server with a Kubernetes Secret.**
+3. To create and configure a Mysql container, see our guide **[How to deploy a MySQL server with a Kubernetes Secret](/pages/user-guide/getting-started/deploy-mysql-with-kubernetes-secret/deploy-mysql-with-kubernetes-secret?id=deploy-mysql-with-kubernetes-secret).**
 
 4. Now that you have created a MySQL container and a CloudPlex secret service, let’s attach persistent volume.
 
@@ -24,7 +24,7 @@ In this guide, we will show you How to create and deploy a MySQL application wit
 
 7. Click on the MySQL container and click on advance configurations.
 
-   ![1](imgs//1.jpg)
+   ![1](imgs/1.jpg)
 
 8. Select container volumes. For this guide, let's select persistent volume. Click on new to create a new Persistent Volume. CloudPlex will take you to the volume configurations panel. 
 
@@ -75,6 +75,8 @@ In this guide, we will show you How to create and deploy a MySQL application wit
 6. To avoid unnecessary costs, don’t forget to terminate your application when you are done.
 
 7. Click on the terminate button to delete all your resources from Cloud.
+
+   ![11](imgs/11.jpg)
 
 **Conclusion:**
 
