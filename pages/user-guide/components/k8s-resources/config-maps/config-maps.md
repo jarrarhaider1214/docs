@@ -10,13 +10,15 @@ Details of the configurations that can be done for Config Maps are explained bel
 
 2. **Configmaps Icon**: Click the icon to configure config maps. 
 
-3. **Name**: Name for the service.
+3. **Service Id:** Id of the service. System will automatically assign id to the service but user can customize it.
 
-4. **Version:** Version of the service.
+4. **Name**: Name for the service.
 
-5. **Namespace**: Namespace for the service.
+5. **Version:** Version of the service.
 
-6. **Add Data**: Directory, file, or literal value to draw the data from.
+6. **Namespace**: Namespace for the service.
+
+7. **Add Data**: Directory, file, or literal value to draw the data from.
 
    > **Key**: File name or the key you provided on the command line.
    >
