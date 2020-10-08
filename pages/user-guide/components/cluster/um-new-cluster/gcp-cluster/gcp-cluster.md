@@ -33,9 +33,17 @@ Here are the configurations option that will be available to user while configur
 ![3](imgs/3.jpg)
 
 1. **Image Family**: Will be listed based on the GCP account used to create cluster. 
+
 2. **Image Project**: Will be listed based on the image family selected.
+
 3. **Service Account Email:** Will be listed based on the GCP account used. It needs to have required access level as shown in info message in screenshot above. 
+
 4. **Tags**: Tags attached with the cluster. They can be attached while configuring network. 
+
 5. **Disk Type:** Type of the disk for root volume e.g. Persistent SSD.
+
 6. **Disk Size**: Size for the root volume disk.
+
 7. **Docker Data Volume**: To add docker data volume as well.
+
+   > A data volume is a specially-designated directory within one or more containers that bypasses the Union File System. Data volumes provide several useful features for persistent or shared data.Volumes are initialized when a container is created.

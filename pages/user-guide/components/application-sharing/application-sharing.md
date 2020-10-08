@@ -4,15 +4,15 @@ Most of the time within a company, different teams work on different application
 
 Based on their teams, users will only be able to access certain modules in CloudPlex. 
 
-Application sharing module was developed to share resources with different teams. That way teams can easily share their applications or resources with other teams for collaborations purposes etc. 
+Application sharing module was developed to share resources with different teams. That way teams can easily share their infrastructures or resources with other teams for collaborations purposes etc. 
 
-> Super-user will be able to access all the resources and applications irrespective of the access level. 
+> Super-user will be able to access all the resources and infrastructure irrespective of the access level. 
 
-## How to Share Application
+## How to Share Infrastructure
 
-To share Application with different teams:
+To share Infrastructure with different teams:
 
-1. Navigate to the **Applications** menu from the top bar and select the **Application** you want to share.
+1. Navigate to the **Infrastructure** menu from the left pane and select the **Infrastructure** you want to share.
 
    ![1](imgs/1.jpg)
 

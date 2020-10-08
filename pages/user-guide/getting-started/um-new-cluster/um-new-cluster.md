@@ -18,7 +18,7 @@
 
 3. Click **Next** at the top right of screen.
 
-4. Customize Network configurations as per requirements.
+4. Customize **Network** configurations as per requirements.
 
    > **Note:** Most of the fields are prepopulated with default values but you can also customize the configurations as per your requirements. 
 
@@ -53,7 +53,7 @@
 
    - Specify **Pod Address Range** that will be assigned to the pods in cluster.
 
-   - Use Radio buttons to enable **Load Balancing** and **Network Policy**.
+   - Use Radio buttons to enable **Load Balancing**, **Network Policy**, **Ingress Controller** and **Monitoring**.
 
      > Before deploying application, system will first install kubernetes on cluster.
 
@@ -61,9 +61,17 @@
 
 9. Click **Next** at the top right of screen.
 
-10. Design application using **App Designer**.
+10. Design application using **App** designer.
 
     > As part of this guide, we will only configure the minimum settings necessary to deploy the container. For detailed configurations, please check our detailed guide by clicking [here](/pages/user-guide/components/k8s-resources/container/container).
+
+    - Enter **Application Name** and **Version**.
+
+    - (Optional) Specify **Tags**.
+
+    - Click **Next** at the top right of screen.
+
+      ![2.1](imgs/2.1.jpg)
 
     - Drag and drop the **Container** service in K8s resources from left column in to the canvas.
 

@@ -10,9 +10,9 @@ Here are the configurations option that will be available to user while configur
 
 1. **Network Name**: Name of the network.
 
-2. **Virtual Private Cloud**: VPC to be used for the project. You can use any existing VPC created on cloud or create a new one. 
+2. **Virtual Private Cloud**: VNet to be used for the project. You can use any existing VNet created on cloud or create a new one. 
 
-3. **VPC Name**: Name of the VPC.
+3. **VPC Name**: Name of the VNet.
 
 4. **CIDR**: IPv4 address in the form of a CIDR block.
 

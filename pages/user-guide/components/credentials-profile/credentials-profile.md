@@ -8,7 +8,7 @@ Different type of Credentials can be saved and fetched while configuring differe
 
 ## How to Store Credentials
 
-1. Navigate to the credentials profile menu from the top bar. 
+1. Navigate to the credentials profile menu from the left pane. 
 
    ![0.1](imgs/0.1.jpg)
 
@@ -20,23 +20,21 @@ Different type of Credentials can be saved and fetched while configuring differe
 
 3. Enter **Profile Name** for future use, and specify your **AWS Access** and **Secret Key**. 
 
-4. Select **Team** to share this profile with team members in CloudPlex.
-
    ![0.3](imgs/0.3.jpg)
 
-5. Click **Save Profile**.
+4. Click **Save Profile**.
 
    > You can follow the same process to save credentials for other clouds as well. 
 
-6. Use buttons highlighted in the image below to edit or delete your saved credential profile. 
+5. Use buttons highlighted in the image below to edit or delete your saved credential profile. 
 
    ![0.4](imgs/0.4.jpg)
 
 ## Other Ways to Save Profile
 
-In order to provide seamless deployment experience, users can also save their profiles for future use while configuring the applications. That way they will not have to navigate to the credentials profile menu to save their credentials. 
+In order to provide seamless deployment experience, users can also save their profiles for future use while configuring the infrastructure. That way they will not have to navigate to the credentials profile menu to save their credentials. 
 
-Cloud Profile can be saved while configuring the Basic Info/General tab of  the application configuration process.
+Cloud Profile can be saved while configuring the Basic Info/General tab of the infrastructure configuration process.
 
 1. Select the **Cloud Provider** e.g. AWS.
 
@@ -52,13 +50,9 @@ Cloud Profile can be saved while configuring the Basic Info/General tab of  the 
 
    ![1](imgs/1.jpg)
 
-6. **Template Name** will get populated automatically. 
+6. A pop up notification will appear on the right top of screen. You will now be able to select this profile from drop-down for future applications. 
 
-7. Select **Team** from drop-down to share access of this profile.
-
-8. Click **Save**. You will now be able to select this profile from drop-down for future applications. 
-
-   > Profiles saved while configuring the Application will also appear in Credentials Profile menu. User can update or edit the saved profiles by navigating to the credential profiles.
+   > Profiles saved while configuring the infrastructure will also appear in Credentials Profile menu. User can update or edit the saved profiles by navigating to the credential profiles menu.
 
    ![2](imgs/2.jpg)
 

@@ -1,5 +1,8 @@
 - Getting Started
   - [Getting Started](/pages/user-guide/getting-started/getting-started?id=getting-started)
+    - Create New Application
+    - Discover Existing Application
+    - [How to Configure Infrastructure](pages/user-guide/getting-started/how-to-configure-infrastructure/how-to-configure-infrastructure?id=how-to-configure-infrastructure)
     - [Provider Managed - New Cluster](pages/user-guide/getting-started/pm-new-cluster/pm-new-cluster?id=provider-managed-new-kubernetes-cluster)
     - [Provider Managed - Existing Cluster](pages/user-guide/getting-started/pm-existing-cluster/pm-existing-cluster?id=provider-managed-existing-kubernetes-cluster)
     - [User Managed - New Cluster](pages/user-guide/getting-started/um-new-cluster/um-new-cluster?id=user-managed-new-kubernetes-cluster)
@@ -21,7 +24,7 @@
   - [Overview](pages/user-guide/components/components?id=components)
   - [Access Management](pages/user-guide/components/access-management/access-management?id=access-management)
   - [Credentials Profile](pages/user-guide/components/credentials-profile/credentials-profile?id=credentials-profile)
-  - [Application](pages/user-guide/components/application/application?id=application)
+  - [Infrastructure](pages/user-guide/components/infrastructure/infrastructure?id=infrastructure)
   - [Application Sharing](pages/user-guide/components/application-sharing/application-sharing?id=application-sharing)
   - [Network](pages/user-guide/components/network/network?id=networking)
     - [AWS](pages/user-guide/components/network/aws-network/aws-network?id=aws)
