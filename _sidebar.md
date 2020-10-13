@@ -1,5 +1,8 @@
 - Getting Started
   - [Getting Started](/pages/user-guide/getting-started/getting-started?id=getting-started)
+    - Create New Application
+    - Discover Existing Application
+    - [How to Configure Infrastructure](pages/user-guide/getting-started/how-to-configure-infrastructure/how-to-configure-infrastructure?id=how-to-configure-infrastructure)
     - [Provider Managed - New Cluster](pages/user-guide/getting-started/pm-new-cluster/pm-new-cluster?id=provider-managed-new-kubernetes-cluster)
     - [Provider Managed - Existing Cluster](pages/user-guide/getting-started/pm-existing-cluster/pm-existing-cluster?id=provider-managed-existing-kubernetes-cluster)
     - [User Managed - New Cluster](pages/user-guide/getting-started/um-new-cluster/um-new-cluster?id=user-managed-new-kubernetes-cluster)

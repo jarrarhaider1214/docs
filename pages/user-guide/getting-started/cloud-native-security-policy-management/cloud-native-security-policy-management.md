@@ -1,6 +1,6 @@
 # Cloud Native Security Policy Management
 
-Please refer to our [video guide for a walkthrough](https://www.youtube.com/watch?v=SwFD7_Nj2T0) on how to perform the below mentioned operations in platform. 
+Please refer to our [video guide for a walkthrough](https://drive.google.com/file/d/1JfFWJU_FilmG-z7sXFZlX2X3Ykc-ryxR) on how to perform the below mentioned operations in platform. 
 
 ## Manage Secrets and Protect Sensitive Data
 
@@ -50,7 +50,7 @@ It provides secrets management, data encryption, and identity-based access contr
 
 6. Only you can access and manage your secrets in the vault.
 
-7. CloudPlex gives you the option to download your generated key only at the time of generating. The key is not accessible after that.
+7. CloudPlex automatically downloads your generated key only at the time of generating. The key is not accessible after that.
 
    ![5](imgs/5.jpg)
 
