@@ -1,12 +1,8 @@
 - Getting Started
   - [Getting Started](/pages/user-guide/getting-started/getting-started?id=getting-started)
-    - Create New Application
+    - [Create New Application](pages/user-guide/getting-started/create-new-application/create-new-application?id=create-new-application)
     - Discover Existing Application
     - [How to Configure Infrastructure](pages/user-guide/getting-started/how-to-configure-infrastructure/how-to-configure-infrastructure?id=how-to-configure-infrastructure)
-    - [Provider Managed - New Cluster](pages/user-guide/getting-started/pm-new-cluster/pm-new-cluster?id=provider-managed-new-kubernetes-cluster)
-    - [Provider Managed - Existing Cluster](pages/user-guide/getting-started/pm-existing-cluster/pm-existing-cluster?id=provider-managed-existing-kubernetes-cluster)
-    - [User Managed - New Cluster](pages/user-guide/getting-started/um-new-cluster/um-new-cluster?id=user-managed-new-kubernetes-cluster)
-    - [User Managed - New On-Premise Cluster](pages/user-guide/getting-started/um-new-op-cluster/um-new-op-cluster?id=user-managed-new-on-premise-kubernetes-cluster)
     - [Cloud Native Security Policy Management](pages/user-guide/getting-started/cloud-native-security-policy-management/cloud-native-security-policy-management?id=cloud-native-security-policy-management)
     - [Create & Use Provider Managed Cluster](pages/user-guide/getting-started/create-use-provider-managed-cluster/create-use-provider-managed-cluster?id=create-amp-use-provider-managed-cluster)
     - [Define RBAC for Kubernetes Application](pages/user-guide/getting-started/define-rbac-for-kubernetes-application/define-rbac-for-kubernetes-application?id=define-rbac-for-kubernetes-application)

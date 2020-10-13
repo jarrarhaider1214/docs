@@ -37,6 +37,6 @@ For a step by step guide on how to configure and manage different type of applic
 
 > To deploy on application on cloud, it is necessary for the user cloud profile to have all the required permissions. For detailed guide on all the required permissions, click [here](/pages/user-guide/components/cloud-authorization-level/cloud-authorization-level).
 
-1. Create New Application
+1. [Create New Application](pages/user-guide/getting-started/create-new-application/create-new-application?id=create-new-application)
 2. Discover Existing Application
 3. [How to Configure Infrastructure](pages/user-guide/getting-started/how-to-configure-infrastructure/how-to-configure-infrastructure?id=how-to-configure-infrastructure)
