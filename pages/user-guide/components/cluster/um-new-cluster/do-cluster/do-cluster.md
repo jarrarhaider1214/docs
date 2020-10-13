@@ -33,6 +33,11 @@ Here are the configurations option that will be available to user while configur
 ![3](imgs/3.jpg)
 
 1. **Image ID**: Image id of droplet image. 
+
 2. **Image Slug**: Image slug of a droplet image.
+
 3. **Docker Data Volume**: To add docker data volume as well.
+
+   > A data volume is a specially-designated directory within one or more containers that bypasses the Union File System. Data volumes provide several useful features for persistent or shared data.Volumes are initialized when a container is created.
+
 4. **Volume Size:** Volume of attached docker storage.

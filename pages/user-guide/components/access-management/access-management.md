@@ -27,7 +27,7 @@ Now, let's move to the step by step guide on how to use Access Management. We'll
 
 ## New Company User
 
-As mentioned above, User who will be signing up for the first time using a company domain will have Super User access. Go to the **Access Management** menu from top bar to check the Role from **Users** tab.
+As mentioned above, User who will be signing up for the first time using a company domain will have Super User access. Go to the **Access Management** menu from left panel to check the Role from **Users** tab.
 
 ![0a](imgs/0a.jpg)
 
@@ -35,10 +35,10 @@ As mentioned above, User who will be signing up for the first time using a compa
 
 First step would be to add the team players and make the platform accessible to them.
 
-1. Go to the **Access Management** menu from top bar, click **Users** and click **+** button.
+1. Go to the **Access Management** menu from left panel, click **Users** and click **+** button.
    ![1](imgs/1.jpg)
 
-2. Enter **Email** and click **Add**.
+2. Enter **Email** and click **Invite**.
 
    User will now receive an invitation email along with the confirmation link.
 

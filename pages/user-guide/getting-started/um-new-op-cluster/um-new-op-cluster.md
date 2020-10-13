@@ -24,7 +24,7 @@
 
    From here you can connect your on-prem cluster with CloudPlex.  (Follow on screen instructions to install agent on your machine)
 
-   ![13](imgs/13.png)
+   ![13](imgs/13.jpg)
 
    - Once agent is in running state, click **Verify Connect** to verify the connection with cluster.
 
@@ -36,7 +36,7 @@
 
    - Specify **Pod Address Range** that will be assigned to the pods in cluster.
 
-   - Use Radio buttons to enable **Load Balancing** and **Network Policy**.
+   - Use Radio buttons to enable **Load Balancing**, **Network Policy**, **Ingress Controller** and **Monitoring**.
 
      > Before deploying application, system will first install kubernetes on cluster.
 
@@ -44,7 +44,7 @@
 
 9. Click **Next** at the top right of screen.
 
-10. Design application using **App Designer**.
+10. Design application using **App** designer.
 
     > As part of this guide, we will only configure the minimum settings necessary to deploy the container. For detailed configurations, please check our detailed guide by clicking [here](/pages/user-guide/components/k8s-resources/container/container).
 

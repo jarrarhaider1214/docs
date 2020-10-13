@@ -43,7 +43,7 @@
 
 7. Click **Next** at the top right of screen.
 
-8. Design application using **App Designer**.
+8. Design application using **App** designer.
 
    > As part of this guide, we will only configure the minimum settings necessary to deploy the container. For detailed configurations, please check our detailed guide by clicking [here](/pages/user-guide/components/k8s-resources/container/container).
 
