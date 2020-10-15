@@ -2,6 +2,10 @@
 
 CloudPlex offers 3 ways of infrastructure creation on the cloud, based on the requirements and expertise level of the user.
 
+Go to the Infrastructure menu from left pane and click **+** button to start the creation process.
+
+![1](imgs/1.jpg)
+
 1. Provider Managed
    To setup a cloud provider (AWS, Azure etc) managed Kubernetes cluster on CloudPlex.
 
@@ -23,6 +27,8 @@ CloudPlex offers 3 ways of infrastructure creation on the cloud, based on the re
 3. Clone Existing Application
    This feature is recommended when the users want to deploy an application having the same configurations or after making minute changes on any existing applications.
 
+![2](imgs/2.jpg)
+
 For a step by step guide on how to configure and manage different type of kubernetes cluster using CloudPlex, navigate to the respective guide below.
 
 > To deploy on application on cloud, it is necessary for the user cloud profile to have all the required permissions. For detailed guide on all the required permissions, click [here](https://docs.cloudplex.io/#/pages/user-guide/components/cloud-authorization-level/cloud-authorization-level).
@@ -31,3 +37,4 @@ For a step by step guide on how to configure and manage different type of kubern
 2. [Provider Managed - Existing Kubernetes Cluster](https://docs.cloudplex.io/#/pages/user-guide/getting-started/pm-existing-cluster/pm-existing-cluster?id=provider-managed-existing-kubernetes-cluster)
 3. [User Managed - New Kubernetes Cluster](https://docs.cloudplex.io/#/pages/user-guide/getting-started/um-new-cluster/um-new-cluster?id=user-managed-new-kubernetes-cluster)
 4. [User Managed - New On-Premise Kubernetes Cluster](https://docs.cloudplex.io/#/pages/user-guide/getting-started/um-new-op-cluster/um-new-op-cluster?id=user-managed-new-on-premise-kubernetes-cluster)
+
