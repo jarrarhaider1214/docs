@@ -1,7 +1,7 @@
 - Getting Started
   - [Getting Started](/pages/user-guide/getting-started/getting-started?id=getting-started)
     - [Create New Application](pages/user-guide/getting-started/create-new-application/create-new-application?id=create-new-application)
-    - Discover Existing Application
+    - [Discover Existing Application](pages/user-guide/getting-started/discover-existing-application/discover-existing-application?id=discover-existing-application)
     - [How to Configure Infrastructure](pages/user-guide/getting-started/how-to-configure-infrastructure/how-to-configure-infrastructure?id=how-to-configure-infrastructure)
     - [Cloud Native Security Policy Management](pages/user-guide/getting-started/cloud-native-security-policy-management/cloud-native-security-policy-management?id=cloud-native-security-policy-management)
     - [Create & Use Provider Managed Cluster](pages/user-guide/getting-started/create-use-provider-managed-cluster/create-use-provider-managed-cluster?id=create-amp-use-provider-managed-cluster)

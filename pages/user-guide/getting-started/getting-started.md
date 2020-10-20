@@ -33,10 +33,10 @@ Two types of applications can be created on CloudPlex.
 
 ![2](imgs\2.jpg)
 
-For a step by step guide on how to configure and manage different type of applications kubernetes cluster using CloudPlex, navigate to the respective guide below.
+For a step by step guide on how to configure and manage different type of applications on kubernetes cluster using CloudPlex, navigate to the respective guide below.
 
 > To deploy on application on cloud, it is necessary for the user cloud profile to have all the required permissions. For detailed guide on all the required permissions, click [here](/pages/user-guide/components/cloud-authorization-level/cloud-authorization-level).
 
 1. [Create New Application](pages/user-guide/getting-started/create-new-application/create-new-application?id=create-new-application)
-2. Discover Existing Application
+2. [Discover Existing Application](pages/user-guide/getting-started/discover-existing-application/discover-existing-application?id=discover-existing-application)
 3. [How to Configure Infrastructure](pages/user-guide/getting-started/how-to-configure-infrastructure/how-to-configure-infrastructure?id=how-to-configure-infrastructure)
