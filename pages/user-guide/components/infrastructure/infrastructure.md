@@ -25,8 +25,8 @@ CloudPlex offers 3 ways of Infrastructure creation on the cloud, based on the re
    - Create New On-Premise Kubernetes Cluster
      To use On-Premise machines to create a Kubernetes cluster.
 
-3. Clone Existing Application
-   This feature is recommended when the users want to deploy an application having the same configurations or after making minute changes on any existing applications.
+3. Use Existing On-Premise Kubernetes Cluster
+   This feature is recommended when the users want to deploy an application using On-Premise (Bare Metal) Kubernetes cluster.
 
 ![1](imgs/1.jpg)
 

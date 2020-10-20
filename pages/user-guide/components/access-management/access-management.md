@@ -21,8 +21,6 @@ CloudPlex RBAC consists of **Roles**, **Teams**, and **Users**
 
 > **Note:** Access Management menu will only be available to the Super User of the platform. 
 
-> **Note:** RBAC will also be integrated with Active Directory (AD). Users can be assigned relevant roles and fetched from AD.
-
 Now, let's move to the step by step guide on how to use Access Management. We'll show you how to create a simple team with some users and roles.
 
 ## New Company User
@@ -46,9 +44,9 @@ First step would be to add the team players and make the platform accessible to 
 
    ![3](imgs/3.jpg)
 
-   > **Note:** All the subsequent New Users will be assigned **Default** role. But you can also change the role assigned, process of which is explained below. 
+   > **Note:** All the subsequent New Users will be part of **Developers** team and assigned **Default** and **Team Member** role. But you can also change the role assigned, process of which is explained below. 
    >
-   > **Note:** Default user role will only have View access. For access of other modules, Super User will need to add the default user in relevant teams and assign the roles.
+   > **Note:** Default user role will only have View access. For access of other modules, Super User will need to add the default user in relevant tems and assign the roles.
 
 ## Roles
 
@@ -82,17 +80,3 @@ Last step is to create Teams and assign relevant role to the Users.
    ![7](imgs/7.jpg)
 
 3. Click **Save**.
-
-## Active Directory
-
-Active Directory menu can be used to fetch the users from AD and make them a part of team in platform.
-
-1. To setup Active Directory, click **+** button.
-2. Specify **Host Name** of AD.
-3. Specify **Port**.
-4. (Optional) Enter **Search Base** to filter the search.
-   Search base can be some specific business unit inside AD. 
-5. Specify **Username** and **Password** of AD.
-6. Click **Test AD** button to test the connection.
-
-![8](imgs/8.jpg)
