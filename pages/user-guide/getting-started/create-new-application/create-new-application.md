@@ -20,7 +20,7 @@ Here is a step by step guide on how you can design new application from scratch 
 
    - You can drag any service from left pane and drop it into the canvas to configure it.
 
-   > For detailed guide on how each service can be configured, please visit our Overview guide by clicking [here](/pages/user-guide/components/components?id=components). 
+   > For detailed guide on how each service can be configured, please visit our Overview guide by clicking [here](pages/user-guide/components/components?id=components). 
 
    ![4](imgs/4.jpg)
 
