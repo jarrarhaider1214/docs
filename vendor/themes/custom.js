@@ -35,7 +35,7 @@ $(document).ready(function () {
         <li><a style="color:#D1DCEA;" href="https://cloudplex.io/videos/">Video</a></li>
         <li><a style="color:#D1DCEA;" href="https://docs.cloudplex.io/">Documentation</a></li>
         <li> <a style="color:#D1DCEA;" href="https://learning.cloudplex.io/learning/">Hands-on Labs</a></li>
-      
+   
      
     </ul>
 </div>
@@ -51,8 +51,6 @@ $(document).ready(function () {
         </li>
         <li><a style="color:#D1DCEA;" href="https://cloudplex.io/terms-of-use/">Terms of Website Use</a>
         </li>
-        <li></li>
-        <li></li>
     </ul>
 </div>
 </div>
