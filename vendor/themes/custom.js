@@ -23,7 +23,7 @@ $(document).ready(function () {
     <h4>Product</h4>
     <ul>
         <li><a style="color:#D1DCEA;" href="https://cloudplex.io/">Product</a></li>
-        <li><a style="color:#D1DCEA;" href="https://cloudplex.io/features/">Solutions</a></li>
+        <li><a style="color:#D1DCEA;" href="https://cloudplex.io/features/">Features</a></li>
                      </ul>
 </div>
 
@@ -43,7 +43,7 @@ $(document).ready(function () {
 <div class="col-4 padding_right">
     <h4>Company</h4>
     <ul>
-        <li><a style="color:#D1DCEA;" href="https://cloudplex.io/about/"> Learn About CloudPlex</a>
+        <li><a style="color:#D1DCEA;" href="https://cloudplex.io/about/"> About</a>
         </li>
         <li><a style="color:#D1DCEA;" href="https://cloudplex.io/terms-of-service/"> Terms of Service</a>
         </li>
@@ -63,7 +63,7 @@ $(document).ready(function () {
 <div class="col-md-12 col-lg-12">
     <h4 class="text-center cloud_native_running">GET YOUR KUBERNETES APPLICATIONS UP AND RUNNING IN MINUTES
     </h4>
-    <a href="https://app.cloudplex.io/register?planName=developer-free" target="_blank" class="btn-yellow-pricing" rel="noopener noreferrer" style="color: #272E37;    font-weight: 700;text-transform: inherit;">
+    <a href="https://app.cloudplex.io/register?planName=developer-free" class="btn-yellow-pricing" rel="noopener noreferrer" style="color: #272E37;    font-weight: 700;text-transform: inherit;">
       GET STARTED FREE
   </a>
 </div>
