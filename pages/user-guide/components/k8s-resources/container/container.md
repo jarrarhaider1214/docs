@@ -50,7 +50,8 @@ Details of the configurations that can be done for Kubernetes Containers are exp
 
 1. **Image Name**: Name of the docker image. 
 2. **Tag**: Tag of the docker image.
-3. **Enable INIT Container**: Specialized containers that run before app containers in a Pod . Init containers can contain utilities or setup scripts not present in an app image.
+3. **Container Name:** Name of the container. 
+4. **Enable INIT Container**: Specialized containers that run before app containers in a Pod . Init containers can contain utilities or setup scripts not present in an app image.
 
 **To Configure Environment Variables:**
 

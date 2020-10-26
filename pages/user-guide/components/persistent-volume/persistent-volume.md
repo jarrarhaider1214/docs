@@ -13,7 +13,7 @@ Details of the configurations that can be done for PV are explained below and al
 ![3](imgs/3.jpg)
 
 1. **Service:** Select any existing PV from drop-down or select **New**. 
-2. **(For Existing PV)** **Mouth Path:** Mount Path is a destination inside the Pod, where a volume gets mounted to.
+2. **(For Existing PV)** **Mount Path:** Mount Path is a destination inside the Pod, where a volume gets mounted to.
 
 **For New PV:**
 
@@ -39,7 +39,9 @@ Details of the configurations that can be done for PV are explained below and al
    > **ReadOnlyMany**: The volume can be mounted read-only by many nodes
    > **ReadWriteMany**: The volume can be mounted as read-write by many nodes
 
-7. **Capacity:** Specify the storage capacity, it should be between 10 and 2000 Gi. 
+7. **Capacity:** Specify the storage capacity, it should be between 10 and 2000 Gi.
+
+   > Format for capacity is **60gi**
 
 ![5](imgs/5.jpg)
 

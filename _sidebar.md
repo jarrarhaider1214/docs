@@ -1,9 +1,9 @@
 - Getting Started
   - [Getting Started](/pages/user-guide/getting-started/getting-started?id=getting-started)
-    - [Provider Managed - New Cluster](pages/user-guide/getting-started/pm-new-cluster/pm-new-cluster?id=provider-managed-new-kubernetes-cluster)
-    - [Provider Managed - Existing Cluster](pages/user-guide/getting-started/pm-existing-cluster/pm-existing-cluster?id=provider-managed-existing-kubernetes-cluster)
-    - [User Managed - New Cluster](pages/user-guide/getting-started/um-new-cluster/um-new-cluster?id=user-managed-new-kubernetes-cluster)
-    - [User Managed - New On-Premise Cluster](pages/user-guide/getting-started/um-new-op-cluster/um-new-op-cluster?id=user-managed-new-on-premise-kubernetes-cluster)
+    - [Create New Application](pages/user-guide/getting-started/create-new-application/create-new-application?id=create-new-application)
+    - [Discover Existing Application](pages/user-guide/getting-started/discover-existing-application/discover-existing-application?id=discover-existing-application)
+    - [How to Configure Infrastructure](pages/user-guide/getting-started/how-to-configure-infrastructure/how-to-configure-infrastructure?id=how-to-configure-infrastructure)
+    - [Cloud Native Security Policy Management](pages/user-guide/getting-started/cloud-native-security-policy-management/cloud-native-security-policy-management?id=cloud-native-security-policy-management)
 - Cloudplex
   - [What is Cloudplex?](pages/user-guide/overview/what-is-cloudplex/what-is-cloudplex?id=what-is-cloudplex)
   - [Cloudplex Features](pages/user-guide/overview/cloudplex-features/cloudplex-features?id=cloudplex-features)
@@ -12,7 +12,7 @@
   - [Overview](pages/user-guide/components/components?id=components)
   - [Access Management](pages/user-guide/components/access-management/access-management?id=access-management)
   - [Credentials Profile](pages/user-guide/components/credentials-profile/credentials-profile?id=credentials-profile)
-  - [Application](pages/user-guide/components/application/application?id=application)
+  - [Infrastructure](pages/user-guide/components/infrastructure/infrastructure?id=infrastructure)
   - [Application Sharing](pages/user-guide/components/application-sharing/application-sharing?id=application-sharing)
   - [Network](pages/user-guide/components/network/network?id=networking)
     - [AWS](pages/user-guide/components/network/aws-network/aws-network?id=aws)

@@ -38,7 +38,7 @@ To configure CI/CD or manual deployment pipeline:
 
 5. Select **Manual** from drop-down. Specify **Canary**, **Baseline** and **Current** threshold. 
 
-   Similarly, you can add more stages as well and keep on increasing the threshold level as per requirements. 
+   Similarly, you can add more stages and keep on increasing the threshold level as per requirements. 
 
    ![4](imgs/4.jpg)
 

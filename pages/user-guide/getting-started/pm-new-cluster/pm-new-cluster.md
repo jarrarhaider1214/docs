@@ -18,7 +18,21 @@
 
 3. Click **Next** at the top right of screen.
 
-4. Configure Cluster.
+4. Customize **Network** configurations as per requirements.
+
+   > Most of the fields are prepopulated with default values but you can also customize the configurations as per your requirements.
+
+   - Specify VPC **CIDR**.
+
+   - Specify Subnet **CIDR**. (You can also add multiple subnets by clicking the **+** icon)
+
+   - (Optional) Go to **Security Groups** tab, to add Inbound or Outbound traffic rules. Platform provides preconfigured traffic rules, but you can customize them as per the requirements.
+
+     ![2.01](imgs/2.01.jpg)
+
+5. Click **Next** at the top right of screen.
+
+6. Configure Cluster using **Configurations** tab.
 
    - Enter **Cluster Name**.
 
@@ -34,42 +48,5 @@
 
    ![2.1](imgs/2.1.jpg)
 
-5. Click **Next** at the top right of screen.
+7. Click **Next** at the top right of screen.
 
-6. Design application using **App Designer**.
-
-   > As part of this guide, we will only configure the minimum settings necessary to deploy the container. For detailed configurations, please check our detailed guide by clicking [here](/pages/user-guide/components/k8s-resources/container/container).
-
-   - Drag and drop the **Container** service in K8s resources from left column in to the canvas.
-
-   - Click on **Container** icon to configure the settings. (Platform has provided default values for most of the parameters) 
-
-     - Specify **Image Name** and **Tag**.
-
-     ![2.2](imgs/2.2.jpg)
-
-     - Go to **Environment Variables** menu and **Add Static** Variable. It is necessary to add at least one variable which in our case is **MYSQL_ROOT_PASSWORD**.
-
-     ![2.3](imgs/2.3.jpg)
-
-     - Go to the **Ports**, click **Add Port** button and specify the port for Traffic i.e. **8080**.
-
-     ![2.4](imgs/2.4.jpg)
-
-     - Click **Save.**
-
-7. Click **Save** (green floppy icon at the top right) to save the application.
-
-   ![2.5](imgs/2.5.jpg)
-
-8. Click **Start** to deploy the application.
-
-   ![3](imgs/3.jpg)
-
-9. Once an application is started, platform automatically redirect to **Logs** tab. Logs help in monitoring of different phases of application deployment.
-
-   ![4](imgs\4.jpg)
-
-10. To check in-depth flow of traffic, go to the **Monitoring** tab.
-
-    ![5](imgs/5.jpg)

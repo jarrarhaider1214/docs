@@ -1,6 +1,6 @@
 # AWS
 
-A cluster is a group of machines instances or nodes on which the services can be deployed. On amazon those machines are called Amazon Elastic Compute Cloud EC2. It provides secure, resizable compute capacity in the cloud and is designed to make web-scale cloud computing easier for developers. To know more about EC2, click [here](https://aws.amazon.com/ec2/).
+A cluster is a group of machines instances or nodes on which the services can be deployed. On amazon, those machines are called Amazon Elastic Compute Cloud EC2. It provides secure, resizable compute capacity in the cloud and is designed to make web-scale cloud computing easier for developers. To know more about EC2, click [here](https://aws.amazon.com/ec2/).
 
 Here are the configurations option that will be available to user while configuring cluster for Application deployment. 
 
@@ -37,5 +37,7 @@ Here are the configurations option that will be available to user while configur
    IOPS are a unit of measure representing input/output operations per second. I/O size is capped at 256 KiB for SSD volumes and 1,024 KiB for HDD volumes. To know more about IOPS, click [here](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ebs-io-characteristics.html).
 
 4. **Docker Data Volume**: To add docker data volume as well.
+
+   > A data volume is a specially-designated directory within one or more containers that bypasses the Union File System. Data volumes provide several useful features for persistent or shared data.Volumes are initialized when a container is created.
 
 5. Fetch **root volume** of image which is provided as **AMI**.
