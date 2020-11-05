@@ -795,8 +795,11 @@
             line-height: 19px;
             margin-left: 0px !important;
         }
+        li.nav-item.resourses_menu.active:hover {
+            display: block;
+        }
         li.nav-item.resourses_menu.active ul.sub-menu li:nth-child(3) a:before {
-            left: 34px !important;
+            display: none;
         }
         .app-nav ul {
             display: flex !important;
