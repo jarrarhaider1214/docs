@@ -357,6 +357,10 @@
         padding: 3px 0px;
     }
     
+    .app-nav li {
+        margin: 0 10px;
+    }
+    
     .app-nav li:hover ul {
         display: block !important;
     }
@@ -369,7 +373,7 @@
         border-bottom: 2px solid #fcc64d;
         background-color: #212933;
         position: absolute;
-        padding: 16px;
+        padding: 12px 7px;
     }
     /* .resourses_menu ul:before,
         .resourses_menu ul:after {
@@ -609,7 +613,7 @@
             text-align: left;
         }
         .navbar-light .navbar-brand img {
-            width: 91% !important;
+            width: 91%;
         }
         .col-3 {
             margin-bottom: 23px;
@@ -797,6 +801,12 @@
         }
         li.nav-item.resourses_menu.active:hover {
             display: block;
+        }
+        .navbar-brand {
+            margin-top: 1px !important;
+        }
+        .navbar-brand img {
+            width: 78% !important;
         }
         li.nav-item.resourses_menu.active ul.sub-menu li:nth-child(3) a:before {
             display: none;
