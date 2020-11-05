@@ -487,7 +487,7 @@
         width: 18%;
         margin-left: -10px !important;
         top: 2px;
-        left: 4px;
+        left: 4px !important;
         border-left: 2px solid #ffffff;
     }
     
@@ -782,6 +782,30 @@
     }
     
     @media screen and (max-width: 575.5px) {
+        .app-nav li {
+            margin: 0px !important;
+            padding-right: 0;
+            text-align: center;
+            padding-left: 0px !important;
+        }
+        .resourses_menu {
+            padding: 5px 0px !important;
+        }
+        ul.sub-menu li a {
+            line-height: 19px;
+            margin-left: 0px !important;
+        }
+        li.nav-item.resourses_menu.active ul.sub-menu li:nth-child(3) a:before {
+            left: 34px !important;
+        }
+        .app-nav ul {
+            display: flex !important;
+            align-items: center !important;
+            justify-content: center !important;
+        }
+        li.nav-item.active a:after {
+            border-top: none;
+        }
         .menu_get_started_btn a {
             padding-left: 21px !important;
         }
