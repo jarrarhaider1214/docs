@@ -420,7 +420,7 @@
     }
     
     ul.sub-menu li a {
-        text-transform: capitalize;
+        text-transform: initial;
         font-weight: normal;
         font-size: 12px !important;
         line-height: 16px;
@@ -482,7 +482,7 @@
         border-top: 2px solid #ffffff;
     }
     
-    li.nav-item.resourses_menu.active ul.sub-menu li:nth-child(3) a:before {
+    li.nav-item.resourses_menu.active ul.sub-menu li:nth-child(4) a:before {
         content: '';
         display: inline-block;
         position: absolute;
@@ -659,9 +659,9 @@
     }
     
     @media screen and (max-width: 769px) {
-        .menu_get_started_btn a {
+        /* .menu_get_started_btn a {
             padding-left: 12px;
-        }
+        } */
         body.close .app-nav,
         body.close .github-corner {
             display: flex !important;
@@ -670,7 +670,10 @@
             margin: 0 10px 0px 0px !important;
         }
         .menu_get_started_btn {
-            padding: 11px 24px 11px 24px !important;
+            padding: 6px 24px 11px 24px !important;
+        }
+        .resourses_menu:hover ul {
+            padding: 12px 15px;
         }
         .app-nav a {
             font-size: 10px !important;
@@ -705,9 +708,9 @@
     }
     
     @media screen and (max-width: 630px) {
-        /* article#main blockquote {
-                margin: 0px 0px 0px 5px;
-            } */
+        .menu_get_started_btn {
+            padding: 11px 24px 11px 24px !important;
+        }
         li.nav-item.resourses_menu.active:hover {
             display: inherit;
         }
@@ -808,7 +811,7 @@
         .navbar-brand img {
             width: 78% !important;
         }
-        li.nav-item.resourses_menu.active ul.sub-menu li:nth-child(3) a:before {
+        li.nav-item.resourses_menu.active ul.sub-menu li:nth-child(4) a:before {
             display: none;
         }
         .app-nav ul {
@@ -856,5 +859,14 @@
         }
         .padding_right {
             padding-right: 0px !important;
+        }
+    }
+    
+    @media screen and (max-width: 400px) {
+        .navbar-light .navbar-brand {
+            width: 69%;
+        }
+        .btn-yellow-pricing {
+            padding: 13px 17px;
         }
     }
