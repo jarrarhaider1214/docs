@@ -1,6 +1,6 @@
 # Scaling
 
-As CloudPlex is a cloud management platform, it provides all the necessary cloud solutions and features to its users. In the IT world it is difficult to predict the growth of applications, storage capacity with time. To maintain consistent performance of different workloads over time, it is necessary that IT managers keep the resources requirements in check. Keeping this use case in mind, CloudPlex have provided the feature of Auto Scaling to their users. Now in order to keep up with the workload, you can easily scale up/down your resources as per requirements.
+As CloudPlex is a cloud management platform, it provides all the necessary cloud solutions and features to its users. In the IT world, it is difficult to predict the growth of applications and storage capacity with time. To maintain consistent performance of different workloads over time, it is necessary that IT managers keep the resources requirements in check. Keeping this use case in mind, CloudPlex have provided the feature of Auto Scaling to their users. Now in order to keep up with the workload, you can easily scale up/down your resources as per requirements.
 
 CloudPlex provides a comprehensive auto-scaling solution. It has the ability to scale infrastructure dynamically by continuously monitoring the applications, keeping track of resource consumption and adjusting the capacity of resources for high performance. 
 
@@ -41,7 +41,7 @@ Whenever the threshold of chosen metric is reached, number of replicas will auto
 
 User can define only one container policy for each container service in the Application.
 
-Now let’s move to step by step process on how to setup Container scaling.
+Now, let’s move to step by step process on how to setup Container scaling.
 
 **Container Scaling**
 

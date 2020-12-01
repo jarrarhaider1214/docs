@@ -4,7 +4,7 @@ Service import feature can be used to import pre-configured services to CloudPle
 
 Let's move to the step by step process of importing a service on CloudPlex.
 
-> It is recommended that user get a feel of CloudPlex service creation process interface interface before importing a service. Check out our getting guide started [here](/pages/user-guide/getting-started/getting-started) for a hands-on experience of application deployment using CloudPlex.
+> It is recommended that user get a feel of CloudPlex service creation process interface before importing a service. Check out our getting guide started [here](/pages/user-guide/getting-started/getting-started) for a hands-on experience of application deployment using CloudPlex.
 
 1. While configuring Application, navigate to the **App Design** tab, click **Three Dots Icon** on the right side of the screen and select **Import**. 
 

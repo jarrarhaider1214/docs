@@ -1,6 +1,6 @@
 # Azure
 
-A cluster is a group of machines instances or nodes on which the services can be deployed. On Azure, these a machines are called Virtual Machines (VM). Azure Virtual Machines (VM) is one of several types of on-demand, scalable computing resources that Azure offers. It gives you the flexibility of virtualization without having to buy and maintain the physical hardware that runs it. To know more about Azure VM, click [here](https://docs.microsoft.com/en-us/azure/virtual-machines/windows/overview).
+A cluster is a group of machines instances or nodes on which the services can be deployed. On Azure, these machines are called Virtual Machines (VM). Azure Virtual Machines (VM) is one of several types of on-demand, scalable computing resources that Azure offers. It gives you the flexibility of virtualization without having to buy and maintain the physical hardware that runs it. To know more about Azure VM, click [here](https://docs.microsoft.com/en-us/azure/virtual-machines/windows/overview).
 
 Here are the configurations option that will be available to user while configuring cluster for Application deployment. 
 
@@ -33,10 +33,19 @@ Here are the configurations option that will be available to user while configur
 ![3](imgs/3.jpg)
 
 1. **Username**: Specify Username for image.
+
 2. **Image Offer**: Group of related images created by a publisher e.g. WindowsServer. 
+
 3. **Image Publisher:** Publisher Name of that Image e.g. MicrosoftWindowsServer
+
 4. **Image SKU:** SKU is like an instance of an offer, such as a major release of a distribution e.g. 2016-Datacenter.
+
 5. **Image Version:**  Version number of an image SKU.
+
 6. **Enable Boot Diagnostics:** To enable and store in Storage Account. 
+
 7. **New Storage Account:** To attach new storage account with node or you can use any existing Storage Account by providing the **Storage Account Id.**
+
 8. **Docker Data Volume**: To add docker data volume as well.
+
+   > A data volume is a specially-designated directory within one or more containers that bypasses the Union File System. Data volumes provide several useful features for persistent or shared data.Volumes are initialized when a container is created.

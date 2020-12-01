@@ -6,7 +6,7 @@ User can also search for specific log using the search bar and can also retrieve
 
 Mostly multiple containers will be part of an app, so user can also get the logs of any specific container using All Systems drop-down. 
 
-> Once an Application is deployed, platform automatically redirects the user to Logs tab. User can also access Logs, by selecting any deployed application from Applications module and going to the **Logs** tab.
+> As soon as deployment process is started, platform automatically redirects the user to Logs tab. User can also access Logs, by selecting any deployed application from Applications module and going to the **Logs** tab.
 
 ![0](imgs/0.jpg)
 
@@ -34,7 +34,7 @@ To configure Logs Archiving:
    >
    > **Log Limit GB** specify the storage space in GB after which the logs will be archived in bucket. 5 GB in the picture below specify that at any given time only 5 GB of logs will be available in the project. All the logs that will be generated once the 5 GB limit is reached will automatically be removed after getting archived in the bucket.
    >
-   > **Note:** In the image below, even thought the days mentioned are 7 but still if logs reach 5GB storage threshold before 7th day, logs will get archived. 
+   > **Note:** In the image below, even though the days mentioned are 7 but still if logs reach 5GB storage threshold before 7th day, logs will get archived. 
 
    ![3](imgs/3.jpg)
 

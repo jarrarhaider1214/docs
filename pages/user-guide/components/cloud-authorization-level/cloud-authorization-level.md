@@ -1,12 +1,12 @@
 # Cloud Authorization Level
 
-Purpose of this guide is to list down all the permissions and access level or any other requirements needed to successfully start an application from Cloudplex, this also includes permission to manage K8s clusters as well. Before using profiles on CloudPlex to deploy applications, user will need to make sure that profile has these permissions or roles at cloud level.
+Purpose of this guide is to list down all the permissions and access levels or any other requirements needed to successfully start an application from Cloudplex, this also includes permission to manage K8s clusters. Before using profiles in CloudPlex to deploy applications, user will need to make sure that profile has these permissions or roles at cloud level.
 
 ## AWS
 
 Here are the permissions required for AWS:
 
-- CloudPlex profile will be made using AWS Credentials i.e. Access and Secret Key.
+- CloudPlex profile will be created using AWS Credentials i.e. Access and Secret Key.
 - Programmatic access.
 - Region and zone.
 - CloudPlex token. 
@@ -22,7 +22,7 @@ Here are the permissions required for AWS:
 
 Here are the permission required for GCP:
 
-- CloudPlex profile will be made using Google Application Credentials.
+- CloudPlex profile will be created using Google Application Credentials.
 - Google Engine API should be enabled.
 - An Admin, Editor or Composer Worker role.
 - Region and zone.
@@ -39,7 +39,7 @@ Here are the permission required for GCP:
 
 Here are the permission required for GKE:
 
-- CloudPlex profile will be made using Google Application Credentials.
+- CloudPlex profile will be created using Google Application Credentials.
 
 - Google Kubernetes Engine API should be enabled.
 
@@ -63,7 +63,7 @@ Here are the permission required for GKE:
 
 Here are the permission required for Azure:
 
-- CloudPlex profile will be made using Client_Id, Client_Secret , Region , Subscription_Id and Tenant_Id.
+- CloudPlex profile will be created using Client_Id, Client_Secret , Region , Subscription_Id and Tenant_Id.
 - Region and zone.
 - CloudPlex token.
 -  Service administrator role.
@@ -85,7 +85,7 @@ Here are the permission required for Azure:
 
 Here are the permission required for AKS:
 
-- CloudPlex profile will be made using Client_Id, Client_Secret , Region , Subscription_Id and Tenant_Id.
+- CloudPlex profile will be created using Client_Id, Client_Secret , Region , Subscription_Id and Tenant_Id.
 - Region and zone.
 - CloudPlex token.
 - Service Administrator role.
@@ -106,7 +106,7 @@ Here are the permission required for AKS:
 
 Here are the permission required for DO:
 
-- CloudPlex profile will be made using DO access token with read/write permission.
+- CloudPlex profile will be created using DO access token with read/write permission.
 - Region 
 - CloudPlex token
 - To access the Droplet, the user can download an SSH Key from the platform. 
@@ -115,7 +115,7 @@ Here are the permission required for DO:
 
 Here are the permission required for DOKS:
 
-- CloudPlex profile will be made using DO access token with read/write permission.
+- CloudPlex profile will be created using DO access token with read/write permission.
 
 - Region (Kubernetes is not offered in NYC2, AMS2, or SFO1.)
 
@@ -133,7 +133,7 @@ Here are the permission required for DOKS:
 
 Here are the permission required for IKS:
 
-- CloudPlex profile will be made using Region and IAM_Key.
+- CloudPlex profile will be created using Region and IAM_Key.
 
 - Region and zone.
 
