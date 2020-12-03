@@ -21,23 +21,25 @@ Here is what CloudPlex has inside different service categories:
 ### K8s Resources
 
 1. Container
-  If you have all the information about your docker image, and you don’t need to search for it in a registry, use the container service. This service allows you to run your images as Kubernetes workload, such as Deployment, or StatefulSet.
+    If you have all the information about your docker image, and you don’t need to search for it in a registry, use the container service. This service allows you to run your images as Kubernetes workload, such as Deployment, or StatefulSet.
 
 2. Secret
-  CloudPlex platform provides a secret management service that provides the ability to store sensitive data such as passwords, tokens, and certificates in Cloudplex. 
-
-  Any data entered in this service is stored in a secure vault with at-rest encryption. This eventually becomes a Kubernetes secret at the time of deployment in the application.
+    CloudPlex platform provides a secret management service that provides the ability to store sensitive data such as passwords, tokens, and certificates in Cloudplex. 
+    Any data entered in this service is stored in a secure vault with at-rest encryption. This eventually becomes a Kubernetes secret at the time of deployment in the application.
 
 3. ConfigMap
 ConfigMap is similar to Secrets but provides a means of working with data that does not contain sensitive information. It allows you to decouple configuration artifacts from image content to keep containerized applications portable. The data can be consumed in pods. 
 
 4. Searchable Registries
-  This searchable registries allow you to search any image from any public or private docker registry, and add them to your application.
+    This searchable registries allow you to search any image from any public or private docker registry, and add them to your application.
 
-  1. Public Registry
-    CloudPlex has integrated with DockerHub where 2.4 Million images are available. Once you select your desired image, CloudPlex automatically pulls the metadata from the registry and fills out the configuration parameters accordingly. 
-  2. Private Registry
-    CloudPlex provides you support for all private docker registries such as ACR, GCR, ECR, JFrog, Harbor. You can search any image from your registry and CloudPlex will automatically pull the metadata from the registry and fill out the configuration parameters accordingly.
+  5. Public Registry
+
+     CloudPlex has integrated with DockerHub where 2.4 Million images are available. Once you select your desired image, CloudPlex automatically pulls the metadata from the registry and fills out the configuration parameters accordingly. 
+
+  6. Private Registry
+
+     CloudPlex provides you support for all private docker registries such as ACR, GCR, ECR, JFrog, Harbor. You can search any image from your registry and CloudPlex will automatically pull the metadata from the registry and fill out the configuration parameters accordingly.
 
 ![3](imgs/3.png)
 
