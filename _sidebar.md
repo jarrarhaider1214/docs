@@ -4,6 +4,7 @@
     - [Discover Existing Application](pages/user-guide/getting-started/discover-existing-application/discover-existing-application?id=discover-existing-application)
     - [How to Configure Infrastructure](pages/user-guide/getting-started/how-to-configure-infrastructure/how-to-configure-infrastructure?id=how-to-configure-infrastructure)
     - [Cloud Native Security Policy Management](pages/user-guide/getting-started/cloud-native-security-policy-management/cloud-native-security-policy-management?id=cloud-native-security-policy-management)
+    - [How to Build Application with CloudPlex](pages/user-guide/getting-started/how-to-build-application-with-cloudplex/how-to-build-application-with-cloudplex?id=how-to-build-application-with-cloudplex)
 - Cloudplex
   - [What is Cloudplex?](pages/user-guide/overview/what-is-cloudplex/what-is-cloudplex?id=what-is-cloudplex)
   - [Cloudplex Features](pages/user-guide/overview/cloudplex-features/cloudplex-features?id=cloudplex-features)
