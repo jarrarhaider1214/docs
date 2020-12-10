@@ -4,7 +4,7 @@ Service Plex is part of [ViziPlex](/pages/user-guide/components/viziplex/viziple
 
 With ServicePlex, you can add Kubernetes-ready services to your app in seconds. User can choose from 1000s of kubernetes-ready reusable components in the ServicePlex hub and simply drop them in the application. CloudPlex takes care of the all the integration heavy-lifting. 
 
-- We will start with the book info application. To build this application, see our previous video on how to build your first application with CloudPlex.
+- We will start with the book info application. To build this application, see our [guide](/pages/user-guide/getting-started/how-to-build-application-with-cloudplex/how-to-build-application-with-cloudplex?id=how-to-build-application-with-cloudplex) on how to build your first application with CloudPlex.
 - Now that you have configured your application let’s deploy it in the cloud.
 - Click on the deploy button to select infrastructures on which you want to deploy your application. You may select one or more infrastructures. 
 - Now that the application has been deployed, let’s edit the deployed application
