@@ -1,6 +1,10 @@
 # ViziPlex
 
-CloudPlex provides a drag-n-drop Application Designer to design and configure your applications called ViziPlex. It is divided into 3 parts.
+CloudPlex provides a drag-n-drop Application Designer to design and configure your kubernetes applications. Using ViziPlex you will not need to manually create YAML manifests or Helm charts. You can simply use our visual design canvas to design applications. Applications can be made of pre-built microservices, custom microservices, and managed services.
+
+ViziPlex is divided into 3 parts.
+
+> For video guide on this, click [here](https://drive.google.com/file/d/1LVUeGmLSA_eJkq1EAJSutAO6S5RGNET0/view?usp=sharing).
 
 1. Services Palette
 2. Design Canvas
@@ -63,6 +67,6 @@ More advanced configuration parameters such as  Probing, Volumes, Resource Quota
 
 ![5](imgs/5.png)
 
-## Conclusion
+**Conclusion**
 
 Once you application has been configured you have 3 options. You can save your application, export it as a helm chart, or you can deploy it directly to any deployed infrastructure right from the platform. 
