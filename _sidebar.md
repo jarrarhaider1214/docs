@@ -17,6 +17,7 @@
   - [Infrastructure](pages/user-guide/components/infrastructure/infrastructure?id=infrastructure)
   - [ViziPlex](pages/user-guide/components/viziplex/viziplex?id=viziplex)
   - [Serviceplex](pages/user-guide/components/serviceplex/serviceplex?id=serviceplex)
+  - [TelePlex](pages/user-guide/components/teleplex/teleplex?id=teleplex)
   - [Application Sharing](pages/user-guide/components/application-sharing/application-sharing?id=application-sharing)
   - [Network](pages/user-guide/components/network/network?id=networking)
     - [AWS](pages/user-guide/components/network/aws-network/aws-network?id=aws)

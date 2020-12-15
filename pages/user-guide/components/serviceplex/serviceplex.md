@@ -2,7 +2,7 @@
 
 Service Plex is part of [ViziPlex](/pages/user-guide/components/viziplex/viziplex?id=viziplex). Purpose of this guide is to show how a user can use ServicePlex to add a MySQL service to a deployed application and redeploy it with this added service. 
 
-With ServicePlex, you can add Kubernetes-ready services to your app in seconds. User can choose from 1000s of kubernetes-ready reusable components in the ServicePlex hub and simply drop them in the application. CloudPlex takes care of the all the integration heavy-lifting. 
+With ServicePlex, you can add Kubernetes-ready services to your app in seconds. User can choose from 1000s of kubernetes-ready reusable components in the ServicePlex hub and simply drop them in the application. CloudPlex takes care of the all the integration heavy-lifting. For video guide on this, click [here](https://drive.google.com/file/d/15ZCsX7Sq2DJUL11ErJwu14UzbAUgOvLG/view?usp=sharing).
 
 1. We will start with the book info application. To build this application, see our [guide](/pages/user-guide/getting-started/how-to-build-application-with-cloudplex/how-to-build-application-with-cloudplex?id=how-to-build-application-with-cloudplex) on how to build your first application with CloudPlex.
 

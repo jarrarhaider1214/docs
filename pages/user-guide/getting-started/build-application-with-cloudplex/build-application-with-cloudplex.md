@@ -26,7 +26,7 @@ The purpose of this guide is to take user through the process of creation and co
 
 6. Click on the service to open the configuration panel on the right side.
 
-7. Type istio/examples-bookinfo in the search bar, select community and click on the **Search** button.
+7. Type **istio/examples-bookinfo** in the search bar, select community and click on the **Search** button.
 
 8. Select the **ratings-v1** service.
 
