@@ -7,6 +7,7 @@
     - [Build Application with CloudPlex](pages/user-guide/getting-started/build-application-with-cloudplex/build-application-with-cloudplex?id=build-application-with-cloudplex)
     - [Deploy Infrastructure using KubePlex](pages/user-guide/getting-started/deploy-infrastructure-using-kubeplex/deploy-infrastructure-using-kubeplex?id=deploy-infrastructure-using-kubeplex)
     - [Attach Persistent Volume with Application](pages/user-guide/getting-started/attach-persistent-volume-with-application/attach-persistent-volume-with-application?id=attach-persistent-volume-with-application)
+    - [Build a Self Healing Application](pages/user-guide/getting-started/build-a-self-healing-application/build-a-self-healing-application?id=build-a-self-healing-application)
 - Cloudplex
   - [What is Cloudplex?](pages/user-guide/overview/what-is-cloudplex/what-is-cloudplex?id=what-is-cloudplex)
   - [Cloudplex Features](pages/user-guide/overview/cloudplex-features/cloudplex-features?id=cloudplex-features)
