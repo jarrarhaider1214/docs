@@ -1,6 +1,12 @@
 # Attach Persistent Volume with Application
 
-A Persistent Volume (PV) is a piece of storage in the cluster that gets provisioned by an administrator or dynamically provisioned using Storage Classes. It is a resource in the cluster just like a node is a cluster resource. PVs are volume plugins like Volumes, but have a lifecycle independent of any individual Pod that uses the PV. The simplest way to create a persistent volume is statically, that is, you allocate the volume independently and then tell Kubernetes to take over. To know more about PV, click [here](https://kubernetes.io/docs/concepts/storage/persistent-volumes/) or check our guide on how to manage persistent volume [here](https://cloudplex.io/tutorial/persistent-volumes-tutorial/).
+When working with containers, storage is typically tied to the lifecycle of the container it’s attached to. That means it’s ephemeral: when the container dies, its storage dies with it. For the most part, this is good, because it aligns with the Kubernetes philosophy of abstracting away hardware concerns. However, it is sometimes useful to add persistent or shared storage to a container as part of a service. For these use cases, Kubenetes provides storage APIs called Volumes and Persistent Volumes.
+
+A Persistent Volume (PV) is a piece of storage in the cluster that gets provisioned by an administrator or dynamically provisioned using Storage Classes. It is a resource in the cluster just like a node is a cluster resource. PVs are volume plugins like Volumes, but have a lifecycle independent of any individual Pod that uses the PV. The simplest way to create a persistent volume is statically, that is, you allocate the volume independently and then tell Kubernetes to take over.
+
+Kubenetes allows you to create Persistent Volumes dynamically, that is, you can configure the cluster to scale storage up and down as needed.
+
+To know more about PV, click [here](https://kubernetes.io/docs/concepts/storage/persistent-volumes/) or check our guide on how to manage persistent volume [here](https://cloudplex.io/tutorial/persistent-volumes-tutorial/).
 
 The purpose of this guide is to take user through the process of attaching a persistent volume with application and deployment. For a video guide, please click [here](https://www.youtube.com/watch?v=x1O3dyV9Ahw).
 
@@ -86,11 +92,21 @@ Here is how we can attach a persistent volume with MySQL application.
 
 27. Select **ReadWriteMany** from the Access Mode and enter **10Gi** in both the request and limit quantities.
 
+    > A PersistentVolume can be mounted on a host in any way supported by the resource provider.
+    >
+    > **ReadWriteOnce:** The volume can be mounted as read-write by a single node.
+    >
+    > **ReadOnlyMany:** The volume can be mounted read-only by many nodes.
+    >
+    > **ReadWriteMany:** The volume can be mounted as read-write by many nodes
+
     ![7](imgs/7.png)
 
 28. Click on the **Save** button to save the service.
 
 29. Saving will take you back to container service configurations. Now, provide the volume mount path of **/var/lib/mysql**. 
+
+    > Mount Path is a destination inside the Pod, where a volume gets mounted to. It is to define where and how the volume will be exposed on the pod.
 
     ![8](imgs/8.png)
 
