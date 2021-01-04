@@ -2,7 +2,7 @@
 
 A Persistent Volume (PV) is a piece of storage in the cluster that gets provisioned by an administrator or dynamically provisioned using Storage Classes. It is a resource in the cluster just like a node is a cluster resource. PVs are volume plugins like Volumes, but have a lifecycle independent of any individual Pod that uses the PV. The simplest way to create a persistent volume is statically, that is, you allocate the volume independently and then tell Kubernetes to take over. To know more about PV, click [here](https://kubernetes.io/docs/concepts/storage/persistent-volumes/) or check our guide on how to manage persistent volume [here](https://cloudplex.io/tutorial/persistent-volumes-tutorial/).
 
-The purpose of this guide is to take user through the process of attaching a persistent volume with application and deployment. For a video guide, please click [here](https://drive.google.com/file/d/129MO_dYTHKg4AuchSQ4TkAp5TI4LqEzV/view?usp=sharing).
+The purpose of this guide is to take user through the process of attaching a persistent volume with application and deployment. For a video guide, please click [here](https://www.youtube.com/watch?v=x1O3dyV9Ahw).
 
 **Configure the Persistent Volume with MySQL Container**
 

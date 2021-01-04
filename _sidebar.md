@@ -4,10 +4,6 @@
     - [Discover Existing Application](pages/user-guide/getting-started/discover-existing-application/discover-existing-application?id=discover-existing-application)
     - [How to Configure Infrastructure](pages/user-guide/getting-started/how-to-configure-infrastructure/how-to-configure-infrastructure?id=how-to-configure-infrastructure)
     - [Cloud Native Security Policy Management](pages/user-guide/getting-started/cloud-native-security-policy-management/cloud-native-security-policy-management?id=cloud-native-security-policy-management)
-    - [Build Application with CloudPlex](pages/user-guide/getting-started/build-application-with-cloudplex/build-application-with-cloudplex?id=build-application-with-cloudplex)
-    - [Deploy Infrastructure using KubePlex](pages/user-guide/getting-started/deploy-infrastructure-using-kubeplex/deploy-infrastructure-using-kubeplex?id=deploy-infrastructure-using-kubeplex)
-    - [Attach Persistent Volume with Application](pages/user-guide/getting-started/attach-persistent-volume-with-application/attach-persistent-volume-with-application?id=attach-persistent-volume-with-application)
-    - [Build a Self Healing Application](pages/user-guide/getting-started/build-a-self-healing-application/build-a-self-healing-application?id=build-a-self-healing-application)
 - Cloudplex
   - [What is Cloudplex?](pages/user-guide/overview/what-is-cloudplex/what-is-cloudplex?id=what-is-cloudplex)
   - [Cloudplex Features](pages/user-guide/overview/cloudplex-features/cloudplex-features?id=cloudplex-features)
@@ -73,3 +69,8 @@
     - [Simple Deployment](pages/user-guide/components/continuous-delivery/simple-deployment/simple-deployment?id=simple-deployment)
     - [Blue Green Deployment](pages/user-guide/components/continuous-delivery/blue-green-deployment/blue-green-deployment?id=blue-green-deployment)
   - [Cloud Authorization Level](pages/user-guide/components/cloud-authorization-level/cloud-authorization-level?id=cloud-authorization-level)
+- Tutorials
+  - [Build Application with CloudPlex](pages/user-guide/tutorials/build-application-with-cloudplex/build-application-with-cloudplex?id=build-application-with-cloudplex)
+  - [Deploy Infrastructure using KubePlex](pages/user-guide/tutorials/deploy-infrastructure-using-kubeplex/deploy-infrastructure-using-kubeplex?id=deploy-infrastructure-using-kubeplex)
+  - [Attach Persistent Volume with Application](pages/user-guide/tutorials/attach-persistent-volume-with-application/attach-persistent-volume-with-application?id=attach-persistent-volume-with-application)
+  - [Build a Self Healing Application](pages/user-guide/tutorials/build-a-self-healing-application/build-a-self-healing-application?id=build-a-self-healing-application)

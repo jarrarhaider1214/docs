@@ -1,6 +1,6 @@
 # Deploy Infrastructure using KubePlex
 
-The purpose of this guide is to take user through the process of Infrastructure deployment using KubePlex. For a video guide, please click [here](https://drive.google.com/drive/u/1/folders/1QBTD2U07BuK1DeB9QzfcU4pIsp_g1dlI)
+The purpose of this guide is to take user through the process of Infrastructure deployment using KubePlex. For a video guide, please click [here](https://www.youtube.com/watch?v=XlbpInJP_hM)
 
 **Step 1: Create and Configure a Kubernetes Cluster**
 

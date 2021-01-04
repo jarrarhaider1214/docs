@@ -6,7 +6,7 @@ All the other components of CloudPlex are involved with creating and configuring
 
 Once an application is designed, configured, built, and deployed on the dev cloud, users can test and debug their application using TelePlex. CloudPlex provides a comprehensive set of troubleshooting, debugging and diagnostics dashboards.
 
-Now lets take you through the step by step process of how you can get the best out of TelePlex. For video guide, please click [here](https://drive.google.com/file/d/1i7X0hV3CpuBD6UjchLDWWeCFdRqXxyb7/view?usp=sharing).
+Now lets take you through the step by step process of how you can get the best out of TelePlex. For video guide, please click [here](https://www.youtube.com/watch?v=zYySnK0GM8c).
 
 1. Make sure your application is **Deployed** and click on the application. (Check out our guide on how to build application [here](/pages/user-guide/getting-started/build-application-with-cloudplex/build-application-with-cloudplex?id=build-application-with-cloudplex))
 

@@ -2,7 +2,7 @@
 
 Using KubePlex, user can visually deploy and manage kubernetes clusters on all public clouds and on-premises. CloudPlex provides support for a user managed cluster or provider managed cluster such as GKE, AKS, EKS, IKS, and DOKS. You can create new kubernetes clusters or use your existing kubernetes clusters. CloudPlex also supports on-premise kubernetes clusters.
 
-Now lets take you through the step by step process of how you can get the best out of KubePlex. For video guide, please click [here](https://drive.google.com/file/d/10uh93QJC9hTNC4HXe1hJUIK9N8h2Eb5Y/view?usp=sharing). 
+Now lets take you through the step by step process of how you can get the best out of KubePlex. For video guide, please click [here](https://www.youtube.com/watch?v=K9CtEKrq7qk). 
 
 To deploy an application, you need to create and configure your infrastructure. CloudPlex gives you 6 infrastructure options using KubePlex.
 
