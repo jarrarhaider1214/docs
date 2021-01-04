@@ -8,7 +8,7 @@ The purpose of this guide is to take user through the process of configuring Pro
 
 **Readiness:** The kubelet uses readiness probes to know when a Container is ready to start accepting traffic. A Pod is considered ready when all of its Containers are ready. One use of this signal is to control which Pods are used as backends for Services.
 
-Now lets move to the configuration process. For a video guide, please click [here](https://drive.google.com/file/d/1RP-MdLZGN5qCKnvLxsLZ1IPgDjcVojAr/view?usp=sharing).
+Now lets move to the configuration process. For a video guide, please click [here](https://www.youtube.com/watch?v=4FZIaHBB_X8).
 
 **Configure Probing with your Application** 
 

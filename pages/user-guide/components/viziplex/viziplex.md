@@ -4,7 +4,7 @@ CloudPlex provides a drag-n-drop Application Designer to design and configure yo
 
 ViziPlex is divided into 3 parts.
 
-> For video guide on this, click [here](https://drive.google.com/file/d/1LVUeGmLSA_eJkq1EAJSutAO6S5RGNET0/view?usp=sharing).
+> For video guide on this, click [here](https://www.youtube.com/watch?v=S5t1l9SK9Uo).
 
 1. Services Palette
 2. Design Canvas
