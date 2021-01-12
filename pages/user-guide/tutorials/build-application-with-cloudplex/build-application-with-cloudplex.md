@@ -1,6 +1,8 @@
 # Build Application with CloudPlex 
 
-The purpose of this guide is to take user through the process of creation and configuration of a Kubernetes application from scratch, without writing a YAML manifest or HELM chart, using the CloudPlex intuitive drag-n-drop interface. For a video guide, please click [here](https://www.youtube.com/watch?v=roXzVpYyZ2o). 
+In CloudPlex an intuitive drag and drop canvas can be used to design, configure, and deploy Kubernetes applications — without the pain of YAML manifest and config files. We understand that Kubernetes YAML configurations are complex so CloudPlex automatically generates and validates YAML manifest, and config files.
+
+The purpose of this guide is to take user through the process of creation and configuration of a Kubernetes application from scratch, without writing a YAML manifest or HELM chart, using the CloudPlex intuitive interface called ViziPlex. For a video guide, please click [here](https://www.youtube.com/watch?v=roXzVpYyZ2o). 
 
 1. Click on the **Create Application** button.
 
