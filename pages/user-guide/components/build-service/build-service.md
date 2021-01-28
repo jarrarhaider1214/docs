@@ -11,7 +11,6 @@ Details of the configurations that can be done for Build service are explained b
 
 ![2](imgs/2.jpg)
 
-1. **Templates:** To reuse any existing service template.
 2. **Service ID:** Id of the service. System will automatically assign id to the service but user can customize it.
 3. **Name:** Name for the service.
 4. **Version:** Version of the service
