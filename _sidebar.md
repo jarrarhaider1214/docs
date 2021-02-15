@@ -71,3 +71,5 @@
   - [Attach Persistent Volume with Application](pages/user-guide/tutorials/attach-persistent-volume-with-application/attach-persistent-volume-with-application?id=attach-persistent-volume-with-application)
   - [Build a Self Healing Application](pages/user-guide/tutorials/build-a-self-healing-application/build-a-self-healing-application?id=build-a-self-healing-application)
   - [Test and Debug your Applications](pages/user-guide/tutorials/test-and-debug-your-applications/test-and-debug-your-applications?id=test-and-debug-your-applications)
+  - [Store and Manage Secrets with Secure Vault](pages/user-guide/tutorials/store-and-manage-secrets-with-the-secure-vault/store-and-manage-secrets-with-the-secure-vault?id=store-and-manage-secrets-with-the-secure-vault)
+  - [Use Dynamic Parameters](pages/user-guide/tutorials/use-dynamic-parameters/use-dynamic-parameters?id=use-dynamic-parameters)
